@@ -16,6 +16,7 @@ FILE_TO_SCHEMA = {
     "prices.json": "prices",
     "balance.json": "balance",
     "countries.json": "countries",
+    "shipping.json": "shipping",
     "news.json": "news",
     "summary.json": "summary",
     "proposals.json": "proposals",

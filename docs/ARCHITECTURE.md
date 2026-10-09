@@ -484,3 +484,12 @@ CI runs pytest again after the fetch), `test_update.py` (`--fixtures` end-to-end
 `--dry-run` writes nothing, `--only`), `test_frontend.py` (static checks of `site/`: i18n key parity
 en/de, every literal `t()` key exists, asset references resolve, no `innerHTML`, section order,
 brief microcopy present).
+
+### 3.9 shipping.json (added 2026-10-09)
+
+`fetch_shipping.py` (SOURCE_KEY `shipping`, STALE_KIND `shipping`, 240 h) — IMF PortWatch daily chokepoint transits
+(ArcGIS feature service `Daily_Chokepoints_Data`, CC BY 4.0). Envelope + `unit`, `window_days` (7), `baseline_year`
+(previous calendar year) and `chokepoints[]` = `{id, portid, name, latest_date, tankers_7d, tankers_baseline,
+tankers_change_pct, total_7d, total_baseline, capacity_tanker_7d, series: {weeks[], tankers[]}}` for hormuz,
+bab_el_mandeb, suez, cape, malacca. Missing data → null, never 0. Fixture: `tests/fixtures/portwatch/chokepoints.json`
+(rows for the five chokepoints since 2025-01-01). Runs after countries, before news.

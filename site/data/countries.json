@@ -4,7 +4,7 @@
   "as_of": "2026-10-09",
   "carry_reason": "skipped: EIA_API_KEY not set",
   "country_count": 214,
-  "fetched_at": "2026-10-09T07:17:46Z",
+  "fetched_at": "2026-10-09T08:40:50Z",
   "note": "Petroleum and other liquids",
   "rest_of_world": 39648.3,
   "rows": [
@@ -66,12 +66,12 @@
   "world_total": 103110.2,
   "year": 2024
  },
- "fetched_at": "2026-10-09T08:20:41Z",
- "generated_at": "2026-10-09T08:20:41Z",
+ "fetched_at": "2026-10-09T08:40:50Z",
+ "generated_at": "2026-10-09T08:40:50Z",
  "monthly_crude": {
   "as_of": "2026-10-09",
   "country_count": 47,
-  "fetched_at": "2026-10-09T08:20:41Z",
+  "fetched_at": "2026-10-09T08:40:50Z",
   "latest_month": "2026-07",
   "note": "Crude oil only (JODI CRUDEOIL/INDPROD), monthly; countries that did not report this month are omitted, gaps are never counted as zero",
   "rows": [
@@ -143,11 +143,10 @@
  },
  "producers": {
   "as_of": "2026-10-09",
-  "country_count": 47,
-  "fetched_at": "2026-10-09T08:20:41Z",
-  "note": "crude oil only, monthly, JODI (2026-07); EIA International API unavailable: skipped: EIA_API_KEY not set",
-  "period": "2026-07",
-  "rest_of_world": null,
+  "country_count": 216,
+  "fetched_at": "2026-10-09T08:40:50Z",
+  "note": "Total petroleum and other liquids",
+  "rest_of_world": 28051.5,
   "rows": [
    {
     "iso2": "US",

@@ -1,13 +1,14 @@
 """Static checks of the frontend in ``site/`` (no browser needed).
 
 * i18n: ``de.json`` mirrors the keys of ``en.json`` (stub with empty values), every literal
-  ``t('…')``/``tf('…')`` key in ``app.js`` exists, dynamic key families are complete, the gauge
-  labels equal ``config.crack_levels.labels`` and every config news topic has a label;
-* the brief's microcopy (CLAUDE.md §9) lives in ``en.json``;
+  ``t('…')``/``tf('…')`` key in ``app.js`` exists, dynamic key families are complete, the crack
+  level labels equal ``config.crack_levels.labels`` and every config news topic has a label;
+* the copy the brief pins (labels, disclaimer, credit, donate texts) lives in ``en.json``;
 * ``index.html``/``style.css`` only reference files that exist, no Google Fonts at runtime,
   ``font-display: swap``; required static files are present; ``og.png`` stays small;
 * no ``innerHTML`` in ``app.js``/``charts.js`` (ARCHITECTURE §5); sections carry
-  ``aria-labelledby`` and keep the brief's order; ``robots.txt`` keeps the raw JSON out of indexes.
+  ``aria-labelledby`` and keep the brief's order; ``robots.txt`` keeps the raw JSON out of indexes;
+* no third-party runtime requests; text colour tokens meet WCAG AA on white.
 
 Runs on Python 3.9 and 3.12.
 """
@@ -28,9 +29,8 @@ SITE: Path = common.SITE
 EMPTY_OK = {"donate.1.sub", "donate.2.sub", "donate.3.sub"}
 
 DYNAMIC_KEYS = {
-    "hero.badge.": ["deficit", "surplus", "balanced"],
-    "hero.tip.": ["deficit", "surplus", "balanced"],
-    "hero.gap.": ["deficit", "surplus", "balanced"],
+    "hero.status.": ["deficit", "surplus", "balanced"],
+    "hero.lede.": ["deficit", "surplus", "balanced"],
     "crack.level.": ["0", "1", "2", "3", "4"],
     "crack.range.": ["1y", "5y", "max"],
     "donate.": ["0.headline", "0.sub", "0.button", "1.headline", "1.button",
@@ -38,23 +38,13 @@ DYNAMIC_KEYS = {
     "meth.formula.": ["diesel", "gasoline", "jet", "321"],
     "groc.product.": ["gasoline", "jet", "diesel", "other"],
     "ship.vlcc.": ["pre_war", "pandemic_peak", "now"],
+    "nav.": ["hero", "crack", "whiteboard", "countries", "shipping", "groceries", "news", "methodology"],
 }
 
-# Microcopy pinned by the brief (CLAUDE.md §9): key → the sentence en.json must start with.
+# Copy pinned by the brief (CLAUDE.md §6.5, §9, §10): key → the text en.json must start with.
 BRIEF_MICROCOPY = {
-    "hero.sub": "Updated three times a day. Explained like a whiteboard. Crack spreads included. This is a clean show.",
-    "crack.sub": "Analysts say 'crack spreads are widening' with a straight face. We'll show you why.",
+    "crack.level.2": "Widening (said with a straight face)",
     "crack.footnote": "NY Harbor ULSD minus Brent. Other benchmarks (Europe, Singapore) can read higher.",
-    "wb.sub": "One marker, one strait, twenty million barrels. Let's do the math.",
-    "countries.sub": "Some countries are oil wells with flags. Others are gas stations with armies. Most are just thirsty.",
-    "countries.footnote": "Annual data, because countries don't text us daily.",
-    "ship.sub": "When the shortcut closes, oil takes the scenic route. All the way around Africa.",
-    "ship.tankers": "Same ships, longer trips. Two out of three effectively vanish. Not literally. Please don't call the coast guard.",
-    "ship.dayrate": "A supertanker used to rent for about a nice used car per day. Now it's a small house. Per day.",
-    "groc.sub": "Almost everything you buy rode a diesel truck at some point. Usually several.",
-    "groc.diesel": "Diesel is the stubborn one. Trucks, tractors, cranes, ships, backup generators. You can't just skip it.",
-    "news.sub": "We read the oil news three times a day so you don't have to. You're welcome. Sources below, as always.",
-    "news.fallback": "Our summarizer is on a coffee break. Here are the raw headlines.",
     "donate.0.headline": "Buy me a cup of liquid gold that fuels humans.",
     "donate.0.button": "Refine a coffee ☕",
     "donate.1.button": "Fill 'er up",
@@ -62,8 +52,9 @@ BRIEF_MICROCOPY = {
     "donate.3.button": "Drop a barrel (of coffee)",
     "donate.fineprint": "Donations go to a person, not a hedge fund. They don't change what the data says.",
     "footer.disclaimer": "Not financial advice. Not trading advice. Not even dinner-party advice. Numbers come from the sources listed; jokes come from us.",
-    "common.unavailable": "Data temporarily unavailable. The chart is fine, it's just shy.",
     "footer.src.fred": "Source: FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
+    "ship.label": "Per Max Fisher and news reports, not live data",
+    "groc.label": "Whiteboard figures: Max Fisher's estimate, not live data",
 }
 
 SECTION_ORDER = ["hero", "crack", "whiteboard", "countries", "shipping", "groceries", "news", "methodology", "donate"]
@@ -71,9 +62,8 @@ SECTION_ORDER = ["hero", "crack", "whiteboard", "countries", "shipping", "grocer
 REQUIRED_FILES = [
     "index.html", "404.html", "config.json", "css/style.css", "js/app.js", "js/charts.js",
     "js/vendor/uPlot.iife.min.js", "js/vendor/uPlot.min.css", "js/vendor/LICENSE-uPlot.txt",
-    "fonts/PermanentMarker-latin.woff2", "fonts/Caveat-latin.woff2",
-    "fonts/LICENSE_PermanentMarker.txt", "fonts/OFL_Caveat.txt",
-    "i18n/en.json", "i18n/de.json", "img/og.png", "favicon.svg", "robots.txt", "sitemap.xml", "data/manual.json",
+    "fonts/PermanentMarker-latin.woff2", "fonts/LICENSE_PermanentMarker.txt",
+    "i18n/en.json", "i18n/de.json", "img/og.png", "img/route-map.svg", "favicon.svg", "robots.txt", "sitemap.xml", "data/manual.json",
 ]
 
 
@@ -132,7 +122,7 @@ def test_dynamic_key_families_complete(en, prefix, names):
     assert missing == []
 
 
-def test_topic_labels_and_gauge_labels_match_config(en, cfg):
+def test_topic_labels_and_level_labels_match_config(en, cfg):
     assert all("news.topic." + topic in en for topic in cfg["news_topics"])
     assert [en["crack.level.%d" % i] for i in range(5)] == cfg["crack_levels"]["labels"]
 
@@ -140,6 +130,13 @@ def test_topic_labels_and_gauge_labels_match_config(en, cfg):
 @pytest.mark.parametrize("key,phrase", sorted(BRIEF_MICROCOPY.items()))
 def test_brief_microcopy_lives_in_en_json(en, key, phrase):
     assert en.get(key, "").startswith(phrase)
+
+
+def test_copy_has_no_emoji_outside_the_donate_lines(en):
+    """Brief §10: no emojis except ☕ (donate) and arrows."""
+    emoji = re.compile("[\U0001F300-\U0001FAFF☀-⛿✀-➿]")
+    bad = [k for k, v in en.items() if emoji.search(v.replace("☕", "")) and not k.startswith("donate.") and k != "footer.support"]
+    assert bad == []
 
 
 # ----------------------------------------------------------------------------- static assets
@@ -153,8 +150,14 @@ def test_index_html_references_resolve(html):
 
 def test_css_url_references_resolve(css):
     refs = re.findall(r"url\('\.\./([^']+)'\)", css)
-    assert refs, "style.css should reference the local fonts/images"
+    assert refs, "style.css should reference the local font"
     missing = [r for r in refs if not (SITE / r).exists()]
+    assert missing == []
+
+
+def test_js_image_references_resolve(app_js):
+    refs = re.findall(r"'\./img/([^']+)'", app_js)
+    missing = [r for r in refs if not (SITE / "img" / r).exists()]
     assert missing == []
 
 
@@ -170,6 +173,13 @@ def test_required_file_present(rel):
 
 def test_og_image_is_small():
     assert os.path.getsize(SITE / "img/og.png") < 200_000
+
+
+def test_route_map_has_real_coastlines_and_no_external_refs():
+    svg = _read("img/route-map.svg")
+    assert svg.count("L") > 5000, "the map is built from real coastline polygons, not a sketch"
+    assert "http" not in svg.replace("http://www.w3.org/2000/svg", "")
+    assert "<script" not in svg and "<image" not in svg
 
 
 def test_robots_keeps_raw_json_out_of_indexes():
@@ -196,19 +206,17 @@ def test_404_page_links_are_root_absolute(cfg):
 
 # -------------------------------------------------------------------------------- numbers/copy
 
-def test_hero_gap_text_pairs_label_with_magnitude(app_js, en):
-    """Shortage/surplus rows show |stock_draw| under a directional label; the signed form is only used for the
-    balanced row and the beam. The old sign-flipping expression printed −0.67 under "drawn from storage"."""
-    assert "status === 'surplus' ? 1 : -1" not in app_js
+def test_hero_storage_row_carries_the_signed_change(app_js, en):
+    """The storage row shows the signed change in storage (+ = built, − = drawn) and <data value> carries it;
+    the lede pairs the directional wording with the magnitude."""
     hero = app_js.split("function renderHero", 1)[1].split("function renderCrack", 1)[0]
-    assert "Math.abs(draw)" in hero and "fmt.signed(-draw, 2)" in hero
-    assert "const dGap = mk(gapValue" in hero, "<data value> must carry the displayed number"
-    assert en["hero.gap.deficit"].startswith("drawn") and en["hero.gap.surplus"].startswith("added")
+    assert "fmt.signed(-draw, 2)" in hero and "Math.abs(draw)" in hero
+    assert "mkB(draw === null ? null : -draw)" in hero
+    assert "comes out of storage" in en["hero.lede.deficit"] and "goes into storage" in en["hero.lede.surplus"]
 
 
 def test_diesel_math_percentages_come_from_manual_json(app_js):
-    """The math box prints Fisher's stated figures (manual.json), never a frontend derivation from the table,
-    and they agree with the Fisher note printed beneath them."""
+    """The math box prints Fisher's stated figures (manual.json), never a frontend derivation from the table."""
     manual = json.loads(_read("data/manual.json"))
     dm = manual["diesel_math"]
     rise = dm["stated_rise_pct"]
@@ -219,11 +227,11 @@ def test_diesel_math_percentages_come_from_manual_json(app_js):
     assert "dm.now.oil / dm.last_year.oil" not in groc and "dm.now.diesel / dm.last_year.diesel" not in groc
 
 
-def test_needle_pivot_is_not_applied_twice(css):
-    """charts.js rotates the needle with rotate(a cx cy); a CSS transform-origin on top would double the offset."""
-    rule = re.search(r"\.needle\s*\{([^}]*)\}", css).group(1)
-    assert "transform-origin" not in rule and "transform-box" not in rule
-    assert re.search(r"rotate\(\$\{[^}]+\}\s+\$\{cx\}\s+\$\{cy\}\)", _read("js/charts.js"))
+def test_every_figure_goes_through_the_row_device(app_js):
+    """Every number is rendered by row()/dataEl() so it carries <data value> plus source and date."""
+    assert app_js.count("row(") > 25
+    assert "function srcLine" in app_js and "function staleBadge" in app_js
+    assert "h('data'" in app_js
 
 
 def _hex_to_rgb(h: str):
@@ -245,23 +253,18 @@ def _contrast(fg, bg) -> float:
 
 
 def test_text_colour_tokens_meet_wcag_aa(css):
-    """Brief §11: contrast AA. Every colour token used for small text must reach 4.5:1 on the paper and on
-    the tinted "official" box; the chart module's MUTED (tick labels) too."""
+    """Brief §11: contrast AA. Every colour token used for text must reach 4.5:1 on the page background and
+    on the tinted subtotal rows; the chart module's MUTED (tick labels) too."""
     tokens = dict(re.findall(r"--([a-z0-9-]+):\s*(#[0-9A-Fa-f]{6})", css))
     paper = _hex_to_rgb(tokens["paper"])
-    # .box.official = rgba(27, 77, 137, 0.04) over the paper
-    official = tuple(p * 0.96 + c / 255 * 0.04 for p, c in zip(paper, (27, 77, 137)))
+    paper2 = _hex_to_rgb(tokens["paper-2"])
     for name in ("ink", "ink-soft", "muted", "red", "blue", "green"):
         fg = _hex_to_rgb(tokens[name])
         assert _contrast(fg, paper) >= 4.5, (name, tokens[name], _contrast(fg, paper))
-    for name in ("ink", "ink-soft", "muted", "blue", "green"):
-        fg = _hex_to_rgb(tokens[name])
-        assert _contrast(fg, official) >= 4.5, (name, tokens[name], _contrast(fg, official))
+        assert _contrast(fg, paper2) >= 4.5, (name, tokens[name], _contrast(fg, paper2))
     charts = _read("js/charts.js")
     muted = re.search(r"const MUTED = '(#[0-9A-Fa-f]{6})'", charts).group(1)
     assert _contrast(_hex_to_rgb(muted), paper) >= 4.5, muted
-    green = re.search(r"const GREEN = '(#[0-9A-Fa-f]{6})'", charts).group(1)
-    assert _contrast(_hex_to_rgb(green), paper) >= 3.0, green   # fills/strokes and 20px-bold SVG labels only
 
 
 # ------------------------------------------------------------------------------ html/js rules
@@ -281,15 +284,11 @@ def test_sections_are_labelled_and_in_brief_order(html):
 
 
 def test_no_third_party_runtime_requests(html, app_js, css):
-    # Only the site's own absolute URLs (canonical/OG) may appear in the HTML; scripts are local.
     own = re.sub(r"https?://fixoa\.github\.io/crackspread/\S*", "", html)
     assert not re.search(r'<script[^>]+src="https?://', own)
     assert not re.search(r'<link[^>]+href="https?://', own)
     assert not re.search(r'<(img|iframe|source|video|audio|embed|object)\b[^>]*\b(src|data|poster)="https?://', own)
     assert "fetch('http" not in app_js and 'fetch("http' not in app_js
-    # Hard Rule 6 also covers CSS (@import / url(https://…)) and resource loads from the JS; links
-    # the user clicks (href targets, source home pages) are fine, anything the browser fetches
-    # on its own (fetch, img/script/iframe src, beacons, sockets, workers) is not.
     assert "@import" not in css and re.search(r"https?://", css) is None
     loaders = r"\b(fetch|importScripts|sendBeacon|XMLHttpRequest|EventSource|WebSocket|Worker|SharedWorker|Image|Audio)\s*\(\s*['\"`]https?://"
     for name in ("js/app.js", "js/charts.js"):

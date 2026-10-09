@@ -3,7 +3,10 @@
   "site_url": "https://fixoa.github.io/crackspread/",
   "repo_url": "https://github.com/fixoa/crackspread",
   "language": "en",
-  "languages_available": ["en", "de"],
+  "languages_available": [
+    "en",
+    "de"
+  ],
   "show_language_toggle": false,
   "timezone_display": "Europe/Vienna",
   "donate_url": "",
@@ -11,38 +14,234 @@
   "donate_cta_variant": 0,
   "ai_provider": "gemini",
   "ai_model": "",
-  "stale_after_hours": { "prices": 96, "steo": 1080, "news": 24, "country": 9000, "summary": 48, "weekly": 264 },
-  "balance_thresholds": { "deficit": 0.3, "surplus": -0.3 },
+  "stale_after_hours": {
+    "prices": 96,
+    "steo": 1080,
+    "news": 24,
+    "country": 9000,
+    "summary": 48,
+    "weekly": 264,
+    "shipping": 240
+  },
+  "balance_thresholds": {
+    "deficit": 0.3,
+    "surplus": -0.3
+  },
   "news_max_items": 40,
   "news_max_age_hours": 48,
-  "news_queries": ["oil supply", "Strait of Hormuz", "\"crack spread\"", "diesel shortage", "Bab al-Mandab",
-                   "refinery attack", "tanker rates VLCC", "OPEC output", "jet fuel prices", "strategic petroleum reserve"],
-  "news_feeds": [
-    {"id": "oilprice", "name": "OilPrice.com", "url": "https://oilprice.com/rss/main", "filter": false, "topics": ["supply"]},
-    {"id": "rigzone", "name": "Rigzone", "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx", "filter": false},
-    {"id": "gcaptain", "name": "gCaptain", "url": "https://gcaptain.com/feed/", "filter": true, "topics": ["shipping"]},
-    {"id": "splash247", "name": "Splash247", "url": "https://splash247.com/feed/", "filter": true, "topics": ["shipping"]},
-    {"id": "hellenic", "name": "Hellenic Shipping News", "url": "https://www.hellenicshippingnews.com/feed/", "filter": true, "topics": ["shipping"]},
-    {"id": "offshore_energy", "name": "Offshore Energy", "url": "https://www.offshore-energy.biz/feed/", "filter": true},
-    {"id": "eia_tie", "name": "EIA Today in Energy", "url": "https://www.eia.gov/rss/todayinenergy.xml", "filter": true, "topics": ["official"]},
-    {"id": "eia_press", "name": "EIA Press", "url": "https://www.eia.gov/rss/press_rss.xml", "filter": true, "topics": ["official"]},
-    {"id": "eia_gasdiesel", "name": "EIA Gasoline & Diesel Update", "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml", "filter": false, "topics": ["official", "retail"]},
-    {"id": "bbc_business", "name": "BBC Business", "url": "https://feeds.bbci.co.uk/news/business/rss.xml", "filter": true}
+  "news_queries": [
+    "oil supply",
+    "Strait of Hormuz",
+    "\"crack spread\"",
+    "diesel shortage",
+    "Bab al-Mandab",
+    "refinery attack",
+    "tanker rates VLCC",
+    "OPEC output",
+    "jet fuel prices",
+    "strategic petroleum reserve"
   ],
-  "news_keywords": ["oil", "crude", "diesel", "gasoil", "refinery", "refineries", "tanker", "hormuz", "opec", "brent", "wti",
-                    "lng", "shipping", "red sea", "bab al-mandab", "bab el-mandeb", "jet fuel", "petroleum", "gasoline", "barrel", "vlcc", "suez"],
+  "news_feeds": [
+    {
+      "id": "oilprice",
+      "name": "OilPrice.com",
+      "url": "https://oilprice.com/rss/main",
+      "filter": false,
+      "topics": [
+        "supply"
+      ]
+    },
+    {
+      "id": "rigzone",
+      "name": "Rigzone",
+      "url": "https://www.rigzone.com/news/rss/rigzone_latest.aspx",
+      "filter": false
+    },
+    {
+      "id": "gcaptain",
+      "name": "gCaptain",
+      "url": "https://gcaptain.com/feed/",
+      "filter": true,
+      "topics": [
+        "shipping"
+      ]
+    },
+    {
+      "id": "splash247",
+      "name": "Splash247",
+      "url": "https://splash247.com/feed/",
+      "filter": true,
+      "topics": [
+        "shipping"
+      ]
+    },
+    {
+      "id": "hellenic",
+      "name": "Hellenic Shipping News",
+      "url": "https://www.hellenicshippingnews.com/feed/",
+      "filter": true,
+      "topics": [
+        "shipping"
+      ]
+    },
+    {
+      "id": "offshore_energy",
+      "name": "Offshore Energy",
+      "url": "https://www.offshore-energy.biz/feed/",
+      "filter": true
+    },
+    {
+      "id": "eia_tie",
+      "name": "EIA Today in Energy",
+      "url": "https://www.eia.gov/rss/todayinenergy.xml",
+      "filter": true,
+      "topics": [
+        "official"
+      ]
+    },
+    {
+      "id": "eia_press",
+      "name": "EIA Press",
+      "url": "https://www.eia.gov/rss/press_rss.xml",
+      "filter": true,
+      "topics": [
+        "official"
+      ]
+    },
+    {
+      "id": "eia_gasdiesel",
+      "name": "EIA Gasoline & Diesel Update",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml",
+      "filter": false,
+      "topics": [
+        "official",
+        "retail"
+      ]
+    },
+    {
+      "id": "bbc_business",
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "filter": true
+    }
+  ],
+  "news_keywords": [
+    "oil",
+    "crude",
+    "diesel",
+    "gasoil",
+    "refinery",
+    "refineries",
+    "tanker",
+    "hormuz",
+    "opec",
+    "brent",
+    "wti",
+    "lng",
+    "shipping",
+    "red sea",
+    "bab al-mandab",
+    "bab el-mandeb",
+    "jet fuel",
+    "petroleum",
+    "gasoline",
+    "barrel",
+    "vlcc",
+    "suez"
+  ],
   "news_topics": {
-    "hormuz": ["hormuz", "iran", "gulf"], "supply": ["supply", "output", "production", "opec", "spr", "stockpile", "reserve"],
-    "diesel": ["diesel", "gasoil", "distillate"], "refining": ["refiner", "refinery", "refineries", "crack spread", "margin"],
-    "shipping": ["tanker", "vlcc", "shipping", "freight", "suez", "red sea", "mandab", "mandeb", "cape"],
-    "prices": ["price", "brent", "wti", "futures", "$"], "jet": ["jet fuel", "airline", "aviation", "kerosene"],
-    "official": [], "retail": ["pump", "retail", "gas station", "gallon"]
+    "hormuz": [
+      "hormuz",
+      "iran",
+      "gulf"
+    ],
+    "supply": [
+      "supply",
+      "output",
+      "production",
+      "opec",
+      "spr",
+      "stockpile",
+      "reserve"
+    ],
+    "diesel": [
+      "diesel",
+      "gasoil",
+      "distillate"
+    ],
+    "refining": [
+      "refiner",
+      "refinery",
+      "refineries",
+      "crack spread",
+      "margin"
+    ],
+    "shipping": [
+      "tanker",
+      "vlcc",
+      "shipping",
+      "freight",
+      "suez",
+      "red sea",
+      "mandab",
+      "mandeb",
+      "cape"
+    ],
+    "prices": [
+      "price",
+      "brent",
+      "wti",
+      "futures",
+      "$"
+    ],
+    "jet": [
+      "jet fuel",
+      "airline",
+      "aviation",
+      "kerosene"
+    ],
+    "official": [],
+    "retail": [
+      "pump",
+      "retail",
+      "gas station",
+      "gallon"
+    ]
   },
-  "update_schedule_utc": { "hours": [3, 10, 17], "minute": 17 },
-  "crack_levels": { "labels": ["Hairline", "Visible", "Widening (said with a straight face)", "Gaping", "Grand Canyon"],
-                    "percentile_cuts": [50, 75, 90, 98] },
-  "inspiration": { "title": "The oil apocalypse is here", "author": "Max Fisher",
-                   "url": "https://www.youtube.com/watch?v=OETnuwwsv9U", "date": "2026-10-02" },
-  "source_links": { "fred": "https://fred.stlouisfed.org/", "eia_steo": "https://www.eia.gov/outlooks/steo/",
-                    "eia_international": "https://www.eia.gov/international/data/world", "jodi": "https://www.jodidata.org/oil/" }
+  "update_schedule_utc": {
+    "hours": [
+      3,
+      10,
+      17
+    ],
+    "minute": 17
+  },
+  "crack_levels": {
+    "labels": [
+      "Hairline",
+      "Visible",
+      "Widening (said with a straight face)",
+      "Gaping",
+      "Grand Canyon"
+    ],
+    "percentile_cuts": [
+      50,
+      75,
+      90,
+      98
+    ]
+  },
+  "inspiration": {
+    "title": "The oil apocalypse is here",
+    "author": "Max Fisher",
+    "url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "date": "2026-10-02"
+  },
+  "source_links": {
+    "fred": "https://fred.stlouisfed.org/",
+    "eia_steo": "https://www.eia.gov/outlooks/steo/",
+    "eia_international": "https://www.eia.gov/international/data/world",
+    "jodi": "https://www.jodidata.org/oil/",
+    "portwatch": "https://portwatch.imf.org/"
+  }
 }
