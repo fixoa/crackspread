@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-08",
+  "as_of": "2026-10-08",
+  "stale": false,
+  "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+  "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+  "updated_at": "2026-10-08",
+  "ledger_label": "Whiteboard (Max Fisher's estimate, mid/late Sept 2026, not live data)",
+  "default_source": {"name": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)", "url": "https://www.youtube.com/watch?v=OETnuwwsv9U", "kind": "estimate"},
+  "world": {"production_mbd": 100, "consumption_mbd": 100, "note": "roughly zero slack"},
+  "hormuz_ledger": [
+    {"id": "hormuz_normal", "label": "Strait of Hormuz, normal flow", "delta": 20, "type": "baseline"},
+    {"id": "iran_blockade", "label": "Iran blockade (since Feb 2026)", "delta": -20},
+    {"id": "uae_pipeline", "label": "UAE Habshan–Fujairah pipeline", "delta": 1.5},
+    {"id": "sts_oman", "label": "Ship-to-ship transfers off Oman", "delta": 6.5},
+    {"id": "saudi_eastwest", "label": "Saudi East-West pipeline", "delta": 5.5, "status": "knocked_out", "status_note": "Houthi rockets on Red Sea-end refinery; Iraqi militia drones destroyed 3 pumping stations", "counted": false},
+    {"id": "region_total", "label": "Gulf exports now", "value": 8, "type": "subtotal"},
+    {"id": "spr", "label": "Emergency stockpile releases", "delta": 2.5},
+    {"id": "china_cuts", "label": "China import cuts (was -5.5, since 1 Sept only -2.5)", "delta": -2.5, "note": "China paying ~$135 vs ~$105 world (Shanghai vs WTI futures)"},
+    {"id": "net_shortfall", "label": "Net shortfall (Fisher)", "value": -7, "type": "total"}
+  ],
+  "shipping": {
+    "route_note": "Houthis took Yemen coast in Sept and closed Bab al-Mandab; Asia-bound oil goes Suez → Med → Cape of Good Hope",
+    "voyage_days_before": 19, "voyage_days_now": 48,
+    "tankers_effectively_lost": "2 of 3",
+    "vlcc_day_rate_usd": {"pre_war": 30000, "pandemic_peak": 250000, "now": 1200000},
+    "shipping_cost_per_bbl_usd": {"before": 3, "now": 26}
+  },
+  "products_mbd": {"gasoline": 25, "jet": 8, "diesel": 30, "other": 37},
+  "refinery_shock": [
+    {"label": "Ukraine strikes 28 of 32 big Russian refineries", "diesel_delta_mbd": -1.0},
+    {"label": "Iran vs Gulf states refinery war", "diesel_delta_mbd": -1.5},
+    {"label": "China cuts diesel exports", "diesel_delta_mbd": -0.5},
+    {"label": "Total: ~3 of 30 mb/d diesel (~10%)", "diesel_delta_mbd": -3.0, "type": "total"}
+  ],
+  "diesel_math": {"last_year": {"oil": 65, "crack": 20, "diesel": 85}, "now": {"oil": 100, "crack": 110, "diesel": 210}, "stated_rise_pct": {"oil": 60, "diesel": 250}, "note": "60% oil rise → ~250% diesel rise (Fisher; benchmark not specified)"},
+  "impacts": [
+    {"sector": "Trucking", "effect": "costs ~x3"},
+    {"sector": "Construction & housing", "effect": "higher costs"},
+    {"sector": "Food", "effect": "~+20%, more with farm diesel"},
+    {"sector": "Flights", "effect": "~+40% fuel bills, airline insolvency risk"},
+    {"sector": "Shipping", "effect": "~x3"},
+    {"sector": "Oil shipping itself", "effect": "see tanker rates"}
+  ]
+}

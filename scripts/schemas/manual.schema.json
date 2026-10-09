@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fixoa.github.io/crackspread/schemas/manual.schema.json",
+  "title": "manual.json",
+  "description": "Hand-maintained whiteboard ledger (brief §6.6 + envelope per ARCHITECTURE §3.7). Entries may carry their own source/url/as_of.",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "as_of", "stale", "source", "source_url",
+               "updated_at", "ledger_label", "default_source", "world", "hormuz_ledger", "shipping",
+               "products_mbd", "refinery_shock", "diesel_math", "impacts"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"$ref": "#/$defs/date_or_timestamp"},
+    "as_of": {"$ref": "#/$defs/date_or_timestamp"},
+    "fetched_at": {"$ref": "#/$defs/date_or_timestamp"},
+    "stale": {"type": "boolean"},
+    "source": {"type": "string", "minLength": 1},
+    "source_url": {"$ref": "#/$defs/url"},
+    "updated_at": {"$ref": "#/$defs/date"},
+    "ledger_label": {"type": "string", "minLength": 1},
+    "default_source": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "url": {"$ref": "#/$defs/url"},
+        "kind": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "world": {
+      "type": "object",
+      "required": ["production_mbd", "consumption_mbd"],
+      "properties": {
+        "production_mbd": {"type": "number"},
+        "consumption_mbd": {"type": "number"},
+        "note": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "hormuz_ledger": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+          "label": {"type": "string", "minLength": 1},
+          "delta": {"type": "number"},
+          "value": {"type": "number"},
+          "type": {"type": "string", "enum": ["baseline", "subtotal", "total"]},
+          "status": {"type": "string"},
+          "status_note": {"type": "string"},
+          "counted": {"type": "boolean"},
+          "note": {"type": "string"},
+          "source": {"type": "string"},
+          "url": {"$ref": "#/$defs/url"},
+          "as_of": {"$ref": "#/$defs/date_or_timestamp"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "shipping": {
+      "type": "object",
+      "required": ["voyage_days_before", "voyage_days_now", "vlcc_day_rate_usd", "shipping_cost_per_bbl_usd"],
+      "properties": {
+        "route_note": {"type": "string"},
+        "voyage_days_before": {"type": "number"},
+        "voyage_days_now": {"type": "number"},
+        "tankers_effectively_lost": {"type": "string"},
+        "vlcc_day_rate_usd": {
+          "type": "object",
+          "required": ["now"],
+          "properties": {
+            "pre_war": {"type": "number"},
+            "pandemic_peak": {"type": "number"},
+            "now": {"type": "number"}
+          },
+          "additionalProperties": true
+        },
+        "shipping_cost_per_bbl_usd": {
+          "type": "object",
+          "required": ["before", "now"],
+          "properties": {
+            "before": {"type": "number"},
+            "now": {"type": "number"}
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "products_mbd": {
+      "type": "object",
+      "required": ["gasoline", "jet", "diesel", "other"],
+      "properties": {
+        "gasoline": {"type": "number"},
+        "jet": {"type": "number"},
+        "diesel": {"type": "number"},
+        "other": {"type": "number"}
+      },
+      "additionalProperties": true
+    },
+    "refinery_shock": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "diesel_delta_mbd"],
+        "properties": {
+          "label": {"type": "string", "minLength": 1},
+          "diesel_delta_mbd": {"type": "number"},
+          "type": {"type": "string", "enum": ["baseline", "subtotal", "total"]},
+          "source": {"type": "string"},
+          "url": {"$ref": "#/$defs/url"},
+          "as_of": {"$ref": "#/$defs/date_or_timestamp"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "diesel_math": {
+      "type": "object",
+      "required": ["last_year", "now"],
+      "properties": {
+        "last_year": {"$ref": "#/$defs/diesel_math_row"},
+        "now": {"$ref": "#/$defs/diesel_math_row"},
+        "stated_rise_pct": {
+          "description": "Fisher's own stated percentage rises (the figures the math box prints), same source as the note.",
+          "type": "object",
+          "required": ["oil", "diesel"],
+          "properties": {"oil": {"type": "number"}, "diesel": {"type": "number"}},
+          "additionalProperties": true
+        },
+        "note": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "impacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sector", "effect"],
+        "properties": {
+          "sector": {"type": "string", "minLength": 1},
+          "effect": {"type": "string", "minLength": 1},
+          "source": {"type": "string"},
+          "url": {"$ref": "#/$defs/url"},
+          "as_of": {"$ref": "#/$defs/date_or_timestamp"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "date_or_timestamp": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?$"},
+    "url": {"type": "string", "pattern": "^https?://\\S+$"},
+    "diesel_math_row": {
+      "type": "object",
+      "required": ["oil", "crack", "diesel"],
+      "properties": {
+        "oil": {"type": "number"},
+        "crack": {"type": "number"},
+        "diesel": {"type": "number"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

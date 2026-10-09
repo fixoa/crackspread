@@ -1,0 +1,46 @@
+{
+ "proposals": [
+  {
+   "target": "shipping.vlcc_day_rate_usd.now",
+   "proposed_value": 1000000,
+   "unit": "USD/day",
+   "quote": "VLCC rates top $1 million a day",
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWEF3VGtBTzI4M3REbWhDYWx1LTdrX1QySVFkRGhOV05pTDNnUUZ5UTEwb3lWUlRMZDR4UWg5MFdpQU5oRFRBWDhCTjBZSWhYQURWbFpvMjlHbFl0dTlTQkJGSXJ1bEUwdjlEdXQyNUQxN2RYYXFBN05vYk1MZ2I3M3hISVE5b0RydTlDZy1oZjluUENtTFhENUxuSQ?oc=5"
+  },
+  {
+   "target": "shipping.vlcc_day_rate_usd.now",
+   "proposed_value": 1500000,
+   "unit": "USD/day",
+   "quote": "VLCC rates reach $1.5 million per day",
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWEF3VGtBTzI4M3REbWhDYWx1LTdrX1QySVFkRGhOV05pTDNnUUZ5UTEwb3lWUlRMZDR4UWg5MFdpQU5oRFRBWDhCTjBZSWhYQURWbFpvMjlHbFl0dTlTQkJGSXJ1bEUwdjlEdXQyNUQxN2RYYXFBN05vYk1MZ2I3M3hISVE5b0RydTlDZy1oZjluUENtTFhENUxuSQ?oc=5"
+  },
+  {
+   "target": "hormuz_ledger[hormuz_normal].delta",
+   "proposed_value": 16.5,
+   "unit": "mb/d",
+   "quote": "Middle East crude and condensate exports averaged roughly 16.5 million barrels per day (bpd) in September",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html"
+  },
+  {
+   "target": "hormuz_ledger[hormuz_normal].delta",
+   "proposed_value": 18,
+   "unit": "mb/d",
+   "quote": "Middle East crude and condensate exports averaged roughly 16.5 million barrels per day (bpd) in September",
+   "source_url": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html"
+  },
+  {
+   "target": "shipping.vlcc_day_rate_usd.now",
+   "proposed_value": 1000000,
+   "unit": "USD/day",
+   "quote": "VLCC rates top $1 million a day",
+   "source_url": "https://example.com/not-in-news"
+  },
+  {
+   "target": "shipping.voyage_days_before",
+   "proposed_value": 19,
+   "unit": "days",
+   "quote": "VLCC rates top $1 million a day",
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWEF3VGtBTzI4M3REbWhDYWx1LTdrX1QySVFkRGhOV05pTDNnUUZ5UTEwb3lWUlRMZDR4UWg5MFdpQU5oRFRBWDhCTjBZSWhYQURWbFpvMjlHbFl0dTlTQkJGSXJ1bEUwdjlEdXQyNUQxN2RYYXFBN05vYk1MZ2I3M3hISVE5b0RydTlDZy1oZjluUENtTFhENUxuSQ?oc=5"
+  }
+ ]
+}

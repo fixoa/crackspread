@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fixoa.github.io/crackspread/schemas/prices.schema.json",
+  "title": "prices.json",
+  "description": "FRED-derived crude/product prices, crack spreads, history and stats (ARCHITECTURE §3.1).",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "as_of", "fetched_at", "stale", "source", "source_url", "latest", "history", "stats"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"$ref": "#/$defs/timestamp"},
+    "as_of": {"$ref": "#/$defs/as_of_or_null"},
+    "fetched_at": {"$ref": "#/$defs/timestamp"},
+    "stale": {"type": "boolean"},
+    "source": {"type": "string", "minLength": 1},
+    "source_url": {"$ref": "#/$defs/url"},
+    "latest": {
+      "type": "object",
+      "required": ["brent", "wti", "ulsd_nyh", "gasoline_nyh", "jet_gulf", "heating_oil_nyh",
+                   "retail_diesel_us", "retail_gasoline_us", "diesel_crack", "gasoline_crack",
+                   "jet_crack", "crack_321", "brent_wti_spread"],
+      "additionalProperties": {"$ref": "#/$defs/datapoint"}
+    },
+    "history": {
+      "type": "object",
+      "required": ["dates", "diesel_crack", "gasoline_crack", "jet_crack", "crack_321", "brent", "wti"],
+      "properties": {
+        "dates": {"type": "array", "items": {"$ref": "#/$defs/date"}},
+        "diesel_crack": {"$ref": "#/$defs/series"},
+        "gasoline_crack": {"$ref": "#/$defs/series"},
+        "jet_crack": {"$ref": "#/$defs/series"},
+        "crack_321": {"$ref": "#/$defs/series"},
+        "brent": {"$ref": "#/$defs/series"},
+        "wti": {"$ref": "#/$defs/series"},
+        "resolution_note": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "stats": {
+      "type": "object",
+      "required": ["diesel_crack"],
+      "properties": {
+        "diesel_crack": {
+          "type": "object",
+          "required": ["max", "max_date", "mean_2015_2019", "percentile_now", "level", "level_label"],
+          "properties": {
+            "max": {"$ref": "#/$defs/nullable_number"},
+            "max_date": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+            "mean_2015_2019": {"$ref": "#/$defs/nullable_number"},
+            "mean_prev_year": {"$ref": "#/$defs/nullable_number"},
+            "prev_year": {"type": ["integer", "null"]},
+            "percentile_now": {"anyOf": [{"type": "number", "minimum": 0, "maximum": 100}, {"type": "null"}]},
+            "level": {"anyOf": [{"type": "integer", "minimum": 0, "maximum": 4}, {"type": "null"}]},
+            "level_label": {"type": ["string", "null"]},
+            "history_start": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+            "n": {"type": ["integer", "null"], "minimum": 0}
+          },
+          "additionalProperties": true
+        },
+        "brent_wti_spread": {
+          "type": "object",
+          "properties": {
+            "value": {"$ref": "#/$defs/nullable_number"},
+            "as_of": {"$ref": "#/$defs/as_of_or_null"},
+            "mean_2015_2019": {"$ref": "#/$defs/nullable_number"}
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "timestamp": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "as_of": {"type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?)?$"},
+    "as_of_or_null": {"anyOf": [{"$ref": "#/$defs/as_of"}, {"type": "null"}]},
+    "url": {"type": "string", "pattern": "^https?://\\S+$"},
+    "nullable_number": {"type": ["number", "null"]},
+    "series": {"type": "array", "items": {"type": ["number", "null"]}},
+    "datapoint": {
+      "type": "object",
+      "required": ["value", "unit", "as_of", "source", "source_url", "fetched_at", "stale"],
+      "properties": {
+        "value": {"type": ["number", "null"]},
+        "unit": {"type": "string", "minLength": 1},
+        "as_of": {"$ref": "#/$defs/as_of"},
+        "source": {"type": "string", "minLength": 1},
+        "source_url": {"$ref": "#/$defs/url"},
+        "fetched_at": {"$ref": "#/$defs/timestamp"},
+        "stale": {"type": "boolean"},
+        "series_id": {"type": "string"},
+        "formula": {"type": "string"},
+        "inputs": {"type": "object"},
+        "note": {"type": "string"},
+        "stale_kind": {"type": "string"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

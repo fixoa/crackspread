@@ -1,0 +1,747 @@
+{
+ "balance": {
+  "as_of": "2026-10-06",
+  "current": {
+   "brent": 111.0,
+   "consumption": 102.78,
+   "is_forecast": true,
+   "nonopec": 78.14,
+   "opec": 23.97,
+   "period": "2026-10",
+   "production": 102.1,
+   "stock_draw": 0.67,
+   "wti": 100.0
+  },
+  "current_month": "2026-10",
+  "fetched_at": "2026-10-08T10:00:00Z",
+  "generated_at": "2026-10-08T10:00:00Z",
+  "months": [
+   {
+    "brent": 83.76,
+    "consumption": 101.77,
+    "is_forecast": false,
+    "nonopec": 78.02,
+    "opec": 24.02,
+    "period": "2026-07",
+    "production": 102.04,
+    "stock_draw": -0.27,
+    "wti": 80.46
+   },
+   {
+    "brent": 91.08,
+    "consumption": 103.39,
+    "is_forecast": false,
+    "nonopec": 77.53,
+    "opec": 22.89,
+    "period": "2026-08",
+    "production": 100.41,
+    "stock_draw": 2.97,
+    "wti": 83.9
+   },
+   {
+    "brent": 114.16,
+    "consumption": 104.24,
+    "is_forecast": false,
+    "nonopec": 77.45,
+    "opec": 23.85,
+    "period": "2026-09",
+    "production": 101.3,
+    "stock_draw": 2.94,
+    "wti": 97.31
+   },
+   {
+    "brent": 111.0,
+    "consumption": 102.78,
+    "is_forecast": true,
+    "nonopec": 78.14,
+    "opec": 23.97,
+    "period": "2026-10",
+    "production": 102.1,
+    "stock_draw": 0.67,
+    "wti": 100.0
+   },
+   {
+    "brent": 104.0,
+    "consumption": 103.56,
+    "is_forecast": true,
+    "nonopec": 78.78,
+    "opec": 24.31,
+    "period": "2026-11",
+    "production": 103.09,
+    "stock_draw": 0.47,
+    "wti": 97.0
+   },
+   {
+    "brent": 99.0,
+    "consumption": 104.63,
+    "is_forecast": true,
+    "nonopec": 78.86,
+    "opec": 24.85,
+    "period": "2026-12",
+    "production": 103.71,
+    "stock_draw": 0.93,
+    "wti": 94.0
+   }
+  ],
+  "next_release": "2026-11-10",
+  "quarters": [
+   {
+    "consumption": 103.13,
+    "is_forecast": false,
+    "period": "2026Q3",
+    "production": 101.25,
+    "stock_draw": 1.88
+   }
+  ],
+  "quote": "We estimate that global oil inventories fell by an average of 1.9 million b/d in 3Q26 and will fall an additional 0.7 million b/d on average in 4Q26.",
+  "quote_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+  "schema_version": 1,
+  "source": "EIA Short-Term Energy Outlook (STEO), October 2026",
+  "source_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+  "stale": false,
+  "status": "deficit",
+  "steo_edition": "October 2026",
+  "steo_release": "2026-10-06",
+  "unit": "million barrels per day",
+  "via": "api"
+ },
+ "news": {
+  "as_of": "2026-10-08T10:46:00Z",
+  "feeds": [
+   {
+    "error": null,
+    "id": "google:oil supply",
+    "items": 100,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "google:Strait of Hormuz",
+    "items": 100,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "google:tanker rates VLCC",
+    "items": 6,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "google:\"crack spread\"",
+    "items": 7,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "oilprice",
+    "items": 15,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "gcaptain",
+    "items": 12,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "splash247",
+    "items": 10,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "rigzone",
+    "items": 20,
+    "ok": true
+   },
+   {
+    "error": null,
+    "id": "hellenic",
+    "items": 20,
+    "ok": true
+   }
+  ],
+  "fetched_at": "2026-10-08T10:00:00Z",
+  "generated_at": "2026-10-08T10:00:00Z",
+  "items": [
+   {
+    "feed": "oilprice",
+    "id": "7179624d0b94d0512eeac8c929dd706461b76fdf",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html",
+    "published": "2026-10-08T10:46:00Z",
+    "snippet": "Brent crude swung back above $105 per barrel today as reports flow in about increasingly frequent Iranian attacks on tankers in Hormuz while U.S. Gulf Coast operators began shutting in production and prepping refineries ahead of an…",
+    "source": "OilPrice.com",
+    "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
+    "topics": [
+     "supply",
+     "hormuz",
+     "prices",
+     "shipping"
+    ]
+   },
+   {
+    "feed": "hellenic",
+    "id": "39e15b7e58c7644de58a269072354723a0891abc",
+    "link": "https://www.hellenicshippingnews.com/is-iran-charging-a-toll-to-allow-oil-traffic-through-hormuz/",
+    "published": "2026-10-08T10:00:53Z",
+    "snippet": "Middle East oil exports have climbed back above levels seen before the US-Israel war on Iran began in February, despite Tehran’s attempts to blockade the Strait of Hormuz and attack vessels. Crude exports from the region exceeded pre-war…",
+    "source": "Hellenic Shipping News",
+    "title": "Is Iran charging a toll to allow oil traffic through Hormuz?",
+    "topics": [
+     "shipping",
+     "hormuz",
+     "supply"
+    ]
+   },
+   {
+    "feed": "google:tanker rates VLCC",
+    "id": "316cafa8783edfc653f70ff06654a41f1e4a7486",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMlRrak14UG9pN3VPY2toSmhsOGtZNE5CVEZVVWJkUnFLTGh3bXlqRnQ4am90MWJiZ2gwSFVySk1IYWYyVWgyQWZmTXhnNXM0aTE2anZTRXVxa0R1OTlEcjVRV2RSRWVxY1hNLW45cE9ZUHFKckRyNEhmSmxUeXlMd0J4UFNYSG9ENGpYOVBxeUplVWlEQjloaFlHd0lSOTE2LURCV0JWbHFXelVUUHVxbHNtd2t5UmN4RFVDSVJ0bEc5OXVCd1E?oc=5",
+    "published": "2026-10-08T10:00:38Z",
+    "snippet": "",
+    "source": "TradeWinds News",
+    "title": "Worldscale 1,000 in sight: Koch fixes out DHT VLCC in Red Sea as rates double",
+    "topics": [
+     "shipping"
+    ]
+   },
+   {
+    "feed": "google:Strait of Hormuz",
+    "id": "35d5dbf3938af7d6eea73e2800ab8de6a9e4e307",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGpBZ3dHeE0yV0pvMTR0VTBMdHpZQUZoWjdneXNyV0d3RWVoZm1TWFJ5cS16Y0lCRk5PM2dEdVp1dlp2ZEJwTkQ5SlR4dVVoYzVwa0pEdjd5OUJCUTZmaVdRTUk4alo5TTJFRlVVV2lkSzl3MU5PMER5WkR1T2tlYVdNNU15cGQxMVViendna1NZRjBxdnUxb2dMZHFua2ZzVFZ4YTJ4cUg?oc=5",
+    "published": "2026-10-08T09:41:00Z",
+    "snippet": "",
+    "source": "The Guardian",
+    "title": "Tanker attacked off Qatar as Iran claims route transporting oil through strait of Hormuz will be ‘closed’",
+    "topics": [
+     "hormuz",
+     "shipping"
+    ]
+   },
+   {
+    "feed": "splash247",
+    "id": "397437f89323840f9a0a15327c4ebdb74ace2dcf",
+    "link": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+    "published": "2026-10-08T08:45:29Z",
+    "snippet": "The war on merchant shipping in the Middle East has taken a worrying geographical turn, with casualties reported aboard a tanker attacked off Qatar, hundreds of miles west of the Strait of Hormuz, while a containership has also come under…",
+    "source": "Splash247",
+    "title": "Tanker attack off Qatar widens Gulf shipping conflict",
+    "topics": [
+     "shipping",
+     "hormuz"
+    ]
+   },
+   {
+    "feed": "oilprice",
+    "id": "dc60328c1e6093c10e0e5ea6a97dbfb1946dc521",
+    "link": "https://oilprice.com/Latest-Energy-News/World-News/Hormuz-Tanker-Traffic-Hits-Two-Month-Low-as-Attacks-Surge.html",
+    "published": "2026-10-08T07:00:00Z",
+    "snippet": "The number of tankers traversing the Strait of Hormuz has dropped to the lowest in two months amid renewed attacks on vessels in the waterway—right after tanker-tracking outlets said oil flows out of Hormuz are back to pre-war levels.…",
+    "source": "OilPrice.com",
+    "title": "Hormuz Tanker Traffic Hits Two-Month Low as Attacks Surge",
+    "topics": [
+     "supply",
+     "hormuz",
+     "shipping"
+    ]
+   },
+   {
+    "feed": "google:Strait of Hormuz",
+    "id": "6784f2d8df74e26e0174656ad83d9815983208e3",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnAtMmE4Vi10TWlqTFQ0MkFXdzJCNlQzYlFSbXBkOVg5YW9Qd0YwcG5vZnVQS21ETGdLVnllV2RxRFZmZUZyaV8xZWtzVXNLMUxVV1BhQXc3Qm4wVjFaOTB4US1mR0MwWmxoTzdvSV9tUmxvbkx6cWppUkZPMnpHaXNPWjBTMmhBN1p5NDhmSkI1VWtiNEJQcjJLbEJPa2Jhc1VqLWNhR19JcEFkZk5kTmRjaEFnUQ?oc=5",
+    "published": "2026-10-08T03:39:00Z",
+    "snippet": "",
+    "source": "Reuters",
+    "title": "Hormuz transits at lowest in over two months after attacks, data shows",
+    "topics": [
+     "hormuz",
+     "shipping"
+    ]
+   },
+   {
+    "feed": "google:oil supply",
+    "id": "560aa848adedfc7fbd8dfa73d3283dd5facd2603",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9nV016TlVYUUlsNUNkSDVBaExxQnljQjE5N09hZDBZMlZ3SWpUUjlPWVRaYVk1VHNxeW1JdmxMVkFYMUNjXzNuSGFxcDB6Wm5rYWpoX3cwLUlFMkIzSE9Oamp4VTRHd3c2UWNoY0tMSGNpLWRWSEh4LXJR0gF_QVVfeXFMT1RHelpkMjVlSDdmLXk1OFV3Y1BvV2YwY0l6M01GLXYwNTRsQ3o2Z25qQU1ISE1NcnlnemxDN0hNaWM2aWVBd2FBZ016dWtGOWI0eGVucS1MbWh0VzVBQ0xlRktRZjRMQkdJSS1mR1lWOEZ0OGVSdkFPSmxCWl9rSQ?oc=5",
+    "published": "2026-10-08T01:46:00Z",
+    "snippet": "",
+    "source": "CNBC",
+    "title": "Brent crude tops $105, oil gains as Middle East hostilities and potential escalation stoke supply worries",
+    "topics": [
+     "supply",
+     "prices"
+    ]
+   },
+   {
+    "feed": "google:oil supply",
+    "id": "f1f0f5cc9b1c7e628ff12be699f1e3faae0a41d6",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZlloTmR5SkZfME9kcjlVcENtQzFrdmc2cnJfTWthWWJYcFIwZFFGNUs5Y2Y2TkR0MjE2STZ3WXktSXJRRmRiXzZYTnQ4clNNZlNQempZRzFPTERYUXpFM1d0SUJoUzFyN3FLRTg0d3UtckZWbWpWM01DNVJIUEdBTTkyd0dFaDgwX0llWXBtMXV1dVROdXUwVUF6VG9Ca3BReDdJTzNhT0d3RjcwUVF5TS12N1ZWNzJXdlRz?oc=5",
+    "published": "2026-10-08T01:25:00Z",
+    "snippet": "",
+    "source": "Reuters",
+    "title": "Oil jumps as Middle East supply concerns persist amid shipping attacks",
+    "topics": [
+     "supply",
+     "prices",
+     "shipping"
+    ]
+   },
+   {
+    "feed": "oilprice",
+    "id": "3956c3383ac5c7f8bfade782b5ba8e1ab4d926cb",
+    "link": "https://oilprice.com/Energy/Crude-Oil/Kpler-Suspects-Gulf-Producers-Are-Paying-Iran-for-Safe-Passage.html",
+    "published": "2026-10-08T00:00:00Z",
+    "snippet": "Kpler estimates Middle East crude and condensate exports averaged roughly 16.5 million barrels per day (bpd) in September and exceeded the pre-war average of 18 million bpd on several days during the final week of the month. That recovery…",
+    "source": "OilPrice.com",
+    "title": "Kpler Suspects Gulf Producers Are Paying Iran for Safe Passage",
+    "topics": [
+     "supply",
+     "hormuz"
+    ]
+   },
+   {
+    "feed": "rigzone",
+    "id": "12823fafaf60114116318d39fe3ab8071463a1dd",
+    "link": "https://www.rigzone.com/news/wire/oil_dips_as_middle_east_flows_recover-07-oct-2026-184796-article/?rss=true",
+    "published": "2026-10-07T20:43:41Z",
+    "snippet": "Brent closed near $100 as traders weighed escalating Hormuz threats against resilient regional oil exports.",
+    "source": "Rigzone",
+    "title": "Oil Dips as Middle East Flows Recover",
+    "topics": [
+     "prices",
+     "hormuz",
+     "supply"
+    ]
+   },
+   {
+    "feed": "google:\"crack spread\"",
+    "id": "0d94afb222b07dbbbbae770f322fbcf0bd407d36",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeGlxa3JWTXJfd2VUd244enpNNEU4dS1lenJkYUVIUnlNcU1qZ1lBc1FjaFlKRlktNmtHTUYtZUZ6Qk1PNHpiMTRJMTI4UXFXTE1rZEN5dTRraVhCYlhkZ2FFMk1pbUFmUHVHLVhHUm9NR09ZQ2hSNDNJM3kxVHRYUllQa094LXIzRmpNeFpFbUxQVW0zRWc?oc=5",
+    "published": "2026-10-07T17:03:45Z",
+    "snippet": "",
+    "source": "EnergyNow.com",
+    "title": "Phillips 66 Posts Surprise Profit on Higher Refining Margins",
+    "topics": [
+     "refining"
+    ]
+   },
+   {
+    "feed": "gcaptain",
+    "id": "c58a33e486cbdb364e44899c1b7b544141f97f56",
+    "link": "https://gcaptain.com/trafigura-buys-seven-oil-tankers-from-sfl-as-shipping-costs-rise/",
+    "published": "2026-10-07T15:26:13Z",
+    "snippet": "Trafigura Group bought seven oil tankers from New York-listed SFL Corp., in the latest example of how trading houses and state energy companies are acquiring vessels to ship crude and products.",
+    "source": "gCaptain",
+    "title": "Trafigura Buys Seven Oil Tankers From SFL as Shipping Costs Rise",
+    "topics": [
+     "shipping"
+    ]
+   },
+   {
+    "feed": "google:tanker rates VLCC",
+    "id": "4230fe73be934c8b8efab2416e4f24ba74363770",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWEF3VGtBTzI4M3REbWhDYWx1LTdrX1QySVFkRGhOV05pTDNnUUZ5UTEwb3lWUlRMZDR4UWg5MFdpQU5oRFRBWDhCTjBZSWhYQURWbFpvMjlHbFl0dTlTQkJGSXJ1bEUwdjlEdXQyNUQxN2RYYXFBN05vYk1MZ2I3M3hISVE5b0RydTlDZy1oZjluUENtTFhENUxuSQ?oc=5",
+    "published": "2026-10-07T13:54:05Z",
+    "snippet": "",
+    "source": "Breakbulk.News",
+    "title": "VLCC rates top $1 million a day as Hormuz attacks lift Gulf risk premium",
+    "topics": [
+     "shipping",
+     "hormuz",
+     "prices"
+    ]
+   }
+  ],
+  "schema_version": 1,
+  "source": "Google News RSS + publisher feeds",
+  "source_url": "https://news.google.com/",
+  "stale": false
+ },
+ "prices": {
+  "as_of": "2026-10-06",
+  "fetched_at": "2026-10-08T10:00:00Z",
+  "generated_at": "2026-10-08T10:00:00Z",
+  "history": {
+   "brent": [],
+   "crack_321": [],
+   "dates": [],
+   "diesel_crack": [],
+   "gasoline_crack": [],
+   "jet_crack": [],
+   "resolution_note": "omitted in this fixture (not used by summarize.py)",
+   "wti": []
+  },
+  "latest": {
+   "brent": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DCOILBRENTEU",
+    "source": "FRED DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 125.44
+   },
+   "brent_wti_spread": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "formula": "DCOILBRENTEU - DCOILWTICO",
+    "inputs": {
+     "DCOILBRENTEU": 125.44,
+     "DCOILWTICO": 96.24
+    },
+    "source": "FRED (EIA data), DCOILBRENTEU & DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 29.2
+   },
+   "crack_321": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "formula": "(2*DGASNYH*42 + 1*DDFUELNYH*42)/3 - DCOILWTICO",
+    "inputs": {
+     "DCOILWTICO": 96.24,
+     "DDFUELNYH": 4.713,
+     "DGASNYH": 3.396
+    },
+    "source": "FRED (EIA data), DGASNYH, DDFUELNYH & DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 64.83
+   },
+   "diesel_crack": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "formula": "DDFUELNYH*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.44,
+     "DDFUELNYH": 4.713
+    },
+    "source": "FRED (EIA data), DDFUELNYH & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 72.506
+   },
+   "gasoline_crack": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "formula": "DGASNYH*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.44,
+     "DGASNYH": 3.396
+    },
+    "source": "FRED (EIA data), DGASNYH & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 17.192
+   },
+   "gasoline_nyh": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DGASNYH",
+    "source": "FRED DGASNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 3.396
+   },
+   "heating_oil_nyh": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DHOILNYH",
+    "source": "FRED DHOILNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DHOILNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.503
+   },
+   "jet_crack": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "formula": "DJFUELUSGULF*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.44,
+     "DJFUELUSGULF": 4.342
+    },
+    "source": "FRED (EIA data), DJFUELUSGULF & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 56.924
+   },
+   "jet_gulf": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DJFUELUSGULF",
+    "source": "FRED DJFUELUSGULF",
+    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.342
+   },
+   "retail_diesel_us": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "GASDESW",
+    "source": "FRED GASDESW (EIA weekly retail)",
+    "source_url": "https://fred.stlouisfed.org/series/GASDESW",
+    "stale": false,
+    "stale_kind": "weekly",
+    "unit": "USD/gal",
+    "value": 6.199
+   },
+   "retail_gasoline_us": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "GASREGW",
+    "source": "FRED GASREGW (EIA weekly retail)",
+    "source_url": "https://fred.stlouisfed.org/series/GASREGW",
+    "stale": false,
+    "stale_kind": "weekly",
+    "unit": "USD/gal",
+    "value": 4.354
+   },
+   "ulsd_nyh": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DDFUELNYH",
+    "source": "FRED DDFUELNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.713
+   },
+   "wti": {
+    "as_of": "2026-10-06",
+    "fetched_at": "2026-10-08T10:00:00Z",
+    "series_id": "DCOILWTICO",
+    "source": "FRED DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 96.24
+   }
+  },
+  "schema_version": 1,
+  "source": "FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
+  "source_url": "https://fred.stlouisfed.org/",
+  "stale": false,
+  "stats": {
+   "brent_wti_spread": {
+    "as_of": "2026-10-06",
+    "mean_2015_2019": 4.18,
+    "value": 29.2
+   },
+   "diesel_crack": {
+    "history_start": "2006-06-14",
+    "level": 3,
+    "level_label": "Gaping",
+    "max": 116.538,
+    "max_date": "2022-05-11",
+    "mean_2015_2019": 15.99,
+    "mean_prev_year": 28.87,
+    "n": 5046,
+    "percentile_now": 97.92,
+    "prev_year": 2025
+   }
+  }
+ },
+ "prices_old": {
+  "as_of": "2026-10-05",
+  "fetched_at": "2026-10-07T17:00:00Z",
+  "generated_at": "2026-10-07T17:00:00Z",
+  "history": {
+   "brent": [],
+   "crack_321": [],
+   "dates": [],
+   "diesel_crack": [],
+   "gasoline_crack": [],
+   "jet_crack": [],
+   "resolution_note": "omitted in this fixture (not used by summarize.py)",
+   "wti": []
+  },
+  "latest": {
+   "brent": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DCOILBRENTEU",
+    "source": "FRED DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 125.51
+   },
+   "brent_wti_spread": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "formula": "DCOILBRENTEU - DCOILWTICO",
+    "inputs": {
+     "DCOILBRENTEU": 125.51,
+     "DCOILWTICO": 96.13
+    },
+    "source": "FRED (EIA data), DCOILBRENTEU & DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 29.38
+   },
+   "crack_321": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "formula": "(2*DGASNYH*42 + 1*DDFUELNYH*42)/3 - DCOILWTICO",
+    "inputs": {
+     "DCOILWTICO": 96.13,
+     "DDFUELNYH": 4.628,
+     "DGASNYH": 3.318
+    },
+    "source": "FRED (EIA data), DGASNYH, DDFUELNYH & DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 61.566
+   },
+   "diesel_crack": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "formula": "DDFUELNYH*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.51,
+     "DDFUELNYH": 4.628
+    },
+    "source": "FRED (EIA data), DDFUELNYH & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 68.866
+   },
+   "gasoline_crack": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "formula": "DGASNYH*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.51,
+     "DGASNYH": 3.318
+    },
+    "source": "FRED (EIA data), DGASNYH & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 13.846
+   },
+   "gasoline_nyh": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DGASNYH",
+    "source": "FRED DGASNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 3.318
+   },
+   "heating_oil_nyh": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DHOILNYH",
+    "source": "FRED DHOILNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DHOILNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.418
+   },
+   "jet_crack": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "formula": "DJFUELUSGULF*42 - DCOILBRENTEU",
+    "inputs": {
+     "DCOILBRENTEU": 125.51,
+     "DJFUELUSGULF": 4.35
+    },
+    "source": "FRED (EIA data), DJFUELUSGULF & DCOILBRENTEU",
+    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 57.19
+   },
+   "jet_gulf": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DJFUELUSGULF",
+    "source": "FRED DJFUELUSGULF",
+    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.35
+   },
+   "retail_diesel_us": {
+    "as_of": "2026-09-28",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "GASDESW",
+    "source": "FRED GASDESW (EIA weekly retail)",
+    "source_url": "https://fred.stlouisfed.org/series/GASDESW",
+    "stale": false,
+    "stale_kind": "weekly",
+    "unit": "USD/gal",
+    "value": 6.382
+   },
+   "retail_gasoline_us": {
+    "as_of": "2026-09-28",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "GASREGW",
+    "source": "FRED GASREGW (EIA weekly retail)",
+    "source_url": "https://fred.stlouisfed.org/series/GASREGW",
+    "stale": false,
+    "stale_kind": "weekly",
+    "unit": "USD/gal",
+    "value": 4.465
+   },
+   "ulsd_nyh": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DDFUELNYH",
+    "source": "FRED DDFUELNYH",
+    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
+    "stale": false,
+    "unit": "USD/gal",
+    "value": 4.628
+   },
+   "wti": {
+    "as_of": "2026-10-05",
+    "fetched_at": "2026-10-07T17:00:00Z",
+    "series_id": "DCOILWTICO",
+    "source": "FRED DCOILWTICO",
+    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "stale": false,
+    "unit": "USD/bbl",
+    "value": 96.13
+   }
+  },
+  "schema_version": 1,
+  "source": "FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
+  "source_url": "https://fred.stlouisfed.org/",
+  "stale": false,
+  "stats": {
+   "brent_wti_spread": {
+    "as_of": "2026-10-05",
+    "mean_2015_2019": 4.18,
+    "value": 29.38
+   },
+   "diesel_crack": {
+    "history_start": "2006-06-14",
+    "level": 3,
+    "level_label": "Gaping",
+    "max": 116.538,
+    "max_date": "2022-05-11",
+    "mean_2015_2019": 15.99,
+    "mean_prev_year": 28.87,
+    "n": 5046,
+    "percentile_now": 97.66,
+    "prev_year": 2025
+   }
+  }
+ }
+}

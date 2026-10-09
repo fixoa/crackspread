@@ -1,0 +1,189 @@
+{
+ "as_of": "2026-10-09T07:06:40Z",
+ "crack_o_meter": {
+  "as_of": "2026-10-06",
+  "label": "Gaping",
+  "level": 3,
+  "percentile": 97.9,
+  "stale": false,
+  "unit": "USD/bbl",
+  "value": 72.506
+ },
+ "deltas": {
+  "brent": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 125.44,
+   "prev": 125.44,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "brent_wti_spread": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 29.2,
+   "prev": 29.2,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "crack_321": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 64.83,
+   "prev": 64.83,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "diesel_crack": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 72.506,
+   "prev": 72.506,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "gasoline_crack": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 17.192,
+   "prev": 17.192,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "gasoline_nyh": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 3.396,
+   "prev": 3.396,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/gal"
+  },
+  "heating_oil_nyh": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 4.503,
+   "prev": 4.503,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/gal"
+  },
+  "jet_crack": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 56.924,
+   "prev": 56.924,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  },
+  "jet_gulf": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 4.342,
+   "prev": 4.342,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/gal"
+  },
+  "retail_diesel_us": {
+   "as_of": "2026-10-05",
+   "delta": 0.0,
+   "now": 6.199,
+   "prev": 6.199,
+   "prev_as_of": "2026-10-05",
+   "unit": "USD/gal"
+  },
+  "retail_gasoline_us": {
+   "as_of": "2026-10-05",
+   "delta": 0.0,
+   "now": 4.354,
+   "prev": 4.354,
+   "prev_as_of": "2026-10-05",
+   "unit": "USD/gal"
+  },
+  "steo_consumption": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 102.78,
+   "period": "2026-10",
+   "prev": 102.78,
+   "prev_as_of": "2026-10-06",
+   "unit": "million barrels per day"
+  },
+  "steo_production": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 102.1,
+   "period": "2026-10",
+   "prev": 102.1,
+   "prev_as_of": "2026-10-06",
+   "unit": "million barrels per day"
+  },
+  "steo_stock_draw": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 0.67,
+   "period": "2026-10",
+   "prev": 0.67,
+   "prev_as_of": "2026-10-06",
+   "unit": "million barrels per day"
+  },
+  "ulsd_nyh": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 4.713,
+   "prev": 4.713,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/gal"
+  },
+  "wti": {
+   "as_of": "2026-10-06",
+   "delta": 0.0,
+   "now": 96.24,
+   "prev": 96.24,
+   "prev_as_of": "2026-10-06",
+   "unit": "USD/bbl"
+  }
+ },
+ "fallback": true,
+ "fetched_at": "2026-10-09T07:17:46Z",
+ "generated_at": "2026-10-09T07:17:46Z",
+ "headline": "Diesel crack unchanged since last update, $72.51/bbl (as of 2026-10-06)",
+ "inputs_digest": "f3fb7eac04138ee5ddd95345ecb2a5e1bf100ec8",
+ "model": "",
+ "provider": "none",
+ "quips": [],
+ "schema_version": 1,
+ "source": "Crackspread rule-based summary (no AI)",
+ "source_url": "https://github.com/fixoa/crackspread",
+ "stale": false,
+ "what_changed": [
+  {
+   "sources": [
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbG1tQzZkOFRxdHZIMTJMbkU3Yng4SFhzT2laX2hCTU12LUFaZXlXcE0xd3Q1VEg3UE1vTnY0Q1NYZDVRMFRXWkRqY1NnVlo0Vi1GRUR2NHVLdFNHaHYwNTh3TXhSaUlIN0dEVVkwcXp6SF9heW9tRWd6NkQ0U1haMkVENWVBUldGUk4yWDJLRkdYOFdfbVZla2ZoeVIwZExMMXAwYVU3MEFaRlN3dmxBN3lycTZQaVliU3RDMlNZbVFDOWs?oc=5"
+   ],
+   "text": "Air India and Air India Express raise fuel surcharge on Middle East routes"
+  },
+  {
+   "sources": [
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNkd3VGFPSGNtRHljcXN5ZXZmTWVYdkF5a250TndTS0tuUDlCdFluV0cwUjRya01kMkVvUTFiZkZoaEhFM0JjbENzMFpJSklLa3d3SlBabExld2hFcDZRZjV0VGVJMDFXeUhxRWZQcnp0VnhyNXFYNkJ2WHRNM2htTVpCc2pMeFByYzI2U1dPaV85NnNpMHZ1NFlMVDBKaVJxQTJfWEl2akhHYnR3LUZvTFRjR2U?oc=5"
+   ],
+   "text": "Iran Reviews US Response to Strait of Hormuz Proposal: Araghchi | Dawn News English"
+  },
+  {
+   "sources": [
+    "https://oilprice.com/Latest-Energy-News/World-News/China-Restarts-Fuel-Exports.html"
+   ],
+   "text": "China Restarts Fuel Exports"
+  },
+  {
+   "sources": [
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHlmRmFOemdhdDg4dWxWU2I2czJkWFZoSGNxSkJjT1ljZDBDVzBReWM4X2x4RVFqOXlmR1d6ZWkxbXpFa1RWaXZ4NTNCNDVKNi05QXVhWDQyajJORlB1aWpMQVVrMG9vaVJjUkFXNUNHSHF5VGRyalBYdzhLVWdmUURIMUdZTXhRTFVremFnRXZyYW9KYU02cndCR0IxVzhwNEJBcE1IZDZNc2FYZy1JRkY3VkVQY2JnQWIw0gFWQVVfeXFMTWlWNy1XMVZoSlRtVi1HR0lVUmx5TWd3UUhNQVhjaTdWNzQzcU5QSVhNWUpFdDh1NnBwcTlmdm0wcTZRZU4zalJrRFlVVXlpSEZKNTlKZmc?oc=5"
+   ],
+   "text": "China's blue-chip stocks hit over one-year low on AI-linked supply chain selloff"
+  },
+  {
+   "sources": [
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQWDlUZ0Y0VUlybFpuOVFtU1V5cExSbV9mQmpkMk1GQ093ZVNKOW9OXzlOMTlzMkx5U1lsQjVOeG9pMkt0S0JXNFR0RkhvdDdSYzREV0RiUVlSWi02ekp2a1hlWUV2Z3p1YmlQU3RDUG0wemt5Q0lBN01RSXhIX0E0OXJWWjB5M0VEck5odk5RWWFna3ZUbW9uemxHQkdnd9IBVkFVX3lxTFBuN0dObjY2ZG9aRlBRTzc0Qkx1YldNZ2ItUXlZRmlyUmFsWHJQOE44T3NlclBwWmlNYkhRUldsNVpLYUdBa3d4dmZTbDdtWTNkc2w5ZVR3?oc=5"
+   ],
+   "text": "Copper rebounds as supply risks, China demand lend support"
+  }
+ ]
+}

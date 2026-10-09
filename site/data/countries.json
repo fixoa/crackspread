@@ -1,0 +1,215 @@
+{
+ "as_of": "2026-10-09",
+ "consumers": {
+  "as_of": "2026-10-09",
+  "country_count": 214,
+  "fetched_at": "2026-10-09T07:17:46Z",
+  "note": "Petroleum and other liquids",
+  "rest_of_world": 39648.3,
+  "rows": [
+   {
+    "iso3": "USA",
+    "name": "United States",
+    "value": 20463.7
+   },
+   {
+    "iso3": "CHN",
+    "name": "China",
+    "value": 16370.5
+   },
+   {
+    "iso3": "IND",
+    "name": "India",
+    "value": 5598.9
+   },
+   {
+    "iso3": "RUS",
+    "name": "Russia",
+    "value": 3801.9
+   },
+   {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "value": 3695.1
+   },
+   {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "value": 3268.8
+   },
+   {
+    "iso3": "JPN",
+    "name": "Japan",
+    "value": 3162.9
+   },
+   {
+    "iso3": "KOR",
+    "name": "South Korea",
+    "value": 2541.8
+   },
+   {
+    "iso3": "CAN",
+    "name": "Canada",
+    "value": 2517.9
+   },
+   {
+    "iso3": "DEU",
+    "name": "Germany",
+    "value": 2040.4
+   }
+  ],
+  "source": "U.S. EIA International Energy Data",
+  "source_url": "https://www.eia.gov/international/data/world",
+  "stale": false,
+  "unit": "thousand barrels per day",
+  "world_total": 103110.2,
+  "year": 2024
+ },
+ "fetched_at": "2026-10-09T07:17:46Z",
+ "generated_at": "2026-10-09T07:17:46Z",
+ "monthly_crude": {
+  "as_of": "2026-10-09",
+  "country_count": 47,
+  "fetched_at": "2026-10-09T07:17:46Z",
+  "latest_month": "2026-07",
+  "note": "Crude oil only (JODI CRUDEOIL/INDPROD), monthly; countries that did not report this month are omitted, gaps are never counted as zero",
+  "rows": [
+   {
+    "iso2": "US",
+    "iso3": "USA",
+    "name": "United States",
+    "value": 13817.4
+   },
+   {
+    "iso2": "SA",
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "value": 8135.1
+   },
+   {
+    "iso2": "CA",
+    "iso3": "CAN",
+    "name": "Canada",
+    "value": 4412.5
+   },
+   {
+    "iso2": "CN",
+    "iso3": "CHN",
+    "name": "China",
+    "value": 4313.1
+   },
+   {
+    "iso2": "KW",
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "value": 1971.0
+   },
+   {
+    "iso2": "NO",
+    "iso3": "NOR",
+    "name": "Norway",
+    "value": 1789.6
+   },
+   {
+    "iso2": "NG",
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "value": 1505.0
+   },
+   {
+    "iso2": "VE",
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "value": 1200.0
+   },
+   {
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "name": "Algeria",
+    "value": 995.0
+   },
+   {
+    "iso2": "ID",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "value": 545.4
+   }
+  ],
+  "source": "JODI Oil World Database",
+  "source_url": "https://www.jodidata.org/oil/",
+  "stale": false,
+  "unit": "thousand barrels per day"
+ },
+ "producers": {
+  "as_of": "2026-10-09",
+  "country_count": 216,
+  "fetched_at": "2026-10-09T07:17:46Z",
+  "note": "Total petroleum and other liquids",
+  "rest_of_world": 28051.5,
+  "rows": [
+   {
+    "iso3": "USA",
+    "name": "United States",
+    "value": 23730.6
+   },
+   {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "value": 11214.0
+   },
+   {
+    "iso3": "RUS",
+    "name": "Russia",
+    "value": 10534.5
+   },
+   {
+    "iso3": "CAN",
+    "name": "Canada",
+    "value": 6256.6
+   },
+   {
+    "iso3": "CHN",
+    "name": "China",
+    "value": 5446.2
+   },
+   {
+    "iso3": "IRN",
+    "name": "Iran",
+    "value": 4768.8
+   },
+   {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "value": 4655.1
+   },
+   {
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "value": 4500.3
+   },
+   {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "value": 4339.3
+   },
+   {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "value": 2805.0
+   }
+  ],
+  "source": "U.S. EIA International Energy Data",
+  "source_url": "https://www.eia.gov/international/data/world",
+  "stale": false,
+  "unit": "thousand barrels per day",
+  "world_total": 106301.9,
+  "year": 2025
+ },
+ "schema_version": 1,
+ "source": "U.S. EIA International Energy Data",
+ "source_url": "https://www.eia.gov/international/data/world",
+ "stale": false,
+ "unit": "thousand barrels per day",
+ "via": "eia_api",
+ "year": 2025
+}

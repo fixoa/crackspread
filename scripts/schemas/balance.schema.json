@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fixoa.github.io/crackspread/schemas/balance.schema.json",
+  "title": "balance.json",
+  "description": "EIA STEO world liquid-fuels balance (ARCHITECTURE §3.2).",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "as_of", "fetched_at", "stale", "source", "source_url",
+               "via", "steo_release", "current_month", "months", "quarters", "current", "quote", "status", "unit"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"$ref": "#/$defs/timestamp"},
+    "as_of": {"$ref": "#/$defs/as_of_or_null"},
+    "fetched_at": {"$ref": "#/$defs/timestamp"},
+    "stale": {"type": "boolean"},
+    "source": {"type": "string", "minLength": 1},
+    "source_url": {"$ref": "#/$defs/url"},
+    "via": {"type": "string", "enum": ["api", "xlsx"]},
+    "steo_release": {"$ref": "#/$defs/date"},
+    "next_release": {"anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}]},
+    "steo_edition": {"type": ["string", "null"]},
+    "current_month": {"$ref": "#/$defs/month"},
+    "months": {"type": "array", "items": {"$ref": "#/$defs/month_entry"}},
+    "quarters": {"type": "array", "items": {"$ref": "#/$defs/quarter_entry"}},
+    "current": {"anyOf": [{"$ref": "#/$defs/month_entry"}, {"type": "null"}]},
+    "quote": {"type": ["string", "null"]},
+    "quote_url": {"$ref": "#/$defs/url"},
+    "status": {"type": "string", "enum": ["deficit", "surplus", "balanced"]},
+    "unit": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "timestamp": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "month": {"type": "string", "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"},
+    "as_of": {"type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2}(T\\d{2}:\\d{2}:\\d{2}Z)?)?$"},
+    "as_of_or_null": {"anyOf": [{"$ref": "#/$defs/as_of"}, {"type": "null"}]},
+    "url": {"type": "string", "pattern": "^https?://\\S+$"},
+    "nullable_number": {"type": ["number", "null"]},
+    "month_entry": {
+      "type": "object",
+      "required": ["period", "production", "consumption", "stock_draw", "is_forecast"],
+      "properties": {
+        "period": {"$ref": "#/$defs/month"},
+        "production": {"$ref": "#/$defs/nullable_number"},
+        "consumption": {"$ref": "#/$defs/nullable_number"},
+        "stock_draw": {"$ref": "#/$defs/nullable_number"},
+        "opec": {"$ref": "#/$defs/nullable_number"},
+        "nonopec": {"$ref": "#/$defs/nullable_number"},
+        "brent": {"$ref": "#/$defs/nullable_number"},
+        "wti": {"$ref": "#/$defs/nullable_number"},
+        "is_forecast": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "quarter_entry": {
+      "type": "object",
+      "required": ["period", "stock_draw"],
+      "properties": {
+        "period": {"type": "string", "pattern": "^\\d{4}Q[1-4]$"},
+        "stock_draw": {"$ref": "#/$defs/nullable_number"},
+        "production": {"$ref": "#/$defs/nullable_number"},
+        "consumption": {"$ref": "#/$defs/nullable_number"},
+        "is_forecast": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

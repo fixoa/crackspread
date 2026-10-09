@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fixoa.github.io/crackspread/schemas/meta.schema.json",
+  "title": "meta.json",
+  "description": "Run metadata and per-source status (ARCHITECTURE §3.8).",
+  "type": "object",
+  "required": ["schema_version", "last_run", "run_id", "sources"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"$ref": "#/$defs/timestamp"},
+    "last_run": {"$ref": "#/$defs/timestamp"},
+    "run_id": {"type": "string", "pattern": "^\\d{8}-\\d{6}-[0-9a-f]{6}$"},
+    "duration_s": {"type": "number", "minimum": 0},
+    "fixtures": {"type": "boolean"},
+    "dry_run": {"type": "boolean"},
+    "python": {"type": "string"},
+    "schedule": {
+      "type": "object",
+      "properties": {
+        "hours": {"type": "array", "items": {"type": "integer", "minimum": 0, "maximum": 23}},
+        "minute": {"type": "integer", "minimum": 0, "maximum": 59}
+      },
+      "additionalProperties": true
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/source_status"}
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "timestamp": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"},
+    "source_status": {
+      "type": "object",
+      "required": ["ok"],
+      "properties": {
+        "ok": {"type": "boolean"},
+        "last_success": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+        "error": {"type": ["string", "null"]},
+        "stale": {"type": "boolean"},
+        "changed": {"type": "boolean"},
+        "partial": {"type": "array", "items": {"type": "string"}},
+        "via": {"type": "string"},
+        "items": {"type": "integer", "minimum": 0},
+        "feeds_failed": {"type": "array", "items": {"type": "string"}},
+        "provider": {"type": "string"},
+        "model": {"type": "string"},
+        "fallback": {"type": "boolean"},
+        "count": {"type": "integer", "minimum": 0},
+        "release_date_estimated": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

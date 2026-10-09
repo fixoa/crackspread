@@ -1,0 +1,690 @@
+{
+ "as_of": "2026-10-06",
+ "current": {
+  "brent": 111.0,
+  "consumption": 102.78,
+  "is_forecast": true,
+  "nonopec": 78.14,
+  "opec": 23.97,
+  "period": "2026-10",
+  "production": 102.1,
+  "stock_draw": 0.67,
+  "wti": 100.0
+ },
+ "current_month": "2026-10",
+ "data_url": "https://api.eia.gov/v2/steo/data/",
+ "fetched_at": "2026-10-08T10:00:00Z",
+ "forecast_completed": "2026-10-01",
+ "generated_at": "2026-10-08T10:00:00Z",
+ "months": [
+  {
+   "brent": 80.12,
+   "consumption": 100.04,
+   "is_forecast": false,
+   "nonopec": 73.35,
+   "opec": 28.15,
+   "period": "2024-01",
+   "production": 101.5,
+   "stock_draw": -1.46,
+   "wti": 74.15
+  },
+  {
+   "brent": 83.48,
+   "consumption": 102.22,
+   "is_forecast": false,
+   "nonopec": 74.29,
+   "opec": 28.46,
+   "period": "2024-02",
+   "production": 102.75,
+   "stock_draw": -0.53,
+   "wti": 77.25
+  },
+  {
+   "brent": 85.41,
+   "consumption": 101.62,
+   "is_forecast": false,
+   "nonopec": 74.74,
+   "opec": 28.79,
+   "period": "2024-03",
+   "production": 103.53,
+   "stock_draw": -1.91,
+   "wti": 81.28
+  },
+  {
+   "brent": 89.94,
+   "consumption": 102.47,
+   "is_forecast": false,
+   "nonopec": 74.67,
+   "opec": 28.75,
+   "period": "2024-04",
+   "production": 103.42,
+   "stock_draw": -0.95,
+   "wti": 85.35
+  },
+  {
+   "brent": 81.75,
+   "consumption": 103.44,
+   "is_forecast": false,
+   "nonopec": 74.42,
+   "opec": 28.6,
+   "period": "2024-05",
+   "production": 103.02,
+   "stock_draw": 0.42,
+   "wti": 80.02
+  },
+  {
+   "brent": 82.25,
+   "consumption": 104.12,
+   "is_forecast": false,
+   "nonopec": 74.82,
+   "opec": 28.2,
+   "period": "2024-06",
+   "production": 103.02,
+   "stock_draw": 1.1,
+   "wti": 79.77
+  },
+  {
+   "brent": 85.15,
+   "consumption": 104.28,
+   "is_forecast": false,
+   "nonopec": 74.55,
+   "opec": 28.64,
+   "period": "2024-07",
+   "production": 103.19,
+   "stock_draw": 1.1,
+   "wti": 81.8
+  },
+  {
+   "brent": 80.36,
+   "consumption": 103.81,
+   "is_forecast": false,
+   "nonopec": 74.96,
+   "opec": 28.56,
+   "period": "2024-08",
+   "production": 103.51,
+   "stock_draw": 0.3,
+   "wti": 76.68
+  },
+  {
+   "brent": 74.02,
+   "consumption": 103.7,
+   "is_forecast": false,
+   "nonopec": 74.59,
+   "opec": 27.83,
+   "period": "2024-09",
+   "production": 102.41,
+   "stock_draw": 1.28,
+   "wti": 70.24
+  },
+  {
+   "brent": 75.63,
+   "consumption": 104.01,
+   "is_forecast": false,
+   "nonopec": 75.43,
+   "opec": 28.33,
+   "period": "2024-10",
+   "production": 103.75,
+   "stock_draw": 0.26,
+   "wti": 71.99
+  },
+  {
+   "brent": 74.35,
+   "consumption": 103.64,
+   "is_forecast": false,
+   "nonopec": 75.56,
+   "opec": 28.34,
+   "period": "2024-11",
+   "production": 103.9,
+   "stock_draw": -0.25,
+   "wti": 69.95
+  },
+  {
+   "brent": 73.86,
+   "consumption": 103.86,
+   "is_forecast": false,
+   "nonopec": 75.31,
+   "opec": 28.49,
+   "period": "2024-12",
+   "production": 103.8,
+   "stock_draw": 0.05,
+   "wti": 70.12
+  },
+  {
+   "brent": 79.27,
+   "consumption": 102.03,
+   "is_forecast": false,
+   "nonopec": 74.2,
+   "opec": 28.5,
+   "period": "2025-01",
+   "production": 102.7,
+   "stock_draw": -0.67,
+   "wti": 75.74
+  },
+  {
+   "brent": 75.44,
+   "consumption": 103.68,
+   "is_forecast": false,
+   "nonopec": 74.61,
+   "opec": 28.63,
+   "period": "2025-02",
+   "production": 103.24,
+   "stock_draw": 0.44,
+   "wti": 71.53
+  },
+  {
+   "brent": 72.73,
+   "consumption": 102.37,
+   "is_forecast": false,
+   "nonopec": 75.9,
+   "opec": 28.87,
+   "period": "2025-03",
+   "production": 104.77,
+   "stock_draw": -2.4,
+   "wti": 68.24
+  },
+  {
+   "brent": 68.13,
+   "consumption": 103.82,
+   "is_forecast": false,
+   "nonopec": 75.78,
+   "opec": 28.7,
+   "period": "2025-04",
+   "production": 104.48,
+   "stock_draw": -0.66,
+   "wti": 63.54
+  },
+  {
+   "brent": 64.45,
+   "consumption": 103.72,
+   "is_forecast": false,
+   "nonopec": 75.9,
+   "opec": 29.07,
+   "period": "2025-05",
+   "production": 104.98,
+   "stock_draw": -1.25,
+   "wti": 62.17
+  },
+  {
+   "brent": 71.44,
+   "consumption": 105.82,
+   "is_forecast": false,
+   "nonopec": 76.57,
+   "opec": 29.55,
+   "period": "2025-06",
+   "production": 106.12,
+   "stock_draw": -0.3,
+   "wti": 68.17
+  },
+  {
+   "brent": 71.04,
+   "consumption": 105.63,
+   "is_forecast": false,
+   "nonopec": 78.08,
+   "opec": 29.14,
+   "period": "2025-07",
+   "production": 107.22,
+   "stock_draw": -1.59,
+   "wti": 68.39
+  },
+  {
+   "brent": 67.87,
+   "consumption": 104.5,
+   "is_forecast": false,
+   "nonopec": 78.51,
+   "opec": 29.16,
+   "period": "2025-08",
+   "production": 107.67,
+   "stock_draw": -3.17,
+   "wti": 64.86
+  },
+  {
+   "brent": 67.99,
+   "consumption": 106.0,
+   "is_forecast": false,
+   "nonopec": 78.51,
+   "opec": 30.32,
+   "period": "2025-09",
+   "production": 108.84,
+   "stock_draw": -2.84,
+   "wti": 63.96
+  },
+  {
+   "brent": 64.54,
+   "consumption": 104.56,
+   "is_forecast": false,
+   "nonopec": 78.5,
+   "opec": 30.07,
+   "period": "2025-10",
+   "production": 108.58,
+   "stock_draw": -4.01,
+   "wti": 60.89
+  },
+  {
+   "brent": 63.8,
+   "consumption": 104.52,
+   "is_forecast": false,
+   "nonopec": 78.84,
+   "opec": 29.85,
+   "period": "2025-11",
+   "production": 108.69,
+   "stock_draw": -4.18,
+   "wti": 60.06
+  },
+  {
+   "brent": 62.54,
+   "consumption": 106.21,
+   "is_forecast": false,
+   "nonopec": 77.9,
+   "opec": 30.1,
+   "period": "2025-12",
+   "production": 108.0,
+   "stock_draw": -1.79,
+   "wti": 57.97
+  },
+  {
+   "brent": 66.6,
+   "consumption": 102.38,
+   "is_forecast": false,
+   "nonopec": 75.99,
+   "opec": 29.97,
+   "period": "2026-01",
+   "production": 105.96,
+   "stock_draw": -3.59,
+   "wti": 60.04
+  },
+  {
+   "brent": 70.89,
+   "consumption": 104.38,
+   "is_forecast": false,
+   "nonopec": 77.89,
+   "opec": 30.82,
+   "period": "2026-02",
+   "production": 108.71,
+   "stock_draw": -4.33,
+   "wti": 64.51
+  },
+  {
+   "brent": 103.13,
+   "consumption": 102.0,
+   "is_forecast": false,
+   "nonopec": 74.88,
+   "opec": 21.9,
+   "period": "2026-03",
+   "production": 96.79,
+   "stock_draw": 5.21,
+   "wti": 91.38
+  },
+  {
+   "brent": 117.29,
+   "consumption": 99.47,
+   "is_forecast": false,
+   "nonopec": 75.48,
+   "opec": 19.95,
+   "period": "2026-04",
+   "production": 95.43,
+   "stock_draw": 4.04,
+   "wti": 100.32
+  },
+  {
+   "brent": 107.14,
+   "consumption": 99.0,
+   "is_forecast": false,
+   "nonopec": 75.2,
+   "opec": 19.38,
+   "period": "2026-05",
+   "production": 94.58,
+   "stock_draw": 4.42,
+   "wti": 102.13
+  },
+  {
+   "brent": 85.4,
+   "consumption": 101.68,
+   "is_forecast": false,
+   "nonopec": 77.76,
+   "opec": 21.76,
+   "period": "2026-06",
+   "production": 99.52,
+   "stock_draw": 2.16,
+   "wti": 84.81
+  },
+  {
+   "brent": 83.76,
+   "consumption": 101.77,
+   "is_forecast": false,
+   "nonopec": 78.02,
+   "opec": 24.02,
+   "period": "2026-07",
+   "production": 102.04,
+   "stock_draw": -0.27,
+   "wti": 80.46
+  },
+  {
+   "brent": 91.08,
+   "consumption": 103.39,
+   "is_forecast": false,
+   "nonopec": 77.53,
+   "opec": 22.89,
+   "period": "2026-08",
+   "production": 100.41,
+   "stock_draw": 2.97,
+   "wti": 83.9
+  },
+  {
+   "brent": 114.16,
+   "consumption": 104.24,
+   "is_forecast": false,
+   "nonopec": 77.45,
+   "opec": 23.85,
+   "period": "2026-09",
+   "production": 101.3,
+   "stock_draw": 2.94,
+   "wti": 97.31
+  },
+  {
+   "brent": 111.0,
+   "consumption": 102.78,
+   "is_forecast": true,
+   "nonopec": 78.14,
+   "opec": 23.97,
+   "period": "2026-10",
+   "production": 102.1,
+   "stock_draw": 0.67,
+   "wti": 100.0
+  },
+  {
+   "brent": 104.0,
+   "consumption": 103.56,
+   "is_forecast": true,
+   "nonopec": 78.78,
+   "opec": 24.31,
+   "period": "2026-11",
+   "production": 103.09,
+   "stock_draw": 0.47,
+   "wti": 97.0
+  },
+  {
+   "brent": 99.0,
+   "consumption": 104.63,
+   "is_forecast": true,
+   "nonopec": 78.86,
+   "opec": 24.85,
+   "period": "2026-12",
+   "production": 103.71,
+   "stock_draw": 0.93,
+   "wti": 94.0
+  },
+  {
+   "brent": 97.0,
+   "consumption": 101.98,
+   "is_forecast": true,
+   "nonopec": 79.05,
+   "opec": 25.71,
+   "period": "2027-01",
+   "production": 104.76,
+   "stock_draw": -2.78,
+   "wti": 93.0
+  },
+  {
+   "brent": 95.0,
+   "consumption": 104.3,
+   "is_forecast": true,
+   "nonopec": 79.27,
+   "opec": 27.05,
+   "period": "2027-02",
+   "production": 106.32,
+   "stock_draw": -2.01,
+   "wti": 91.0
+  },
+  {
+   "brent": 93.0,
+   "consumption": 103.08,
+   "is_forecast": true,
+   "nonopec": 79.39,
+   "opec": 27.87,
+   "period": "2027-03",
+   "production": 107.27,
+   "stock_draw": -4.19,
+   "wti": 89.0
+  },
+  {
+   "brent": 90.0,
+   "consumption": 103.98,
+   "is_forecast": true,
+   "nonopec": 79.84,
+   "opec": 28.73,
+   "period": "2027-04",
+   "production": 108.57,
+   "stock_draw": -4.59,
+   "wti": 86.0
+  },
+  {
+   "brent": 87.0,
+   "consumption": 104.12,
+   "is_forecast": true,
+   "nonopec": 80.13,
+   "opec": 29.71,
+   "period": "2027-05",
+   "production": 109.84,
+   "stock_draw": -5.72,
+   "wti": 83.0
+  },
+  {
+   "brent": 84.0,
+   "consumption": 105.71,
+   "is_forecast": true,
+   "nonopec": 80.21,
+   "opec": 30.02,
+   "period": "2027-06",
+   "production": 110.23,
+   "stock_draw": -4.52,
+   "wti": 80.0
+  },
+  {
+   "brent": 82.0,
+   "consumption": 105.6,
+   "is_forecast": true,
+   "nonopec": 80.7,
+   "opec": 30.05,
+   "period": "2027-07",
+   "production": 110.75,
+   "stock_draw": -5.15,
+   "wti": 78.0
+  },
+  {
+   "brent": 80.0,
+   "consumption": 105.43,
+   "is_forecast": true,
+   "nonopec": 80.8,
+   "opec": 30.1,
+   "period": "2027-08",
+   "production": 110.9,
+   "stock_draw": -5.47,
+   "wti": 76.0
+  },
+  {
+   "brent": 78.0,
+   "consumption": 105.57,
+   "is_forecast": true,
+   "nonopec": 80.97,
+   "opec": 30.14,
+   "period": "2027-09",
+   "production": 111.1,
+   "stock_draw": -5.53,
+   "wti": 74.0
+  },
+  {
+   "brent": 76.0,
+   "consumption": 104.41,
+   "is_forecast": true,
+   "nonopec": 81.19,
+   "opec": 30.17,
+   "period": "2027-10",
+   "production": 111.36,
+   "stock_draw": -6.94,
+   "wti": 72.0
+  },
+  {
+   "brent": 74.0,
+   "consumption": 105.23,
+   "is_forecast": true,
+   "nonopec": 81.61,
+   "opec": 30.21,
+   "period": "2027-11",
+   "production": 111.82,
+   "stock_draw": -6.59,
+   "wti": 70.0
+  },
+  {
+   "brent": 72.0,
+   "consumption": 106.33,
+   "is_forecast": true,
+   "nonopec": 81.24,
+   "opec": 30.25,
+   "period": "2027-12",
+   "production": 111.49,
+   "stock_draw": -5.16,
+   "wti": 68.0
+  }
+ ],
+ "next_release": "2026-11-10",
+ "notes": {
+  "is_forecast": "Months from the current month onward are EIA estimates/forecasts.",
+  "prices": "Brent/WTI are STEO monthly averages in USD/bbl (API path only).",
+  "stock_draw": "Net inventory withdrawals (EIA T3_STCHANGE_WORLD): positive = inventories drawn down."
+ },
+ "quarters": [
+  {
+   "consumption": 101.29,
+   "is_forecast": false,
+   "period": "2024Q1",
+   "production": 102.59,
+   "stock_draw": -1.3
+  },
+  {
+   "consumption": 103.35,
+   "is_forecast": false,
+   "period": "2024Q2",
+   "production": 103.15,
+   "stock_draw": 0.19
+  },
+  {
+   "consumption": 103.93,
+   "is_forecast": false,
+   "period": "2024Q3",
+   "production": 103.04,
+   "stock_draw": 0.89
+  },
+  {
+   "consumption": 103.84,
+   "is_forecast": false,
+   "period": "2024Q4",
+   "production": 103.82,
+   "stock_draw": 0.02
+  },
+  {
+   "consumption": 102.69,
+   "is_forecast": false,
+   "period": "2025Q1",
+   "production": 103.57,
+   "stock_draw": -0.88
+  },
+  {
+   "consumption": 104.46,
+   "is_forecast": false,
+   "period": "2025Q2",
+   "production": 105.19,
+   "stock_draw": -0.74
+  },
+  {
+   "consumption": 105.38,
+   "is_forecast": false,
+   "period": "2025Q3",
+   "production": 107.91,
+   "stock_draw": -2.53
+  },
+  {
+   "consumption": 105.1,
+   "is_forecast": false,
+   "period": "2025Q4",
+   "production": 108.42,
+   "stock_draw": -3.33
+  },
+  {
+   "consumption": 102.92,
+   "is_forecast": false,
+   "period": "2026Q1",
+   "production": 103.82,
+   "stock_draw": -0.9
+  },
+  {
+   "consumption": 100.05,
+   "is_forecast": false,
+   "period": "2026Q2",
+   "production": 96.51,
+   "stock_draw": 3.54
+  },
+  {
+   "consumption": 103.13,
+   "is_forecast": false,
+   "period": "2026Q3",
+   "production": 101.25,
+   "stock_draw": 1.88
+  },
+  {
+   "consumption": 103.66,
+   "is_forecast": true,
+   "period": "2026Q4",
+   "production": 102.97,
+   "stock_draw": 0.69
+  },
+  {
+   "consumption": 103.12,
+   "is_forecast": true,
+   "period": "2027Q1",
+   "production": 106.12,
+   "stock_draw": -2.99
+  },
+  {
+   "consumption": 104.6,
+   "is_forecast": true,
+   "period": "2027Q2",
+   "production": 109.54,
+   "stock_draw": -4.94
+  },
+  {
+   "consumption": 105.54,
+   "is_forecast": true,
+   "period": "2027Q3",
+   "production": 110.92,
+   "stock_draw": -5.38
+  },
+  {
+   "consumption": 105.33,
+   "is_forecast": true,
+   "period": "2027Q4",
+   "production": 111.56,
+   "stock_draw": -6.23
+  }
+ ],
+ "quote": "We estimate that global oil inventories fell by an average of 1.9 million b/d in 3Q26 and will fall an additional 0.7 million b/d on average in 4Q26.",
+ "quote_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+ "release_date_estimated": false,
+ "schema_version": 1,
+ "series_ids": {
+  "brent": "BREPUUS",
+  "consumption": "PATC_WORLD",
+  "nonopec": "PAPR_NONOPEC",
+  "opec": "PAPR_OPEC",
+  "production": "PAPR_WORLD",
+  "stock_draw": "T3_STCHANGE_WORLD",
+  "wti": "WTIPUUS"
+ },
+ "source": "EIA Short-Term Energy Outlook (STEO), October 2026",
+ "source_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
+ "stale": false,
+ "status": "deficit",
+ "steo_edition": "October 2026",
+ "steo_release": "2026-10-06",
+ "unit": "million barrels per day",
+ "via": "api"
+}

@@ -1,0 +1,105 @@
+name: update-and-deploy
+
+# Three runs a day plus manual runs. A commit made with GITHUB_TOKEN does not trigger other
+# workflows, so this same workflow also deploys GitHub Pages (Pages source = "GitHub Actions").
+# A push to main (e.g. an edit of site/data/manual.json) only tests and redeploys; it fetches nothing.
+#
+# Note: on public repos GitHub disables scheduled workflows after 60 days without repository
+# activity. The data commits normally count as activity; if the schedule ever stops, re-enable it
+# under Actions → update-and-deploy → "Enable workflow".
+
+on:
+  schedule:
+    - cron: "17 3,10,17 * * *"   # ≈ 05:17/12:17/19:17 Vienna (CEST); 04:17/11:17/18:17 in winter (CET)
+  workflow_dispatch:
+    inputs:
+      no_ai:
+        description: "Skip AI summary (rule-based fallback only)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["site/**", "scripts/**", ".github/workflows/**"]
+
+# GITHUB_TOKEN scopes are granted per job (least privilege): the update job, which installs
+# packages and parses 20 third-party feeds, can only push the data commit; the Pages and OIDC
+# scopes that deploy-pages needs exist only in the deploy job, which runs no untrusted input.
+concurrency:
+  group: crackspread
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write   # commit data
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Test (before fetch, offline)
+        run: pytest -q
+
+      - name: Fetch data
+        if: github.event_name != 'push'
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Evaluates to the string "true" only for a manual run with the box ticked; the flag is
+          # added in the shell below, so no expression output is ever interpolated into the command.
+          NO_AI: ${{ github.event_name == 'workflow_dispatch' && inputs.no_ai == true }}
+        run: |
+          args=()
+          if [ "$NO_AI" = "true" ]; then
+            args+=(--no-ai)
+          fi
+          python scripts/update.py "${args[@]}"
+
+      - name: Test (after fetch, the fresh data must validate)
+        run: pytest -q
+
+      - name: Commit data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "crackspread-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data
+          if git diff --cached --quiet -- site/data ':(exclude)site/data/meta.json'; then
+            echo "No data changes besides meta.json: nothing to commit (meta.json is deployed from the working tree)."
+            git reset -q
+          else
+            git commit -m "data: update $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write      # deploy pages
+      id-token: write   # required by deploy-pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # configure-pages needs no checkout here (no static site generator); it only verifies that
+      # Pages is set to "GitHub Actions" and fails with a clear message if it is not.
+      - uses: actions/configure-pages@v6
+
+      - id: deployment
+        uses: actions/deploy-pages@v5
