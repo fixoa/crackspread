@@ -52,8 +52,8 @@ BRIEF_MICROCOPY = {
     "donate.fineprint": "Donations go to a person, not a hedge fund. They don't change what the data says.",
     "footer.disclaimer": "Not financial advice. Not trading advice. Not even dinner-party advice. Numbers come from the sources listed; jokes come from us.",
     "footer.src.fred": "Source: FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
-    "ship.label": "Per Max Fisher and news reports, not live data",
-    "groc.label": "Whiteboard figures: Max Fisher's estimate, not live data",
+    "ship.label": "Whiteboard figures, not live data",
+    "groc.label": "Whiteboard figures, not live data",
 }
 
 SECTION_ORDER = ["hero", "crack", "whiteboard", "countries", "shipping", "groceries", "news", "methodology", "donate"]

@@ -167,7 +167,7 @@ function shortSource(name) {
   if (/^FRED/i.test(n)) return 'FRED';
   if (/PortWatch/i.test(n)) return 'IMF PortWatch';
   if (/JODI/i.test(n)) return 'JODI';
-  if (/Max Fisher/i.test(n)) return 'Max Fisher (video)';
+  if (/Max Fisher/i.test(n)) return 'Whiteboard';
   return n.length > 40 ? n.slice(0, 38) + '…' : n;
 }
 
@@ -281,7 +281,7 @@ function renderStatic() {
 }
 
 // ------------------------------------------------------------------ 9.1 hero: the balance
-function renderHero(balance) {
+function renderHero(balance, countries) {
   const body = sectionBody('hero');
   const cur = balance.current || (balance.months || []).find((m) => m.period === balance.current_month);
   if (!cur) throw new Error('balance: no current month');
@@ -299,6 +299,23 @@ function renderHero(balance) {
   const months = (balance.months || []).filter((m) => m.period >= String(new Date().getUTCFullYear() - 1) + '-01' && m.period <= (balance.current_month || '9999').slice(0, 4) + '-12');
   C.monthBars(chart, { months, label: t('hero.chart_label'), fmtMonth: (p) => fmt.month(p, true), legend: { production: t('hero.chart.production'), consumption: t('hero.chart.consumption'), forecast: t('hero.chart.forecast') } });
 
+  // the simple picture: oil in, oil out, where it is used (consumption shares from the annual country data)
+  const flow = h('div', { class: 'flow' });
+  const cons = countries && countries.consumers;
+  const consumers = [];
+  let restShare = 0;
+  if (cons && Array.isArray(cons.rows) && typeof cons.world_total === 'number' && cons.world_total > 0) {
+    cons.rows.slice(0, 6).forEach((r) => consumers.push({ name: r.name, share: (r.value / cons.world_total) * 100 }));
+    restShare = Math.max(0, 100 - consumers.reduce((a, c) => a + c.share, 0));
+  }
+  C.flowChart(flow, {
+    supply: cur.production, demand: cur.consumption, gap: draw, supplyText: fmt.num(cur.production, 1) + ' ' + t('common.mbd'), demandText: fmt.num(cur.consumption, 1) + ' ' + t('common.mbd'),
+    gapText: draw === null ? '' : t(draw > 0 ? 'hero.flow.gap_out' : 'hero.flow.gap_in', { g: fmt.num(Math.abs(draw), 2) }),
+    consumers, restShare, restLabel: t('countries.rest'), labels: { supply: t('hero.production'), demand: t('hero.consumption'), used: t('hero.flow.used', { year: cons && cons.year ? cons.year : '' }) }, title: t('hero.flow_title'),
+  });
+  const flowFoot = [srcText(mkB(null))];
+  if (cons && cons.world_total) flowFoot.push(' · ', srcText(mk(null, '', cons.as_of || countries.as_of, cons.source || countries.source, cons.source_url || countries.source_url, cons.stale)), ' ', t('hero.flow.shares_note', { year: cons.year }));
+
   fill(body,
     stat(t('hero.production'), mkB(cur.production)),
     stat(t('hero.consumption'), mkB(cur.consumption)),
@@ -306,7 +323,7 @@ function renderHero(balance) {
     tile({ span: 3, title: t('hero.status_title'), right: monthLabel, foot: [t('hero.quote_source', { edition: balance.steo_edition || '' }), balance.next_release ? '. ' + t('hero.next_release', { date: fmt.date(balance.next_release) }) : null, balance.release_date_estimated ? ' (' + t('hero.release_estimated') + ')' : null] },
       h('div', { class: 'value' }, h('span', { class: 'status ' + status }, t('hero.status.' + status))),
       h('div', { class: 'sub' }, t('hero.tip.' + status))),
-    tile({ span: 8, title: t('hero.chart_label'), foot: srcText(mkB(null)) }, chart),
+    tile({ span: 8, title: t('hero.flow_title'), foot: flowFoot }, flow, h('details', { class: 'showdata' }, h('summary', {}, t('hero.show_months')), chart)),
     tile({ span: 4, flat: true, title: t('hero.eia_says'), foot: link(balance.quote_url || balance.source_url, t('hero.quote_source', { edition: balance.steo_edition || '' })) },
       h('p', { class: 'note' }, balance.quote ? '“' + balance.quote + '”' : '–')),
   );
@@ -731,7 +748,7 @@ async function main() {
     else console.warn(`[crackspread] ${n}.json unavailable:`, results[i].reason);
   });
 
-  safe('hero', () => { if (!D.balance) throw new Error('no balance'); renderHero(D.balance); });
+  safe('hero', () => { if (!D.balance) throw new Error('no balance'); renderHero(D.balance, D.countries); });
   if (!D.balance) setText('hero-lede', t('hero.lede_nodata'));
   safe('crack', () => { if (!D.prices) throw new Error('no prices'); renderCrack(D.prices); });
   safe('whiteboard', () => { if (!D.manual) throw new Error('no manual'); renderWhiteboard(D.manual, D.balance, D.proposals, D.crosscheck); });

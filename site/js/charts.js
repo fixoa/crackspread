@@ -74,6 +74,48 @@ export function monthBars(container, o) {
   return svg;
 }
 
+/* ---------------------------------------------------------------- hero: oil in, oil out, where it goes */
+export function flowChart(container, o) {
+  // o: { supply, demand, gap, supplyText, demandText, gapText, consumers: [{name, share}], restShare, restLabel,
+  //      labels: {supply, demand, used}, title }
+  const W = 760, H = 232, padL = 118, padR = 16;
+  const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': o.title });
+  const max = Math.max(o.supply || 0, o.demand || 0) || 1;
+  const bw = W - padL - padR;
+  const len = (v) => Math.max(2, (v / max) * bw);
+  const bar = (y, v, color, label, text) => {
+    svg.appendChild(svgEl('text', { x: padL - 10, y: y + 17, 'text-anchor': 'end', fill: INK, style: `font: 600 13px ${FONT.slice(5)}` }, [label]));
+    svg.appendChild(svgEl('rect', { x: padL, y, width: len(v), height: 26, fill: color, rx: 2 }));
+    svg.appendChild(svgEl('text', { x: padL + 8, y: y + 18, fill: '#fff', style: `font: 600 13px ${FONT.slice(5)}` }, [text]));
+  };
+  bar(14, o.supply, BLUE, o.labels.supply, o.supplyText);
+  bar(54, o.demand, RED, o.labels.demand, o.demandText);
+  // gap marker between the two bar ends
+  if (typeof o.gap === 'number' && o.gap !== 0) {
+    const x1 = padL + len(Math.min(o.supply, o.demand)), x2 = padL + len(Math.max(o.supply, o.demand));
+    svg.appendChild(svgEl('line', { x1: x2 + 1, x2: x2 + 1, y1: 10, y2: 86, stroke: INK, 'stroke-width': 1, 'stroke-dasharray': '3 3' }));
+    svg.appendChild(svgEl('line', { x1: x1, x2: x1, y1: 10, y2: 86, stroke: INK, 'stroke-width': 1, 'stroke-dasharray': '3 3' }));
+    svg.appendChild(svgEl('text', { x: Math.min(W - padR, x2 + 6), y: 98, 'text-anchor': x2 > W - 160 ? 'end' : 'start', fill: o.gap > 0 ? RED : GREEN, style: `font: 600 12px ${FONT.slice(5)}` }, [o.gapText]));
+  }
+  // where it is used: 100 % stacked bar
+  const y0 = 134;
+  svg.appendChild(svgEl('text', { x: padL - 10, y: y0 + 17, 'text-anchor': 'end', fill: INK, style: `font: 600 13px ${FONT.slice(5)}` }, [o.labels.used]));
+  let x = padL;
+  const segs = [...o.consumers.map((c, i) => ({ ...c, color: i % 2 ? '#8B2F3C' : RED, op: 1 - Math.min(0.55, i * 0.07) })), { name: o.restLabel, share: o.restShare, color: MUTED, op: 0.45 }];
+  segs.forEach((s) => {
+    const w = Math.max(0, (s.share / 100) * bw);
+    svg.appendChild(svgEl('rect', { x, y: y0, width: w, height: 26, fill: s.color, opacity: s.op }));
+    if (w > 46) svg.appendChild(svgEl('text', { x: x + w / 2, y: y0 + 17, 'text-anchor': 'middle', fill: '#fff', style: `font: 600 11px ${FONT.slice(5)}` }, [`${s.name} ${Math.round(s.share)}%`]));
+    else if (w > 14) svg.appendChild(svgEl('text', { x: x + w / 2, y: y0 + 17, 'text-anchor': 'middle', fill: '#fff', style: `font: 600 9px ${FONT.slice(5)}` }, [`${Math.round(s.share)}%`]));
+    x += w;
+  });
+  // small legend for the narrow segments
+  const small = segs.filter((s) => (s.share / 100) * bw <= 46 && s.name !== o.restLabel);
+  if (small.length) svg.appendChild(svgEl('text', { x: padL, y: y0 + 48, fill: MUTED, style: `font: ${FONT}` }, [small.map((s) => `${s.name} ${Math.round(s.share)}%`).join(' · ')]));
+  container.replaceChildren(svg);
+  return svg;
+}
+
 /* ---------------------------------------------------------------- uPlot: diesel crack history */
 export function crackChart(container, o) {
   // o: { dates: ['YYYY-MM-DD'], values: [num|null], stats: {max, max_date, mean_2015_2019}, labels: {date, series, mean, record}, unitFmt(v) -> string, dateFmt(ts, full) -> string }
