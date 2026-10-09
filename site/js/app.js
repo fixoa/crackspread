@@ -687,17 +687,16 @@ function renderMethodology(prices, manual) {
 // ------------------------------------------------------------------ donate + footer
 function renderDonate() {
   const sec = byId('donate');
-  if (!sec) return;
-  const nav = byId('donate-nav');
-  if (!isHttp(cfg.donate_url)) { sec.hidden = true; if (nav) nav.hidden = true; return; }
-  sec.hidden = false;
-  if (nav) { nav.hidden = false; nav.href = cfg.donate_url; nav.target = '_blank'; nav.rel = 'noopener noreferrer'; nav.textContent = t('donate.nav'); }
+  if (sec) sec.hidden = true; // the support button lives in the footer (renderFooter)
+}
+
+function supportRow() {
+  if (!isHttp(cfg.donate_url)) return null;
   let v = Number(cfg.donate_cta_variant);
   if (!Number.isInteger(v) || v < 0 || v > 3) v = 0;
-  const sub = t(`donate.${v}.sub`);
-  fill(sectionBody('donate'), tile({ span: 12, flat: true, title: t('donate.title'), foot: [t('donate.fineprint'), cfg.donate_provider_label ? ' ' + t('donate.provider', { provider: cfg.donate_provider_label }) : null] },
-    h('p', { class: 'note' }, t(`donate.${v}.headline`), sub && sub !== `donate.${v}.sub` ? ' ' + sub : null),
-    h('p', {}, h('a', { href: cfg.donate_url, target: '_blank', rel: 'noopener noreferrer', class: 'btn' }, t(`donate.${v}.button`)))));
+  return h('div', { class: 'support' },
+    h('a', { href: cfg.donate_url, target: '_blank', rel: 'noopener noreferrer', class: 'btn' }, t(`donate.${v}.button`)),
+    h('span', { class: 'fine' }, t(`donate.${v}.headline`), cfg.donate_provider_label ? ' ' + t('donate.provider', { provider: cfg.donate_provider_label }) : null));
 }
 
 function renderFooter() {
@@ -707,9 +706,8 @@ function renderFooter() {
   const srcLi = (key, urls) => h('li', {}, t('footer.src.' + key), urls.filter(isHttp).map((u) => [' ', link(u, hostLabel(u))]));
   const srcs = h('ul', { class: 'sources' }, srcLi('fred', [homes.fred]), srcLi('eia', [homes.eia_steo, homes.eia_international]), srcLi('jodi', [homes.jodi]), srcLi('portwatch', [homes.portwatch]), srcLi('news', []), srcLi('manual', [insp.url]), srcLi('fonts', []));
   const nav = h('p', {}, h('a', { href: '#methodology' }, t('footer.methodology')), ' · ', link(cfg.repo_url, t('footer.repo')),
-    isHttp(cfg.donate_url) ? [' · ', h('a', { href: cfg.donate_url, target: '_blank', rel: 'noopener noreferrer' }, t('footer.support'))] : null,
     meta && meta.last_run ? [' · ', t('footer.last_update', { time: fmt.date(meta.last_run, true), tz: fmt.tzCity() })] : null, ' · ', t('footer.nocookies'));
-  fill(body, h('h2', {}, t('footer.sources')), srcs, h('p', { class: 'disclaimer' }, t('footer.disclaimer')),
+  fill(body, supportRow(), h('h2', {}, t('footer.sources')), srcs, h('p', { class: 'disclaimer' }, t('footer.disclaimer')),
     h('p', {}, tf('footer.credit', { author: insp.author || '', title: link(insp.url, insp.title || ''), date: insp.date ? fmt.dateDayFirst(insp.date) : '' })), nav);
 }
 
