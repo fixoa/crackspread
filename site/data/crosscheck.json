@@ -1,0 +1,305 @@
+{
+ "as_of": "2026-10-09T09:00:45Z",
+ "claims": [
+  {
+   "id": "hormuz_flow",
+   "keywords": [
+    "hormuz"
+   ],
+   "label": "Strait of Hormuz flow",
+   "mentions": [
+    {
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ1dSU1BRd0l5RjRZSlBTeV9kdlRPY2QtMjlGdng5cWtmV1R1SHRib1Z3Z0g3YlBsa3liSlp2bThnNHNOODduZzgxTWlmNno0c3dmZURPWTl2bVE2Rk8tLVhBMHFPdEJCVHE1UkVJZ2NkLTdoTUE3ZWlieGhKLVl6UzJB?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T09:00:45Z",
+     "source": "CNN",
+     "title": "If the Strait of Hormuz is open, why are gas and diesel so expensive?"
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzlobEV1aEFEaVZOUE9lSGtZY0hTSXJFY0RBMTZRQ3dFdHZNNFloQ2JvZ0VzVVVTcXRzOW45dERjTlZzbGF1S2NXNTJTd3dCdHBaNThjLWZJNGZTSHNIRzZma0Y0a0VGUUxWdkd5ZldZc3V4Qm9DWGZQaDZ6clprbUd4Y1ZGV0c0My12MDYtUVQ?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T08:51:32Z",
+     "source": "WANA News Agency",
+     "title": "Shift in Reporting Pattern Points to Change in Iran’s Hormuz Tactics -"
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZndkRV9UTnRpa0N0VVptVHdWcmFLYUlEelNXdDRhTW1DWXhPdy1WS0FCT1RGdFBzUjlaOU5Mc18xZlBmR19lLU5QenVhdnZxOHZuUmJLb0RTYlNQNl95bEp5MWluMC05QUtyTVp2QTNqenR6WFlYaVJaNTdtZG9mM1dTTl93QkljNmUxcmdjZzVmeEdDbVdEYW93ZE9QLW1LNk1udUFHWEpzaWRiYXdPUldUM3lmRVhIYVVR0gHAAUFVX3lxTE0xRy1MWVRfSXFFWTNYR3VmTGxuLUIyUTJEOGVybE1leXJaVlBjUFpvX2h5WTd1YU52Mk8wYTdfN2Z1STJKaVppNlppekdDbjdabTktSTlhRUI1b1V4UFRrUU1Pc1VheHduSVQtMTFFLUhEXzdadlI3dFlwblo0dVRULS1LTGpmM3hpa1NqRWFGUGdSQk5yczI0NEVyZkZuaUl0MXV5YmRzdTRLUW5GVl9kOFNRSGtUNGgza0NpSlpiMQ?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T08:33:51Z",
+     "source": "تسنیم",
+     "title": "Armed Forces Prepared to Defend Strait of Hormuz: IRGC Deputy Chief"
+    }
+   ],
+   "portwatch": {
+    "baseline_year": 2025,
+    "chokepoint": "Strait of Hormuz",
+    "latest_date": "2026-10-04",
+    "source": "IMF PortWatch, daily chokepoint transits (AIS)",
+    "source_url": "https://portwatch.imf.org/",
+    "tankers_7d": 0.9,
+    "tankers_baseline": 48.2,
+    "tankers_change_pct": -98.0
+   },
+   "target": "hormuz_ledger[iran_blockade].delta",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": -20
+   }
+  },
+  {
+   "id": "gulf_exports",
+   "keywords": [
+    "gulf export",
+    "opec export",
+    "saudi export",
+    "middle east export",
+    "gulf crude"
+   ],
+   "label": "Gulf exports now",
+   "mentions": [],
+   "portwatch": null,
+   "target": "hormuz_ledger[region_total].value",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": 8
+   }
+  },
+  {
+   "id": "saudi_pipeline",
+   "keywords": [
+    "east-west pipeline",
+    "yanbu",
+    "aramco pipeline",
+    "pumping station"
+   ],
+   "label": "Saudi East-West pipeline",
+   "mentions": [],
+   "portwatch": null,
+   "target": "hormuz_ledger[saudi_eastwest].delta",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": 5.5
+   }
+  },
+  {
+   "id": "spr",
+   "keywords": [
+    "strategic petroleum reserve",
+    "spr release",
+    "stockpile release",
+    "emergency reserve",
+    "emergency stock",
+    "reserve release"
+   ],
+   "label": "Emergency stockpile releases",
+   "mentions": [],
+   "portwatch": null,
+   "target": "hormuz_ledger[spr].delta",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": 2.5
+   }
+  },
+  {
+   "id": "china_cuts",
+   "keywords": [
+    "china import",
+    "chinese import",
+    "china crude",
+    "china's crude"
+   ],
+   "label": "China import cuts",
+   "mentions": [],
+   "portwatch": null,
+   "target": "hormuz_ledger[china_cuts].delta",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": -2.5
+   }
+  },
+  {
+   "id": "bab_el_mandeb",
+   "keywords": [
+    "bab al-mandab",
+    "bab el-mandeb",
+    "mandab",
+    "mandeb",
+    "red sea",
+    "houthi"
+   ],
+   "label": "Bab al-Mandab closed",
+   "mentions": [
+    {
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYjFSN0kxVUF4TFVNNV96YTh4b2FhRTBrNDZwaWp1aUNEaENnX3FGaVJtT0puQWc3TUZIREtpXzlfZ2trZ0RJS3BQMWI0REw5MHA5S1VXeHpTTHI4RHF3Nm93ME1kWWV6U045X2FQUGw0VUlFT0V1NXhVc0sxNWRHSXZ1MWFuZnVlX0ZBZndxMFZ1ZDFGZVAyb3pn?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T08:08:33Z",
+     "source": "ISS Africa",
+     "title": "How Houthi military aggression in the Red Sea threatens Africa"
+    }
+   ],
+   "portwatch": {
+    "baseline_year": 2025,
+    "chokepoint": "Bab el-Mandeb",
+    "latest_date": "2026-10-04",
+    "source": "IMF PortWatch, daily chokepoint transits (AIS)",
+    "source_url": "https://portwatch.imf.org/",
+    "tankers_7d": 9.0,
+    "tankers_baseline": 11.5,
+    "tankers_change_pct": -22.0
+   },
+   "target": "shipping.route_note",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "",
+    "value": "Houthis took Yemen coast in Sept and closed Bab al-Mandab; Asia-bound oil goes Suez → Med → Cape of Good Hope"
+   }
+  },
+  {
+   "id": "voyage",
+   "keywords": [
+    "cape of good hope",
+    "around africa",
+    "reroute",
+    "rerouting",
+    "longer voyage"
+   ],
+   "label": "Voyage Gulf–Asia, days",
+   "mentions": [],
+   "portwatch": {
+    "baseline_year": 2025,
+    "chokepoint": "Cape of Good Hope",
+    "latest_date": "2026-10-04",
+    "source": "IMF PortWatch, daily chokepoint transits (AIS)",
+    "source_url": "https://portwatch.imf.org/",
+    "tankers_7d": 18.7,
+    "tankers_baseline": 16.9,
+    "tankers_change_pct": 11.0
+   },
+   "target": "shipping.voyage_days_now",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "days",
+    "value": 48
+   }
+  },
+  {
+   "id": "vlcc",
+   "keywords": [
+    "vlcc",
+    "supertanker",
+    "tanker rate",
+    "freight rate",
+    "day rate"
+   ],
+   "label": "VLCC day rate",
+   "mentions": [
+    {
+     "link": "https://splash247.com/troim-backed-bruton-opens-review-amid-vlcc-sale-talk/",
+     "numbers": [],
+     "published": "2026-10-09T08:12:31Z",
+     "source": "Splash247",
+     "title": "Trøim-backed Bruton opens review amid VLCC sale talk"
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWHB5MmVsckd4NE1GOUViUGJseU5BaUhrTmlTbWZTRnZNaEh6OTc4X2RBTmFhNks1dzlRN29GZ2trS0h5S1dVb3VKcmNwVUZLR1FEWVU1c04wOGJsQTU0YnBUS3pTUnVkX2VSSEp5eDNhOVc5SDZwVk1Oa3NTNk5SNVNKQzdwLWNJYjZyX3RlVEo4Wnd2RU5vNTlMZjNPS3ZQWThPUUxKb3VXUQ?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T05:25:00Z",
+     "source": "Reuters",
+     "title": "Soaring freight rates threaten Asia's appetite for US crude"
+    }
+   ],
+   "portwatch": null,
+   "target": "shipping.vlcc_day_rate_usd.now",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "USD/day",
+    "value": 1200000
+   }
+  },
+  {
+   "id": "refineries_russia",
+   "keywords": [
+    "russian refiner",
+    "refinery strike",
+    "refinery drone",
+    "refineries",
+    "ukrainian drone"
+   ],
+   "label": "Russian refineries struck",
+   "mentions": [
+    {
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaDVjWmVhWGlDZmdIdEI5VnFORDdMRlF4S0J2dU5FYV9Eb2ZSNU96ckNpQlJObmZoQ2VHVEo4THBzZ3V1d2lkU1g5eTJUa1M3Y0d0b1MzQ0pyT2RJaTNrNU03akdVNEFVR2FiTDdIc2dCVXk2SXJtdGM0SGpheGVQLWdSanFtZkFHUTk2TkFPZldNaUVncXB3c0ZGVjI0TVR0cW93V1RqcXRlWW0wOElpbGhReVpjamNfQWtwX2VpWFotekxVYXJZbg?oc=5",
+     "numbers": [
+      "1,700"
+     ],
+     "published": "2026-10-09T08:16:49Z",
+     "source": "UNITED24 Media",
+     "title": "Ukrainian Drones Reach Russia’s Komi Republic, Striking Lukoil Refinery 1,700 Km Away"
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aUmJMZ2ZVS3MzYk1jSmNsRkdEVlh2OEh4S3hwLVlmOEdWbk9SV1BIQVQ3NXd1SDhsQmRvcFktcFJBLUp6dVJrLUUtcGF2LTlscU02YmtyQ0x4cmlORzVrNU9aWGFvbFlqaTBhWFlaT0FlZw?oc=5",
+     "numbers": [],
+     "published": "2026-10-09T07:51:10Z",
+     "source": "mezha.net",
+     "title": "Isaias threatened US oil refineries as fuel reserves dwindled | Mezha"
+    }
+   ],
+   "portwatch": null,
+   "target": "refinery_shock[0].diesel_delta_mbd",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": -1.0
+   }
+  },
+  {
+   "id": "china_diesel",
+   "keywords": [
+    "diesel export",
+    "china diesel",
+    "chinese diesel"
+   ],
+   "label": "China diesel exports",
+   "mentions": [],
+   "portwatch": null,
+   "target": "refinery_shock[2].diesel_delta_mbd",
+   "whiteboard": {
+    "as_of": "2026-10-08",
+    "source": "Max Fisher, 'The oil apocalypse is here' (YouTube, 2 Oct 2026)",
+    "source_url": "https://www.youtube.com/watch?v=OETnuwwsv9U",
+    "unit": "mb/d",
+    "value": -0.5
+   }
+  }
+ ],
+ "fetched_at": "2026-10-09T09:06:20Z",
+ "generated_at": "2026-10-09T09:06:20Z",
+ "news_items_scanned": 60,
+ "schema_version": 1,
+ "source": "Crackspread cross-check of manual.json against news.json and shipping.json",
+ "source_url": "https://github.com/fixoa/crackspread",
+ "stale": false
+}

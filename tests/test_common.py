@@ -427,7 +427,7 @@ def test_manual_json_validates():
     assert doc["stale"] is False
 
 
-SCHEMA_NAMES = ("config", "prices", "balance", "countries", "news", "summary", "proposals", "manual", "meta", "shipping")
+SCHEMA_NAMES = ("config", "prices", "balance", "countries", "news", "summary", "proposals", "manual", "meta", "shipping", "crosscheck")
 
 
 def test_load_schema_names():

@@ -79,6 +79,7 @@ SOURCES: Tuple[SourceSpec, ...] = (
     SourceSpec("countries", "fetch_country", "run", "", "countries", "countries.json", "countries", "country"),
     SourceSpec("shipping", "fetch_shipping", "run", "", "shipping", "shipping.json", "shipping", "shipping"),
     SourceSpec("news", "fetch_news", "run", "", "news", "news.json", "news", "news"),
+    SourceSpec("crosscheck", "fetch_crosscheck", "run", "", "crosscheck", "crosscheck.json", "crosscheck", "news"),
     SourceSpec("summary", "summarize", "run", "", "summary", "summary.json", "summary", "summary"),
     SourceSpec("proposals", "summarize", "run_proposals", "PROPOSALS_", "proposals", "proposals.json", "proposals", "summary"),
 )

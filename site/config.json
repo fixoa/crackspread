@@ -10,7 +10,7 @@
   "show_language_toggle": false,
   "timezone_display": "Europe/Vienna",
   "donate_url": "",
-  "donate_provider_label": "",
+  "donate_provider_label": "Buy Me a Coffee",
   "donate_cta_variant": 0,
   "ai_provider": "gemini",
   "ai_model": "",
@@ -27,7 +27,7 @@
     "deficit": 0.3,
     "surplus": -0.3
   },
-  "news_max_items": 40,
+  "news_max_items": 60,
   "news_max_age_hours": 48,
   "news_queries": [
     "oil supply",
@@ -243,5 +243,134 @@
     "eia_international": "https://www.eia.gov/international/data/world",
     "jodi": "https://www.jodidata.org/oil/",
     "portwatch": "https://portwatch.imf.org/"
-  }
+  },
+  "crosscheck": [
+    {
+      "id": "hormuz_flow",
+      "label": "Strait of Hormuz flow",
+      "target": "hormuz_ledger[iran_blockade].delta",
+      "unit": "mb/d",
+      "keywords": [
+        "hormuz"
+      ],
+      "portwatch": "hormuz"
+    },
+    {
+      "id": "gulf_exports",
+      "label": "Gulf exports now",
+      "target": "hormuz_ledger[region_total].value",
+      "unit": "mb/d",
+      "keywords": [
+        "gulf export",
+        "opec export",
+        "saudi export",
+        "middle east export",
+        "gulf crude"
+      ]
+    },
+    {
+      "id": "saudi_pipeline",
+      "label": "Saudi East-West pipeline",
+      "target": "hormuz_ledger[saudi_eastwest].delta",
+      "unit": "mb/d",
+      "keywords": [
+        "east-west pipeline",
+        "yanbu",
+        "aramco pipeline",
+        "pumping station"
+      ]
+    },
+    {
+      "id": "spr",
+      "label": "Emergency stockpile releases",
+      "target": "hormuz_ledger[spr].delta",
+      "unit": "mb/d",
+      "keywords": [
+        "strategic petroleum reserve",
+        "spr release",
+        "stockpile release",
+        "emergency reserve",
+        "emergency stock",
+        "reserve release"
+      ]
+    },
+    {
+      "id": "china_cuts",
+      "label": "China import cuts",
+      "target": "hormuz_ledger[china_cuts].delta",
+      "unit": "mb/d",
+      "keywords": [
+        "china import",
+        "chinese import",
+        "china crude",
+        "china's crude"
+      ]
+    },
+    {
+      "id": "bab_el_mandeb",
+      "label": "Bab al-Mandab closed",
+      "target": "shipping.route_note",
+      "unit": "",
+      "keywords": [
+        "bab al-mandab",
+        "bab el-mandeb",
+        "mandab",
+        "mandeb",
+        "red sea",
+        "houthi"
+      ],
+      "portwatch": "bab_el_mandeb"
+    },
+    {
+      "id": "voyage",
+      "label": "Voyage Gulf–Asia, days",
+      "target": "shipping.voyage_days_now",
+      "unit": "days",
+      "keywords": [
+        "cape of good hope",
+        "around africa",
+        "reroute",
+        "rerouting",
+        "longer voyage"
+      ],
+      "portwatch": "cape"
+    },
+    {
+      "id": "vlcc",
+      "label": "VLCC day rate",
+      "target": "shipping.vlcc_day_rate_usd.now",
+      "unit": "USD/day",
+      "keywords": [
+        "vlcc",
+        "supertanker",
+        "tanker rate",
+        "freight rate",
+        "day rate"
+      ]
+    },
+    {
+      "id": "refineries_russia",
+      "label": "Russian refineries struck",
+      "target": "refinery_shock[0].diesel_delta_mbd",
+      "unit": "mb/d",
+      "keywords": [
+        "russian refiner",
+        "refinery strike",
+        "refinery drone",
+        "refineries",
+        "ukrainian drone"
+      ]
+    },
+    {
+      "id": "china_diesel",
+      "label": "China diesel exports",
+      "target": "refinery_shock[2].diesel_delta_mbd",
+      "unit": "mb/d",
+      "keywords": [
+        "diesel export",
+        "china diesel",
+        "chinese diesel"
+      ]
+    }
+  ]
 }

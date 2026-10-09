@@ -493,3 +493,11 @@ brief microcopy present).
 tankers_change_pct, total_7d, total_baseline, capacity_tanker_7d, series: {weeks[], tankers[]}}` for hormuz,
 bab_el_mandeb, suez, cape, malacca. Missing data → null, never 0. Fixture: `tests/fixtures/portwatch/chokepoints.json`
 (rows for the five chokepoints since 2025-01-01). Runs after countries, before news.
+
+### 3.10 crosscheck.json (added 2026-10-09)
+
+`fetch_crosscheck.py` (SOURCE_KEY `crosscheck`, STALE_KIND `news`) runs after news and before summary. Input: `context.manual`,
+`context.news`, `context.shipping` and `cfg["crosscheck"]` (claims: id, label, target path into manual.json, unit, keywords,
+optional PortWatch chokepoint id). Output: envelope + `claims[]` = `{id, label, target, keywords, whiteboard{value, unit, source,
+source_url, as_of}, portwatch{...}|null, mentions[{title, source, link, published, numbers[]}]}` (≤ 3 mentions, numbers are verbatim
+substrings of title/snippet). No network of its own.

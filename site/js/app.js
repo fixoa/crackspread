@@ -410,7 +410,29 @@ function manualSrc(manual, entry = {}) {
   return { source: entry.source || ds.name || manual.source, source_url: entry.url || ds.url || manual.source_url, as_of: entry.as_of || manual.updated_at || manual.as_of, stale: !!manual.stale };
 }
 
-function renderWhiteboard(manual, balance, proposals) {
+/* Whiteboard claims next to PortWatch figures and headline mentions (crosscheck.json, deterministic). */
+function crosscheckTile(xc) {
+  if (!xc || !Array.isArray(xc.claims) || !xc.claims.length) return null;
+  const tb = h('tbody');
+  for (const c of xc.claims) {
+    const wb = c.whiteboard || {};
+    const wbText = typeof wb.value === 'number' ? valueText(wb.value, wb.unit || '') : typeof wb.value === 'string' ? (wb.value.length > 90 ? wb.value.slice(0, 88) + '…' : wb.value) : '–';
+    const claim = h('td', { class: 'claim' }, h('b', {}, c.label), h('span', { class: 'wbv' }, typeof wb.value === 'number' ? dataEl({ value: wb.value }, wbText) : wbText));
+    const pw = c.portwatch;
+    const data = pw && typeof pw.tankers_7d === 'number'
+      ? h('td', {}, t('xc.pw', { name: pw.chokepoint || '', now: fmt.num(pw.tankers_7d, 1), year: pw.baseline_year || '', base: fmt.num(pw.tankers_baseline, 0), chg: typeof pw.tankers_change_pct === 'number' ? fmt.signed(pw.tankers_change_pct, 0) + '%' : '–' }),
+        h('span', { class: 'm s' }, srcText({ source: pw.source, source_url: pw.source_url, as_of: pw.latest_date })))
+      : h('td', { class: 'none' }, t('xc.none'));
+    const news = h('td', { class: c.mentions.length ? '' : 'none' });
+    if (!c.mentions.length) news.append(t('xc.nonews'));
+    c.mentions.forEach((m) => news.append(h('span', { class: 'm' }, link(m.link, m.title), m.numbers.length ? h('span', { class: 'n' }, ' [' + m.numbers.slice(0, 3).join(', ') + ']') : null, h('span', { class: 's' }, ' ' + (m.source || '') + ', ' + fmt.relTime(m.published)))));
+    tb.append(h('tr', {}, claim, data, news));
+  }
+  return tile({ span: 12, title: t('xc.title'), right: t('xc.lede'), foot: [srcText({ source: t('news.title'), source_url: '', as_of: xc.as_of }), xc.stale ? staleBadge(xc) : null] },
+    h('table', { class: 'xc' }, h('thead', {}, h('tr', {}, h('th', {}, t('xc.col.claim')), h('th', {}, t('xc.col.data')), h('th', {}, t('xc.col.news')))), tb));
+}
+
+function renderWhiteboard(manual, balance, proposals, xc) {
   const body = sectionBody('whiteboard');
   const s = manualSrc(manual);
   const w = manual.world || {};
@@ -443,6 +465,7 @@ function renderWhiteboard(manual, balance, proposals) {
         q ? mini(t('wb.official.quarter', { quarter: q.period }), mk(q.stock_draw, unit, balance.steo_release || balance.as_of, balance.source, balance.source_url, balance.stale)) : h('p', { class: 'unavailable' }, t('common.unavailable')),
         total ? mini(t('wb.official.ledger'), mk(total.value, 'mb/d', s.as_of, s.source, s.source_url, s.stale), { text: fmt.signed(total.value, 1), unit: t('common.mbd'), cls: 'red' }) : null),
       q && total && typeof total.value === 'number' ? h('p', { class: 'note' }, t('wb.official.text', { eia: fmt.num(q.stock_draw, 1), quarter: q.period, wb: fmt.signed(total.value, 1) })) : null),
+    crosscheckTile(xc),
   );
 }
 
@@ -648,8 +671,10 @@ function renderMethodology(prices, manual) {
 function renderDonate() {
   const sec = byId('donate');
   if (!sec) return;
-  if (!isHttp(cfg.donate_url)) { sec.hidden = true; return; }
+  const nav = byId('donate-nav');
+  if (!isHttp(cfg.donate_url)) { sec.hidden = true; if (nav) nav.hidden = true; return; }
   sec.hidden = false;
+  if (nav) { nav.hidden = false; nav.href = cfg.donate_url; nav.target = '_blank'; nav.rel = 'noopener noreferrer'; nav.textContent = t('donate.nav'); }
   let v = Number(cfg.donate_cta_variant);
   if (!Number.isInteger(v) || v < 0 || v > 3) v = 0;
   const sub = t(`donate.${v}.sub`);
@@ -685,7 +710,7 @@ function safe(name, fn) {
 async function main() {
   cfg = await loadJSON('./config.json');
   lang = pickLang();
-  TZ = cfg.timezone_display || 'Europe/Vienna';
+  TZ = undefined; // times are shown in the visitor's own timezone; cfg.timezone_display is for the backend logs only
   EN = await loadJSON('./i18n/en.json');
   LANG = lang === 'en' ? EN : await loadJSON(`./i18n/${lang}.json`).catch(() => ({}));
   if (lang !== 'en' && !Object.values(LANG).some((v) => typeof v === 'string' && v !== '')) { lang = 'en'; LANG = EN; }
@@ -697,7 +722,7 @@ async function main() {
   renderDonate();
   renderFooter();
 
-  const names = ['prices', 'balance', 'countries', 'shipping', 'news', 'summary', 'proposals', 'manual'];
+  const names = ['prices', 'balance', 'countries', 'shipping', 'news', 'crosscheck', 'summary', 'proposals', 'manual'];
   const ver = meta && typeof meta.run_id === 'string' ? '?v=' + encodeURIComponent(meta.run_id) : '';
   const results = await Promise.allSettled(names.map((n) => loadJSON(`./data/${n}.json${ver}`, ver ? undefined : { cache: 'no-cache' })));
   const D = {};
@@ -709,7 +734,7 @@ async function main() {
   safe('hero', () => { if (!D.balance) throw new Error('no balance'); renderHero(D.balance); });
   if (!D.balance) setText('hero-lede', t('hero.lede_nodata'));
   safe('crack', () => { if (!D.prices) throw new Error('no prices'); renderCrack(D.prices); });
-  safe('whiteboard', () => { if (!D.manual) throw new Error('no manual'); renderWhiteboard(D.manual, D.balance, D.proposals); });
+  safe('whiteboard', () => { if (!D.manual) throw new Error('no manual'); renderWhiteboard(D.manual, D.balance, D.proposals, D.crosscheck); });
   safe('countries', () => { if (!D.countries) throw new Error('no countries'); renderCountries(D.countries); });
   safe('shipping', () => { if (!D.manual) throw new Error('no manual'); renderShipping(D.manual, D.proposals, D.shipping); });
   safe('groceries', () => { if (!D.manual) throw new Error('no manual'); renderGroceries(D.manual, D.prices || {}, D.proposals); });

@@ -266,7 +266,7 @@ def test_entry_datetime_helper():
 
 def test_max_items_respected(default_run, full_cfg):
     doc, info = default_run
-    assert len(doc["items"]) == full_cfg["news_max_items"] == 40
+    assert len(doc["items"]) == full_cfg["news_max_items"] == 60
     assert info["dropped"]["capped"] > 0
     small = _cfg_with(full_cfg, news_max_items=5)
     doc5, _ = fetch_news.run(small, None, fixtures=True, now=NOW)

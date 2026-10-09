@@ -228,6 +228,11 @@ def proposals_doc(now_iso: str = FIXTURE_NOW) -> dict:
     }
 
 
+def crosscheck_doc(now_iso: str) -> dict:
+    return {"schema_version": 1, "generated_at": now_iso, "as_of": "2026-10-08T09:00:00Z", "fetched_at": now_iso, "stale": False,
+            "source": "cross-check", "source_url": "https://github.com/fixoa/crackspread", "claims": []}
+
+
 def shipping_doc(now_iso: str) -> dict:
     return {
         "schema_version": 1, "generated_at": now_iso, "as_of": "2026-10-04", "fetched_at": now_iso, "stale": False,
@@ -244,15 +249,16 @@ DOC_BUILDERS: Dict[str, Callable[[str], dict]] = {
     "balance": balance_doc,
     "countries": countries_doc,
     "shipping": shipping_doc,
+    "crosscheck": crosscheck_doc,
     "news": news_doc,
     "summary": summary_doc,
     "proposals": proposals_doc,
 }
 
 FILE_OF = {"prices": "prices.json", "balance": "balance.json", "countries": "countries.json", "shipping": "shipping.json",
-           "news": "news.json", "summary": "summary.json", "proposals": "proposals.json"}
+           "news": "news.json", "crosscheck": "crosscheck.json", "summary": "summary.json", "proposals": "proposals.json"}
 META_KEY_OF = {"prices": "fred", "balance": "eia_steo", "countries": "countries", "shipping": "shipping",
-               "news": "news", "summary": "summary", "proposals": "proposals"}
+               "news": "news", "crosscheck": "crosscheck", "summary": "summary", "proposals": "proposals"}
 
 
 # ----------------------------------------------------------------------------- fake fetchers
@@ -270,7 +276,7 @@ class FakeFetchers:
         self.calls: list = []
         self.docs: Dict[str, Any] = dict(DOC_BUILDERS)
         self.infos: Dict[str, dict] = {"prices": {"via": "fred"}, "balance": {"via": "api"},
-                                       "countries": {"via": "eia_api"}, "shipping": {"via": "portwatch"}, "news": {"items": 2, "feeds_failed": []},
+                                       "countries": {"via": "eia_api"}, "shipping": {"via": "portwatch"}, "news": {"items": 2, "feeds_failed": []}, "crosscheck": {"claims": 0, "mentions": 0},
                                        "summary": {"provider": "none", "model": "", "fallback": True},
                                        "proposals": {"provider": "none", "model": "", "count": 0}}
         self.failures: Dict[str, BaseException] = {}
@@ -310,6 +316,8 @@ class FakeFetchers:
                                                 SCHEMA="shipping", STALE_KIND="shipping", run=self._runner("shipping"))
         self.modules["fetch_news"] = module("fetch_news", SOURCE_KEY="news", OUTPUT_FILE="news.json",
                                             SCHEMA="news", STALE_KIND="news", run=self._runner("news"))
+        self.modules["fetch_crosscheck"] = module("fetch_crosscheck", SOURCE_KEY="crosscheck", OUTPUT_FILE="crosscheck.json",
+                                                  SCHEMA="crosscheck", STALE_KIND="news", run=self._runner("crosscheck"))
         self.modules["summarize"] = module("summarize", SOURCE_KEY="summary", OUTPUT_FILE="summary.json",
                                            SCHEMA="summary", STALE_KIND="summary",
                                            PROPOSALS_SOURCE_KEY="proposals", PROPOSALS_OUTPUT_FILE="proposals.json",
@@ -375,7 +383,7 @@ def test_fixtures_end_to_end(fakes: FakeFetchers, tmp_data_dir: Path):
 
     # fetchers called in pipeline order with fixtures=True and the deterministic now
     order = [c["name"] for c in fakes.calls]
-    assert order == ["prices", "balance", "countries", "shipping", "news", "summary"]   # proposals: AI off → not called
+    assert order == ["prices", "balance", "countries", "shipping", "news", "crosscheck", "summary"]   # proposals: AI off → not called
     for call in fakes.calls:
         assert call["fixtures"] is True
         assert call["now"] == NOW_DT
@@ -429,7 +437,7 @@ def test_dry_run_writes_nothing(fakes: FakeFetchers, tmp_data_dir: Path, capsys)
     out = capsys.readouterr().out
     assert "would write prices.json (changed): <new file>" in out
     assert "would write meta.json" in out
-    assert len(fakes.calls) == 6   # everything was still fetched (AI off → proposals not called)
+    assert len(fakes.calls) == 7   # everything was still fetched (AI off → proposals not called)
     ctx = fakes.calls_for("summary")[0]["context"]
     assert ctx["prices"]["latest"]["brent"]["value"] == 125.44, "context is passed even in dry-run"
 
@@ -514,7 +522,7 @@ def test_fetcher_without_run_or_with_bad_shape_is_a_failure(fakes: FakeFetchers,
     assert meta["sources"]["news"]["error"].startswith("AttributeError")
     assert meta["sources"]["countries"]["error"].startswith("ValidationError")
     assert meta["sources"]["fred"]["error"].startswith("TypeError")
-    assert files_in(tmp_data_dir) == {"balance.json", "shipping.json", "summary.json", "proposals.json", "meta.json"}
+    assert files_in(tmp_data_dir) == {"balance.json", "shipping.json", "crosscheck.json", "summary.json", "proposals.json", "meta.json"}
     assert meta["sources"]["summary"]["ok"] is True and meta["sources"]["eia_steo"]["ok"] is True
 
 

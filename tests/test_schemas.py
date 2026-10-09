@@ -18,6 +18,7 @@ FILE_TO_SCHEMA = {
     "countries.json": "countries",
     "shipping.json": "shipping",
     "news.json": "news",
+    "crosscheck.json": "crosscheck",
     "summary.json": "summary",
     "proposals.json": "proposals",
     "manual.json": "manual",

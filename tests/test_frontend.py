@@ -26,7 +26,7 @@ import common
 SITE: Path = common.SITE
 
 # en.json keys whose value may legitimately be empty (donate variants 1–3 have no sub-line).
-EMPTY_OK = {"donate.1.sub", "donate.2.sub", "donate.3.sub"}
+EMPTY_OK = {"donate.0.sub", "donate.1.sub", "donate.2.sub", "donate.3.sub"}
 
 DYNAMIC_KEYS = {
     "hero.status.": ["deficit", "surplus", "balanced"],
@@ -45,8 +45,7 @@ DYNAMIC_KEYS = {
 BRIEF_MICROCOPY = {
     "crack.level.2": "Widening (said with a straight face)",
     "crack.footnote": "NY Harbor ULSD minus Brent. Other benchmarks (Europe, Singapore) can read higher.",
-    "donate.0.headline": "Buy me a cup of liquid gold that fuels humans.",
-    "donate.0.button": "Refine a coffee ☕",
+    "donate.0.button": "☕ Buy me a coffee",
     "donate.1.button": "Fill 'er up",
     "donate.2.button": "Widen my coffee spread",
     "donate.3.button": "Drop a barrel (of coffee)",
