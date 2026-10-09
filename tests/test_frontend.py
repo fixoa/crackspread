@@ -37,7 +37,7 @@ DYNAMIC_KEYS = {
                 "2.headline", "2.button", "3.headline", "3.button"],
     "meth.formula.": ["diesel", "gasoline", "jet", "321"],
     "groc.product.": ["gasoline", "jet", "diesel", "other"],
-    "ship.vlcc.": ["pre_war", "pandemic_peak", "now"],
+    "ship.vlcc.": ["pre_war", "now"],
     "nav.": ["hero", "crack", "whiteboard", "countries", "shipping", "groceries", "news", "methodology"],
 }
 
@@ -228,9 +228,9 @@ def test_diesel_math_percentages_come_from_manual_json(app_js):
 
 
 def test_every_figure_goes_through_the_row_device(app_js):
-    """Every number is rendered by row()/dataEl() so it carries <data value> plus source and date."""
-    assert app_js.count("row(") > 25
-    assert "function srcLine" in app_js and "function staleBadge" in app_js
+    """Every number is rendered by stat()/mini()/row() → dataEl(), so it carries <data value> plus source and date."""
+    assert app_js.count("stat(") + app_js.count("mini(") + app_js.count("row(") > 15
+    assert "function srcText" in app_js and "function staleBadge" in app_js
     assert "h('data'" in app_js
 
 

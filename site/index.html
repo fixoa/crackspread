@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Crackspread</title>
-  <meta name="description" content="Is there enough oil? World supply and demand, refinery margins, and what they do to diesel, food and flights. Public data, updated three times a day.">
+  <meta name="description" content="Is there enough oil? World supply and demand, refinery margins, tanker traffic and what they do to diesel, food and flights. Public data, updated three times a day.">
   <meta name="theme-color" content="#ffffff">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://fixoa.github.io/crackspread/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Crackspread">
   <meta property="og:title" content="Crackspread">
-  <meta property="og:description" content="Is there enough oil? World supply and demand, refinery margins, and what they do to diesel, food and flights. Public data, updated three times a day.">
+  <meta property="og:description" content="Is there enough oil? World supply and demand, refinery margins, tanker traffic and what they do to diesel, food and flights. Public data, updated three times a day.">
   <meta property="og:url" content="https://fixoa.github.io/crackspread/">
   <meta property="og:image" content="https://fixoa.github.io/crackspread/img/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Crackspread">
-  <meta name="twitter:description" content="Is there enough oil? World supply and demand, refinery margins, and what they do to diesel, food and flights. Public data, updated three times a day.">
+  <meta name="twitter:description" content="Is there enough oil? World supply and demand, refinery margins, tanker traffic and what they do to diesel, food and flights. Public data, updated three times a day.">
   <meta name="twitter:image" content="https://fixoa.github.io/crackspread/img/og.png">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./js/vendor/uPlot.min.css">
@@ -29,64 +29,60 @@
 <body>
   <a class="skip" href="#main" id="skip-link"></a>
 
-  <header class="masthead wrap">
-    <a class="brand" href="./"><img src="./favicon.svg" alt="" width="22" height="22"><span id="brand-name"></span></a>
-    <p class="updated" id="masthead-updated"></p>
-    <nav id="toc" class="toc" aria-label="Sections"></nav>
-    <nav id="lang-nav" class="lang" hidden></nav>
+  <header class="masthead">
+    <div class="wrap bar">
+      <a class="brand" href="./"><img src="./favicon.svg" alt="" width="20" height="20"><span id="brand-name"></span></a>
+      <nav id="toc" class="toc" aria-label="Sections"></nav>
+      <p class="updated" id="masthead-updated"></p>
+      <nav id="lang-nav" class="lang" hidden></nav>
+    </div>
   </header>
 
   <main id="main" class="wrap">
     <section id="hero" class="section hero" aria-labelledby="hero-title">
       <h1 id="hero-title"></h1>
       <p class="lede" id="hero-lede"></p>
-      <div class="body" id="hero-body"></div>
+      <div class="grid" id="hero-body"></div>
     </section>
 
     <section id="crack" class="section" aria-labelledby="crack-title">
       <h2 id="crack-title"></h2>
-      <p class="lede" id="crack-lede"></p>
-      <div class="body" id="crack-body"></div>
+      <div class="grid" id="crack-body"></div>
     </section>
 
     <section id="whiteboard" class="section" aria-labelledby="whiteboard-title">
       <h2 id="whiteboard-title"></h2>
-      <p class="lede" id="whiteboard-lede"></p>
-      <div class="body" id="whiteboard-body"></div>
+      <div class="grid" id="whiteboard-body"></div>
     </section>
 
     <section id="countries" class="section" aria-labelledby="countries-title">
       <h2 id="countries-title"></h2>
-      <p class="lede" id="countries-lede"></p>
-      <div class="body" id="countries-body"></div>
+      <div class="grid" id="countries-body"></div>
     </section>
 
     <section id="shipping" class="section" aria-labelledby="shipping-title">
       <h2 id="shipping-title"></h2>
-      <p class="lede" id="shipping-lede"></p>
-      <div class="body" id="shipping-body"></div>
+      <div class="grid" id="shipping-body"></div>
     </section>
 
     <section id="groceries" class="section" aria-labelledby="groceries-title">
       <h2 id="groceries-title"></h2>
-      <p class="lede" id="groceries-lede"></p>
-      <div class="body" id="groceries-body"></div>
+      <div class="grid" id="groceries-body"></div>
     </section>
 
     <section id="news" class="section" aria-labelledby="news-title">
       <h2 id="news-title"></h2>
-      <p class="lede" id="news-lede"></p>
-      <div class="body" id="news-body"></div>
+      <div class="grid" id="news-body"></div>
     </section>
 
     <section id="methodology" class="section" aria-labelledby="methodology-title">
-      <h2 id="methodology-title"></h2>
-      <div class="body" id="methodology-body"></div>
+      <h2 id="methodology-title" class="sr-only"></h2>
+      <div class="grid" id="methodology-body"></div>
     </section>
 
     <section id="donate" class="section" aria-labelledby="donate-title" hidden>
-      <h2 id="donate-title"></h2>
-      <div class="body" id="donate-body"></div>
+      <h2 id="donate-title" class="sr-only"></h2>
+      <div class="grid" id="donate-body"></div>
     </section>
   </main>
 

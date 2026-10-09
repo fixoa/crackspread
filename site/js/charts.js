@@ -93,7 +93,7 @@ export function crackChart(container, o) {
     width: Math.max(280, container.clientWidth || 600),
     height: 260,
     cursor: { drag: { x: false, y: false } },
-    legend: { show: true },
+    legend: { show: false },
     scales: { x: { time: true, min: ranges['1y'], max: last } },
     axes: [
       { ...axis, values: (u, vals) => vals.map((v) => o.dateFmt(v)) },
