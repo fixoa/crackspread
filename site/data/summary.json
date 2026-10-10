@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-09T21:34:32Z",
+ "as_of": "2026-10-10T09:45:24Z",
  "crack_o_meter": {
   "as_of": "2026-10-06",
   "label": "Gaping",
   "level": 3,
   "percentile": 97.9,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 72.506
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-09T21:40:24Z",
- "generated_at": "2026-10-09T21:40:24Z",
- "headline": "Diesel crack unchanged since last update, $72.51/bbl (as of 2026-10-06)",
- "inputs_digest": "f0ffd6475a9950bf9edffa27041ab29e1874b277",
+ "fetched_at": "2026-10-10T09:47:27Z",
+ "generated_at": "2026-10-10T09:47:27Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $72.51/bbl (as of 2026-10-06)",
+ "inputs_digest": "3ce7ab41b4c66c0adb91daee2453de761a061804",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSjZFUm54SlFoNWZvRHdYVXE5Z1JDc0h5eE96V2JmVk41eWs2TlRkcjRXaW1nb3Vfa08yeUlFSE15NlFpeTExekZRLXY3WHdGZDdOMHY2ZkpuWjA5cEhsZkUzNUVwTDNySS1hQW8yeWtSejk5TzJTbm84SVVtazFnM0ZaUk5sekE0SUhQTFFkUU5oczQ1QXR5TXYzdGpNYmRuVFRPeDJuMA?oc=5"
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUUM4UGdYUS05eGpqcEtNYjdhaVNYMDBVcDhxNTlJTUhTTHNoTFNLMENGSmsxUTFWZkNiSk9vNE8xYm55MERUWS1zTTRMU2l0azgxa2RNVy00alItdmVlQkRrcWJDUDVzcC1ENWxubmJBeTRPSkxFLTQtZWp2WE1PelhLUlpRS0FtdWdyREpn?oc=5"
    ],
-   "text": "Trump announces diesel deal with Russia in bid to lower prices"
+   "text": "Nigeria’s oil production recovered to 1.71m bpd in 2025 – Report"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsdzJLTmw4d0xNMWtqNU1YN0d1Y3FNX2wwbVlLOEdzRmZteUJuMURpNnFpRmZ4RHlGaDFGemFzUFNacm5VQ0hrT3dPMU5kV3JpRHJpVXgxQlV5QlBVVjVrX1hRX3dGNVl3cmp2eWJn?oc=5"
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbnZYRklFcXJ3QUJLNnRZMWloQmRNYmJQQ3BFRUNzOUlYcTY0Z1l4M0d0VXV4QXVWWjJtSjNiRXlfT1N2UHFMbnV3OHlRNnVRb19yRmEyUXZxcFhiZGxQUTlJZjhxV2xhRHRjMkxyU0NNZVVxYnBvLWdVVWs1dV81V0JBNXBYT3p0NnpocXYxZGU1NXlRLW9Dcm93aU1HckF0ZWxWX2JvcTB1ZkFmcmgzbTJn?oc=5"
    ],
-   "text": "Delta expects fuel bill to rise $6 billion this year"
+   "text": "Zelensky slams Russia's offer to supply oil to US, world markets..."
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaTlxbEZEM2UwYXd3U1Flb3NuRnNmMTV0WGFOZkgtTHBUUUVnbnJiY2xUT1BjSEY3Vkt0OEliZ2dFQ1pONjJUN3AtcDFPRzJJMWxJTzZoQWZMaVRrWGs4aTk1Mi1FNEFna1N5SXg5REprYUZNTzVlS0g2T01MYVU5M0FKbzV6NHlaTUtBQ3NDVER2YnE3TGRaVll3NjZ4XzYzeFk5VUdLTDZCeFVDTjktNFhQbzRHYnpmUEpFOWlHWWNmQ0Z4ZVZNd0s5WUdTUThlRnFUMHNWU2Nzb0pmLWtr?oc=5"
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX2ZjR0QtZzk4cW9IWDZiMXhRZXBpUjc0Si1VbEhpQ3UwT1VpbGQwLWRLalVZZUd3RTRpWGFkdnQtWVBRaDVhOW0tVWJFcG9DeE5zeWlMa1MtT1R6eXotM1RGb0QySDF4bkU3R0E4Q2dUZVBEVFlpTGdZMHNCSk51QTh4UF92VVFmSU5RRTR1c195SGl6MWhEQjFRUExmd2RlOF9nXzg5Y0Z0M2I2TGxZeVpqc1IzVTZzYkFWTFl4OTI2QkozaUdFNkdXU2FBTzBPeDc4S3JwV09Sc3diMENHVQ?oc=5"
    ],
-   "text": "Amid soaring fuel prices, Trump announces Russian diesel supply deal as Zelensky warns move could prolong war"
+   "text": "US President Trump says Russia will supply the United States with more than 300,000 tons of diesel. President Zelenskyy warns that the deal will fund Moscow’s war against Ukraine. So what does Trump get in return? DW's…"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWDZUdEZmNmhqdEZ1SFNGQWFVTWZWLWZtTHYtaHo1SHNZanl2WkpKeDFDeVRWWDVIY2JCeXdUWFRiZm4tVVBDbDlTbFFzVFhvd2k3SUd5ajQtZHpuNUdWRlJyZ0RFeGF0N2ZFRnVDR1FVbllCd285cHNhZVMwUVpRRjhzM190WVlHQkRpcVFSVHMtbTV6c205S2lQanJlczFTN3lELUo2aFBxTXpQNmFMSWFnRm01dw?oc=5"
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05QU8zUVRXeXh3d1NzeWpoZUkyeml0ZGdvTUVYaXRiczdnbjdBMWRRWnQ0NHJJcWtLMFFXbjgyN191czBxTXZKbnUwTzU4dzhGLVhFYkFIZi1tZw?oc=5"
    ],
-   "text": "Zelenskyy calls sale of aggressor state Russia’s diesel an investment in war — RMF24"
+   "text": "Yemeni Gov’t Forces Repel Houthi Attack on Taiz Entrance"
   },
   {
    "sources": [
-    "https://www.bbc.co.uk/news/articles/cm1dwgr666wno"
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWWxnZFV6NFZWbGdZSTR2RkVwdGdZaUJxNkpQZ2pYY0FUcWk4dlByb2VMUWpOem9lUjZHN25UZmlHZXhoaWtVTGhoYmg2TFpVOGM0cW02MnNzRnIzU2hmX3BlTE52QVBycXRRYnFMd0dBS0VobXZjWng5aDd6a2NoRVpINjZoRWFkMlJTUDBhYlNRN1FRT2JHYVcwV2ZxT2haOEREdDl5Tmk2THdGUjFNMWpZeDdaenFK?oc=5"
    ],
-   "text": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'"
+   "text": "Iran shows Trump’s opportunity in escalating Hormuz attacks"
   }
  ]
 }
