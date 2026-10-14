@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-04",
+ "as_of": "2026-10-11",
  "baseline_year": 2025,
  "chokepoints": [
   {
-   "capacity_tanker_7d": 16270.6,
+   "capacity_tanker_7d": 24188.4,
    "id": "hormuz",
-   "latest_date": "2026-10-04",
+   "latest_date": "2026-10-11",
    "name": "Strait of Hormuz",
    "portid": "chokepoint6",
    "series": {
@@ -101,7 +101,8 @@
      1.4,
      0.6,
      1.3,
-     0.9
+     0.9,
+     0.6
     ],
     "weeks": [
      "2025-W01",
@@ -195,20 +196,21 @@
      "2026-W37",
      "2026-W38",
      "2026-W39",
-     "2026-W40"
+     "2026-W40",
+     "2026-W41"
     ]
    },
-   "tankers_7d": 0.9,
+   "tankers_7d": 0.6,
    "tankers_baseline": 48.2,
-   "tankers_change_pct": -98.0,
-   "total_7d": 2.7,
+   "tankers_change_pct": -99.0,
+   "total_7d": 4.1,
    "total_baseline": 85.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 443549.0,
+   "capacity_tanker_7d": 436062.6,
    "id": "bab_el_mandeb",
-   "latest_date": "2026-10-04",
+   "latest_date": "2026-10-11",
    "name": "Bab el-Mandeb",
    "portid": "chokepoint4",
    "series": {
@@ -304,7 +306,8 @@
      8.1,
      6.6,
      9.4,
-     9.0
+     9.0,
+     8.6
     ],
     "weeks": [
      "2025-W01",
@@ -398,20 +401,21 @@
      "2026-W37",
      "2026-W38",
      "2026-W39",
-     "2026-W40"
+     "2026-W40",
+     "2026-W41"
     ]
    },
-   "tankers_7d": 9.0,
+   "tankers_7d": 8.6,
    "tankers_baseline": 11.5,
-   "tankers_change_pct": -22.0,
-   "total_7d": 29.6,
+   "tankers_change_pct": -25.0,
+   "total_7d": 28.3,
    "total_baseline": 33.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 865425.9,
+   "capacity_tanker_7d": 643331.0,
    "id": "suez",
-   "latest_date": "2026-10-04",
+   "latest_date": "2026-10-11",
    "name": "Suez Canal",
    "portid": "chokepoint1",
    "series": {
@@ -507,7 +511,8 @@
      15.9,
      17.0,
      15.0,
-     15.6
+     15.6,
+     17.0
     ],
     "weeks": [
      "2025-W01",
@@ -601,20 +606,21 @@
      "2026-W37",
      "2026-W38",
      "2026-W39",
-     "2026-W40"
+     "2026-W40",
+     "2026-W41"
     ]
    },
-   "tankers_7d": 15.6,
+   "tankers_7d": 17.0,
    "tankers_baseline": 14.6,
-   "tankers_change_pct": 7.0,
-   "total_7d": 43.1,
+   "tankers_change_pct": 16.0,
+   "total_7d": 41.7,
    "total_baseline": 38.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 1033075.0,
+   "capacity_tanker_7d": 1256767.0,
    "id": "cape",
-   "latest_date": "2026-10-04",
+   "latest_date": "2026-10-11",
    "name": "Cape of Good Hope",
    "portid": "chokepoint7",
    "series": {
@@ -710,7 +716,8 @@
      18.7,
      16.1,
      19.9,
-     18.7
+     18.7,
+     17.4
     ],
     "weeks": [
      "2025-W01",
@@ -804,20 +811,21 @@
      "2026-W37",
      "2026-W38",
      "2026-W39",
-     "2026-W40"
+     "2026-W40",
+     "2026-W41"
     ]
    },
-   "tankers_7d": 18.7,
+   "tankers_7d": 17.4,
    "tankers_baseline": 16.9,
-   "tankers_change_pct": 11.0,
-   "total_7d": 87.7,
+   "tankers_change_pct": 3.0,
+   "total_7d": 84.0,
    "total_baseline": 89.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 2956307.1,
+   "capacity_tanker_7d": 2648083.3,
    "id": "malacca",
-   "latest_date": "2026-10-04",
+   "latest_date": "2026-10-11",
    "name": "Malacca Strait",
    "portid": "chokepoint5",
    "series": {
@@ -913,7 +921,8 @@
      72.7,
      73.7,
      70.0,
-     73.4
+     73.4,
+     74.9
     ],
     "weeks": [
      "2025-W01",
@@ -1007,24 +1016,25 @@
      "2026-W37",
      "2026-W38",
      "2026-W39",
-     "2026-W40"
+     "2026-W40",
+     "2026-W41"
     ]
    },
-   "tankers_7d": 73.4,
+   "tankers_7d": 74.9,
    "tankers_baseline": 82.4,
-   "tankers_change_pct": -11.0,
-   "total_7d": 226.3,
+   "tankers_change_pct": -9.0,
+   "total_7d": 233.0,
    "total_baseline": 234.5,
    "window_days": 7
   }
  ],
- "fetched_at": "2026-10-14T08:40:24Z",
- "generated_at": "2026-10-14T08:40:24Z",
+ "fetched_at": "2026-10-14T15:07:08Z",
+ "generated_at": "2026-10-14T15:07:08Z",
  "licence": "CC BY 4.0",
  "schema_version": 1,
  "source": "IMF PortWatch, daily chokepoint transits (AIS)",
  "source_url": "https://portwatch.imf.org/",
- "stale": true,
+ "stale": false,
  "unit": "vessels per day",
  "window_days": 7
 }
