@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-14T15:02:00Z",
+ "as_of": "2026-10-14T20:32:42Z",
  "crack_o_meter": {
   "as_of": "2026-10-06",
   "label": "Gaping",
@@ -84,45 +84,45 @@
   },
   "retail_diesel_us": {
    "as_of": "2026-10-12",
-   "delta": -0.02,
+   "delta": 0.0,
    "now": 6.179,
-   "prev": 6.199,
-   "prev_as_of": "2026-10-05",
+   "prev": 6.179,
+   "prev_as_of": "2026-10-12",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
    "as_of": "2026-10-12",
-   "delta": -0.023,
+   "delta": 0.0,
    "now": 4.331,
-   "prev": 4.354,
-   "prev_as_of": "2026-10-05",
+   "prev": 4.331,
+   "prev_as_of": "2026-10-12",
    "unit": "USD/gal"
   },
   "steo_consumption": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 102.78,
    "period": "2026-10",
    "prev": 102.78,
-   "prev_as_of": "2026-10-06",
+   "prev_as_of": "2026-10-01",
    "unit": "million barrels per day"
   },
   "steo_production": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 102.1,
    "period": "2026-10",
    "prev": 102.1,
-   "prev_as_of": "2026-10-06",
+   "prev_as_of": "2026-10-01",
    "unit": "million barrels per day"
   },
   "steo_stock_draw": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 0.67,
    "period": "2026-10",
    "prev": 0.67,
-   "prev_as_of": "2026-10-06",
+   "prev_as_of": "2026-10-01",
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-14T15:07:08Z",
- "generated_at": "2026-10-14T15:07:08Z",
+ "fetched_at": "2026-10-14T20:41:19Z",
+ "generated_at": "2026-10-14T20:41:19Z",
  "headline": "Diesel crack: no fresh FRED data, last value $72.51/bbl (as of 2026-10-06)",
- "inputs_digest": "d9ae5694fd8962762fa455775d3ca1c9f241efc4",
+ "inputs_digest": "f284bb3e15c02eb78b9bb8fca08fe294dce2bda8",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxNNlE4b3NELWR6V0Y1NjFmR0FjQkJjcDlDR0VuSnAxUkZobGhaMEZkc0xFZGxLb21VWWtZM3phckdHZ0xKNTZCSjVqaWg3RnBXWWxDTnFhbWxKbGgxOFFZZDNEV2xSQktjQ1FPb0sxSXB4bmFhMGI5ajY4MnBXX1Q4VDlpM0RsVnE2X01LQ0ZLSTVhcjg0TU4xQ0l2R3NMUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMimgJBVV95cUxOMFdOZ21nTWo1WTNrWk9uZktpMjFwWFpQRE9DdGVTaXpVclRuR213RDF1dXpROEJaVVhEa29iWkY3eEhVc21zYVZ0UXpqRkFiM3ZvTlZNSmZWVF9IVkZuZTAwRFJCNmF5TUFsbFl2dzd1XzIwYmFiTnNjd0pEOUtnSmlRVm5hZ1UyUGpWb3RZbm0wanJTdERxZFJMZ3NTdFFTTWV1UXhUR1ZIN1B4SG96eGkyYUljZ2hmN0tOWUd5Yk9zaXBoYVp0bU4yVGZQV3h4ZHBVR3NZbEpFSHhSdTdVUG5XQTk4eld3VkRKYUdvVmZXSm5zc1A0R3FYYnVzbnJRSDFzOVJSeXBpS2tjQnc4cTMzcVpnLUpTb2c?oc=5"
    ],
-   "text": "UKTMO reports more Hormuz attacks as Gulf exports sink"
+   "text": "Trump faces new Iran war challenges as Houthi attacks threaten energy supplies"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRWUtaE11VFBUVzl6LTZPZENsMk5sSkM3SG1zTkt1M2JXN1JQXzlRczlDQ05PN1JMYVhCMWZXcFBqUHJrUTQySnRldVh4MG05dkxBNE5ROHE5MHBKUHZ3VVkwQVhycWoxdGU0bjk1TkVPTHlIQm4zdmRFTGc4M2k2amF4cmRrWEtQM2F2OHRrcUNEMVVPLTNWQQ?oc=5"
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5"
    ],
-   "text": "Lufthansa wins race for €1.2 billion stake in Portuguese carrier TAP"
+   "text": "Iranian attack sinks container ship in Strait of Hormuz"
   },
   {
    "sources": [
-    "https://oilprice.com/Energy/Energy-General/Power-Prices-Top-1000-on-PJM-as-Heat-Collides-With-Fall-Plant-Maintenance.html"
+    "https://www.rigzone.com/news/wire/oil_gains_as_global_supply_risks_mount-14-oct-2026-184852-article/?rss=true"
    ],
-   "text": "Power Prices Top $1,000 on PJM as Heat Collides With Fall Plant Maintenance"
+   "text": "Oil Gains as Global Supply Risks Mount"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxON3FBRHZ4ZUd3THY3YTBsYTdjZG5HZHFuTC1DWFFRWkQ3SzR4MzFYWElPTUNVdThnT2otVTNaWTRTbGlOUkM4Zk1ndE9hdHBBT0ZoMkY3N0tDTVdYOFh6TklGdklGVjF3VVNLRDNYeXF0QWFiNVlpVUxmUFVBaGtHSWJadWFTY2VtRUhpR1lkQmw0bVRuSEE?oc=5"
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamJmQXVpQjFIQmdYc1hvcWx4ZlBvWDNBOW9vdWVQOWFFWU4zTGRTb2kxdTUzZTJBWkUzMTFxa2cxWERIeUg1dUpieDFZNUJPUFRPS1RfSll0V3R2QWxCbWF6LU00R1hDT2dMSEVMZVQzeW1jVWlYRVR0eU9kQlRRNVNYeWVOTE8xRFc4OFJ2RW4yTUk1cjVhWkxNczhUd1dDbVdUbzktU2s?oc=5"
    ],
-   "text": "Trump's Ex-Ukraine Envoy Kellogg Backs Strikes on Russian Refineries"
+   "text": "Yemen’s Resistance Thwarts Greater Israel Plot for Red Sea Dominance"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUJzZ096c0M4SS02VnhtR2lpZ0d0MkNIakR6VUkxMHF0UjlKT05RcWVHQ3ZzRDJvZHJBbWFsdHdYWGZsaVEyUURVUXJXR1N1VklNTklNU2l0ek5CMHBCX0Jud3BJSmhaOEVVM3ZVRDByS2hCd2RPME54N2RTQnV4NWhZdU1hWDBkMHJsU0s5Ylh5N0UyTVdWWE9xMVVOU3BBNURQRA?oc=5"
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPc0luV2VLak9vSlRoR2RvQkUyU2hLSFo4LTZzMGlSRFIxeUotLUpoZkU3TjBzeEMydGhuUklnal93QXBZQldjUFIwNGxER1N6TnUySXlmb2NuNk9BZklrWXRNN0xROUd0T19ydjBPcHJnam9vaTlVMjIydEdyVm9nenBibG9HQml4T2E5bC1vMkRVZHlNMHhEekpBa2xlTGpIZG1yaXpmUnI0NXMxMGZxVUhYbXVIaEVMejl3RUQyREplNlNUOFdTZlNzN2x5bUpxVkNNanhB?oc=5"
    ],
-   "text": "Iran Claims Containership Hit Mine and Sank in Strait of Hormuz"
+   "text": "Channel Infrastructure inks long‑term bp storage deal as Q3 fuel throughput holds steady"
   }
  ]
 }
