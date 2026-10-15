@@ -1,83 +1,83 @@
 {
- "as_of": "2026-10-15T15:00:00Z",
+ "as_of": "2026-10-15T20:15:30Z",
  "crack_o_meter": {
-  "as_of": "2026-10-06",
-  "label": "Gaping",
-  "level": 3,
-  "percentile": 97.9,
-  "stale": true,
+  "as_of": "2026-10-14",
+  "label": "Grand Canyon",
+  "level": 4,
+  "percentile": 98.5,
+  "stale": false,
   "unit": "USD/bbl",
-  "value": 72.506
+  "value": 86.222
  },
  "deltas": {
   "brent": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 125.44,
+   "as_of": "2026-10-14",
+   "delta": 1.11,
+   "now": 126.55,
    "prev": 125.44,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 29.2,
+   "as_of": "2026-10-14",
+   "delta": -4.56,
+   "now": 24.64,
    "prev": 29.2,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "crack_321": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 64.83,
+   "as_of": "2026-10-14",
+   "delta": -12.18,
+   "now": 52.65,
    "prev": 64.83,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 72.506,
+   "as_of": "2026-10-14",
+   "delta": 13.716,
+   "now": 86.222,
    "prev": 72.506,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 17.192,
+   "as_of": "2026-10-14",
+   "delta": -18.288,
+   "now": -1.096,
    "prev": 17.192,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 3.396,
+   "as_of": "2026-10-14",
+   "delta": -0.409,
+   "now": 2.987,
    "prev": 3.396,
    "prev_as_of": "2026-10-06",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 4.503,
+   "as_of": "2026-10-14",
+   "delta": 0.331,
+   "now": 4.834,
    "prev": 4.503,
    "prev_as_of": "2026-10-06",
    "unit": "USD/gal"
   },
   "jet_crack": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 56.924,
+   "as_of": "2026-10-14",
+   "delta": 8.13,
+   "now": 65.054,
    "prev": 56.924,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 4.342,
+   "as_of": "2026-10-14",
+   "delta": 0.22,
+   "now": 4.562,
    "prev": 4.342,
    "prev_as_of": "2026-10-06",
    "unit": "USD/gal"
@@ -99,7 +99,7 @@
    "unit": "USD/gal"
   },
   "steo_consumption": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 102.78,
    "period": "2026-10",
@@ -108,7 +108,7 @@
    "unit": "million barrels per day"
   },
   "steo_production": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 102.1,
    "period": "2026-10",
@@ -117,7 +117,7 @@
    "unit": "million barrels per day"
   },
   "steo_stock_draw": {
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-06",
    "delta": 0.0,
    "now": 0.67,
    "period": "2026-10",
@@ -126,27 +126,27 @@
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 4.713,
+   "as_of": "2026-10-14",
+   "delta": 0.353,
+   "now": 5.066,
    "prev": 4.713,
    "prev_as_of": "2026-10-06",
    "unit": "USD/gal"
   },
   "wti": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 96.24,
+   "as_of": "2026-10-14",
+   "delta": 5.67,
+   "now": 101.91,
    "prev": 96.24,
    "prev_as_of": "2026-10-06",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-15T14:59:49Z",
- "generated_at": "2026-10-15T14:59:49Z",
- "headline": "Diesel crack: no fresh FRED data, last value $72.51/bbl (as of 2026-10-06)",
- "inputs_digest": "03401cecfcba9acd459570ba32c4184046f7d063",
+ "fetched_at": "2026-10-15T20:20:21Z",
+ "generated_at": "2026-10-15T20:20:21Z",
+ "headline": "Diesel crack +13.72 $/bbl since last update, now $86.22/bbl (as of 2026-10-14)",
+ "inputs_digest": "46514c020c04e82614f3e2e3f79ded7496f8c7de",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://oilprice.com/Energy/Energy-General/Bulgaria-Breaks-Ranks-With-EU-Over-Trump-Putin-Diesel-Deal.html"
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1NoUlFFdHBhNkg3ZWR0NG1feDB1RUkxdEJubk9ibGVQTHZTYm9MWTZRLUVaemlaa0lKVVpFb1pNZ3o0clkxMUxzcmxNbWNXOTA3X3FmVHZPdS1LaWxpSUZqTWtibnVkSDQxbEl1d1FQSzdsWVNpSE00OXlfUUpqUkI2M3Jwb3ktNlE?oc=5"
    ],
-   "text": "Bulgaria Breaks Ranks With EU Over Trump-Putin Diesel Deal"
+   "text": "Valero Energy Corp Stock (VLO) Closed Down by 3.41% on Oct 15: Drivers Behind the Movement"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT1ktbGJ3U0ZRRk5ZWWhuV0FMa29fY3dueFJqMjBoWU05aVo5ZnBkdU9aUmRxT2hXN3hxdXViNFdVUUk4ekhOVEVRUVlFWEl6REVwLXNJeHhiYW56RTRGRlEtZkhKbWJrbThnR0xmOGtjdWk3UU5YUVZfVkpBZUVNY3ROUURiM2dQbzdXbHpDVTFxOGhhSlhHTXA4MWFRdnVfaWVEekk4dTJKd0JwbkdablB4RkNhT0E?oc=5"
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMWdDYmVfcjlWT0VUTUMxaUpEQ1JIU2dWNnhHME1WRkRzbDNrdkRGVTlZVXV5OUxzTXhjajYyejRnYkVEUjJORGpVTU5yOUg2S2JqanBaSkU1OWFoMmJRcVlYQnFWQk4wQlJHd0NtbVlEb3cwS3lzVHAyelhYQmh5U09LblZsM19UZGJNb21rYkNVaDJTc3JnZkE4X3l5TVpyMnJWSTRob2ZZY3pBa0prZ0JYckRZeXViMVFLVQ?oc=5"
    ],
-   "text": "Russia accuses Ukraine of refinery attack as Zelensky vows to resume strikes"
+   "text": "Yemen’s Houthis Seek to Build Advanced Ballistic Missiles With China-Linked Parts: Research Group"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQODRDRnk0VWd3S2xObHdOLUJvOHpDYTJfRjhBZjZ3WloyNGx2U3JzOGdPM190dFlyd0tlemlsYm1UQzc3clVpUWN0OF93d1JwTHBFRjZHaE1uU3RXUGtvbnE2VGxwcmVVaTVISW5MYWhaV1hXSGpmSHRLUDBMNkNYUEhKQmpTT21fY1p2MDBGcVl0V3A1NGZaQXgtZzhXSE9Yb19OV1RkaDFEOGJSenp4N1h6MzI0TmhDOVFZS200V3p3Z3hQc0dHYXpiVzk0aGF2bG9j?oc=5"
+    "https://oilprice.com/Geopolitics/International/6-Countries-Pledge-Faster-Cargo-Transfers-on-Eurasia-Europe-Land-Bridge.html"
    ],
-   "text": "Qatar Fuel QSC (DSMD:QFLS) Q3 2026 Earnings Call Highlights: Net Income Surges 56% on Fuel ... By GuruFocus"
+   "text": "6 Countries Pledge Faster Cargo Transfers on Eurasia-Europe Land Bridge"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd21FY0RkaFBsVzhOVHE0T0dFemZsdGVpdF95M2NoVDNqNUZUQmtrZGEyY2pNMDQ0LTAzQ0dONEl5QkpVQ0swendtVGtwM0VRYW5Ga2lWV2Y0NkVyLWdUc2F6UUNTaUVoOGN5cE5OdTFZS1hYUUZOUFB3MWpjRWduNG1tLXZFLUpMQUdFbjVzTi1yY01vdUJrcEVLNndVU1FvdmdEZlk2MkxaaEsxSzFSLWI3SENxSG0zNWZRcXZ3?oc=5"
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd3BnZVFqcEUzaGY0ZjBrdnpZRHVjUXVvUnZET3lMb09Eamp1Uk1yeDIzLWx1alh3cmt4ZDlFVTVvMTRTc24zX3A1REU1b1FSbnZlQ3RxMkFLbWJyWVpRRi1QZWVISTZUYnlkLVhDUnFOOV9mZUZBVXhaQzZyTFhUZ2NMdHlFUVktVUFNN1lEdkxfZE5SWXNyM2I0a2ZCaTEwak52bkoyQQ?oc=5"
    ],
-   "text": "Hormuz ship attacks hit record as Iran broadens campaign against commercial shipping"
+   "text": "Iran Threatens US Warships Amid Rising Hormuz Tensions"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikgJBVV95cUxQX0RmX2VPZFRaY3BSdzFURVJqal9VT1hEUlVoV05ZOWZlMHplUDV1X01DY2dlWjVMM2h4bVZMUks0TmFyYzRpSXd5OWFGM1doaVhSNG1iMDMwSVVuRm9CanVlbnZFckhYbHQxam9kT1NYUU03MUlKLWFsVXVlYmFFOVllLUF5cDVFZFZCMTZLQmllY1VRbGNMVDZVdjI1b1dENVE3ZG14YURxUG0wT09zRU9pYVZNMll4SXEyeFBrN214Y3dfa3pvWFItaF9fYU9xVGxabXpPYjRCNU9yaGpfMXhQcHhOQ1lWQzBEcEhOOEtQTGpwTXJnYlN0cHZsVXB2cUVtNEpnckY5QmxRZHZmQXlB0gGXAkFVX3lxTE41c0x6YWo2bDBJa2EwUkpKZExnMlVpRnJJR0dhZWRKcEdGcm85bzhuSTNhR0xQeURVXzRQU1k4UXdRV2QtRlRYTU9XbnF3d0prTUhZVXR4UnU2RERZZXBmTGVreUtlM3QzWXV0WVk4cS1CeVRzaXduWlkwa3ptR3U2UUc0aW9TUTc5WlFCNFpBZUFTZXE4SzRILWM5N0t2OHVQRGF5NE40Mkk4cmY3ZDlWRDNXMXpONi1YUUZ6R0hORE40aWhtMUJOQ2VyNURjem1RRWFITjdETndrRmoyckx5cERXOVBRa3dpaHZuYlNMdDI1aFQtZ3AzYml0UlZ4RkU0SXZhcG1VLXJpSm1XNVAwNkFzSkxSYw?oc=5"
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GMnJmaG1VUzljZWZJUmFsMWI2OGc2NmlhZEJJa0hHaF9sVEE1S2dVTzBvNG81T1hobmc2VG84NW0zcGM1WW9aZ05jdnRBQm56eXVXeERyVnJlWDR5Rl8taEdZQTdTUWw0QnlmNTNnU3BwWmNYaGs0TnVn?oc=5"
    ],
-   "text": "Kremlin accuses Zelensky of derailing Trump's 'peace efforts' by renewing attacks on Russian energy - while obliterating Ukrainian supermarket in drone attack"
+   "text": "IEA moves to ease diesel supply pressure"
   }
  ]
 }
