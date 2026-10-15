@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-06",
+ "as_of": "2026-10-01",
  "current": {
   "brent": null,
   "consumption": 102.78,
@@ -13,9 +13,9 @@
  },
  "current_month": "2026-10",
  "data_url": "https://www.eia.gov/outlooks/steo/xls/STEO_m.xlsx",
- "fetched_at": "2026-10-14T20:41:19Z",
- "forecast_completed": "2026-10-01",
- "generated_at": "2026-10-14T20:41:19Z",
+ "fetched_at": "2026-10-15T08:15:29Z",
+ "forecast_completed": null,
+ "generated_at": "2026-10-15T08:15:29Z",
  "months": [
   {
    "brent": null,
@@ -546,7 +546,7 @@
    "wti": null
   }
  ],
- "next_release": "2026-11-10",
+ "next_release": null,
  "notes": {
   "is_forecast": "Months from the current month onward are EIA estimates/forecasts.",
   "prices": "Brent/WTI are STEO monthly averages in USD/bbl (API path only).",
@@ -666,7 +666,7 @@
    "stock_draw": -6.23
   }
  ],
- "quote": "We estimate that global oil inventories fell by an average of 1.9 million b/d in 3Q26 and will fall an additional 0.7 million b/d on average in 4Q26.",
+ "quote": null,
  "quote_url": "https://www.eia.gov/outlooks/steo/report/global_oil.php",
  "release_date_estimated": false,
  "schema_version": 1,
@@ -684,7 +684,7 @@
  "stale": false,
  "status": "deficit",
  "steo_edition": "October 2026",
- "steo_release": "2026-10-06",
+ "steo_release": "2026-10-01",
  "unit": "million barrels per day",
  "via": "xlsx"
 }
