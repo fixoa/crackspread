@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-11",
+ "as_of": "2026-10-18",
  "baseline_year": 2025,
  "chokepoints": [
   {
-   "capacity_tanker_7d": 24188.4,
+   "capacity_tanker_7d": 12526.1,
    "id": "hormuz",
-   "latest_date": "2026-10-11",
+   "latest_date": "2026-10-18",
    "name": "Strait of Hormuz",
    "portid": "chokepoint6",
    "series": {
@@ -102,6 +102,7 @@
      0.6,
      1.3,
      0.9,
+     0.6,
      0.6
     ],
     "weeks": [
@@ -197,20 +198,21 @@
      "2026-W38",
      "2026-W39",
      "2026-W40",
-     "2026-W41"
+     "2026-W41",
+     "2026-W42"
     ]
    },
    "tankers_7d": 0.6,
    "tankers_baseline": 48.2,
    "tankers_change_pct": -99.0,
-   "total_7d": 4.1,
+   "total_7d": 3.7,
    "total_baseline": 85.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 436062.6,
+   "capacity_tanker_7d": 554427.9,
    "id": "bab_el_mandeb",
-   "latest_date": "2026-10-11",
+   "latest_date": "2026-10-18",
    "name": "Bab el-Mandeb",
    "portid": "chokepoint4",
    "series": {
@@ -307,7 +309,8 @@
      6.6,
      9.4,
      9.0,
-     8.6
+     8.6,
+     10.0
     ],
     "weeks": [
      "2025-W01",
@@ -402,20 +405,21 @@
      "2026-W38",
      "2026-W39",
      "2026-W40",
-     "2026-W41"
+     "2026-W41",
+     "2026-W42"
     ]
    },
-   "tankers_7d": 8.6,
+   "tankers_7d": 10.0,
    "tankers_baseline": 11.5,
-   "tankers_change_pct": -25.0,
-   "total_7d": 28.3,
+   "tankers_change_pct": -13.0,
+   "total_7d": 26.4,
    "total_baseline": 33.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 643331.0,
+   "capacity_tanker_7d": 841229.1,
    "id": "suez",
-   "latest_date": "2026-10-11",
+   "latest_date": "2026-10-18",
    "name": "Suez Canal",
    "portid": "chokepoint1",
    "series": {
@@ -512,7 +516,8 @@
      17.0,
      15.0,
      15.6,
-     17.0
+     17.0,
+     15.9
     ],
     "weeks": [
      "2025-W01",
@@ -607,20 +612,21 @@
      "2026-W38",
      "2026-W39",
      "2026-W40",
-     "2026-W41"
+     "2026-W41",
+     "2026-W42"
     ]
    },
-   "tankers_7d": 17.0,
+   "tankers_7d": 15.9,
    "tankers_baseline": 14.6,
-   "tankers_change_pct": 16.0,
-   "total_7d": 41.7,
+   "tankers_change_pct": 9.0,
+   "total_7d": 44.3,
    "total_baseline": 38.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 1256767.0,
+   "capacity_tanker_7d": 993154.4,
    "id": "cape",
-   "latest_date": "2026-10-11",
+   "latest_date": "2026-10-18",
    "name": "Cape of Good Hope",
    "portid": "chokepoint7",
    "series": {
@@ -717,7 +723,8 @@
      16.1,
      19.9,
      18.7,
-     17.4
+     17.4,
+     19.3
     ],
     "weeks": [
      "2025-W01",
@@ -812,20 +819,21 @@
      "2026-W38",
      "2026-W39",
      "2026-W40",
-     "2026-W41"
+     "2026-W41",
+     "2026-W42"
     ]
    },
-   "tankers_7d": 17.4,
+   "tankers_7d": 19.3,
    "tankers_baseline": 16.9,
-   "tankers_change_pct": 3.0,
-   "total_7d": 84.0,
+   "tankers_change_pct": 14.0,
+   "total_7d": 85.7,
    "total_baseline": 89.5,
    "window_days": 7
   },
   {
-   "capacity_tanker_7d": 2648083.3,
+   "capacity_tanker_7d": 2801750.7,
    "id": "malacca",
-   "latest_date": "2026-10-11",
+   "latest_date": "2026-10-18",
    "name": "Malacca Strait",
    "portid": "chokepoint5",
    "series": {
@@ -922,7 +930,8 @@
      73.7,
      70.0,
      73.4,
-     74.9
+     74.9,
+     71.4
     ],
     "weeks": [
      "2025-W01",
@@ -1017,19 +1026,20 @@
      "2026-W38",
      "2026-W39",
      "2026-W40",
-     "2026-W41"
+     "2026-W41",
+     "2026-W42"
     ]
    },
-   "tankers_7d": 74.9,
+   "tankers_7d": 71.4,
    "tankers_baseline": 82.4,
-   "tankers_change_pct": -9.0,
-   "total_7d": 233.0,
+   "tankers_change_pct": -13.0,
+   "total_7d": 215.1,
    "total_baseline": 234.5,
    "window_days": 7
   }
  ],
- "fetched_at": "2026-10-15T08:15:29Z",
- "generated_at": "2026-10-15T08:15:29Z",
+ "fetched_at": "2026-10-20T15:03:27Z",
+ "generated_at": "2026-10-20T15:03:27Z",
  "licence": "CC BY 4.0",
  "schema_version": 1,
  "source": "IMF PortWatch, daily chokepoint transits (AIS)",
