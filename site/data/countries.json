@@ -66,12 +66,12 @@
   "world_total": 103110.2,
   "year": 2024
  },
- "fetched_at": "2026-10-21T08:31:41Z",
- "generated_at": "2026-10-21T08:31:41Z",
+ "fetched_at": "2026-10-21T15:13:15Z",
+ "generated_at": "2026-10-21T15:13:15Z",
  "monthly_crude": {
   "as_of": "2026-10-21",
-  "country_count": 45,
-  "fetched_at": "2026-10-21T08:31:41Z",
+  "country_count": 46,
+  "fetched_at": "2026-10-21T15:13:15Z",
   "latest_month": "2026-08",
   "note": "Crude oil only (JODI CRUDEOIL/INDPROD), monthly; countries that did not report this month are omitted, gaps are never counted as zero",
   "rows": [
@@ -118,6 +118,12 @@
     "value": 1500.0
    },
    {
+    "iso2": "LY",
+    "iso3": "LBY",
+    "name": "Libya",
+    "value": 1397.0
+   },
+   {
     "iso2": "VE",
     "iso3": "VEN",
     "name": "Venezuela",
@@ -128,12 +134,6 @@
     "iso3": "DZA",
     "name": "Algeria",
     "value": 1000.0
-   },
-   {
-    "iso2": "ID",
-    "iso3": "IDN",
-    "name": "Indonesia",
-    "value": 546.1
    }
   ],
   "source": "JODI Oil World Database",
@@ -143,8 +143,8 @@
  },
  "producers": {
   "as_of": "2026-10-21",
-  "country_count": 45,
-  "fetched_at": "2026-10-21T08:31:41Z",
+  "country_count": 46,
+  "fetched_at": "2026-10-21T15:13:15Z",
   "note": "crude oil only, monthly, JODI (2026-08); EIA International API unavailable: skipped: EIA_API_KEY not set",
   "period": "2026-08",
   "rest_of_world": null,
@@ -192,6 +192,12 @@
     "value": 1500.0
    },
    {
+    "iso2": "LY",
+    "iso3": "LBY",
+    "name": "Libya",
+    "value": 1397.0
+   },
+   {
     "iso2": "VE",
     "iso3": "VEN",
     "name": "Venezuela",
@@ -202,12 +208,6 @@
     "iso3": "DZA",
     "name": "Algeria",
     "value": 1000.0
-   },
-   {
-    "iso2": "ID",
-    "iso3": "IDN",
-    "name": "Indonesia",
-    "value": 546.1
    }
   ],
   "source": "JODI Oil World Database",

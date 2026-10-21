@@ -9015,7 +9015,7 @@
    "series_id": "GASDESW",
    "source": "FRED GASDESW",
    "source_url": "https://fred.stlouisfed.org/series/GASDESW",
-   "stale": false,
+   "stale": true,
    "stale_kind": "weekly",
    "unit": "USD/gal",
    "value": 6.276
@@ -9027,7 +9027,7 @@
    "series_id": "GASREGW",
    "source": "FRED GASREGW",
    "source_url": "https://fred.stlouisfed.org/series/GASREGW",
-   "stale": false,
+   "stale": true,
    "stale_kind": "weekly",
    "unit": "USD/gal",
    "value": 4.284
@@ -9056,7 +9056,7 @@
  "schema_version": 1,
  "source": "FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
  "source_url": "https://fred.stlouisfed.org/",
- "stale": false,
+ "stale": true,
  "stats": {
   "brent_wti_spread": {
    "as_of": "2026-10-14",
@@ -9064,6 +9064,7 @@
    "mean_prev_year": 3.582,
    "n": 4985,
    "prev_year": 2025,
+   "stale": true,
    "value": 24.64
   },
   "crack_321": {
@@ -9079,6 +9080,7 @@
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
    "percentile_now": 96.6,
    "prev_year": 2025,
+   "stale": true,
    "value": 52.65
   },
   "diesel_crack": {
@@ -9094,6 +9096,7 @@
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
    "percentile_now": 98.5,
    "prev_year": 2025,
+   "stale": true,
    "value": 86.222
   },
   "gasoline_crack": {
@@ -9109,6 +9112,7 @@
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
    "percentile_now": 1.0,
    "prev_year": 2025,
+   "stale": true,
    "value": -1.096
   },
   "jet_crack": {
@@ -9124,6 +9128,7 @@
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
    "percentile_now": 98.5,
    "prev_year": 2025,
+   "stale": true,
    "value": 65.054
   }
  }
