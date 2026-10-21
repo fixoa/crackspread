@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-20T20:30:46Z",
+ "as_of": "2026-10-21T08:30:00Z",
  "crack_o_meter": {
   "as_of": "2026-10-14",
   "label": "Grand Canyon",
@@ -84,18 +84,18 @@
   },
   "retail_diesel_us": {
    "as_of": "2026-10-19",
-   "delta": 0.097,
+   "delta": 0.0,
    "now": 6.276,
-   "prev": 6.179,
-   "prev_as_of": "2026-10-12",
+   "prev": 6.276,
+   "prev_as_of": "2026-10-19",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
    "as_of": "2026-10-19",
-   "delta": -0.047,
+   "delta": 0.0,
    "now": 4.284,
-   "prev": 4.331,
-   "prev_as_of": "2026-10-12",
+   "prev": 4.284,
+   "prev_as_of": "2026-10-19",
    "unit": "USD/gal"
   },
   "steo_consumption": {
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-20T20:34:27Z",
- "generated_at": "2026-10-20T20:34:27Z",
+ "fetched_at": "2026-10-21T08:31:41Z",
+ "generated_at": "2026-10-21T08:31:41Z",
  "headline": "Diesel crack: no fresh FRED data, last value $86.22/bbl (as of 2026-10-14)",
- "inputs_digest": "fb5e29d5758aa3fec9e2b429ad9f29eaaffb238b",
+ "inputs_digest": "906744eff7131cda276b9d47a630302d843f5442",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUTJkeDFobEpFUEcwNXZLTUhta0VRU19JWEI3RHM2c1BEMGtTRm9EbFdJaGYyUUd0MkpqbGtkeGl1ZVZ3T091RVF0a19iMEJWbVQ1VmFBT2hiZkowWHFqbHBiR2lYY3BvdUFXMnkyZ3RjT2ZGWk5FY2JJQVlXaTUtUFlqMmEyY2xPc01ta0dqa3JxYldjMks2WQ?oc=5"
+    "https://oilprice.com/Latest-Energy-News/World-News/Indias-Coal-Crisis-Deepens-as-Power-Demand-Surges.html"
    ],
-   "text": "Ryanair has warned of a record increase in airfare prices in Europe"
+   "text": "India’s Coal Crisis Deepens as Power Demand Surges"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYkJDMjhPQ0l1aXJPcXJuaW9EdlpqeGgyRENZQXhFQTBmUm5yOG9JOG0wbUQ0MHBsbFNzZ0xDOEZac1lFbkpXOVh3TmdpZ2lLWUtZNC1oN1dLNGFTS19XMUZhdDFPRDd0cnJ2RDRsOGE1VkxtYjdHT3F2bVVjUm93U0RFY2F3c0FIbFUySlRqSEVEMzRORFhfLTRjTGwxNGlibXNER3NVYXZjWXZFbFJ6RnNoVWhUbGs?oc=5"
+    "https://splash247.com/shipping-equities-turn-geopolitical-risk-into-an-advantage/"
    ],
-   "text": "LATAM says capacity growth tracking to lower end of guidance as fuel stays high"
+   "text": "Shipping equities turn geopolitical risk into an advantage"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtdUVyMFl4SndiblppVDd1R0NrMU4xR1AtSmg2VEpEc2tIMnk0WFBpWHlxbHRMUVFEMGNtOXl5Znc5VUxHSThXRmpGdmw2STQ?oc=5"
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOREpSUDl2ektaT0dlakdnczdPR203cHlKRXNvWnVjdjRrWURCSUctZnpMMHQ1X21Pcmk4S0lTaDFrUWZpRl9HNGNNOVlWb2FnaHQ2ZnZ0d0VQaEtNMFQ5S0t5cEJwa0lDMXZHNHVuVTg1NXNkUkFXYlppRmFsNms1d1dlQ0RwU1F6Y2xidEE0cw?oc=5"
    ],
-   "text": "Iranian Army: Fire Breaks Out on Oil Tanker South of Strait of Hormuz"
+   "text": "Preventing the risk of conflict in Yemen escalating and threatening maritime security."
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeGliZ2I5REx4NHJQb1ctV0N3Y2pkR3BSb2Q2SVJiblhJMUw2SUM1Y0pfS3JXQWgwNmRZWnZjRTZKa2lKcUEyZE9FcXFTa3RUM0NTalNFZFd1Sl9lYktwVnF1SU90OTZxUjA4aUNNOEViT3VWZzVWZmxETzByZEl1OFRXTWxwa0F1d2dLbTRUQUJxSXhRSHFj?oc=5"
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbTlUeTlzWWtqUW9iMDNzOFQ1amNnR1ZOcGZDMnRvTVJXV0FSS1BraEJtekdsYjhKUXF6RXA2Y202LVI0UFRxdFhaVmN2N21wMGJvdFdrYndrd3pDUGd1Q1RRcHAwaG4yOW1XWTdPZUc4a2lZNnlQTXBqck1ZZVdIc3VR?oc=5"
    ],
-   "text": "LATAM Airlines Is Trimming Growth Plans As Fuel Costs Stay High"
+   "text": "Several feared dead in Meru quarry collapse"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMFBJVVhQMGZJZnV3bXdFVVJhajUwYnEyc0tuTm9IV2ZJbXNzMnpONXJTclRhTDB3UkRoWGtFYTdsTVZvMFhKUks3R3R1dEFJaXNKMTdZaGYxRTZYNEMwYmE5VG83VnRpbTVybF9EckdzenN1T1lOZDdtRzhXaS0xNG9DUDR5eWxDNHY1dGFyX3IwMWxOSjE1YzN5SjhGdU1QVXpEZnV3RE5RRHFBRGp6MTF4OVE?oc=5"
+    "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/"
    ],
-   "text": "United Airlines Misses Estimates, Squeezed by Soaring Fuel Costs"
+   "text": "NATO boosts Black Sea surveillance amid attacks on shipping"
   }
  ]
 }
