@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 21.987,
+ "duration_s": 16.557,
  "fixtures": false,
- "generated_at": "2026-10-22T08:34:07Z",
- "last_run": "2026-10-22T08:34:07Z",
+ "generated_at": "2026-10-22T15:15:45Z",
+ "last_run": "2026-10-22T15:15:45Z",
  "python": "3.12.15",
- "run_id": "20261022-083407-95e0be",
+ "run_id": "20261022-151545-f5f4a7",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": true,
+   "changed": false,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,8 +35,8 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-10-22T08:34:07Z",
-   "mentions": 8,
+   "last_success": "2026-10-22T15:15:45Z",
+   "mentions": 9,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -53,29 +53,29 @@
    "via": "xlsx"
   },
   "fred": {
-   "changed": true,
+   "changed": false,
    "error": null,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "ok": true,
    "partial": [],
    "stale": false,
    "via": "fred"
   },
   "news": {
-   "candidates": 525,
+   "candidates": 484,
    "changed": true,
    "dropped": {
-    "capped": 421,
-    "duplicates": 44,
-    "filtered": 116,
-    "too_old": 20,
+    "capped": 388,
+    "duplicates": 36,
+    "filtered": 110,
+    "too_old": 22,
     "unusable": 12
    },
    "error": null,
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "ok": true,
    "stale": false
   },
@@ -83,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -93,7 +93,7 @@
   "shipping": {
    "changed": false,
    "error": null,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "latest": "2026-10-18",
    "ok": true,
    "rows": 3280,
@@ -105,7 +105,7 @@
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-10-22T08:34:07Z",
+   "last_success": "2026-10-22T15:15:45Z",
    "model": "",
    "ok": true,
    "provider": "none",
