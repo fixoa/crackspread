@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-22T15:09:18Z",
+ "as_of": "2026-10-22T20:05:00Z",
  "feeds": [
   {
    "error": null,
@@ -18,15 +18,15 @@
   {
    "error": null,
    "id": "google:\"crack spread\"",
-   "items": 11,
-   "kept": 11,
+   "items": 10,
+   "kept": 10,
    "ok": true
   },
   {
    "error": null,
    "id": "google:diesel shortage",
-   "items": 30,
-   "kept": 30,
+   "items": 56,
+   "kept": 56,
    "ok": true
   },
   {
@@ -39,36 +39,36 @@
   {
    "error": null,
    "id": "google:refinery attack",
-   "items": 53,
-   "kept": 53,
+   "items": 52,
+   "kept": 52,
    "ok": true
   },
   {
    "error": null,
    "id": "google:tanker rates VLCC",
-   "items": 2,
-   "kept": 2,
+   "items": 3,
+   "kept": 3,
    "ok": true
   },
   {
    "error": null,
    "id": "google:OPEC output",
-   "items": 31,
-   "kept": 31,
+   "items": 34,
+   "kept": 34,
    "ok": true
   },
   {
    "error": null,
    "id": "google:jet fuel prices",
-   "items": 26,
-   "kept": 26,
+   "items": 50,
+   "kept": 50,
    "ok": true
   },
   {
    "error": null,
    "id": "google:strategic petroleum reserve",
-   "items": 45,
-   "kept": 45,
+   "items": 46,
+   "kept": 46,
    "ok": true
   },
   {
@@ -89,7 +89,7 @@
    "error": null,
    "id": "gcaptain",
    "items": 12,
-   "kept": 6,
+   "kept": 4,
    "ok": true
   },
   {
@@ -103,7 +103,7 @@
    "error": null,
    "id": "hellenic",
    "items": 20,
-   "kept": 10,
+   "kept": 9,
    "ok": true
   },
   {
@@ -137,22 +137,47 @@
   {
    "error": null,
    "id": "bbc_business",
-   "items": 56,
+   "items": 57,
    "kept": 5,
    "ok": true
   }
  ],
- "fetched_at": "2026-10-22T15:15:45Z",
- "generated_at": "2026-10-22T15:15:45Z",
+ "fetched_at": "2026-10-22T20:33:28Z",
+ "generated_at": "2026-10-22T20:33:28Z",
  "items": [
   {
-   "feed": "google:oil supply",
-   "id": "cf98bd0a54cf2d644da82ea42cd6c2af6369ed03",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXNTeVQ2ZHlqaU00Y3BwMlNsSU5Sa3RvMV9WNjBTVU82R3owaXNYdDdod0hadU9MSDliYXlmWFo1NE5hMThFWW9hUWVaS012ZzBObzhXVGY4NGhJX3Myb0RaUlNGZGE5Y0IwZjV6NExUNElpZnpCUVZOT2JkV0VpeU9TdVNrbzkxcHJ0LU5IUTRSOGZLVlZpUHRBWWlKOEdVdjZqLVBNNzYtbDIwMHdYaVd6bHFjSWpiS2pOYUJRbGs1Zw?oc=5",
-   "published": "2026-10-22T15:09:18Z",
+   "feed": "google:Strait of Hormuz",
+   "id": "59e192ed9cc223dea702c5a3ca951bc59d7392ca",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdHBGSzh2MGlUNkVDNFFHYkhaS3RSLXlCZzJpdHplRnkyNkh0cXEzMGVvYU9qcnlOZDF3Z0t5czFnSUp6ZXZxQmpJZGZLdXpHSU95VjhObVllVkRsRGxOdFpOUk0tbmItYVVxb2dKMFpnQTNUM0FORnpoVk9BSVdQLWdFV2MwaEhodDVNdkdVdGphSDQwUVZVOQ?oc=5",
+   "published": "2026-10-22T20:05:00Z",
    "snippet": "",
-   "source": "Investing.com",
-   "title": "Evercore maintains oil price forecasts amid supply disruptions",
+   "source": "Newser",
+   "title": "Iran Says 7 Oil Tankers Attacked in Strait of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "oilprice",
+   "id": "60823823f61564d650e5866d6386d16d37e441d7",
+   "link": "https://oilprice.com/Energy/Energy-General/Why-Fossil-Fuel-Demand-Can-Rise-Even-as-Clean-Energy-Wins-Terrain.html",
+   "published": "2026-10-22T20:00:00Z",
+   "snippet": "French historian Jean-Baptiste Fressoz has offered energy-transition skeptics an appealing historical argument. In More and More and More, he argues that humanity has never really moved from one energy source to another. Wood was joined…",
+   "source": "OilPrice.com",
+   "title": "Why Fossil Fuel Demand Can Rise Even as Clean Energy Wins Terrain",
+   "topics": [
+    "supply"
+   ]
+  },
+  {
+   "feed": "oilprice",
+   "id": "79f9f9f981459b1dbafcb69b7eb0eec1507d691b",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Asia-Needs-1-Trillion-a-Year-to-Secure-Energy-Supplies.html",
+   "published": "2026-10-22T20:00:00Z",
+   "snippet": "Asia will need as much as $1 trillion annually in energy investment over the next 15 years to meet rising demand and reduce its exposure to supply disruptions, according to a McKinsey report released Thursday. That amounts to $15 trillion…",
+   "source": "OilPrice.com",
+   "title": "Asia Needs $1 Trillion a Year to Secure Energy Supplies",
    "topics": [
     "supply",
     "prices"
@@ -160,240 +185,49 @@
   },
   {
    "feed": "google:jet fuel prices",
-   "id": "f0f44793ec436945b5bd4c6fa3a8874655526cf3",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0tTc3JRNGp1TmowOTBSa2tNYmVXS09wTGhURWptUTRyeE5mRFJqMnFubUVaOFBzWTAyYnN4YkxzMHF4bGNKMThkbjR1Q3BjU1Vocm44QUEya2xJdXdwLVgtc1VPQkRDdVVLYUdEaFZEaGY2N01ERU5IX2sxTmhsVGlRZExCUlNIeWdrUEZUWEdnS255Z0Z4am5SZEh1NXc?oc=5",
-   "published": "2026-10-22T15:02:20Z",
+   "id": "02ae646bcd826c0c68c32d483639ef30e30c3f7f",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOLWU4cmdSamdtUUtZS3FNWEp5YnZuaHNMTjc2dFpnVWdWT0ZyMFlnZDJZbk9IS2s0amZUejg1ODRJQ0JYbXZnMDk1WVhIQUtKdEt5eHNrU1QzdzV5T2dqb20xZ0FXeG80VVdsRmJ4V211ZWpCcFlidUpyaFIwZjZGREdxQVRpSHBhR1c4UHp1dGlvMkpKbXpBQV9sZEd2ZF9VRVRFYU9yeW1KQ0ItelRiZzRxM2M3Z1dJaUZSVVFCVmw0TXM?oc=5",
+   "published": "2026-10-22T19:48:43Z",
    "snippet": "",
-   "source": "Forbes",
-   "title": "Most Airlines Will Lose Money This Year As Jet Fuel Devours Profits—Expect Higher Airfares",
+   "source": "TradingView",
+   "title": "American Airlines Earnings Reveal a Troubling $4.6 Billion Problem",
    "topics": [
+    "prices",
     "jet"
    ]
-  },
-  {
-   "feed": "oilprice",
-   "id": "a53183578d11b1f6437545ff754b41f5da1a9613",
-   "link": "https://oilprice.com/Geopolitics/Middle-East/Irans-Hardliners-Push-for-Nuclear-Weapons-as-US-War-Drags-On.html",
-   "published": "2026-10-22T15:00:00Z",
-   "snippet": "It was once taboo in Iran to publicly speak about developing nuclear weapons. The authorities would often point to former Supreme Leader Ayatollah Ali Khamenei's religious edict barring the development of weapons of mass destruction…",
-   "source": "OilPrice.com",
-   "title": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On",
-   "topics": [
-    "hormuz",
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "c21a32266b473eed99ef0b491eff2481541ebd21",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcmxkSUw3N3BIRncxYTA1MkE4Y1JuX0dKaG1kSU1jZElzcFVoWFk4REluNnd2VjZZMFo2S0c4U1k4VG9QaC03RF9zakxFQWpZQURfRTdLazEyaXFETmtNS2Q0TjJHamY2cTVPQ3JaRlBZZHhoRS11ZHFLblp3am05aGpaT2hUcW5UZDQ5bFJ4SGpjd0k0NVpiLTZFQlA2RVpFaHJZMA?oc=5",
-   "published": "2026-10-22T14:59:00Z",
-   "snippet": "",
-   "source": "AP News",
-   "title": "Iran says 7 tankers damaged in Strait of Hormuz, and other Mideast news",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "7be0cdec1c968ea20e517b2ffbecd1081a23b7cf",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcFNQZDdJWkZBTUVGS3huSTBpQXBEb3F2N05ILTJ0TlczUmYxcVNTX3haOHdwVk5ZQnY5b1JYUHV5Z21fZHlHTEFXc3Q1TmViX19vQXQ3dFlmZGJ1b3RKTHV4RGhWckVISFAxaV9vNWRyTU1EMXUtbnBZdVN4UVdxUkw4TGxJOE1QZl9lTGRrV2xVdw?oc=5",
-   "published": "2026-10-22T14:54:06Z",
-   "snippet": "",
-   "source": "شفق نيوز",
-   "title": "Shafaq News..Saudi Aramco orders evacuation of Dhahran headquarters",
-   "topics": []
   },
   {
    "feed": "google:diesel shortage",
-   "id": "c8e002acbb68e13dac36055fe013f0bd6a0bfeed",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMUJlZHQ2a2hxOXZQbGRJMDJrUk5lT1d3cUxVSzFudlN0V3NEMTRmN3E1WFg4emVTREthVFBUampGdGNDaG93dlRQMkNucnY1VmlPVWVvVU5nRDZLZnZzQjBKTm9LRndtamZCVklER2hnRVBicGZ1MmpRME9ILV9vXzA4UWpncV85WFYtemdmR0FMWTA?oc=5",
-   "published": "2026-10-22T14:49:30Z",
+   "id": "ec1d3c855bc6521f6b5bebfe191f47cd60aa6d12",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeG9qN2ZFVVpXNWNtT3NvQW1hUjBuLWhqY21RQnRNYkpnMVJ5UEhhNEpoRExlRVNxWlkzd0k4S2o2d0xsSDJkcm9wWWpGdHA2c3NRVzN5b0E1M3R0ZGtNNmxIOG5qMnMyNlZlX0ZPTEZua21CU3Z2dGdZTVpFeUVaS0JEcllUd1oycFh5a1pQcGo3VHZ6RmREVA?oc=5",
+   "published": "2026-10-22T19:33:01Z",
    "snippet": "",
-   "source": "UA.NEWS",
-   "title": "The price of diesel in Ukraine may rise by another 3 hryvnia per liter",
-   "topics": [
-    "diesel",
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "255fadf80bc02120e743778208e07953fc031741",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTGlMd3djNlZXb1pGOUZWdWFIb1p5d3VMa3IxdEtISDJ6WVdGNnRqem5LcXE1Y0tHN29WUTliNThiSkstQ1JyZU5sTUEtTjZfR0daV2lqQVVOR3E2OVpMLWRyWVpzeV96U01UMXE3X3kyQWg3cHlZcURvdURVVHFDWE8tWlp2UQ?oc=5",
-   "published": "2026-10-22T14:48:33Z",
-   "snippet": "",
-   "source": "JournalArta",
-   "title": "Oil prices surge above $111 as Saudi attacks raise supply fears",
-   "topics": [
-    "supply",
-    "prices"
-   ]
-  },
-  {
-   "feed": "gcaptain",
-   "id": "10ba2432ac49861ac5c4639b1bfc290aeb8f1261",
-   "link": "https://gcaptain.com/qatarenergy-signs-long-term-deal-to-buy-u-s-lng-as-iran-war-disrupts-exports/",
-   "published": "2026-10-22T14:48:26Z",
-   "snippet": "QatarEnergy has signed two long-term agreements to purchase up to 4 million tonnes of U.S. liquefied natural gas annually from Cheniere Energy through 2054, as the Gulf producer continues to...",
-   "source": "gCaptain",
-   "title": "QatarEnergy Signs Long-Term Deal to Buy U.S. LNG as Iran War Disrupts Exports",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "0165c34b3728aca724d3b254aa8a9567ef10e206",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yWnlKYmkxdkpXQ3VnRzRxZ2NzR25DeWVCQmJDS0hiS2N2aFlld21iWG1HMnpibWl1UTJQUUwxMmpxWG5FY1JnRzZjRnMwUHQtaDRqNC1zMjRFU0xLUFcxblNyVUtaQVI4NXJOY3pQeFFiUnpjbUFmMEF5Yw?oc=5",
-   "published": "2026-10-22T14:45:29Z",
-   "snippet": "",
-   "source": "Inspenet",
-   "title": "Saudi Aramco seeks alliances to expand crude oil reserves",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:Bab al-Mandab",
-   "id": "f2a38fb200e664949d1595f79ae9778823534ccb",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1ZFU2hVZXJGLUdLX2QySVU4ODhOZVd3dTVBY3FSYzgtV0dSVUNHdVpTN2RQa3lEdDRaeW5TS3F3RW5hZUV2VlFBWVpYNjEwZFYyNE1SZ3hOMm1wVG9Bbi1sa0pDWlZwT2Y4Q3M5c21qQlFDbmQxdmw4Q3BreV9pQXQ5S3U3YmNsR3fSAY8BQVVfeXFMUHNuMGFoSkZQU1F1RFc0YW0tTVQ4MVM3eFlwalp3bkNOejRwS2JLYTFfWHZOaWgtZFN3MTFjamh3ajhza2NJV0V2aTU0LTY5UzVCd3Q2RU1NMjdtcTBhX0JYQzJwMFFaWnhfNkF6UjdfX2xWeXh6NXh0YXBmazZhWHRoellfVFFtazFXaFNsWkU?oc=5",
-   "published": "2026-10-22T14:37:38Z",
-   "snippet": "",
-   "source": "Gulte",
-   "title": "Boat Carrying 14 Indians Attacked In Red Sea?",
-   "topics": [
-    "shipping"
-   ]
+   "source": "Cayman News Service",
+   "title": "Premier backing LNG as solution to fuel crisis",
+   "topics": []
   },
   {
    "feed": "google:Strait of Hormuz",
-   "id": "133ef01e895ec142f47470c0754fadc97b58d1c4",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1ZDWnlMSm0tajQzNXh6b0s1enM3aW1NY2tjdkZqX1B5SHdWQTBMNlFTZFNkeU1ZbGpreXJHZ2RJRDIwc0ZiMFVtZngyOEI3ak9QaXNsV2tuVHhBdlJRMGlKVXVMZzkxYUdEeEJVU045LVN2a2VibFZjR0F5N3J5dFItN2pDRlZPaGgwRXN2WUVlNG9tNEhmQnZ4TTBQVF9icFlkSVFPdUxfcENGcXVzSmJEYlg1M2treXkzdFVpSzBvNDhvRElpcw?oc=5",
-   "published": "2026-10-22T14:37:36Z",
+   "id": "e49ba26d10a55526faa65be0d49b410f7811a0f9",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZll5QUxjZGJ0eGF3eWM2N3EzMG1HaGdfdU5HOExObzNSR2VUSldDaV8xMUlCUklDNG1JVS1ReC1uRDdOSkZBNkd3ZkRhYkRPZDVhYVFxZVBuXy1paTNEb0k3UmpQSVNDb3VTdktlc0NpMDkwREtJbUhPWjZkT0RoQmlYYm9vdmVhanFsZFVWRk1WcXBMbU5EUDFOelpiU2VoUkkybGFLRklVRlhLbjJKaWhRMkdDOThyOUE?oc=5",
+   "published": "2026-10-22T19:15:00Z",
    "snippet": "",
-   "source": "The Malaysian Reserve",
-   "title": "Iran sets seven conditions for reopening the Strait of Hormuz, resuming talks: Official",
+   "source": "Washington Times",
+   "title": "Trump rejects Iranian claims of tanker strikes in Strait of Hormuz as oil prices rise",
    "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "rigzone",
-   "id": "71f01d4de2a159338c21f8f90d24637e6878bdd4",
-   "link": "https://www.rigzone.com/news/usa_crude_oil_stocks_drop_3mm_barrels_wow-22-oct-2026-184911-article/?rss=true",
-   "published": "2026-10-22T14:36:46Z",
-   "snippet": "Commercial crude oil stocks, not including the SPR, came in at 412.517 million barrels on October 16, the EIA's latest weekly petroleum status report showed.",
-   "source": "Rigzone",
-   "title": "USA Crude Oil Stocks Drop 3MM Barrels WoW",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "df5532015ad0dd587335e8791b047a5cde8df391",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUGwyZkRfRFpJLXBBRDU5ZFlyRm1hbW9wemNLX1FDZGdWRGhCSlVqSTFBVkppTWFNVktlaWdHRFgtQ3NGNzJtWnVyYzVUWG5nRnd3Q3JVcVMtWUl5X3R3ZGhhUU4xcHU2LWNkQ252ZGZ6MDJieGJTc21HMkIxNEJ5emJBUkY0R2NZRzV2VDBEb3RackhEdzJNWFBCTi1WSTh4N0pORE1kdWRHYWQzR0JpOVY5RXFQZFBseGkyM9IBygFBVV95cUxPUnIyTm1kRlJUV05ZXzBabkY3X0djUDZTX1RmNXgyOFdXYnNQSkd3SmtVMDlRSzE3RU9iLW1iODVwODdxOHp0Y0lTM0VmQWZMNUgyNGRESm1jV25VQlFrTHJMY3hOcXljdHdHM1RsR2ZXd21mdWhFVmVkMFlTSFRyQUNUWVFLakUzeGZSVk5jV0FaTWNEVjlER1l1X0wtWkFSN1JwUGI5VE5qSFlVSmRRQnJOdk9Ua3VwbjNqRkkybDkxano4TV9iZ3JR?oc=5",
-   "published": "2026-10-22T14:32:47Z",
-   "snippet": "",
-   "source": "National Herald",
-   "title": "China backs reopening of Bab al-Mandeb as oil supply disruptions mount",
-   "topics": [
-    "supply",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "1fbf1faad24b8c6ac8e7101e51a6ebcaa1ce6931",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRGwwa2FZNTJzWnlCck1heW9XMGNfUUNZMVFvSGVITlRWQVJWM3pzd3VHaGRMMEpKclZncHowMXhzclozQ3FpWWM2N3Y0OFlJRzkzSUY3X3gwTUotRDhuRnFoUml0bGhqYi13amFBSXF4RGlkYXVfdmNmeGduQzVuSQ?oc=5",
-   "published": "2026-10-22T14:32:14Z",
-   "snippet": "",
-   "source": "https://www.engine.online/",
-   "title": "US fuel supply climbs in October so far",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "oilprice",
-   "id": "84801b8277c8d6bfa39944ef73858436f1bcd0e3",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Rise-on-Middle-East-Escalation.html",
-   "published": "2026-10-22T14:30:00Z",
-   "snippet": "Europe’s benchmark natural gas prices rose on Thursday to nearly 90 euros per megawatt-hour, or the equivalent of $29.50 per million British thermal units (MMBtu), as the escalation in the Middle East raised concerns about European winter…",
-   "source": "OilPrice.com",
-   "title": "European Natural Gas Prices Rise on Middle East Escalation",
-   "topics": [
-    "supply",
+    "hormuz",
+    "shipping",
     "prices"
    ]
   },
   {
-   "feed": "google:Bab al-Mandab",
-   "id": "ee6425a43b97be4e9d73b56875d34a01ccf5f3b5",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UVGZGSnJzWk1QN1ZFX2hyazdwbDRscHFvbnZVOEdONkFNS1NaUEFieldPMmtCZW9uWEwybzE3a0pUdEY3UHdONzlweTJfRDNp?oc=5",
-   "published": "2026-10-22T14:29:41Z",
-   "snippet": "",
-   "source": "www.sabanew.net",
-   "title": "Yemeni Foreign Minister Warns of Houthi Threats to Regional and International Security",
-   "topics": []
-  },
-  {
    "feed": "google:oil supply",
-   "id": "232e3a80a98f4f73c906b25657463435cac533a6",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXhnd25WUS1ZTnlqSUVFMzkzQzRmVzRmTEpzYWxvVnJHWjV0aklQSE90dlB3ZWswSlJLeVR5cWxqMkRnMEJYclJjZkI1R1d5NjVNOEdRZkZLdW9lRFlVbURXQ1JaenNYU19vWGpIaXNMQVNqajBvZFJqYTZybnBzblNZNEViNzZBZUp1UFFKaV9UcUdwcGNZUm9hUmNoa280d2x6Q1FpWVM1Q2l6WXNrTm1R?oc=5",
-   "published": "2026-10-22T14:20:47Z",
+   "id": "0a86fc2b693f88566070d0475fe546590c60a239",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUnVQUmtBMWxEa044SmZLUWJRY3BNMG9leS01MHFZTkhjdWNxM2h0MVZtVkpKOGdHOUdWd1VXWVdrYWlEcDdTUVl6OE5jZ2xwOUh1SjNSQlMyMm9YdDBBT21IeFc5VGpENWE3c2Fva25QRDFrd3FpWHVrU3pET1lsalB3Ym9EeDRHR2doMkZxQ0ZMWFVTc05rQUhR?oc=5",
+   "published": "2026-10-22T19:14:00Z",
    "snippet": "",
-   "source": "Quantum Commodity Intelligence",
-   "title": "China pulls in additional Mideast grades as Iran supply fades: Vortexa",
-   "topics": [
-    "hormuz",
-    "supply"
-   ]
-  },
-  {
-   "feed": "rigzone",
-   "id": "c7c0bfec5b54940968ce67d83b6265b88f833e67",
-   "link": "https://www.rigzone.com/news/wire/saudi_aramco_evacuates_hq-22-oct-2026-184909-article/?rss=true",
-   "published": "2026-10-22T14:17:26Z",
-   "snippet": "The kingdom is on alert after a flurry of attacks from Yemen's Houthis in recent weeks.",
-   "source": "Rigzone",
-   "title": "Saudi Aramco Evacuates HQ",
-   "topics": []
-  },
-  {
-   "feed": "google:jet fuel prices",
-   "id": "d3ba5b3b6f127758effacb1cfa3ecc286ead9e90",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbTMyNUZGVEpOOUJlOGVsWEx2LWJzQ1FoQVBRMnpVU01ES2p2NGNEOXlQSTJ6d1lCTUtMWHc3bnlWdTQ4S09mb2dpZ19ySG8wNkNuc0tsM01wUVlFbGtETHJTQVhJQ28wVTN2cUtHRnBMMC1MckZmRkw0bkRueThwMGxjRFljUFZ2eFR4T2V3TFduazZrQlZuM2hhUUhpTmFIVjhqNkdn?oc=5",
-   "published": "2026-10-22T14:17:05Z",
-   "snippet": "",
-   "source": "Biomass Magazine",
-   "title": "Neela Biotech raises £2.1m for AI-driven sustainable fuel technology",
-   "topics": []
-  },
-  {
-   "feed": "rigzone",
-   "id": "bb8ba5786f1331e17c868aaffcce9019b048341f",
-   "link": "https://www.rigzone.com/news/tamboran_ceo_abbott_takes_on_dual_role_as_managing_director-22-oct-2026-184908-article/?rss=true",
-   "published": "2026-10-22T14:11:59Z",
-   "snippet": "The new appointment 'formalizes his executive leadership at the board level as the company moves from the appraisal phase into development', the early-stage natural gas exploration and production company said.",
-   "source": "Rigzone",
-   "title": "Tamboran CEO Abbott Takes on Dual Role as Managing Director",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "aeceaac9f9cc5336f47456443b18ad04cd67d3da",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWndEQUpjdkh5V1F0T3NWRUUzTUJOS2Vqcy1hOWtVVFdLdWlOVmlWdUp6Y2s3NE5kc3pzN2ZmQWozdHo5OHFBTU02c1hwaE5kc1lNMTFzMkkxZXdOaGVZOWxwcnRIX2pYUDFMTUpoSEpiYXpUWU0zUDh6X3ZUak5GcWFjXzZJOGdjbHk2c0dB?oc=5",
-   "published": "2026-10-22T14:04:49Z",
-   "snippet": "",
-   "source": "Egypt Oil & Gas",
-   "title": "Kuwait Raises Oil Output Above 2 Mmbbl/d Amid Iran War",
+   "source": "New York Post",
+   "title": "Iran’s secret oil supply bound for China has dried up thanks to US naval blockade, analysts say",
    "topics": [
     "hormuz",
     "supply"
@@ -401,338 +235,22 @@
   },
   {
    "feed": "google:Strait of Hormuz",
-   "id": "15bed891ce16558ad03f12584b01961fa3d2c887",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TbEpGUjIxTTRnekc4c2dKUDFDX3NXTW9OTVVtblJWX1NKTlNLQUVTM184Y3lCbU40TEZiOEROM2liYzduUHNudExmZE1WRzJ6QXkxQmh4X1h4SjdmdFZ0ekM5b9IBaEFVX3lxTE9jNmR5MjdTLWRlRF9GcGdUd2hQRlBWVEhIQ01PMXdzN3V2dnFJOXJnVXpjVk0wWU5hUjVkc3pOZjZvTnd3SUhzMUk0Ylk3NFg4cllLU1FpRm5FcU1BNE1INmFsLTF5SENB?oc=5",
-   "published": "2026-10-22T14:04:38Z",
+   "id": "7bf535bb883e7842ff40ecf766c75754e4df9210",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTkZZbnJkM2F3bUUzRF9kcHN5bGtfUDZYVzlzZWdlUmZkWTNfUVBaWnA2U2U4bmJiUFgyMk5WeGxnZGRoNnliejNwZU1VSjdhRTJETTRXakM1cnpmT3A2MXlNX1g3Y3dEdklxdWxxa3A4ZXNEUFM0UkNVRGh0WmZWVHZDTkl6ZW94elVaWm4tVjRNa19qT082V2Z1UVFYNmt2NFpmUEZieFgwREpuWmNBam5QR3drU0Nlcnc?oc=5",
+   "published": "2026-10-22T19:12:43Z",
    "snippet": "",
-   "source": "LiveNOW from FOX",
-   "title": "Iran says 7 ships were hit near Strait of Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "oilprice",
-   "id": "275f79fa7864ca8c6a3ecc54c1edf1156abf3f38",
-   "link": "https://oilprice.com/Energy/Energy-General/What-Jackdaws-Approval-Means-for-the-Future-of-North-Sea-Drilling.html",
-   "published": "2026-10-22T14:00:00Z",
-   "snippet": "A lot has happened since 1 June 2022, the date when ministers first granted permission to tap the Jackdaw gas field. The Conservatives were halfway through their ill-fated final term of three. Kwasi Kwarteng was the business secretary…",
-   "source": "OilPrice.com",
-   "title": "What Jackdaw’s Approval Means for the Future of North Sea Drilling",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "eia_tie",
-   "id": "f69a9f9600987984c6d19dc7d3e706e914f46b8b",
-   "link": "https://www.eia.gov/todayinenergy/detail.php?id=68344",
-   "published": "2026-10-22T14:00:00Z",
-   "snippet": "The U.S. refinery fleet has run at higher-than-normal rates this year, with refinery utilization averaging more than 95% of capacity between May and September, the highest for those months since 1998. Tight global product supplies this…",
-   "source": "EIA Today in Energy",
-   "title": "U.S. refineries have been running at very high rates in 2026",
-   "topics": [
-    "refining",
-    "official"
-   ]
-  },
-  {
-   "feed": "google:jet fuel prices",
-   "id": "b110ef3800e826bb3602ef9d3de3de8ccf864579",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWgwSVltbkxJVmRPeHZtbUNLb0wwcEFVUnpnc0MzdEsxSTVTd3NnVGI3TGQ5Y2t2RHVad05VZmF2UmlIZFhFSS00Q05xTEpJSW9nbnJXMndOLVU1bmFLUkJCeGtnSE9uODE0NnFWUmU2YS1rM2FfbjgzNDRObmZpYk9DMWoyUTlUMkZBMU04THAxTFFLdEJockxn?oc=5",
-   "published": "2026-10-22T13:53:48Z",
-   "snippet": "",
-   "source": "NBC News",
-   "title": "Tracking U.S., state and county gas prices, in maps and charts. Updated daily.",
-   "topics": [
-    "prices"
-   ]
-  },
-  {
-   "feed": "bbc_business",
-   "id": "374498ab6635ceec9aa19fa4f58f11504a0a57f6",
-   "link": "https://www.bbc.co.uk/news/articles/cm70pj51zdk4o",
-   "published": "2026-10-22T13:45:19Z",
-   "snippet": "The defence secretary says the UK is \"back in the business of making weapons\" for its armed forces.",
-   "source": "BBC Business",
-   "title": "Tank barrel production returns to UK after 20 years",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "68d0a97256ecdf5da4aef8ea7eaeea5f7fea63d3",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbUxKOG8xb1d6MW00ZGNJckFYSjdZSVJtZE12RGtfcHRxUWZUZ3NRTDllNlhMNktzNjY2R3Z1OTRYNEN0Zm9fS29vZkZvWDVHd3VFSnFWMzUxVU5sM29LTlFiaV9Pa21IdVlRYm50WHp2NXVXUzVFc29YN3lhcFVGbDNzc21kbHV0QWpQcVNxOXhqSTZ1N0l3TDhjbnh4NVplTGtlZk0yUjI?oc=5",
-   "published": "2026-10-22T13:40:00Z",
-   "snippet": "",
-   "source": "The Times",
-   "title": "US withdraws diplomats from Saudi Arabia amid deadly Houthi attacks",
-   "topics": []
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "4b576dbd790fa30f106bf39d9a8a15de777241bf",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzF0NmhDRTFRT3BZUmhlUlJVcllGWkZBc1VVbGEwc0xDREQ4QTI0UEp4c0laQ3A5VGMtdVVkblNwSlJFQTN0WDE1bzhPMVN4YmVUVktXbXZDbXYydktvd0xGMngxdm1TOHdaTWlUSVByWjlTblZRTEkzOFZCbWQwbWlleVVmekxrRDZBS0pDa0VNY1hRMnYyRGRoOUloU05Xb3Vob0RMMnZyd2VxVWhTeWF6ajZqdmxa?oc=5",
-   "published": "2026-10-22T13:35:51Z",
-   "snippet": "",
-   "source": "Bloomberg.com",
-   "title": "Putin’s War On Ukraine Puts Oil Giant Rosneft Under Mounting Pressure",
-   "topics": []
-  },
-  {
-   "feed": "rigzone",
-   "id": "d2045791c5cff4fd8538d4d521ee791b538bba61",
-   "link": "https://www.rigzone.com/news/eni_ccs_project_in_italy_wins_eu_funding-22-oct-2026-184907-article/?rss=true",
-   "published": "2026-10-22T13:35:48Z",
-   "snippet": "The Ravenna carbon capture and storage project on Italy's side of the Adriatic Sea is among 12 'large-scale' projects the European Commission selected for the Innovation Fund call issued last December.",
-   "source": "Rigzone",
-   "title": "Eni CCS Project in Italy Wins EU Funding",
-   "topics": []
-  },
-  {
-   "feed": "google:jet fuel prices",
-   "id": "cf2dbcd45275e2fbe7b4912a6e683a03c31c10e7",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUlVkU19lc0N3cERwZ1lFVTJ6QWZzQjBXbnpaNy1pZGVhUkJ5ZHdVRFJaLVNLelhNcS0wUG9VWGVTakFFUXVMY2NXVVRWbzBUa3kyZ3dWMF9jb2s2ZlluWENmUzJ3c3RUSjQxOGZjRlVhbFVjZWxxOEJnWm1BanR6Z2JWcW54QXVSbE55UU53Ukw3aWhCcmtXNHhKd3dfZVNfM3VwaU9MVHEzTTFMMlplUmVnWTNXMjJJNFRnaWRiOWltWUYxWEtNR3ZWTDAtXzgzc1RkYU1ONGdVN2hlUGtKcg?oc=5",
-   "published": "2026-10-22T13:35:00Z",
-   "snippet": "",
-   "source": "24/7 Wall St.",
-   "title": "American Airlines Sinks 4% as Fuel Costs Push Outlook to Full-Year Loss; Delta and United Airlines Drop 3%",
-   "topics": [
-    "jet"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "e60de85be4d6f51123e2c769044e5284ee4db0e6",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1dfSVlheS1QenhvU01GU1RkcWQ0SE11NzZ4ZGdLWUpIRkZfVmVyaFBrZnp6UzdfVmdqVE5xM2VBVXdGRm9oOTA0dWpJVmxyMlJUZDdvMHNLRkVFY3hCM3RZemVrWUxxR2NwMlE4QUIweEhrRnNTRXBVdTdtRXo5eV9aYzJxTFAyY1h5WE8xUG1qSUY1eU8zYXJTX0NUZmVHc095Nno4dkJJQ1FH?oc=5",
-   "published": "2026-10-22T13:34:08Z",
-   "snippet": "",
-   "source": "İlke Haber Ajansı",
-   "title": "IRGC Navy issues 'serious warning' to US over Strait of Hormuz tension",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "1fb5f35e0895411d8b48999081a7ae4ca08138a9",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
-   "published": "2026-10-22T13:31:12Z",
-   "snippet": "",
-   "source": "WSJ",
-   "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "offshore_energy",
-   "id": "967823ada4e72d1deb4137953fb19cc4993c42e1",
-   "link": "https://offshore-energy.biz/2026/10/22/feed-job-for-barents-sea-fpso-topsides-goes-to-aibel",
-   "published": "2026-10-22T13:30:00Z",
-   "snippet": "Equinor has booked Aibel for its oil project's topsides engineering study as partners eye a concept selection by late 2026.",
-   "source": "Offshore Energy",
-   "title": "FEED job for Barents Sea FPSO topsides goes to Aibel",
-   "topics": []
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "c63a712e4ad91fad3e0ba6cd6cfd431377a85eaa",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Cd2xkNEN0SXZZYUNPZkVRaVRiVUJJamVyZHFBSGEzTnNHajhJb2d0WWNOZHlYNjJHMXg5TmttbWFYRk9uR1hYTFhZZm9VMjNxWDc5T2s5R0I?oc=5",
-   "published": "2026-10-22T13:29:22Z",
-   "snippet": "",
-   "source": "وكالة سبأ",
-   "title": "Rezaei mocks US claims about control of Strait of Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "49a57f75b4dd37def5611dfd837172c685d286f5",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHpiQUExNnF3SFctM3VsYVJwdWEzXy1RUDBUcUhidlNKZXl0RmxYMFdRMnJWSzRoNDRhMnE1QmxaZzB2RnN2M3lzQUs4QTVXbVUwQU1DSUhjX3JfY2hQNExRTjdxbU9NOGoyTEZSM1pyZFRsSHZ0S3VLbEJMUndaRjV6Ym9fMlp1Wkd1V0U2TmNCTVdWYkJTYXdoLTFUSTk0TE5tdS0yWHBCTVV0QTBPMnE4M2ZrYU02ODJ3?oc=5",
-   "published": "2026-10-22T13:28:00Z",
-   "snippet": "",
-   "source": "Spectrum News",
-   "title": "Russian missiles hit Kyiv as Moscow says it downed 800+ Ukrainian drones",
-   "topics": []
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "f14e8358436e64c91ae4437e1320a4b07c67f46b",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53N2s2Q0wzNEVWQWZoS2E0Q0NpQTE1US12YWkwSF9rTldMbWlYZ3NzdUJtaDEySDdSX3lsbnFpSHR0MTdJeGlUN3ItVHhCT243VnFSS09lSF94Y05PR1ln?oc=5",
-   "published": "2026-10-22T13:24:16Z",
-   "snippet": "",
-   "source": "Trend News Agency",
-   "title": "Uzbekneftegaz studies SOCAR’s fuel supply, storage practices in Azerbaijan",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:OPEC output",
-   "id": "bf91d10f86b86f0bc2d2d3eb910f696f091f5568",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RVFJONE9NeE5JNGU1V2FSN0JOV0JSTWVDUFJRNjJEZTdSWjlJZWhrM0RvZlJoZ0ZUY3pidU9ZQUsyMTNhLW9yY09ZemN2c2VjNXBiNmlUWGxCbGhhUmY2UWo5cllpVkpyS01EeUtwanpQYlk1dE1vYlc2Zw?oc=5",
-   "published": "2026-10-22T13:24:00Z",
-   "snippet": "",
-   "source": "EnergyNow.com",
-   "title": "COMMENTARY: Trump Broke OPEC. He May Regret It: Bousso",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "rigzone",
-   "id": "0a879e48e4c57c4dbed1b6544fab9189c20baac5",
-   "link": "https://www.rigzone.com/news/santos_logs_49_percent_quarter_on_quarter_increase_in_revenue-22-oct-2026-184906-article/?rss=true",
-   "published": "2026-10-22T13:22:18Z",
-   "snippet": "Santos reported around $2 billion in third-quarter sales revenue, up 49 percent from the prior three-month period as sales volumes increased 11 percent to 26.4 million barrels of oil equivalent.",
-   "source": "Rigzone",
-   "title": "Santos Logs 49 Percent Quarter on Quarter Increase in Revenue",
-   "topics": [
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "8cc4f012fbce9d76e7bdcf19e35992efd87135db",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVY5bG1JQUt0Z0p4c3N6TThHeGZ0d0FJZER2YVFWM2lmRkQ0Z3AycTBtWUdHeWU3TC02SWlzOGN4em1fSC1xLXVua0htM1doUXg4NmRWTndIQmtlaUlNcWFIalNzQmNCejJLajFqdzNLUHhsbzlNeXloTjFJb0tDVXBzWkFpMFJza3M4Si00ZUJfb2tlRW9PSHQzR0IzM3JmQl9SSk9HMFc1bXVNeEVZLVFtTHZsNWl30gG-AUFVX3lxTFBYVzBLSzNaV3l5UEh2NjRiaFdsVTdsakloSjVDTFpEWXRTZFl6V0RNcnR6UkI1T1paVGtvV09YTHB0bHpSR0dSNVNFWjV3eG9wekhxMmxhS1ZsLWVEQzBFTldBT3hWUHI4OTI2VFA2RGhtazBuUGtSbVh4Szcxd0NZR3BTTjJIY3AwZ29WYWNabW5OM3lBU1FQSUFYSE96d25WYjFSRC0tT2ZGVWlwV1Fpd3hXQkVCZUo1ZEVhWHc?oc=5",
-   "published": "2026-10-22T13:19:31Z",
-   "snippet": "",
-   "source": "NST Online",
-   "title": "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify",
-   "topics": []
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "242bab2a992119f4078326dff092471fe47d5b2d",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVjRrcmdKTERGaU5SbWU2Y3FmWHpWVVBuS2lRQzkxQ214b1duUnJVcDN4TU96dk5TQXVEVmdOMDB6NFVwS0l3OWVWalRoU1VjdGJfNzRoQWJaREN4THlPalVxa0k1eE5aRnh0ZERZSDVMVllDOWd4UFU3eHJaX21GOUZkaWZLREhFZXc?oc=5",
-   "published": "2026-10-22T13:19:00Z",
-   "snippet": "",
-   "source": "Gray TV",
-   "title": "Oil shipping through Strait of Hormuz",
+   "source": "Belize News and Opinion on www.breakingbelizenews.com",
+   "title": "International News: Iran says 7 oil tankers attacked in Strait of Hormuz",
    "topics": [
     "hormuz",
     "shipping"
-   ]
-  },
-  {
-   "feed": "google:strategic petroleum reserve",
-   "id": "da93a22ef478f0502f2b7955b793814d778438ab",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnR2VUZaNUxuVm4xM1lQcHdhdzRvcm53LWZnUWxsNEZmTzhWX1dWdXJBVU5nam9SajB2bUUxNmVDQ1R0QVpndGhCQkhWa1RLTTFRWlhueFBPaXBXOVM4ODBBVkFEa1FwOXgwVTBkUzBFRFFqR05pOXpIX0VLVlBkY3dNNmo3UmhDQTFaZUlYbm9PSGx2V1Z4Yg?oc=5",
-   "published": "2026-10-22T13:16:21Z",
-   "snippet": "",
-   "source": "EnergyNow.com",
-   "title": "AMERICAN ENERGY SNAPSHOT: America’s Strategic Petroleum Reserve",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "37ae73665673717f0c1730d36c52ca1a17a5d552",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fM3BpTWZxa3R4OWUzN1JGMF9telpZU1pXbW9SbUN1Zk9ielg4SjhTcnpHdzVLeTgyMXVnYXJNdmgzeTEtMENRZ0J3bjR5VS1ndVNDRHhJVHRQdTNJdVd1aW1Td3BKRzdhRjlTMTVZbUN2b1RiQUVteXRQY18?oc=5",
-   "published": "2026-10-22T13:09:16Z",
-   "snippet": "",
-   "source": "Xinhua",
-   "title": "Britain, Oman agree on need to open Strait of Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "1a57bdfb6821d01f79f130ef1d5702a8eb697c53",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTmNKdDJEcmVVRVA5aGVjOGdZUmR0THd2NFZNVFFMNHhlNmI4U3lnbEhEbFlXbmUwN0VxQk5CdWFsR3A1c2dMSGZGUXlBWXYzbEVtUlN2V1k1Y1M0alFHMDlmMy1NbW1YWkd0d0FDMmdsQlQtMmpQVGhQQWsxWFhWeFkwQ2pLSXdMb0R0Zl8zSUtOd1RDM0c0cFZ3OFFiMTBGMUxlUXBSaEc5bTFhbkdOY1N3LUZwU2lEWk1UVFB5WU1FdElXOXF3dw?oc=5",
-   "published": "2026-10-22T13:02:02Z",
-   "snippet": "",
-   "source": "Gulf News",
-   "title": "Saudi Aramco evacuates Dhahran headquarters, orders staff to work from home",
-   "topics": []
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "491f6ae315200b399d63c7014031a23ac1bd529d",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1BzRE84R3lHeDgydERUM1pVbDZiZ3lCaTk4NUNtcUo3S3ctWGUwSENJYjlGaDRWOVItMmIwNHgyVmlsNzZjQnFTdnFfZW1QQ1FIeEdsNVd4NElTbU9DWVA5cFBtQUtobEdreTJjWEluWVcwNy10TlM4U0U0VVM4NnBvUE11UUU1RkZFU3ZJdzl0ZmRlMVhEUmEwLW1SZ1RpT1E?oc=5",
-   "published": "2026-10-22T13:02:00Z",
-   "snippet": "",
-   "source": "The Guardian",
-   "title": "Tell us: do you live near the Strait of Hormuz? How is the US-Iran conflict affecting your life?",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "oilprice",
-   "id": "6b4aa8914e7ec5aa8b0972160e9263d86147e9de",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Grid-Constraints-Curtailed-119-GW-of-Renewables-in-India-in-September.html",
-   "published": "2026-10-22T13:00:00Z",
-   "snippet": "Grid, flexibility, and transmission constraints amid limited battery storage forced India to curtail as much as 118.6 gigawatts (GW) of solar and wind power capacity in September, data by India’s JMK Research & Analytics showed. A total…",
-   "source": "OilPrice.com",
-   "title": "Grid Constraints Curtailed 119 GW of Renewables in India in September",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "ca7822675e6289bd0b5455b3f92e2f7a87de8490",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVNHUTlYbWVrcFdhLUJNUUtZcEg5akdrNjk3dkNQMGZZbHdNMXhCZlZieUVWT1RWWW9PU2tHNUZ4MjhHN0VYMThGVlp3Snpxd0NGVGJocFE1QThkdllEOGw1X21OWEtjSWtzTk1hYWhQbTl6SVh0U1hldGlyQzA2SQ?oc=5",
-   "published": "2026-10-22T12:50:12Z",
-   "snippet": "",
-   "source": "CBC",
-   "title": "Iran says 7 ships have been struck in Strait of Hormuz, Saudis intercept drones in airspace",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "3fcb29ade3d291268e898d696175298cab7dce71",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOWpzZ3diMkc5SWwxeDVYV2QyYkliTHh5MFRRMHpKa3Y5Ql8zUHpaVjdIaWY5c1IweHhjY2UzNlZ1MWs1WXNvc3FvS1dfb0kwcGIyM3VvbXpQREdkRVhYUXRrS2VUc0hiVFJTTVZsVlpmYWltYlNvY3N1enROTDVVX1J4b0FFUzRBM1FscHQxMl9lWm5mQjNQSW5uYVFXa2c0QXVZVU5jdkpia1NhUHJWSXNiYnBDTGg3WXVkWUM5dm13d3J3R2RkaXFQTQ?oc=5",
-   "published": "2026-10-22T12:47:46Z",
-   "snippet": "",
-   "source": "WRAL",
-   "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "fbb0108844c2e2967ae36c331c611b6a160fdd39",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FallMeUlmOHJRb2tOb0U5NGZpTHRCaUQ4Nk00WkhxRHpIdDd5TE5uRGhfSVhWQzRFYU9JcC01NkxwWG03YWthZmI0cDZJYzZkcTFJdUprSkREWndKU3RsMnZuXzVsc29scFpfcw?oc=5",
-   "published": "2026-10-22T12:46:36Z",
-   "snippet": "",
-   "source": "https://houseofsaud.com/",
-   "title": "Iran Claims 7 Oil Tankers Damaged Overnight in Strait of Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:\"crack spread\"",
-   "id": "a4065496c12030da0d88c344bb41f746ec3d4633",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGJ5ZWI5OGxERWdfVkdxYnIwYnJzMnp3Qk5reWhaV0RhYzB1MVFuRkJqMldtNHc0amlGNUl2UnRSS0o1dExpTVlFTV9tUXk4ZXc0WDB1Y2JvWXBJNDFnejd0VHdOX0U2N0s4ZTd5RDZXN2xadWtuYlZlNEMtMDBmVHBmUEh3N2ljcFpWS1RDdm5EajE0V2pJNXVnZDQ3cldGNk1kbW1IN3lqaTVTMUZXMlRCYnc2UjE3bno3MEVPWVk?oc=5",
-   "published": "2026-10-22T12:45:00Z",
-   "snippet": "",
-   "source": "Stock Titan",
-   "title": "A regional diesel-to-crude price gap stood at about $133–$136 a barrel as Sky Quarry started refinery production.",
-   "topics": [
-    "supply",
-    "diesel",
-    "refining",
-    "prices"
    ]
   },
   {
    "feed": "google:oil supply",
    "id": "64fa5d29626df04005c88aa552611846b5b63a4c",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGpORlFHazhXTnJBNnc2TndhSzgzUGRSLXd1Zm9fb0xKRzJZTUs1NGRPdE9McUpmZFlFenhNaGYwOGNIREM5NXRMMTZ4VXg5clJDaWFqcGRKRDRBSUh1bUpLenQ4ZTdyQi1qT1p3RjhRT0V6UVdUdGFuLWJxakVvMHRRanRvUGduVXA1bkZmaWlNRHFlOEdhVFhxTHAzUQ?oc=5",
-   "published": "2026-10-22T12:44:05Z",
+   "published": "2026-10-22T19:11:55Z",
    "snippet": "",
    "source": "Bloomberg.com",
    "title": "Oil Rises as Deadly Saudi Attacks Fan Middle East Supply Fears",
@@ -741,92 +259,588 @@
    ]
   },
   {
-   "feed": "google:strategic petroleum reserve",
-   "id": "c1615c9de75748c15087d893244e898097ef5cfb",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWkcxbC1rQUFURXNsLXdfak5hSkdXRC03aDR0V3hWTVFUVUJ1YWRTQUZrcTkyaUFOb1YtMXRWSFlZNy15YkFNc3NmNmU3QTVSMmItOEJfcnAxMFN3Y002WGJlOU1nTUVjSmx3QlJWQ1c2M2lJaWgxN1lRRGp1Y0hHeVU3VWU2NVYzVTZCT1hDSkh6NEJFUHJyNmtTaURvRUd3a05LanNQMlJ4aVdLdGhzYS11NFpvNURKdFdES1BzU3BlSFRWRzZPYmU0ZlkxRXVBTWFjNFIwZF90Z0sxTmfSAeMBQVVfeXFMUHA3c3Z2UVdTUGEwMXdVd0kzMnRMd0NCOV9wUkFpTmVfWmZIS1pkbzZwWGdzUXg3ZXFnU25ERnJvWXJQcWJMQkVLLVphcmFnSWNpTEZHTkU3SF9WSWFsOTh5TUxpZFFmRkdKQVRydHRjbXJUcmUwdUZtVkxFYkdYV2kyVzM4OWJWazByeVBaY0h6cV9HckE5eHBLTy1qSnJzODhOMWk3c0dXNzBQTGUwLV9kaXduaERKZGJPVTRIWUZ6amkxa3hILU5Ib0FSS0xiZVJ2MGJ0LWgtN2h0ejI3SjR4MGc?oc=5",
-   "published": "2026-10-22T12:41:00Z",
+   "feed": "google:Bab al-Mandab",
+   "id": "003752e31a51b041ba1e401844af81b88bef948c",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMMGZkOERZMml6YUhQbjFhOEtkQ2pNUTVIa1ZtM1hmdlZQb0swb0VoWnFqbEwyMDhSbkx6RmRuaTg4RXFDLW9vakhR?oc=5",
+   "published": "2026-10-22T19:02:19Z",
    "snippet": "",
-   "source": "Business Standard",
-   "title": "Adani Total Gas Q2 profit rises 3% to ₹167 cr as revenue jumps 34%",
+   "source": "وكالة الأنباء السعودية",
+   "title": "Foreign Minister Receives Calls from Cypriot, German Counterparts",
    "topics": []
   },
   {
-   "feed": "google:oil supply",
-   "id": "cd4608ebc2c98ba61bf69765a7283060a39f928d",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVDZQa3dPdjMyNE1pMzlTdURka3NacmNtNmw0VUY2Mlk4SV9sMVpodnZfck9wYVhuTW15V1BZWVlSMXpzallCYmRXaTZSZVg4RWFCVDBaNHAzWEQ1UC0wbUpHUUktUFowVnNkdmF4OXNBNlpKWjMzNENGUkgxVTlDUEZkSXMwc2hwMlpXWVFuM3JCQ0lxZkhLZ2NSYW96VFM2VEI2dFIyRzhJTjI5QTNXcjBpM1JETVpPMnfSAb8BQVVfeXFMUHBJcWV0MVZmaGtVdFNWYjRmbWVaWEtENFk1SUVaRm8wRllyUUQxSEt4Zkx5TlNOTnVXWUtXMUJvLWdBSmx4dWNMQW5aZkd5dTY3OXphOVliZ1JxQkctdFhkLWpxWTZtN3NsbnhIVzdPWGNuVnBpY0FTb0c4ZmpuWWd4dGlfUUhGbVFVdmhMR0RNdE9iRF9GVlkwdnotMGRvdldnWkhya29uWWJJMmFHd1NhRnNWazVrTFNudjExUVU?oc=5",
-   "published": "2026-10-22T12:38:24Z",
-   "snippet": "",
-   "source": "Simply Wall Street",
-   "title": "3 Oil And Gas Stocks Linked To Supply Shock Risk",
+   "feed": "oilprice",
+   "id": "7b80fae17f0c85cc333acce00fa755453037142e",
+   "link": "https://oilprice.com/Energy/Crude-Oil/Strathcona-Pitches-250000-Bpd-Oil-Export-Route-to-Asia.html",
+   "published": "2026-10-22T19:00:00Z",
+   "snippet": "Canadian oil producer Strathcona Resources wants to export up to 250,000 barrels per day of crude from British Columbia’s northern coast using rail shipments and a new marine terminal to reach Asian markets. But first, it needs Ottawa to…",
+   "source": "OilPrice.com",
+   "title": "Strathcona Pitches 250,000-Bpd Oil Export Route to Asia",
    "topics": [
     "supply"
    ]
   },
   {
    "feed": "google:oil supply",
-   "id": "bb8c305e4d77efdbde46ee9aa2c3cdbcd7ce2d29",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcW9wZVlUaF96TUFrazV1SFhIZlRmQWtMU2daa3Z2X3BrQW5fNlBxd293RnB6N3c3Q255c3k0amRoekxHRTNxOUlYbGhvYXVGUEtDdnhZZHlJcU4zakhvZnhSS0JrdDJRYV9jUUJQOHJVMjNLcVRwUkZKdjlqVXNDMXdndWxXU01hY1owVjhfMGpTUHZRTkt5M0sxSFZtd1NVdndtNktJcU1KZ21TV21oNy0yc3BXNnJ4NC1R?oc=5",
-   "published": "2026-10-22T12:30:26Z",
+   "id": "d7e539d79e93f9ed6490079673b1f645dcc1e73b",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObFd2eHREV19FcTh3V2xmejdLNGljLW5JVnlQNVVLZUFVYnVMZmNDLXZ4V1hTSkRic1FOM3RXdjRKSE4yUTgwcUlYSVZzaU5CUHkxa2ZqVFdxTVRITUpBS1diSDFFYXBrOWNNeGl1VDg5b0NiZU1XZXd4WlRubmpyNXR6THE3OXhaRWRqZ0hhUEFfMHPSAZgBQVVfeXFMTnRCbnZuSE43VFp1b3BfeTZjOGNnbi0xcEZjYzlHQ3pTWlNsUGp4bTFKZUxXNjJVTmZmS0xJaHd3ZkVTcW0wQXQ0Mk44OFBkZkd4UDI4QnBuSndwZGN4REJFcHdzWXAtTk5Xb0lXVFJNeUt5MDRCZjcwaEdwUTAzZ2xUZ2p0UnRhVVgtMklROTlqRUZzMkZwU1E?oc=5",
+   "published": "2026-10-22T18:57:49Z",
    "snippet": "",
-   "source": "United News of Bangladesh",
+   "source": "Vanguard News",
+   "title": "Domestic crude supply to refineries falls 6.3% — NMDPRA",
+   "topics": [
+    "supply",
+    "refining"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "bdb56d260e4b1f9d65b4f5f79a3e90ad8a590672",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3UEIxMGdyWko0VWJhSGFZYUhmRl8zOGdhQnUzdnBXbUU1c1VZTGZNcnlCRVRweUdkLUcxeVh3Z3pwRU1CcXNTdEVjV3l3SlpHczVwaw?oc=5",
+   "published": "2026-10-22T18:56:27Z",
+   "snippet": "",
+   "source": "bloomingbit",
+   "title": "Brent Jumps $4 a Barrel to Five-Month High on Houthi Attack Supply Fears",
+   "topics": [
+    "supply",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "654efc3d1afcc15b0c3c88cf868dbc8adaa90edc",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPaHMta2p3dzVMeFh5N1lFVXNjcS1nNm9jMXp3UHo5bGl1OWR0a2k4SHlBblFUN0QxSllsNVlOQTRoY2s0b0I3U2VPbzR1ZUN3Mk5NMkQtZnlhMXlKZ2lMR20xMlVHQ3JEME43blJsSGQtX3ctR1Rldk5xbEMzTE1QVm04YzZ1S1hpMUNWVFpGakVUd2ViMW5HVUdURXo1MXpNLXBXVzJVYVhSXzRMZUQ4cG9DRjdnQWc0S0w2Zms0bmZlb2RlelBzRTdhZmppTkVRU3JqZFJBR1d1amI4MHF1Sk03azkzUVA0cXhYNEduRm9tdHo1N0o1SXpuUEdvYXVFLWVPZmVwNEVsZw?oc=5",
+   "published": "2026-10-22T18:52:20Z",
+   "snippet": "",
+   "source": "cristinaiglesias.com",
+   "title": "Seven Tankers Hit in the Strait of Hormuz: Crude Oil Surges to $112 a Barrel as Middle East Pipeline Reroutes Fail to Quell US Inflation Fears",
+   "topics": [
+    "hormuz",
+    "shipping",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "3e0a27beb48f82df0224d75791c356dfac85236b",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjNvRWdTZDgtT2pxRlAwc3hyOUQzZExoUkdCcnN0OW1jcmdaVjdkX3pqYUpVNVdPdDFEQjZVc1YzZ3NkSzVGN2NYQmNpT0NwdVpjci1zMUZVZmRfbllWSzM5NmQ0QVRWcGZDOEpySGoxcTNhQ0xHY2F0VWhwLUhuN01FYWVBYW1xWk9zOU1RYUJwYWZ2U205RWxGY042WVQ0X3JMRFpMSExqZmpFaGQxYmJaaEZrRDA3WTRfM2R4TmJxcHF0?oc=5",
+   "published": "2026-10-22T18:52:00Z",
+   "snippet": "",
+   "source": "norfolkneradio.com",
+   "title": "Travelers at risk during diesel shortage",
+   "topics": [
+    "diesel"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "b7c227219a7699804b4b4e9e6acece3beee81d63",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaVJTOTVjcE9NakxOZzI0WFZKc0RtTmlDeXZ3bzZ4bUt6MUEzWEdWY1Y2emN6X3I0RTJGNUtoQ2FXc051Slh2ZXdJUUhfaEl0aUplRkJ1cmo5bjhmbloxaDNGYi1Oc3FUMm4wV1lhQ2VPLXRTcjEtbmtBOGJqdWt1TmpYN0EtQQ?oc=5",
+   "published": "2026-10-22T18:51:53Z",
+   "snippet": "",
+   "source": "Yahoo Finance Singapore",
+   "title": "Oil Futures For 2027 Have Jumped Almost 20%. Traders Believe Relief Could Take Longer Than Expected.",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:refinery attack",
+   "id": "08309af7c04780031d094c824f17eec20828a40b",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xUDAtWk5KdmNrMXRLZDIxaE5fcnUxVUJXWW5zUUphcDlaa21vZFlBR2dFdi15dEpEa3JHdXg2d1JqRTFtYWZKblNvS003UQ?oc=5",
+   "published": "2026-10-22T18:50:54Z",
+   "snippet": "",
+   "source": "Kyiv Post",
+   "title": "What Matters More to Putin? Russian Refineries or Striking Ukraine?",
+   "topics": [
+    "refining"
+   ]
+  },
+  {
+   "feed": "google:jet fuel prices",
+   "id": "2583477ac188728ef9ad1b6aab9b36dbde5d6425",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaEZDaUdxbjBuT1ZPS2FhVzNFMDZYQ3B0dVhVaXE1am1keWNiLXE1N3FXbE4xc1RLc0czc29nMmRSd05GTkE1VzI2emxMWmxUV1JRdG56eFR2SWJ4X0xYZGRkbll1RFlCQWNTWnI4cjJBQkhjWFlzU241QTJIekdIbGxDR0tobHF5SnI0bloza3dLV0ZWaDNJWHNUVTc2ZjhoNWFyQWk1WW1jRlUydEE?oc=5",
+   "published": "2026-10-22T18:47:35Z",
+   "snippet": "",
+   "source": "Dallas News",
+   "title": "American Airlines sees record revenue but fuel costs dampen profit push",
+   "topics": [
+    "jet"
+   ]
+  },
+  {
+   "feed": "google:jet fuel prices",
+   "id": "0d7c7b8a668925a632515ff99293860301202f9e",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbWI5MDlmMkdubm5kZ2dmd0dJdnI1dEZPbmxBUzNQdnZ1eTBLWUdabFVUajdHYzNlVWE1RGpYa3lZYXh4MWJ0WW0zSFBsN2N1SmsyS1dZQ0d0RXI0S1JYd3hBdU84UEtjTVZydzdNQ1I0VnVnQm5iRm9NWTRJcXpfNWY1dk1OVDFuUDlFQndBbHRNa2NtQ0wzb3RyZE9vak02ejB6ejJ1TVFZMXpRclc1Nmp0S0xjLWV1clUtMUd0NV9NUHpLX0VOdXdUZkR4aHBqWDZPU2Nuc2JremVnbWtCUA?oc=5",
+   "published": "2026-10-22T18:46:23Z",
+   "snippet": "",
+   "source": "TradingView",
+   "title": "JetBlue hits record low as Wall Street braces for fuel-driven pressure on Q3 results",
+   "topics": []
+  },
+  {
+   "feed": "google:\"crack spread\"",
+   "id": "fcbfca0739cc05545be25810226dde99c4c24b6b",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS0J4Z1hTMUNSRXFieWxXREx5bWRTMzlTNU9yMUs1bnRlc0xJTUlJa1Q2S2w5X2lzTzNSQ2EzdVQzZERaWVU4NTlFVXRYakdIeG5lTVhYeWtPMDl3VHZSYkoxX1VIUGoyQmNfTlh3b0JJNG5lQnVwUmxWc3RzYk1TX3RaQTFVWGJkMk4yZU01VUZ2NmdTbDYwNkNNdTZ3X3lJdHd5bVBNTFFYcmFrS0NoeTJxREltcWRWbmt2a2g0bDJNa3NKYnhV?oc=5",
+   "published": "2026-10-22T18:37:16Z",
+   "snippet": "",
+   "source": "Reuters",
+   "title": "US refiner Valero posts record quarterly profit as supply disruptions boost margins",
+   "topics": [
+    "supply",
+    "refining"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "79cbe195f989da2282400965db6e974721408ace",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTTc5RnJUOGhsTDVtYUFTRXV3aGZkamlwSTJvRjNzNk1RWkp4LW5aWFhOSXlmX2h5dGJtelhrdHF2QjlyZTRtbDJPNURIejNINDR5bmlEQ2k2NnJlX3hDLW9tb3l1R29QamRSUDlYNGU4OUFzWWlYelNEWTROclB5RUZlWlJUY1hqN0hieXFoNlFEd1FkcEFHZWtSWDI5SHlpeC0waWlQSjhoRFNaVGR3VkJmNEZzdkdVVVphY2QxeFkzTWZMZ2R5dC14Y1BIUQ?oc=5",
+   "published": "2026-10-22T18:36:47Z",
+   "snippet": "",
+   "source": "The Financial Express",
    "title": "Oil jumps as drone attack on Saudi oil field sparks supply disruption fears",
    "topics": [
     "supply"
    ]
   },
   {
-   "feed": "offshore_energy",
-   "id": "c4f9436d59b9df6904327a171d7de249b1000109",
-   "link": "https://offshore-energy.biz/2026/10/22/cook-inlet-lng-steps-up-alaska-energy-push-with-tdi-brooks-survey",
-   "published": "2026-10-22T12:30:00Z",
-   "snippet": "TDI-Brooks has completed a geotechnical mission, bolstering Cook Inlet LNG’s efforts to shore up Southcentral Alaska’s energy supplies.",
-   "source": "Offshore Energy",
-   "title": "Cook Inlet LNG steps up Alaska energy push with TDI-Brooks survey",
-   "topics": []
+   "feed": "google:oil supply",
+   "id": "311ce507926f99b081b7c30733977dd55d036739",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpCMFBoZnh5Tzh0cVctSE9FdzlTTmN1dDV6aUtyejFpT20tQ00zbHZ4ZWFDRTREWktVLWx4MkpRcFd1aFQxdHZGdlBxcG9PYzVtbkQ4N3IyNURDQ1dHRHpxaWlqQ2RFbHRQM3RXYmNmQ2F0WEdfT2hXUXQ3X2tKb24tRXdWbG9UcFYybUtvRC1Gc3pUcHo1MDIyeWRabUxwR3c?oc=5",
+   "published": "2026-10-22T18:30:44Z",
+   "snippet": "",
+   "source": "Oil & Gas 360",
+   "title": "Oil prices climb as Middle East attacks renew threats to global supply",
+   "topics": [
+    "supply",
+    "prices"
+   ]
   },
   {
-   "feed": "google:diesel shortage",
-   "id": "cf9aabf0fd5ad910c3eab357134cc8a67faf80f5",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN3BuQTVhSFdHMmEzaDRnSEJ1SXhXNWZEVlp4d1VSUW50SVBfQnYtc0k0OHg3Z0NNRUlIUF96ZkVabGJKQnh5MFdPdTRMbVdmXzhUaGdSRjBkUmZMY2FOSFZzR3dFX2VOUDdyTnA2SGtQYmRfcGczN3FHVy02aEt5ZkdCZWRLX0NPVWx1cFZGRkZVSDd4RlJHYWJqbnBmT1UyU3VRM1NxRkRnWUwwY1NzU0tjRQ?oc=5",
-   "published": "2026-10-22T12:28:14Z",
+   "feed": "google:Strait of Hormuz",
+   "id": "939833fc3dbe15ade3f3071bfc88d8f564bca4ef",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSWFNCSk4wU2RZZ2dsUXcxaWFadmVCdS0xVGNEVC0yeDJIa3htamRoU2xTNGRReERmY2RUV3FrNFJaRlVTZGV3QjJTUjJFRHhJOWs5czZPaExTSXlZZ1FCQlprUFF3Zm9jQkE?oc=5",
+   "published": "2026-10-22T18:28:00Z",
    "snippet": "",
-   "source": "Marine Insight",
-   "title": "Russia’s First Diesel Tanker To US Since 2022 Is Set To Sail After Sanctions Waiver",
+   "source": "Demokratis.co.id",
+   "title": "Iran Reports Seven Tankers Hit in Strait of Hormuz",
    "topics": [
-    "diesel",
+    "hormuz",
     "shipping"
    ]
   },
   {
-   "feed": "google:\"crack spread\"",
-   "id": "c2e03d107f29dbc9d9e748fe0ce66a98ece06006",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOGNPOTM3NTgwZ09GNlpVaXF4YmFBUFE0VzF2VFFmTm44SGZJWTVTT3ZpMmt6OVE2RkxBVzNZbTg1SlAzRHIzMzZpRUdISmRULUlaSXZleTJUOUFhQ0kwVmY5Z0dIYUh1YVZVdjB5aUFPRVAwMHBBVmJkVnZNR3Y5ZEc1MGNndm8zemRTWE9IOW50V1E?oc=5",
-   "published": "2026-10-22T12:27:03Z",
+   "feed": "google:jet fuel prices",
+   "id": "b110ef3800e826bb3602ef9d3de3de8ccf864579",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWgwSVltbkxJVmRPeHZtbUNLb0wwcEFVUnpnc0MzdEsxSTVTd3NnVGI3TGQ5Y2t2RHVad05VZmF2UmlIZFhFSS00Q05xTEpJSW9nbnJXMndOLVU1bmFLUkJCeGtnSE9uODE0NnFWUmU2YS1rM2FfbjgzNDRObmZpYk9DMWoyUTlUMkZBMU04THAxTFFLdEJockxn?oc=5",
+   "published": "2026-10-22T18:23:49Z",
    "snippet": "",
-   "source": "24/7 Wall St.",
-   "title": "Valero Q3 2026: Crack Spreads Triple, Beating Expectations",
+   "source": "NBC News",
+   "title": "Tracking U.S., state and county gas prices, in maps and charts. Updated daily.",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "bbb992c5cc76bf79d07e8e8734abc7b4014b566a",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EQlhvNE9DekFjaGFFRGg1QlVrTWQ2OEp5UFlEeEVaeDFmVE0tdExIWS1fQzUzVlpiMHE3Z2tXeXJfRTI0cERsNDlCQkkwcmFoOFlnSjJR?oc=5",
+   "published": "2026-10-22T18:06:11Z",
+   "snippet": "",
+   "source": "Ynetnews",
+   "title": "IDF denies Trump halted Iran strike, warns of dangerous miscalculation: 'Attack was never on the table'",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "b4f6ee48e3eacc70ab588e67a5d5e24ea12f6243",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb2lYdm4tQXgwRVpCQVdqRnJ4RHQzRkZFZWpRZk1sNHB0dUQ5d24xRXVpdDdsSWxMSlNCNEVxZlRqcjJ1TFJ3YjhDd1ptbXFwajRGZTZBNXBEYklIWkJ3LVJ3eHhsRmY2Zy1iaGNlelVnVnVmeG9EaHM0bk9USEw5TEZ4cHVGbkFIQmZOOHRmaV95TENqSHBBZTZMU0E2dHdnbnJ1Q3hFbUZtaUpIR2RCMdIBtgFBVV95cUxNMm54SzB2S0o0VFJ5QlVVbzJnQXN5Q0FldUZTNy1rTG5TT2pLb0t4Q2VXYXZ3aEdVUTdoTXdlVC1kcC02NEw5QTJBN0JoS1ZodFY2UXZTdVVBbkg2MWJyYjFYZGpFXzhuNG04NUhjc1VLNTEzMm5zV01JNkVsYU43WDZKOXpNM2wyT054LXVWUzIwa3hHUlctWWstX0QxajFpWm1FeHFkVVg5VDZSMFV5U3Mzc1BEUQ?oc=5",
+   "published": "2026-10-22T18:04:16Z",
+   "snippet": "",
+   "source": "Al Jazeera",
+   "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "eb87c5565e4dc0a85363b02b771b270e4ed5cb8f",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2hDWG1RbXBrb0RPUkY5WnR1NjdqbVd4cU0zVHZvSm45bEVUMktBM2RFdTZDWldvTDROeGJmQWZ4YzJJUUl5aGZXalRZc2w4QzdXNmY4QWJvMzRlX2R6VzhzeGU0STZhbkxabS1VSGwyazFqTVBNTHhndlFZQ2E4TWZkUU5qMm1Ueng3MUNERjhsdjRNOGM0M3U4a2FYaE1GdjA2N3dEenlyR05DanBpSXhNNlo3V2M?oc=5",
+   "published": "2026-10-22T18:01:06Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "Kremlin Welcomes Trump’s Idea of Energy Truce With Ukraine, Calls for Sanctions Removal",
+   "topics": []
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "7eb4e725a1d877cecb4b69ca7141ba2673688658",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+   "published": "2026-10-22T18:00:53Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "oilprice",
+   "id": "7a65681ec59052db440aeaab4913e86609b375ae",
+   "link": "https://oilprice.com/Energy/Energy-General/EUs-Proposed-Shipping-Subsidies-Could-Make-BioLNG-Cheaper-Than-Fuel-Oil.html",
+   "published": "2026-10-22T18:00:00Z",
+   "snippet": "Europe’s carbon market could soon start paying shipowners to switch fuels, but the support on offer is far from equal. In July, the European Commission proposed a revision of the European Union’s Emissions Trading System that would…",
+   "source": "OilPrice.com",
+   "title": "EU’s Proposed Shipping Subsidies Could Make BioLNG Cheaper Than Fuel Oil",
+   "topics": [
+    "supply",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "9f29f02a9f17261256fce96685191afa7370aff8",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc01rcWt3akdaUVFYWGdmZ2JEdkxSeWdpTktMRVE2VV90MFV2VWV4TXZDMFpZb0swZDBPbXg1dlI0VC13RTN2cG5mZXI5elZVT25HSVFjVk1XTTZNTm9zNXF6UHVnVi1UMGZxMi04M1g4ZzBfWVBTOGZRbjAtdHdvd2VLcDA5QmUxRzJCWTV1ZGdFQkRNdmFpU1UwUmlMMG5femlobGhRUnA3THREa1pJ?oc=5",
+   "published": "2026-10-22T17:52:00Z",
+   "snippet": "",
+   "source": "POLITICO.eu",
+   "title": "Trucker blockades in southern Italy ramp up pressure on Meloni",
+   "topics": []
+  },
+  {
+   "feed": "google:\"crack spread\"",
+   "id": "a25a2f102450f39a2548a0d6527a969d8885d44f",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdzZuZnlSTm85NUdQOU5WcHM0RlJNS2xTdHdPQjg3YXFBb0FoTUw3WVhmckYxcU5nN3R4OElIWTI1MVJUZV9RM25vZkZ5RUwtRmxlb1VMMWloWXRta3RPRDdRSjZsYS0zNDBHMV9NRWNNdXJmV3Q0MmhxVUpsbmd6S3pmTEJYS0JnbFlaQlFVVE5wczJpazU3bXZjcHg0cVZxR2NPZ0lYc1AxUGZvbUFUdQ?oc=5",
+   "published": "2026-10-22T17:48:45Z",
+   "snippet": "",
+   "source": "Energy News Beat",
+   "title": "Valero Earns $6.8 Billion on a $72 Diesel Margin as Drivers Pay $6.31",
+   "topics": [
+    "diesel",
+    "refining",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "e0e201d490d9654d054af20d2ccf6c833048c350",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUjRKcTc4NzZLY0VqRWxtREIzWFYwaFZmWlQ0TmVWZmdfdHVEcjNCREpoYTJiaUVqY0ZPQWZKQ2tpdkptOTlzRW9OVVZtSS1JdUhDb1d2eGg3Ykt5SFNtTmdfTVhUcUFSS0RHdktGTDlKZXdWNFVKSlNjblliaS10LVA2MHNsWXNTSGFsVV95dTF6Nkk5LVpJcEZYaU45dllWdHJmckctek9GMmdKbWN5QXNWeU91MFNWdzVCeTVR?oc=5",
+   "published": "2026-10-22T17:47:44Z",
+   "snippet": "",
+   "source": "MSCI",
+   "title": "Scenario Analysis: Rates, AI and Oil May Matter More Than US Midterms",
+   "topics": []
+  },
+  {
+   "feed": "google:jet fuel prices",
+   "id": "c1c3dd9143a2a15358055d0eef6a63129a1bfa8e",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNTRuaGJ4Ym80dXpHbTZKLVh5ejFYS2JYdVFyOFBLTzY4alJoNUtCMnFYZFpnbUw4a3R4RmFlYld3cnAycTU2ajBmOUU3V3I4RkllY3IyZ2JkZHU3RjFHZ3dHTjR3cFZTdXEyZDF2cGp3SFdPRDZOLURVZ1BUY0ZyU3I5VWo?oc=5",
+   "published": "2026-10-22T17:47:37Z",
+   "snippet": "",
+   "source": "Haberler.com",
+   "title": "A historic increase in plane ticket prices is imminent! A 20% increase is expected.",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:refinery attack",
+   "id": "9c4574de402938d379a0c5c7af9e90149fe18389",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5VOXZEcmxnSERFT0luQzFMUjRjTWFlLWotZ3Rzb01UMGZ3TlduUFFSTENFbHZNSXN3NThLcVR4MDF4RkFIX0U5YTNzdw?oc=5",
+   "published": "2026-10-22T17:47:22Z",
+   "snippet": "",
+   "source": "Kyiv Post",
+   "title": "‘Wrong and Unacceptable’: Zelensky Accuses Trump of Shifting Iran Blame to Kyiv",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "fecfe59d257d50003ebb18a73cfe4a931a03f0f9",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00T1U1WXFyeWUyWVdpNExGZ0dvZ1dnWFgxVF83TTJlUV85R3p5R0ZjeXY4WmJabXQ3dUJsbkR6d3JpRDhkY3lZWG1EME9XX3d5Y2U0?oc=5",
+   "published": "2026-10-22T17:45:21Z",
+   "snippet": "",
+   "source": "شبكة تواصل الإخبارية",
+   "title": "Iran Claims 7 Oil Tankers Attacked Overnight In Strait Of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "ee12061b154eef8674a3b232e6e61f3cd73c21ff",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52U1RobWtfZHJwTmV5VG1WbFRaZ2FsbmVraFZVTk9UMmVVZ2xzb2NtQ0NuYlBZVGNjQ2RtTmt0aklPUjkzZzZ0bU50MlFtTkVhR0JHTllsZjJBLUdT?oc=5",
+   "published": "2026-10-22T17:40:34Z",
+   "snippet": "",
+   "source": "Bernama",
+   "title": "Oil Prices Rise Over Two Pct after Attack On Saudi Oil Field Fuels Supply Concern",
+   "topics": [
+    "supply",
+    "prices"
+   ]
+  },
+  {
+   "feed": "oilprice",
+   "id": "3a1210fdc3a333e62c8e294a243e16b67ef94ad5",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Citis-60-Oil-Call-Meets-112-Brent.html",
+   "published": "2026-10-22T17:30:00Z",
+   "snippet": "Citi sees more upside risk for oil prices despite recovering Middle Eastern crude exports, a considerably less bearish assessment from the bank that predicted $60-to-$65 Brent by year-end just three months ago. Brent December futures…",
+   "source": "OilPrice.com",
+   "title": "Citi’s $60 Oil Call Meets $112 Brent",
+   "topics": [
+    "supply",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:jet fuel prices",
+   "id": "5cc0911eb63effc90ea2f956acb44f25812d7c2d",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQalVWOWpxTXAwZ1M0cmFmTFRxZ2dMRzU0SEIxcVhPVVR4T1I1OUd3MGVtb0d6alVyd2pJakpUUUQxQ1FlMVc2eWVtWHVTQWlIaW84RUhBU0twdnpmTkZfUkxiQlVJWE1TeDNVMk90ZjI2NGNpU2F2Um1TSVJEck91cXZ1OHZmVnpLdWR3SnVicVJNMklNRGdLaXZybHRZYTFTTTNZak9IZEtKRGxPQTFVQUF3?oc=5",
+   "published": "2026-10-22T17:19:51Z",
+   "snippet": "",
+   "source": "Reuters",
+   "title": "US airlines struggle to offset soaring fuel costs with big fare hikes",
+   "topics": [
+    "jet"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "e077a21dcb1c7094c2c154b9c010de148e5c972e",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXVjamdIUUY5Q1Nsd1ZKcXpaeVVzZ1NKeXZBVzJhYWhoajhqekNvNlRJbmw4U2x3bWdoQ2V0a3RqeHJpWUw2c3U0dkgzbG53N01pMlJFY2lFZjFXNG9aQURZSXJlZDdsQXRHdVJIaDBMTmt3Y0QtZWd4WU1PYnlVcTluSldVNmZqWVY2dE1yRmdnN0Y5ckxz?oc=5",
+   "published": "2026-10-22T17:15:38Z",
+   "snippet": "",
+   "source": "Egypt Oil & Gas",
+   "title": "US Refiners Increase Output as Diesel Shortages Boost Margins",
+   "topics": [
+    "supply",
+    "diesel",
+    "refining"
+   ]
+  },
+  {
+   "feed": "google:\"crack spread\"",
+   "id": "033bb2c051fe621c6ac1c3eb8b5e6e76da03ff91",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ1lCOU5XeTlKOFNwWW9tOTBmTlhtVnlfOXotdUI4VHltNzQ3NHNlZjhQWnYyOURQRVhxMUc5ZHF0b2s1NkhWMktHbjdxcTI5OGhxbTVDTmJVdXZJNjJSWmQxaE1EQlBFZ2hDR0VOdkI2cmtGZ2xqOTQxdlJuekltVWp5c2hiOEpseEx6b0JfYndvcm16WWtUNkQ3VklJbmh6OWJyZkZCLUl0R3pRd2tHQUZIUUE?oc=5",
+   "published": "2026-10-22T17:12:24Z",
+   "snippet": "",
+   "source": "Profit by Pakistan Today",
+   "title": "Pakistan’s refineries claim Rs86.22bn burden from diesel price relief",
+   "topics": [
+    "diesel",
+    "refining",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:refinery attack",
+   "id": "54c08a909181d1e8e4ebc187fdcf954416369326",
+   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNampEcFRQLVVMUFVSMGJnZGdpRkxmcG1lOUd6Vk1lSWdzNGVZRlJIQ1J6V1Y1RmFKT1ZuMUN1Ry1tMlExazFoZ2otdWk5RmhYZkZkbEk1bnBTbGtlaV9BVEhkWllwWU1WclFCdUFZWnZIUzdRa2tNMDFXRm15N25MeHBDY3dsOVRxX1ZCd1E5cmJyRFJIUnBDWU13OGJ3Z1B1cjQ5Vk9CNnM3UGExN0ljc0Y2Skl6TGUySHh5N1pvZTAyZW9JdXZWTlRRZm1feVI5MEJBR0NWRV8wNE9ROU5zZklEQkxKbHUwc3JMbXZTOTlvVl9pLWlVeDBlRENuclNOQnhMRWxZbkTSAYgCQVVfeXFMTWpqRHBUUC1VTFBVUjBiZ2RnaUZMZnBtZTlHelZNZUlnczRlWUZSSENSeldWNUZhSk9WbjFDdUctbTJRMWsxaGdqLXVpOUZoWGZGZGxJNW5wU2xrZWlfQVRIZFpZcFlNVnJRQnVBWVp2SFM3UWtrTTAxV0ZteTduTHhwQ2N3bDlUcV9WQndROXJickRSSFJwQ1lNdzhid2dQdXI0OVZPQjZzN1BhMTdJY3NGNkpJekxlMkh4eTdab2UwMmVvSXV2Vk5UUWZtX3lSOTBCQUdDVkVfMDRPUTlOc2ZJREJMSmx1MHNyTG12Uzk5b1ZfaS1pVXgwZURDbnJTTkJ4TEVsWW5E?oc=5",
+   "published": "2026-10-22T17:06:00Z",
+   "snippet": "",
+   "source": "Meduza",
+   "title": "Russian oil giant Rosneft fears just a few more months of war in Ukraine could inflict lasting damage on its business, Bloomberg reports",
+   "topics": []
+  },
+  {
+   "feed": "hellenic",
+   "id": "a3a32f0ad616801639fc2c2034aecf0b739727e5",
+   "link": "https://www.hellenicshippingnews.com/nor-shipping-brings-new-focus-to-ai-ports-and-marketing-in-2027/",
+   "published": "2026-10-22T17:00:57Z",
+   "snippet": "Nor-Shipping is revamping its knowledge-sharing offer with a brand new stage created for day-long ‘deep dives’ into fast-moving and strategically important subjects. Christened Focus Stage, the fresh platform will be situated in Hall G, a…",
+   "source": "Hellenic Shipping News",
+   "title": "Nor-Shipping brings new Focus to AI, Ports and Marketing in 2027",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "hellenic",
+   "id": "3ca68d60401fd714c5de8943e9e8a18e4f4956ce",
+   "link": "https://www.hellenicshippingnews.com/lloyds-register-and-nsml-launch-plans-for-global-maritime-forum-in-nigeria/",
+   "published": "2026-10-22T17:00:55Z",
+   "snippet": "Lloyd’s Register (LR), and NLNG Shipping and Marine Services Limited (NSML) have announced plans to establish a new global maritime forum in Nigeria, creating a new platform for industry leaders to address the challenges and opportunities…",
+   "source": "Hellenic Shipping News",
+   "title": "Lloyd’s Register and NSML launch plans for global maritime forum in Nigeria",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "hellenic",
+   "id": "82e919e94fa0745f95ad68e6994cf9a3dea0d78d",
+   "link": "https://www.hellenicshippingnews.com/sulnox-enters-japanese-market-with-exeno-yamamizu/",
+   "published": "2026-10-22T17:00:51Z",
+   "snippet": "Sulnox, the greentech company delivering lower fuel costs and emissions with zero capex, is pleased to announce that it has appointed Exeno Yamamizu Corporation (“Exeno Yamamizu”) as its first Japan-based distributor. Established in 1947…",
+   "source": "Hellenic Shipping News",
+   "title": "Sulnox enters Japanese market with Exeno Yamamizu",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "hellenic",
+   "id": "acf91b3ea5b2dccbb69037872ca4811f40ffc6ab",
+   "link": "https://www.hellenicshippingnews.com/eurozone-consumer-confidence-falls-more-than-expected/",
+   "published": "2026-10-22T17:00:43Z",
+   "snippet": "Consumer confidence in the Euro Area fell further to -17.9 in October 2026 from -16.5 in September, reaching its lowest level since May, according to flash estimates. Figures came in weaker than expected, as analysts had forecast a more…",
+   "source": "Hellenic Shipping News",
+   "title": "Eurozone Consumer Confidence Falls More than Expected",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:Bab al-Mandab",
+   "id": "248146d8e95aa1e479c5b55f55f3854854549fba",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON1NCWUtVYTN2WXN3em9VcTZxbDhJZk1hajEtYlQ1cHpSM1l0UFQySV9QWnZ5enh3VW5BOENXdHRTbDNwVEJzWmhyR0swb1dLZ2pfRUx3enlrWkpDcXlXX0NwU192cVhHMGVpV2V0R0lSamFTMmROMEFGWTVDRjJFaA?oc=5",
+   "published": "2026-10-22T17:00:00Z",
+   "snippet": "",
+   "source": "The Economist",
+   "title": "The rivalry wrecking a region",
+   "topics": []
+  },
+  {
+   "feed": "oilprice",
+   "id": "407bd29503bb28672d8e3ddc0e13ff5593abed37",
+   "link": "https://oilprice.com/Geopolitics/International/Tehran-Turns-to-Central-Asia-for-Trade-as-Conflict-With-US-Simmers.html",
+   "published": "2026-10-22T17:00:00Z",
+   "snippet": "Iran is making a push to expand connectivity with Central Asian states, with high-level Iranian officials engaging their counterparts from four of the five regional states over the past week alone. On the sidelines of the October 19…",
+   "source": "OilPrice.com",
+   "title": "Tehran Turns to Central Asia for Trade as Conflict With U.S. Simmers",
+   "topics": [
+    "hormuz",
+    "supply"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "035264bce8d132270e2764511687848b807f7f46",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9kUUpqUTVUSldwSzJVMTJWbm9YTTRkNmU5aUx1UzA2TUFTOHMxbkVEanZqQzdUYjRLbUlyUC12VkFVbTNfOXM2Z1NfcW5GazJoMGU0VXI2OE1oRG84ME9KemIxekZKOU9GQ000T1U3LXdWUWpE?oc=5",
+   "published": "2026-10-22T16:46:56Z",
+   "snippet": "",
+   "source": "CryptoRank",
+   "title": "Bitcoin Slides Towards $81,000 as Oil Above $110 Revives Rate-Hike Bets",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "0ff20f6d293d72dd399435103141b1a814a27126",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZkxGa0hFbWd0ZE53MTdLdzl5WTZ6RUY1cmFna1J3eEhOLWczTkxMc1NUVkxqdkprdGMyanpjdlRhak83RWd3d1QzNFg5bndqMzhqNjJnT3ZuUkZTWVJsdkFMeXFNOWVYU3ctZHNNbVhTTGhUN3FHdnFDUVl5cFN2b183S1BFUEQ1TzNpVm1rbEhvYWtv?oc=5",
+   "published": "2026-10-22T16:46:55Z",
+   "snippet": "",
+   "source": "Cain Travel",
+   "title": "Jet Fuel Shortage in Southern Italy May Impact Travel, October 22nd",
+   "topics": [
+    "jet"
+   ]
+  },
+  {
+   "feed": "gcaptain",
+   "id": "dfb15d4f0694595cc73bdfa70053da6a75486328",
+   "link": "https://gcaptain.com/iran-claims-more-ships-struck-near-hormuz-as-trump-accuses-tehran-of-faking-hits/",
+   "published": "2026-10-22T16:46:26Z",
+   "snippet": "Iran’s Revolutionary Guards claimed Thursday that seven commercial vessels were struck overnight in the Persian Gulf and Strait of Hormuz, including four ships conducting oil transfers, prompting President Donald Trump...",
+   "source": "gCaptain",
+   "title": "Iran Claims More Ships Struck Near Hormuz as Trump Accuses Tehran of ‘Faking Hits’",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:OPEC output",
+   "id": "a81f172cca4195543c2b6c4a5f40929a2d3a2830",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa0hoOUNPLV9BSU5MdjZYMnk3bTNMbjhKQXBjNjRjenh3b0F4eWU4a1RBaWtBM1BUUzdVX2FBLXNlRkRsTVJxejg5VjJGMFpmVEdVQkE4czF5ckpSOU1qYWJqZk14UmxoWlhzNXJXU0xTa2htZjFzcFhlNC10M0lHU21DWk9tTjdlYW5LUEpnT0pWSjhobUdpQWVtdHllblExclctR2hNQllzbUpTX3dCQWs3Tm1kZnZfRXA1V1hSR0g?oc=5",
+   "published": "2026-10-22T16:40:51Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "Venezuela’s Oil Exports Surpassed 1 Million Bpd for the First in 6 months, Shipping Data Shows",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "31427273c312e407ff7f44c2b94d2bf620269ee1",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUE5peTN1Q0FReVdyZWZzcWNOa3h4c1U3TkluZjliZDRaaEhHV2d3c09QX3hPZjFLUUdzRzRLdjkwR2RyWGdpd2dmTGxGQzlmUk8tOEFYTGNzSGJaMUZreVJtak5sU3BBbjUzekNhUS05ZjNEUTcxUzdFZGNETFNrd1pCTEhFRjZOSkt4ZDR2dzA1Tkd3S05CdkdIbw?oc=5",
+   "published": "2026-10-22T16:40:44Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "Shell CEO Says Blockade May Mean Energy Shortages Last Into 2027",
+   "topics": []
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "3d3b47ef49db4d1c2323e2eede78a5b9308d38f8",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlI1bGZiTXVPT0RaR2R3TEp3eVJZRm1XNl9EQTc2MTJySkFRUHFGdjR5OUdZZXpQZGdhTFBZTFJhQlpaZHNZYm9uNmlMNU5OZGtlWVAxUzFybDdUYkpRN3JSQkstNTdhLXBFU3VNYk1VVFB5RGp4Qmh4WVlKcFZuSW5MYWlfZVRFUHNEdkpWSkZzZi1pdDRZ?oc=5",
+   "published": "2026-10-22T16:40:44Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "STOP IT! Trump Tells Ukraine’s Zelenskiy to Stop Hitting Russian Diesel",
+   "topics": [
+    "diesel"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "f1b7e77b92c10cce94a7087c3ddc27948d016cef",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3MjdoV0VPVE1UTWRaaHFDOEYxU3A2QkpMYWptSlZPTEMtcUE1clU4TEQ4VU9TbzdlelVYd25DVk90WHFiMzZ5VnpoZndaNFJlOFU3dDIyZnhHVGl2MlpXOWVhb0h2bEdnd1RqOUNfaw?oc=5",
+   "published": "2026-10-22T16:35:49Z",
+   "snippet": "",
+   "source": "Inspenet",
+   "title": "Dangote refinery in Kenya receives new machinery",
    "topics": [
     "refining"
    ]
   },
   {
-   "feed": "google:strategic petroleum reserve",
-   "id": "fc43654b5a92eb7957331b3dab90437520cb7144",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHhndEpaU1FUQnFMZF8xNktOa2RKRTRjU05TTzdqVHpmZWxncXlRQ3kxd1pQME50SEJuV0MtSG1UV0tLcEY5YlotSEpYNXpfNFFwSUdpTzZWU1NpXzFqWnZucWRhQ3FXVmlZdXlNQVBCTXpicWlLaVdsQVI3dzZtX1Z6ek5POUE0WXE1OTFiWlpVQ1ZnaG1xWkJxT3ZMTWp0aUhGanpfRm5EMi02Wjc5bkpDLVUzSVF5TXhBV1ZXcw?oc=5",
-   "published": "2026-10-22T12:25:16Z",
+   "feed": "google:oil supply",
+   "id": "a2b1ada9fb4ac49e6b410adc3715b2b758b4594d",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQcmhYQTR0UXFucUZndHZpdWg2dmZhbTB6NWNta2hyaGpMNzJCczNNaFJrVTBVS014X3h1OUlyNnFKOTBZc2JDZmUyV1hQU1gxTjlsSUM3WkN5ZTZDMXNha3NKM0dtN1RxdTlhWUthS29BYWlYR2hNOXg0R1NUZml2anl5OUJGNTUwa09lUTUwcmM0eXBzVlFReDlDM01FUzFGcW9NcEwzNDl3bld3YVlfc2d4T2p2aldSRFczMldEdWpfTzk4LXM5aVNYbld4VWtJdmFPa3MydDRtTGhTRWFFM09NUUdvV1U2WVhHT0dHUnhYcy1fSENHNERWTFc2VmtxSnk0?oc=5",
+   "published": "2026-10-22T16:34:37Z",
    "snippet": "",
-   "source": "EnergyNow",
-   "title": "INSIGHT - CANADA BEWARE - Trump’s Massive Venezuela Oil Gambit is Also Another Massive Wake-Up Call for Canadian Energy",
+   "source": "Stocktwits",
+   "title": "Why Are Nasdaq Futures Sinking Premarket Today?",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "1c1370361df826e1ac052da069a9711e08fc93ed",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN3dYUDdFRGFMTWEzS0VPNFRNNnl6LVJhYnFyN3E3aVhjYUtjak9ZcUYxZGRWdWwtUGRMdFJ1bFJwbjRRTFBDNVJTSnRMQ1ZMY005OWo1dHZ2VEZtV3Y0aUJ3VWhkZWd5ZEMtRjRxYUs1VFlWTHRGcHZKT29QOEswWXljcVJ6WUnSAYwBQVVfeXFMT2NELXNiMlQ3QU1SeklGaHR0ZlM3eDkteVBDZW1wb0d6emhzX2J0TVVPdG1wZjBOXzVqMm15bVlKZzVBaC1DcENpWV8zUE1xQWlKM0NoWXV5ZzdGTmFUZ2g5bG5WUVRydEZmZnhhNm82djNja1hhUE9VTEJYbUUzWUpITUFmWERBb2FCSnk?oc=5",
+   "published": "2026-10-22T16:33:00Z",
+   "snippet": "",
+   "source": "Daily Express",
+   "title": "Andy Burnham warned EU migration wave could fuel Britain's housing shortage",
    "topics": []
   },
   {
-   "feed": "google:strategic petroleum reserve",
-   "id": "ccd4bf8e45a88dd370d38163ed7c1e878664f539",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVldVS3k1QXRPdHcyZTgxQm1NdTBJNTBfeU5IMERxSHlpSkxxS3N4WktpUDM1b2lsLVh6bVl0N1R6Nm1obEFaSTJOTzc4RmhKZTloNzN2a2d3NkNxY0x4ZlgteVFSQzVRbnkybnRYY3dFbnNrcEZjOGdreE1zLUU1cXpDdHp3WGMxWjR1Qm00eW0zZVJvUkpn?oc=5",
-   "published": "2026-10-22T12:18:01Z",
+   "feed": "google:diesel shortage",
+   "id": "072ac7597798ca25c65d50f5cc3947905131fe94",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLUpXeTJTNVhRMEFpcTVMZXJXZTZJVXJYRFdUaWtaWkpiMlVFMi1ic0swWEptZDNVOHdLbm9HZ2xpcXQyUkMyMEZ2RlVrOU1QZXJlYWFLN2VjUGY2SlNnNW1LNTZuUWVrbmh5ZE9SemxONEFnWGRaY2phYnk4RUJuMmROdC1vdFJzM3BQQUtYWQ?oc=5",
+   "published": "2026-10-22T16:30:29Z",
    "snippet": "",
-   "source": "EnergyNow.com",
-   "title": "U.S. Oil Reserve Hits 43-Year Low as Trump Aims to Tame Prices",
+   "source": "The New York Times",
+   "title": "Italy Experiences Food and Fuel Shortages After Truckers on Strike Block Roads",
+   "topics": []
+  },
+  {
+   "feed": "oilprice",
+   "id": "5487f8763ecf95af4176dfa2ac6eb3a46d5f8ca0",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/Norways-23-Trillion-Oil-Fund-Loses-30-Billion-in-Third-Quarter.html",
+   "published": "2026-10-22T16:30:00Z",
+   "snippet": "The world’s biggest sovereign wealth fund, Norway’s $2.3-trillion Government Pension Fund Global, booked a loss of $30 billion for the third quarter as higher interest rates and market turbulence hit both its fixed-term and equity…",
+   "source": "OilPrice.com",
+   "title": "Norway's $2.3 Trillion Oil Fund Loses $30 Billion in Third Quarter",
    "topics": [
     "supply",
     "prices"
@@ -834,25 +848,26 @@
   },
   {
    "feed": "google:OPEC output",
-   "id": "ddcfde2071c7c1ca3c32095c95af5f9231bb0ae3",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc043cHk1ZjIxLWc2RVJUX2p1NnRHMmpRamNpNkVJNTBkNjliR1Z4amtCdkdVUzkzUnBRQ2ZpWFhHdGRUUWtybzFieTY2ek9qazdPaG5Ec0d3akx6a24wMlYzaDdnbjZrbmNVdTdZdXZSYlhGTVFUOHJoTGZhQ1RJR2tyaDNGckF0OWM0QW1ta2lVbnFoOFE?oc=5",
-   "published": "2026-10-22T12:18:00Z",
+   "id": "38333adcd65c2c88e629c1ad2b23ad57f77aec50",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52T052RHJlbDZLQ0hKM1g4RVN5UDJITW9UOWJVd05EaDcwYmZlWURjUXVReTQzTWtQU1FPcWtRc1lBYzc5U01GaDE1OEZDWGh3ek1QNA?oc=5",
+   "published": "2026-10-22T16:23:00Z",
    "snippet": "",
-   "source": "EnergyNow.com",
-   "title": "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See How Countries Rank",
-   "topics": []
+   "source": "AzerNews",
+   "title": "OPEC chief to attend Libya energy summit as Tripoli seeks to boost oil production",
+   "topics": [
+    "supply"
+   ]
   },
   {
-   "feed": "google:\"crack spread\"",
-   "id": "8a7d937784624590217ff8f22e447a42c0f69325",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMTBsWC1kVWNacmlWNzhmVjlyQUN6WE9uYkd5bXFWQkd4ZkMyMjV2RzlOWHZRdExRU05rLTZhWGxGUTkwelNrZ2U5WHVKSy1NeFFtTHlZVmQ0TWdHMjlBTld0QWY0aG94bjByZURjNkNtZ2N5VXJ1ZGtwMXd0ZFJIRTZ6YXpxOGk3RFFVZW1qWGxNcUE3OEsyRDZB?oc=5",
-   "published": "2026-10-22T12:17:52Z",
+   "feed": "google:jet fuel prices",
+   "id": "ebd3c3fb3a2544102dbe8c47e23d3921a0c700da",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa3JlRDRqUWd4S0VlR0Z3T3pLX1hfZVRONk1DZ0lZbFpMWjhPU29DVFp2Wm5iS09qeWRqS1VBMHBPaEtIX3M0MDJ3NUtwcVJ2NF9MQXQwZ1M0NjhtNTdYNEllazZjMjVNTlhHU3ZWQlpuekFiV0ZYekx4VWViY19BQ3g2UERtWllHbzhGNUhuRWlkc2l1MWxvWGdpeFNOdw?oc=5",
+   "published": "2026-10-22T16:21:37Z",
    "snippet": "",
-   "source": "EnergyNow.com",
-   "title": "US Diesel Refining Economics Remain Firm Despite Iran War Truce",
+   "source": "Jamaica Observer",
+   "title": "American Airlines reports loss on soaring jet fuel costs",
    "topics": [
-    "hormuz",
-    "diesel"
+    "jet"
    ]
   }
  ],
