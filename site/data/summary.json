@@ -1,83 +1,83 @@
 {
- "as_of": "2026-10-21T20:27:26Z",
+ "as_of": "2026-10-22T08:31:20Z",
  "crack_o_meter": {
-  "as_of": "2026-10-14",
+  "as_of": "2026-10-20",
   "label": "Grand Canyon",
   "level": 4,
-  "percentile": 98.5,
-  "stale": true,
+  "percentile": 99.8,
+  "stale": false,
   "unit": "USD/bbl",
-  "value": 86.222
+  "value": 105.91
  },
  "deltas": {
   "brent": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 126.55,
+   "as_of": "2026-10-20",
+   "delta": -11.33,
+   "now": 115.22,
    "prev": 126.55,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 24.64,
+   "as_of": "2026-10-20",
+   "delta": -17.31,
+   "now": 7.33,
    "prev": 24.64,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "crack_321": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 52.65,
+   "as_of": "2026-10-20",
+   "delta": -5.714,
+   "now": 46.936,
    "prev": 52.65,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 86.222,
+   "as_of": "2026-10-20",
+   "delta": 19.688,
+   "now": 105.91,
    "prev": 86.222,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": -1.096,
+   "as_of": "2026-10-20",
+   "delta": 7.55,
+   "now": 6.454,
    "prev": -1.096,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 2.987,
+   "as_of": "2026-10-20",
+   "delta": -0.09,
+   "now": 2.897,
    "prev": 2.987,
    "prev_as_of": "2026-10-14",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 4.834,
+   "as_of": "2026-10-20",
+   "delta": -0.002,
+   "now": 4.832,
    "prev": 4.834,
    "prev_as_of": "2026-10-14",
    "unit": "USD/gal"
   },
   "jet_crack": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 65.054,
+   "as_of": "2026-10-20",
+   "delta": 14.27,
+   "now": 79.324,
    "prev": 65.054,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 4.562,
+   "as_of": "2026-10-20",
+   "delta": 0.07,
+   "now": 4.632,
    "prev": 4.562,
    "prev_as_of": "2026-10-14",
    "unit": "USD/gal"
@@ -126,27 +126,27 @@
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 5.066,
+   "as_of": "2026-10-20",
+   "delta": 0.199,
+   "now": 5.265,
    "prev": 5.066,
    "prev_as_of": "2026-10-14",
    "unit": "USD/gal"
   },
   "wti": {
-   "as_of": "2026-10-14",
-   "delta": 0.0,
-   "now": 101.91,
+   "as_of": "2026-10-20",
+   "delta": 5.98,
+   "now": 107.89,
    "prev": 101.91,
    "prev_as_of": "2026-10-14",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-21T20:37:35Z",
- "generated_at": "2026-10-21T20:37:35Z",
- "headline": "Diesel crack: no fresh FRED data, last value $86.22/bbl (as of 2026-10-14)",
- "inputs_digest": "03cb3fd99946fe621bf27456841e8fc087896064",
+ "fetched_at": "2026-10-22T08:34:07Z",
+ "generated_at": "2026-10-22T08:34:07Z",
+ "headline": "Diesel crack +19.69 $/bbl since last update, now $105.91/bbl (as of 2026-10-20)",
+ "inputs_digest": "8faa55cf77104d8848432d7102c6e0590fa33f6f",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQU1DQlhyemk5T01IeU5KR2NzR21SbmF3N0ZCNUZvZXUteGpMSURBaU44cGtVMEVkTzhYVkUzanFsR3VPTGcxdkhndzlOMU14TTJ4ZWNGSnlhUHRpNkQtcjJJTnpFTHpkZHF0U2UwSnQ4VGw1T2dWczFtVllCWXlMYjY0bENTVnlhX2hsazFndGl6ZDVUQlBZSTNpQm43WG1P?oc=5"
+    "https://splash247.com/chinas-green-corridor-push-hits-commercial-reality-check/"
    ],
-   "text": "Kazakhstan Reaffirms Russian Energy Ties as Ukrainian Drones Hit Oil Exports"
+   "text": "China’s green corridor push hits commercial reality check"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBuWnp6a2xnZHBod3QtN1g3ejBPNW9iVWE4c1VYVEVhNXlWTWUtbUNsdzAzV1pLNEg5Yzhz?oc=5"
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYlIzTmhOdTlCbVZ5Y0JTU3FFZnpGc3Azc192T1JwOGJBWkdHZjd0U2F5bVBYLUV3RGFHc1B3dG1YMU1uSzg5eC1zcWd3Sk9UUE0xeWFYbDVLRmdXbV9aZ1BRZUl6Zm9XN0NSV3dSLVhham5zb0xITE5LOHNpSDFGQWpraG5xVHpUa1NxRFFHc0ZpUkJESERuYlZrT1lMS09uWEpUWUdQMk9PTTQxUXBxYlVmRzdoa3BHQlZz0gG7AUFVX3lxTE5iUjNOaE51OUJtVnljQlNTcUVmekZzcDNzX3ZPUnA4YkFaR0dmN3RTYXltUFgtRXdEYUdzUHd0bVgxTW5LODl4LXNxZ3dKT1RQTTF5YVhsNUtGZ1dtX1pnUFFlSXpmb1c3Q1JXd1ItWGFqbnNvTEhMTks4c2lIMUZBamtobnFUelRrU3FEUUdzRmlSQkRIRG5iVmtPWUxLT25YSlRZR1AyT09NNDFRcHFiVWZHN2hrcEdCVnM?oc=5"
    ],
-   "text": "Record Cracks Lift Dangote Refinery Valuation"
+   "text": "Seven tankers reportedly damaged in Strait of Hormuz overnight"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQnpMX29pV1p2MFZyUE9FSGRKMFBpcEFhVzQ1Sk1LcTJDZTJCbTRlR0Nmdmtja2laeWVNekR0RVRQcFhPQjBoLTRzTEpVMS0xSmUxU1ZRekVlQTN4bU01VkV3U3FZb2tVQWtsRURBeE83eXE3UjZrNVQ4Mm56R1dvNm9vdXpDaFh2UEVkanY5SWJBb09BWVNVX21jWUdkbVo5ZmhhSllUN0xsd1dDV3pPeHhTWlhhWGVNNjZNNklDei1BbzNMV3RISEFaRV9sNm9yVXFpTmx3MlNVODjSAeABQVVfeXFMTnFrYXB2U3RCWmdYUVZRcmRkT2VTQXB6Y2VVUHAwMno5VTlrdXZ2OU45akZRNUZSbmoyZEZfU1k1ZzBLSEhTSUtQQ1dvTVJLQXhOQ1hVcnlZcmFETzduaWVVR3hxQjNkc0RDdnNxOE9JazhGZkxGMlZ2UU80OWF0empBMlhrQzJCR3A0a0pKZG1RU0FXRlg4U005U1RYMGpYSUlvZHgya3pBMlZidV81OHFpcjVRbmJvM0ljeUxWMjVPYzAwd2llcUFIbnlkNU9GZUhXYk5qOUtsUTFfYlg3RG0?oc=5"
+    "https://oilprice.com/Latest-Energy-News/World-News/India-Ramps-Up-Coal-Supplies-to-Record-High-as-Power-Crisis-Looms.html"
    ],
-   "text": "How the Iran war reshaped OPEC+ oil output: Saudi Arabia, Iraq and gulf supply in focus"
+   "text": "India Ramps Up Coal Supplies to Record High as Power Crisis Looms"
   },
   {
    "sources": [
-    "https://oilprice.com/Energy/Energy-General/As-BP-Leaves-the-North-Sea-These-Independents-Are-Buying-In.html"
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaTJVcUQ2NWhXeVRqUTI1dW9nU1EzNDlPV3UzT0JjbUF1cVA3RU00SmdYYjA1d0dKeEFucjBGOHI5OFF1R0RiRkd2V295RHRjaTlIamkxV1AyMUNhanNTXzdDeVNpRTV3S1BNVldoblh4SjBfVXVxX1VGSTJmNlBlWXJBUFo5Qi1Qa29BbkdvTmRDVnVUOFdmVkNudzI4RDlGUXVIb3VfSGhJb2ZDdWlNbjN3MEh1cHJWUFBNOGFIR3V4SHlfT3ktS0ZaaTNUX3FvdEUyUWdPbDZrUmpXczFkTnlMaXJPNm9ITHY0WDZTMkJlTVRtN2c?oc=5"
    ],
-   "text": "As BP Leaves the North Sea, These Independents Are Buying In"
+   "text": "Iran says 7 tankers were damaged in the Strait of Hormuz, and other Mideast news | National News | 2news.com"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMingFBVV95cUxOUThvQVl1RnVpSjI0NnV3VGhRWUU2eWVmOC01c3hpOXJ6eTR0OXNUOTh3VE1vNW1jNFlobjF6QmJRcDc5eF9nbTZQbngzUlZWbWJ6aXpSYndoNHhsRVFoWURGWHF1WmwwOS1QUTRyTmgwaUZLVlB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydw?oc=5"
+    "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMHdOZE9FTWxHdGpCUW4wajZza0tXZlBZb3NqTVU1TlluaUNsUF83NnJmV1NjalNmSngydmFwRjhKNmxFTjVQY0hKT2V5NFZ5Z3pIcHNEWmJiYjVCUEt5a3cwOTR4LXJVZXg3eVVSQV9TZTRFUlIyaUE0ODk4RERBNThnUWZxbFd5RHZSLUR0eVlaWU9sbGlvSjY4XzlBSnNCWUIzaVVfWnNDZHpXSDVSQzJKbTJrdXhEdHdENW91NkhraHhUTWZUaTB5OUExdVhPVGo4ZVVMZGs2WkczQUVodU85SXJmc1JQNWF2dG85OUU5X0NLdjVxTktBOFViYU9vOXBFeU5QekM3VXc?oc=5"
    ],
-   "text": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks"
+   "text": "Iran says 7 tankers were damaged in the Strait of Hormuz, and other Mideast news"
   }
  ]
 }

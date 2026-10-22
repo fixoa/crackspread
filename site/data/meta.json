@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 13.328,
+ "duration_s": 21.987,
  "fixtures": false,
- "generated_at": "2026-10-21T20:37:35Z",
- "last_run": "2026-10-21T20:37:35Z",
+ "generated_at": "2026-10-22T08:34:07Z",
+ "last_run": "2026-10-22T08:34:07Z",
  "python": "3.12.15",
- "run_id": "20261021-203735-889f51",
+ "run_id": "20261022-083407-95e0be",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": false,
+   "changed": true,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,8 +35,8 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-10-21T20:37:35Z",
-   "mentions": 10,
+   "last_success": "2026-10-22T08:34:07Z",
+   "mentions": 8,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -53,19 +53,21 @@
    "via": "xlsx"
   },
   "fred": {
-   "changed": false,
-   "error": "FetchError: FRED: none of the 8 series could be fetched: brent=ValueError: not a FRED CSV (header '<!doctype html>'); wti=ValueError: not a FRED CSV (header '<!doctype html>'); ulsd_nyh=ValueError: not a FRED CSV (header '<!doctype html>'); gasoline_nyh=ValueError: not a FRED CSV (header '<!doctype html>'); jet_gulf=ValueError: not a FRED CSV (header '<!doctype html>'); heating_oil_nyh=ValueError: not a FRED CSV (header '<!doctype html>'); retail_diesel_us=ValueError: not a FRED CSV (header '<!d",
-   "last_success": "2026-10-21T08:31:41Z",
-   "ok": false,
-   "stale": true
+   "changed": true,
+   "error": null,
+   "last_success": "2026-10-22T08:34:07Z",
+   "ok": true,
+   "partial": [],
+   "stale": false,
+   "via": "fred"
   },
   "news": {
-   "candidates": 522,
+   "candidates": 525,
    "changed": true,
    "dropped": {
-    "capped": 425,
-    "duplicates": 37,
-    "filtered": 117,
+    "capped": 421,
+    "duplicates": 44,
+    "filtered": 116,
     "too_old": 20,
     "unusable": 12
    },
@@ -73,7 +75,7 @@
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "ok": true,
    "stale": false
   },
@@ -81,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -91,7 +93,7 @@
   "shipping": {
    "changed": false,
    "error": null,
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "latest": "2026-10-18",
    "ok": true,
    "rows": 3280,
@@ -103,7 +105,7 @@
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-10-21T20:37:35Z",
+   "last_success": "2026-10-22T08:34:07Z",
    "model": "",
    "ok": true,
    "provider": "none",
