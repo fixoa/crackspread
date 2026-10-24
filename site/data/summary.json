@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-23T20:04:09Z",
+ "as_of": "2026-10-24T08:00:24Z",
  "crack_o_meter": {
   "as_of": "2026-10-20",
   "label": "Grand Canyon",
   "level": 4,
   "percentile": 99.8,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 105.91
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-23T20:26:47Z",
- "generated_at": "2026-10-23T20:26:47Z",
- "headline": "Diesel crack unchanged since last update, $105.91/bbl (as of 2026-10-20)",
- "inputs_digest": "2348516cd065a54cd05237ce3b6f5eaddc82e037",
+ "fetched_at": "2026-10-24T08:05:10Z",
+ "generated_at": "2026-10-24T08:05:10Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $105.91/bbl (as of 2026-10-20)",
+ "inputs_digest": "df5c1460557d3f9c8b466d429b040beb71735ba6",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcERkZnNCRk5MTUxhdHJhbGFyUVE2ZGlFT1JwRER0WjhJaUFGYzlzc0RpYzZESWx2b2t1S1lJazJUbkh5UUJtZ0hQUW9ZYUEwOWZiYXhDRFl2S2dNcmdUVWs1SEVFWFlIVXNMbVZVOGRtdGhhb1lMX1hxZGFPU2xiVURZUVRLT2Uxc09vR2JoMW1DazUxUFkzbXVIUF9abWEzZU81TXRLeVQ0TThBVDhWc1h4WQ?oc=5"
    ],
-   "text": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say"
+   "text": "Exclusive | Diesel Prices Hold High Despite Efforts to Boost Global Supplies"
   },
   {
    "sources": [
-    "https://oilprice.com/Energy/Energy-General/NASAs-Freeze-Resistant-Moon-Battery-Could-Eventually-Reach-EVs.html"
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdjhpV281UklfUGM3NmxqVTFNMnlEa3JNMHdBVmR1LXBLNFp5QTdKd2FQUHhMd0FIaWk0Q0l5cXB0NDFDYVVhV1VOZFdzSlU5T3RtUGZtQW52ZnpNTGM5TlRyTl8zeHo1ZzJvaE41d2JtSU9DdzFjdUlfQTNjZVpSOGpfbFZNWWFCdjZlSkxhaUpjTmhEOV9LSDBCMENVRm1wQmh3MWpZMFRtN2hlQkhDQ0xLYk8?oc=5"
    ],
-   "text": "NASA's Freeze-Resistant Moon Battery Could Eventually Reach EVs"
+   "text": "Oil Surges to $115 as LNG Supply Risks Stoke Inflation Fears, Rattle Global Markets"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGgzRl82OHoyZktsNVpKNmtBT0Yxc0xfUnhqRTA0Y0dlMHliWF84d3pqMG55MFRTYkItdDdPSXBaeXF3eEU3cFJOLWlXdFFRS3VoMGh0b19MbXFiVF9aaDFSMUh6a1Q3WnlVVk85b1hJNlBNZHVrQUZ5WHpYQ3g2YjViQ2ZDWnh4c2hZVWt3TjFnWGUxU09NN3BoeDctRHkzT1NfYXRlZ1ZyOVE?oc=5"
+    "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTHU2d2MwbHFVVUhhVjVDeXIxT1NVdHVYcE0tY0NrVUlGUk9hTi1ObTZHRWo1UDMxdEZRTmgyZUxxS01XTHVFTWNFaTk0UHhKOTNHeGJ1X3NjQTkyTTJtVmczNmxIQWduMUhRUXJkLVNTOGpuZ3VSbFpMUE5GVUhaTHZhdWt2WVVGRUl3THdUbGZta0Jlck5KX2VsTjRUMy0tNjlfNjQ5dnltM0JjRm9pMHdSNGJ3RkxpRzdTWWtPbWNwWlNMd29VYkZySjBSd3g2TzQ1VjZOeG4wNGRPR1BxaXZCaEVIMG9JTmVYTENiRDlmeXlxR1dqSGFQT2dwUdIBgwJBVV95cUxNdXZudFo0Z05xVnRaS084NHhfbmc5VWlFQjVDMmpoUEM5VlhqREhUN3I4WUxyMjd4eExmQlRXNUExdHRYWFlsWkZuT0FkVUxaOU5sT25BYk8wNjVBV2ZrSGtnenJueGlHakZiS2QweGs4R2JiV2lnQlVnei1QZDZna0lnbFdaNXRfTTlfY2g4eElLWDhVZjc2QmlQejV3ODJ6OEd0VUNkbGRmaEktdl9NWEJ1YXpVdTVZN01RaDh4WW43aFRXdndMejNaVmJKTGZwbXlCUjJSSGY5VmUxZkxxS0d6UFNUYTNPeTIzUmFHa0d5UFZtTGxKYlZHazgwUGhfckFz?oc=5"
    ],
-   "text": "Oil Prices Jump $3 on Houthi Attacks, Oil Spill, Highest Settlement Since April"
+   "text": "'Trump will take his dream to his grave': Iran determined to not allow US warships in Hormuz"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1hJV09vQ2pHZVVPLU5uUVVCSTdEVk56TzBQSW5Walc2eU5XTTVqWmZLVUdJSGRFRUhUR2RJb18xbWVGOFN1OHJyZWpNYXNQU1d4R3RTcnRjTkJNc3FPTFVUa1lhRDFreU9Dc3JucjNvR0tTNUJScmtBYWdwLVZiUDUwaVFnMEZrQkRWdzNqNDNGRTVmZWc?oc=5"
+    "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMdmROZmpaN1Jfa2puaWdva3ZLRjRVRXE4eVhHM012Y09GWjhYX2h4UTVYSXhmUUpTSVBJbE9JbndtN211cDctQTZ3?oc=5"
    ],
-   "text": "Oil Prices Rise on Fears of Middle East Conflict Escalation"
+   "text": "R4 Foreign Ministers Discuss Regional, International Issues with Counterparts from France, Germany, Italy, the UK"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQVVpdm9SQS1haV9zckEydXZhNlhfUjhrbUZnNE9ncFhHTlR1UnJFa2lJLUxsZjA1Q1ZZZlp1Q0l3VmRwQTRqMnhoRmhtVWxVLWF5em40RzFTaktGdjV2Z3UtandPOGQtbnRWX0xNcEpQcDRuTVNvN2VLZGQwSVIxVnZJVnVYM0hHbHpzR0lmYkhhdXM?oc=5"
+    "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOZ1RTWF9KQnhVTF95TVFqNVVRUVJQbzlFNlB1T01ocjdsdHllQVZCMWFkWWZtWk1iTW1uMDk4ZWZTc1pBbmswSk9QYUQ0eE1jM3dHUlc2NTFOZ2xYaWdaVC02LWdzdlgtOENmTExqdnhyU2N2RzBYZ0JBSEVhUmR4WGo4aUJaV2lkazdhMjRiQVUyLW5fUndNYmJZTF9fUDdncV9xVTFSZERuamxQZXVEekN6ejdMUjYzMnRpN0J1UjItTUtwS2lHNktlaURuT1NSWVQyQ1N4eVZWTFJrc3B0N25ya193T3JVYTVZNm9iTEtvNEZKRjVmWFg1aE9FV2VidllyVkh3anU?oc=5"
    ],
-   "text": "Trump wants to rename Hormuz to Trump Strait"
+   "text": "‘Oil facilities in GCC countries might be destroyed’: Ex-envoy KP Fabian warns against renewed US military action on Iran"
   }
  ]
 }
