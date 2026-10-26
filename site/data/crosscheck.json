@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-26T16:46:21Z",
+ "as_of": "2026-10-26T21:22:30Z",
  "claims": [
   {
    "id": "hormuz_flow",
@@ -9,27 +9,29 @@
    "label": "Strait of Hormuz flow",
    "mentions": [
     {
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRTFEQ3d3LUtJTnU5RDJiUXhXcmZZN21QR0NRU2Uwb2hqcUJ5QWZiNGdaWEFuR214NS1pbEtydkZPZ2FjT1lTeVd3SWlPaTU5b2QxSDVSM1BHRFkxRk1BWGdYYkdKQnp6cjZhcTBnR2RzUVVrNlpwUjZZa2pNRGhZSHFEWHllNDJweTdfNkRaUWlTTTkwMVVEbjZ6RWfSAVZBVV95cUxNVVdEUzVTVG9NX2Yzdy1IOVBvbFNxd0tCQnh5ekd4N3dGNTlnN2V4Nm9IV3IxamdXU1RxVDBrYmJIVUREQUJYMlYwYVl1dFFzNmt4ZHBEZw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOGRkdFc3VHRoak51Z1JWTkRRWHQzcng5cC16NkdjRTlpYmdnNzM5ZVJBSmZGbkhfcWlPYUJNMFhkVnFnVkNiWEdMdnFRenVtdHJEWjlmV2xGcksxek9WWXkxYVhnbm5WX0dTWmJhVzR3YjhzRnN0YWlQR0VvdF9JWFFhSjdqYjUyZWUtODRDVGI2VWVfbXc5d3QtUW5rLUE?oc=5",
      "numbers": [],
-     "published": "2026-10-26T16:28:14Z",
-     "source": "Law360",
-     "title": "Mercuria Says Baltic Kept Flawed Rate Amid Hormuz Crisis"
+     "published": "2026-10-26T21:22:30Z",
+     "source": "Kpler",
+     "title": "Sulphur Supply and the Strait of Hormuz"
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLU5QQ2V3MjVrZUNLeW9Qbm40LUFCWGs2ajU2N2lVa3FZSXE1ZUNFTVRzU0laV1FXWV9Yc2lReGpieV9RNW9ldllKLUhxQ25ELUF3MDM4YUYxVzh5QWF4ZHdWSmZXMGNTS3daZE5RclBnSmJ5YkZlcTkyMk42aklmRjhmYW0tNmIzR1FpUGFkc3Q0YzRzVWR6dy0xOWh3Vi1V?oc=5",
-     "numbers": [],
-     "published": "2026-10-26T16:25:52Z",
-     "source": "Seatrade Maritime News",
-     "title": "Late reports of Hormuz attacks as Iran blacklist expands"
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvMlJBOTNkY2tkNmUxRUpyd2JNQjFnZ29hSktyN0JHZXZST1VUX21OeDVNZmVXc2dsWHp1VHdWc2tBMlFPTHB2dEhqYVJPV1c4MFpSVlM0T3czLVpxbnNYYkZEeFNLMEVrT2c?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTlBDaXlGdEVjYXlSSS1ZRTNJTngxWFlJNklqMGJ3RlgxeEtkMGJKajlHaHZxa3hJX1BaZnIyU0FnVGJMV1dVOXV4bVlUaGJ6WWRCazZvQW95US1rOGQzMndUT1NtUjdIMjgxSGkzQXIwaTZ2MFVVZUd1WVVXUzZzd2hjSmU2TU9UWUZYSmlnNHRHS3RERXB4MjRFbUhLSTZPQUFzQ1hjR01UMjNZTGd1S3EyRFlqdndjMmRGWHFB?oc=5",
      "numbers": [
-      "4"
+      "$4,000"
      ],
-     "published": "2026-10-26T15:49:02Z",
-     "source": "https://houseofsaud.com/",
-     "title": "IRGC Declares Strait of Hormuz Closed as Tanker Transits Drop to 4"
+     "published": "2026-10-26T21:02:20Z",
+     "source": "Kitco",
+     "title": "Gold holds above $4,000 as Hormuz diplomacy cools crude ahead of Fed decision - Kitco PM Report"
+    },
+    {
+     "link": "https://oilprice.com/Energy/Energy-General/Asia-Needs-1-Trillion-a-Year-to-Avoid-the-Next-Energy-Shock.html",
+     "numbers": [
+      "$1"
+     ],
+     "published": "2026-10-26T21:00:00Z",
+     "source": "OilPrice.com",
+     "title": "Asia Needs $1 Trillion a Year to Avoid the Next Energy Shock"
     }
    ],
    "portwatch": {
@@ -61,15 +63,7 @@
     "gulf crude"
    ],
    "label": "Gulf exports now",
-   "mentions": [
-    {
-     "link": "https://www.rigzone.com/news/wire/gulf_oil_bargains_lure_india_away_from_russia-26-oct-2026-184931-article/?rss=true",
-     "numbers": [],
-     "published": "2026-10-26T14:22:58Z",
-     "source": "Rigzone",
-     "title": "Gulf Oil Bargains Lure India Away from Russia"
-    }
-   ],
+   "mentions": [],
    "portwatch": null,
    "target": "hormuz_ledger[region_total].value",
    "whiteboard": {
@@ -89,7 +83,15 @@
     "pumping station"
    ],
    "label": "Saudi East-West pipeline",
-   "mentions": [],
+   "mentions": [
+    {
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-Votes-to-Defend-Saudi-Arabia-Risking-Houthi-Fire.html",
+     "numbers": [],
+     "published": "2026-10-26T17:30:00Z",
+     "source": "OilPrice.com",
+     "title": "Egypt Votes to Defend Saudi Arabia, Risking Houthi Fire"
+    }
+   ],
    "portwatch": null,
    "target": "hormuz_ledger[saudi_eastwest].delta",
    "whiteboard": {
@@ -113,20 +115,13 @@
    "label": "Emergency stockpile releases",
    "mentions": [
     {
-     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrS2ZkYUVfQVhmb3R5Tjl5bW5DQW93VkJMbzZnUlZwZ3JCZFNsMWJDZGtwYmEwdGNfdjkzaVlQTFI4aC1ld2NxTnNHYnhlLXprSE1mcQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbl8wY0RmeS1kZG80eVk4WHUyQjR1NFFmZkR0TVBkdF9FY3ZBdDNaOWhIMVZjdzlQT1Z4UFRuaVo0SU90NzMyZUkza2ZWZzl6TlhRdkVZLWg0Um5DTlRVY01NNXpBTFN2eW9Md2dIMUUwb3lTZURZemFXcFFWajd5aEN5dGVpdWdPUkcwdVVQc2VpZmZYUElFOUUwdGwzWVQtUk83cUhJYUtwNGZqa28yTVVJdw?oc=5",
      "numbers": [
-      "282.6 Million Barrels"
+      "44"
      ],
-     "published": "2026-10-26T15:49:25Z",
-     "source": "bloomingbit",
-     "title": "U.S. Strategic Petroleum Reserve Falls to 282.6 Million Barrels, Lowest Since 1982"
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVVNMUGdfdGo5OFI2RExWUFBBTkQ3SWhMaVNCajNGUER0Si1ULTM0QnJ2UDZoMURnczVfU0N4dXVfN3VjV2Qxd2VGcW1YcUxYb2FrdG1wa3VsdDZ2YldVeExjQXZrQjRtcld4VHFrTjMxeVEzU2JGM1E2TTJTTjNTc3llMUo4SkNYanhrb2Fqb2l0TmpQaENReFpVbkJMSk9hbG5XbW1ObnFMdGZENFNZQTBzdnEwQzhFRUVacTF1UQ?oc=5",
-     "numbers": [],
-     "published": "2026-10-26T15:21:43Z",
-     "source": "Reuters",
-     "title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982"
+     "published": "2026-10-26T20:40:04Z",
+     "source": "Oil & Gas 360",
+     "title": "U.S. Strategic Petroleum Reserve drops to 44-year low amid global supply disruptions"
     }
    ],
    "portwatch": null,
@@ -148,7 +143,15 @@
     "china's crude"
    ],
    "label": "China import cuts",
-   "mentions": [],
+   "mentions": [
+    {
+     "link": "https://oilprice.com/Energy/Energy-General/Brussels-Takes-Aim-at-Chinese-Imports-as-Europes-Industrial-Crisis-Deepens.html",
+     "numbers": [],
+     "published": "2026-10-26T19:00:00Z",
+     "source": "OilPrice.com",
+     "title": "Brussels Takes Aim at Chinese Imports as Europe's Industrial Crisis Deepens"
+    }
+   ],
    "portwatch": null,
    "target": "hormuz_ledger[china_cuts].delta",
    "whiteboard": {
@@ -172,25 +175,25 @@
    "label": "Bab al-Mandab closed",
    "mentions": [
     {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaHJPVWpfNE96SGVFMUJaVmNwaU5zcE1xVnQ4elZtMDhFUG9mTUJJX2c2VEJnZWVxVnpZOENnOXo2eHJmeGtPLXc2aHVNb3lKbVJiSFpjYVNNVXU3ejBKdmN0d2laWUlYRm11ZS1ldVNoZy0tQ19lZTZFODVuTWpaNF9OdmFrNTBNaThmSUFzVzg?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTXNfdy1DeC0zQUpnZmJybWtGWVdLeFZCX0VGMW91UVBIbU0tSzhEMzNDWXVQRHMweEt3YnplcTZUaFgzbXd6YjVULW5TdmhJcVVJZ19JWUd2QVhVZFlkR0xCM1ZJcDdSNzlqQVRrTXdfTTBFT0hJN1N4OEN2dkNlNHNzVXlGd3E1ZUdfejF2SnItYkdKb3FTUWV5UjA2TU1feHB1U2otUTBacXFnc05kR2RDUDZlZ25NUmJxdlhSNDV6dnVmc0E?oc=5",
      "numbers": [],
-     "published": "2026-10-26T15:47:57Z",
-     "source": "Yahoo",
-     "title": "Saudi Arabia Keeps Getting Hit by the Houthis. It Will Move Oil Elsewhere to Keep it Safer."
+     "published": "2026-10-26T17:45:00Z",
+     "source": "The Nation (Pakistan )",
+     "title": "Egyptian parliament approves military support for Saudi Arabia amid escalating Houthi attacks"
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPdmhibUViNjdZWncySzViZ3dqNzFsRXdJN1BHbWZXODA4UlNPQUVBZFNKU1psbTZ1NGNMUU9HYlotYXhMYUtYbFk5SXNrRHpVb1dmSm51YkJvUTIxUVNNZDRTVVNiX3FIYzVxLWhzTWNKTnE0Q0tTWnB6VWNZaDhEazJjaklsZk4wVEprTmc1aWRhT1p3M2hENGZRMmdjTGlIUWVWUG9XcTN5S190RW5ubm1yTThFRWJ4TFExandvT3FfeVN6MmJsUzZVc0VyS3FBYVpUQW92SWt6MFdsTWRSblpyZ3lkOWdLQUJ5NVJJNkNhRk9jaFVGVHZKTHhIWjFLamFnWFZQdHNtVnVYbC1ZMUtOZmltd9IBmwJBVV95cUxPT1FWX3lDMkQ0Ymd4TFdFNUtPdXA3NnhKdTRHX21lZFAzVlZyRjdPSkRSaXVjdTFTeVI3b1ZpN2U4b2t2SlFOS0ZvcG1UQVVsWkVqSWNIUWtDaXlrb2doN0gtZnhjU1B2MDJBZTJubFhaQThQTGVYRXlXTk9LVXZ4Z0t5VS1WaWl2OC1mdDFWZWZ0Rms3THl2VlVxYUZxM3JrM3AtNFVPX1F5c1E1VmV6dmtoQjAtakRCNWZpYzdUSmo4NFc0N1ExcGRSbkppUUtZa1Jzd2FIM2ZmTncwSGliTjdEQjNuRHlaVHVQTk5wblZaUHFfOTZjMlVuSUNzcWpIdkl2RVFXTmxlMEgxd1VjeWY4Mzg4ZXR0X3Iw?oc=5",
+     "link": "https://oilprice.com/Latest-Energy-News/World-News/Egypt-Votes-to-Defend-Saudi-Arabia-Risking-Houthi-Fire.html",
      "numbers": [],
-     "published": "2026-10-26T15:32:00Z",
-     "source": "The Times of India",
-     "title": "‘No oxygen to keep babies warm’: Newborns at risk as fuel shortage hits Yemen’s Taiz amid Houthi-Saudi co"
+     "published": "2026-10-26T17:30:00Z",
+     "source": "OilPrice.com",
+     "title": "Egypt Votes to Defend Saudi Arabia, Risking Houthi Fire"
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV2p0eTVVV2pCRXBxT29vR1J5NEd6b2MxX0JWYkNBdmVDMU1NLVFMMHJVZWM0YTRmVm56OU5PNXBjQl9BN1lGVTRxUnJHNEpfeUt6emtHQk1nZTNPS0JHYnowR2FROVJyWlRNUnJiczMtd3RCbXJYQWcxN2paZVlMYV9GYkZVS1NvT2VMMDRBb0VQOWg0WlNkMGtnTm5CSWFkYUE?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EY05sZkQ5NWZjcUNVOHdxUkpxREhpVWNoT2VianpfdWZBZW5RRmdqc2ZBT2FhM0N2c2pIc1NfMzZEUFRUdkJ0ZE9uWmR4REU1XzRNbTZMVC1OVVR3OVh3Rk5XVUM?oc=5",
      "numbers": [],
-     "published": "2026-10-26T15:25:47Z",
-     "source": "Pakistan Today",
-     "title": "Pakistan condemns Houthi attacks near Makkah and Madina"
+     "published": "2026-10-26T17:26:21Z",
+     "source": "TRT Afrika",
+     "title": "Egypt authorises military support for Saudi Arabia as Houthi militia attacks escalate"
     }
    ],
    "portwatch": {
@@ -252,22 +255,7 @@
     "day rate"
    ],
    "label": "VLCC day rate",
-   "mentions": [
-    {
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSFBPSGZWdVo2YnozWngyM1ZzclNXNWdjcGJYcnhiSlpLbjRiQmk3N1dQMGEybFp1Tjh4cUtNTVZHVjhYa3p5RjlxaTltMUVTLTZyWFQzOW40MVpuc1pkQzE2VEp1YldHYkE2QWdSbzVQY1QwN2xYRThnSEtPTHh2RjluZ3JrWkdLWjIwTzRidEZjRnNEZkNuS3oxbnQwNDQ3RVZzMktYWk9lYVYxeGozVWF2MjZFR2M?oc=5",
-     "numbers": [],
-     "published": "2026-10-26T14:52:06Z",
-     "source": "Breakbulk.News",
-     "title": "Mercuria Seeks to Invalidate Baltic VLCC Rates as London Trial Threatens Freight Derivatives"
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc3BJWk01Rk1GWjgzdmJFVkFJTzRvZU9hNDE2Q3NjREN1WVp3RV95TkxTbXc0U2JDd2p1bTh0c3JFdl9lZzZreThOc3d3Vl91RmkyVVVaby1tV0s3U0t2SFg4RUw3anhOZDBkQk9LU18tZE1fNVB0VkRpOUxjSjV4S2tDX0JqV0Izem9LZ0FZRTEzUUx4VEE?oc=5",
-     "numbers": [],
-     "published": "2026-10-26T14:27:15Z",
-     "source": "Sea News",
-     "title": "Tanker Rates to Stay High, Lengthy Cargo Delivery Times"
-    }
-   ],
+   "mentions": [],
    "portwatch": null,
    "target": "shipping.vlcc_day_rate_usd.now",
    "whiteboard": {
@@ -288,15 +276,7 @@
     "ukrainian drone"
    ],
    "label": "Russian refineries struck",
-   "mentions": [
-    {
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOWUycEdiaFV0VlEtX3NhTk0wcV9BeDlQMWRIZWdXUG1DcmJYQzh5NDJ0UDJLdVJFYWgtVzcxMC05UU9VbFVrR0RTMDlvQ0NBNDB2eVluekVhcFdYQ1B5Q2tTVTk1ZjEydFBlWnRDQVlSajNCZ29jTG1IUmtxaVg2eGZLTkFTRDVRMUMzTmFsa0pLc19kWm55RlVYSWVNNFlnT1loOXY5QkdvOHJMWnVINEY3ZDBfQdIBuwFBVV95cUxQbG14Zy1QVFYxVEd3TzJ0TlVBaC1DMWtuZ09zVTVJbUpURU5ocFBWa0t6am5VWURwOHljQ3VaZ0QxTTR2V3Jmd2hBNVJqZW5CU2N6TXJXbmV6Y1hfMzNzTElrQ0JZd0trQmhsWmhZVXZ0X2lwS2FtYTRvY3FNd0pTOURlRHZFeVoyYVRNNTdzd1VOTGxweFlOd1hwM1ZWUk9WalhfNDNvWE9KMzJPWnNBYW9Ec082X2VTZ2hz?oc=5",
-     "numbers": [],
-     "published": "2026-10-26T15:30:00Z",
-     "source": "Crude Oil Prices Today | OilPrice.com",
-     "title": "Russian Refiners Ramp Up Diesel Output to Supply Trump Deal"
-    }
-   ],
+   "mentions": [],
    "portwatch": null,
    "target": "refinery_shock[0].diesel_delta_mbd",
    "whiteboard": {
@@ -327,8 +307,8 @@
    }
   }
  ],
- "fetched_at": "2026-10-26T16:47:25Z",
- "generated_at": "2026-10-26T16:47:25Z",
+ "fetched_at": "2026-10-26T21:38:17Z",
+ "generated_at": "2026-10-26T21:38:17Z",
  "news_items_scanned": 60,
  "schema_version": 1,
  "source": "Crackspread cross-check of manual.json against news.json and shipping.json",
