@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-27T08:55:34Z",
+ "as_of": "2026-10-27T15:50:00Z",
  "crack_o_meter": {
   "as_of": "2026-10-20",
   "label": "Grand Canyon",
@@ -83,17 +83,17 @@
    "unit": "USD/gal"
   },
   "retail_diesel_us": {
-   "as_of": "2026-10-19",
-   "delta": 0.0,
-   "now": 6.276,
+   "as_of": "2026-10-26",
+   "delta": 0.076,
+   "now": 6.352,
    "prev": 6.276,
    "prev_as_of": "2026-10-19",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
-   "as_of": "2026-10-19",
-   "delta": 0.0,
-   "now": 4.284,
+   "as_of": "2026-10-26",
+   "delta": -0.015,
+   "now": 4.269,
    "prev": 4.284,
    "prev_as_of": "2026-10-19",
    "unit": "USD/gal"
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-27T08:56:37Z",
- "generated_at": "2026-10-27T08:56:37Z",
+ "fetched_at": "2026-10-27T15:52:46Z",
+ "generated_at": "2026-10-27T15:52:46Z",
  "headline": "Diesel crack: no fresh FRED data, last value $105.91/bbl (as of 2026-10-20)",
- "inputs_digest": "a68ccd0537aa06aa1bbcc8e2419334c91e2f1385",
+ "inputs_digest": "1f1afae07714e47e0cae250fa455d4fef86d474e",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXJGU05ES1lrNVpjWnVEeFRGOGx6d3lYZGdPLUVzSUNXU3JnZEM2UVA4cVF1a0tvb1F1WGlOdXlfX1VJTXR5VHg3YlhuT00wVjgtaEptVFU4MHhfUjRBdlpIRVhzVFNHeDk2Q184SXRBZ2VwQ2ZaSmNRMjVlWWZ6eC1JWkUtLXVZZ3NMRFBScHlMOFcyTXdSLUpXSWhycDg1U3IxX3l0b2ZuZWM4bVJNZ3VNUnY?oc=5"
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSVRxcjJXU3U1TW1wQkZsMllwNjFma1hKOWxqYTRoZEZGOUxSV3RDUFNTVkwtSXZhN185ZjNwdTVnNEludmluRlpGMmE2NVpMdngxZlRxbzRHaVZPOGU1ZTNQcm54M1d6SU11Um5Uamg4enhmSlkxUGpJemczTkVRLXlmZlNLdw?oc=5"
    ],
-   "text": "IAG share price is facing turbulence: will it drop or rise ahead of Q3 earnings?"
+   "text": "Opinion | America’s Military Presence Reshapes Hormuz"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFVBQXV6bDJpOHRMNUJyaERGaTFPMm41MU1TT1ZXTWhnREtPeV9JSkM3QllRdXR3bGwtRk5oQ1R1eEh2N1JSMW0xTVdXQ3ZGWmZObjlNb1NUWEN6NkdPUW1oUkVRdzM1ZU9wNXhGZHAwTUl0el8xRHA3aXQyVUtCTlRnS0oxV0l1Z05zbEtzZ1hxRzRTZGZiTzYxWG16Vjc5c0RTMmRUcEVBdVROcExwMw?oc=5"
+    "https://www.rigzone.com/news/adnoc_unlocks_16b_in_uae_manufacturing_opportunities-27-oct-2026-184946-article/?rss=true"
    ],
-   "text": "Chiquita Brands International’s director warns that bananas could become more expensive in 2027 amid extreme weather and wars"
+   "text": "ADNOC 'Unlocks' $16B in UAE Manufacturing Opportunities"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTE84YWVJLVVfOWVlZWl5OU1qRkUyWnNhMVB4eG5PLVdsaHpNUzdpSHEwUVpCaV92VFduS0xFQ0FtQlJaRmg1bjY1QUt4cVJjZXBPYXIzM2ZJd2lhY2VVV2JmZEJjTkFyLUNBZk1z?oc=5"
+    "https://www.rigzone.com/news/ovintiv_acquires_montney_neighbor_logan-27-oct-2026-184945-article/?rss=true"
    ],
-   "text": "Oil dips on Mideast peace hopes, Saudi supply risks limit losses"
+   "text": "Ovintiv Acquires Montney Neighbor Logan"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMEN5RWZ4Q243dURhTVd6SzVwSkkzU19VT1Y1TVdtTEdOeVJjSVhIY1ZlVDU3VmN1N0Q3MDNlNlMzMFZEUzM4Wno0OHlRbEx3M3JvOXpGWEtrTU1xdGU4Q2JxSkpCRnJzQkwtYnMxdVhwWF9IMm1vRlVuTFFyV04xM2ZsSEthdzl0NjA5QzFLYm9uSldKdWotVnMtQmZRcU1GWnNVbXJES3hkQWU3bGFhc05FQVk3a1FNZVJQanp0NXJvcEF0ekFBbHdCMF9fMTBjVlJ0aTk5UDFWSUczNjNtQTFadUNkZUN4Q1lIYm14MNIB7wFBVV95cUxQMEN5RWZ4Q243dURhTVd6SzVwSkkzU19VT1Y1TVdtTEdOeVJjSVhIY1ZlVDU3VmN1N0Q3MDNlNlMzMFZEUzM4Wno0OHlRbEx3M3JvOXpGWEtrTU1xdGU4Q2JxSkpCRnJzQkwtYnMxdVhwWF9IMm1vRlVuTFFyV04xM2ZsSEthdzl0NjA5QzFLYm9uSldKdWotVnMtQmZRcU1GWnNVbXJES3hkQWU3bGFhc05FQVk3a1FNZVJQanp0NXJvcEF0ekFBbHdCMF9fMTBjVlJ0aTk5UDFWSUczNjNtQTFadUNkZUN4Q1lIYm14MA?oc=5"
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVJhdElkYWQ2dUlnN1RlMDZBc0xBS3hNUDdBMjdiX2o3UmtaWXB4OVhYNjVKbU5KU1dTSFNlTFlkOG51NUdSX2VFb3BSMjZUOHNHX2c3M1YwT3FRX3c1ME45OGJUMDJYMl9WSERPekxkXzlNSHY0NE83UEEwQXhGR2lHNmlCc2wyR2Q5LXpjb3hxRTFVSUtaT1UyZVNhR3N4TUMxTGNndkppTmhoX2RDOVEyQXc?oc=5"
    ],
-   "text": "India ramped up LPG output, diversified imports to weather Hormuz crisis: Union Minister Puri | India News"
+   "text": "Saudi Arabia’s Abha Airport, Defence Ministry, Oil Refinery targeted in Fresh Houthis Attack"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWGRvU3RmbkZ5SklRZHRDSVliN0RKT1JkMWh1SnF4R0xCbUpKRVFRZ0NsdkpHaGlmWGhPazBEV3dsVDBUYjcxYURVVUV5Rml2OXc2Tm5Gb2hjbnRySk1LbEtNY0JyaHU3NnZXaFRQWmhZdVBOaDhNVnFHT0xxMlF1QUhnNA?oc=5"
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5McERVVGlOWGt5UzNXeXNNY1E1WWxneDJXZXMzbmpHdzRuaDNZcVhXVTVtcnJURnBndzNVM01JcUU5dlFyREgzWFBqMktUejJqMEppM2hyU3h1b3RoR0I2bmVIbw?oc=5"
    ],
-   "text": "Oil and gas prices in Q4: Pressure not only comes from crude oil prices."
+   "text": "Don't Buy DOAS Crypto: Digital Oil Asset Supply Coin Is Full of Red Flags"
   }
  ]
 }
