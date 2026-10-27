@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-27T15:50:00Z",
+ "as_of": "2026-10-27T21:00:00Z",
  "crack_o_meter": {
   "as_of": "2026-10-20",
   "label": "Grand Canyon",
@@ -84,18 +84,18 @@
   },
   "retail_diesel_us": {
    "as_of": "2026-10-26",
-   "delta": 0.076,
+   "delta": 0.0,
    "now": 6.352,
-   "prev": 6.276,
-   "prev_as_of": "2026-10-19",
+   "prev": 6.352,
+   "prev_as_of": "2026-10-26",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
    "as_of": "2026-10-26",
-   "delta": -0.015,
+   "delta": 0.0,
    "now": 4.269,
-   "prev": 4.284,
-   "prev_as_of": "2026-10-19",
+   "prev": 4.269,
+   "prev_as_of": "2026-10-26",
    "unit": "USD/gal"
   },
   "steo_consumption": {
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-27T15:52:46Z",
- "generated_at": "2026-10-27T15:52:46Z",
+ "fetched_at": "2026-10-27T21:17:16Z",
+ "generated_at": "2026-10-27T21:17:16Z",
  "headline": "Diesel crack: no fresh FRED data, last value $105.91/bbl (as of 2026-10-20)",
- "inputs_digest": "1f1afae07714e47e0cae250fa455d4fef86d474e",
+ "inputs_digest": "495291ff31c1cc8090fef356e1a1b04c4b6f4c82",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSVRxcjJXU3U1TW1wQkZsMllwNjFma1hKOWxqYTRoZEZGOUxSV3RDUFNTVkwtSXZhN185ZjNwdTVnNEludmluRlpGMmE2NVpMdngxZlRxbzRHaVZPOGU1ZTNQcm54M1d6SU11Um5Uamg4enhmSlkxUGpJemczTkVRLXlmZlNLdw?oc=5"
+    "https://oilprice.com/Energy/Energy-General/Turkeys-Libya-Deal-Puts-Oil-Majors-in-a-Bind.html"
    ],
-   "text": "Opinion | America’s Military Presence Reshapes Hormuz"
+   "text": "Turkey’s Libya Deal Puts Oil Majors in a Bind"
   },
   {
    "sources": [
-    "https://www.rigzone.com/news/adnoc_unlocks_16b_in_uae_manufacturing_opportunities-27-oct-2026-184946-article/?rss=true"
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc084RVVPTTl1MnQxeHEybWJvTUV5RTBnN1JmS2VIQm1iUThlLXJVek03YkFUdkdSMHFOSGtObnFwS0hoTFpaZVpYRkZHRVpEN2VIcjJDekFPR0IzWnRDRmU2cjJNZHNkNnNYNVYwYWZJS1gzZEpUaUczZFd4NUtlV0E5dHRxeEdQV3lDZU5vb0pqbVcwNVBNSzVqN2VJSm1XTGZMbGl0NTc5d9IBrwFBVV95cUxQUDgxcXBhbkk4U09ZdnBlcGY0amZ5Z3RiSF9ObWNhNTlDUkZlallrV0xLUUtkNDJFQXBlSlF6X1dLcjBtYTR5eWJSSjYybnktSE9aUVFNRE1aekw1N0pHazRwWk44X05ORW9kTWI3ejVzT0U0bHdYTTc2TkhpUmg5RlczX1Q0RXIxRW01NDVQd0gxdTB5YUg4Zk1OZWJWUlA1M1RkTnFtX243cTJPUURJ?oc=5"
    ],
-   "text": "ADNOC 'Unlocks' $16B in UAE Manufacturing Opportunities"
+   "text": "US Crude Oil Inventories Buck Analyst Expectations"
   },
   {
    "sources": [
-    "https://www.rigzone.com/news/ovintiv_acquires_montney_neighbor_logan-27-oct-2026-184945-article/?rss=true"
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWjFmZTNVanBEQkU0eTJTVHhWTndOc0tIOGZYRm93Qk5vb3VtUlhLM0N5WkFvLTlNVnlaMU5NSlgtd0tuOThsYnV3N1lrQ0xBZ18wQ2RRUGJTR21KYVJ2WEl5NHdvOUFZalNvaHFmeV9RMWtITndVT1hyempocjlGSXNLS2FOMzBNYi1xN2RtcXFLUXpWeDFKOW82VEltOVI5Tk9Rb1hoNDRxS3BjNk9YX3NOT0l1TEJ6NE5CaDBoRG8zbWx2?oc=5"
    ],
-   "text": "Ovintiv Acquires Montney Neighbor Logan"
+   "text": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRVJhdElkYWQ2dUlnN1RlMDZBc0xBS3hNUDdBMjdiX2o3UmtaWXB4OVhYNjVKbU5KU1dTSFNlTFlkOG51NUdSX2VFb3BSMjZUOHNHX2c3M1YwT3FRX3c1ME45OGJUMDJYMl9WSERPekxkXzlNSHY0NE83UEEwQXhGR2lHNmlCc2wyR2Q5LXpjb3hxRTFVSUtaT1UyZVNhR3N4TUMxTGNndkppTmhoX2RDOVEyQXc?oc=5"
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSGw2Um1xRzJBT1FNT0JtdlVrc2ROMVR4em85Zi0xUUlqZ0pqYXRtenQ4bkFKaElzaF9BNVd0M1FqWERCQ20yNWdKN080MUZCUVZoZjROOG9INkVWVFJ3dkIxZUt4YzhfQ1JEMzJtcUJxWWM0RzBsdWx6WG8tOVZuRE5wRGZwQXk1MDdyNElBMm85UVM4bkdOZ0dkY0NDMXprNnVKLURSaDZDOGh5eWxHdTZ6SXk1V2ZEVTNldF93TE93d9IBxwFBVV95cUxQSWFyUmtqUkNEZmFIamd3X1FwWDkzTVRxRHhKRG1JY013d3RsRlRDaEtZVlhDVncxUmo3ZFhqMTdLT0ptMEo1VmwwUDlKbjBfcmpwRElxY1k1alk2RTJCWF9iMG01bDJ2YW1hZ3BjRGs5aFhoSVd5RmhIdFdnQmNnWmZUT052VjdyQUl6WVd3MVJiYkx2TUVHeXBuX2ZEbjh5TGE5RDAzYzhfSnEtWVd3UWxucngzT0tpVjFxb3prUkl1SzZuYkJv?oc=5"
    ],
-   "text": "Saudi Arabia’s Abha Airport, Defence Ministry, Oil Refinery targeted in Fresh Houthis Attack"
+   "text": "Why CVR Energy (CVI) Shares Jumped And What Investors Are Weighing Now"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5McERVVGlOWGt5UzNXeXNNY1E1WWxneDJXZXMzbmpHdzRuaDNZcVhXVTVtcnJURnBndzNVM01JcUU5dlFyREgzWFBqMktUejJqMEppM2hyU3h1b3RoR0I2bmVIbw?oc=5"
+    "https://gcaptain.com/russia-says-northern-sea-route-transit-cargo-to-nearly-double-in-2026/"
    ],
-   "text": "Don't Buy DOAS Crypto: Digital Oil Asset Supply Coin Is Full of Red Flags"
+   "text": "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
   }
  ]
 }
