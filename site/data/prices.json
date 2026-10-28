@@ -1,7 +1,7 @@
 {
- "as_of": "2026-10-26",
- "fetched_at": "2026-10-27T15:52:46Z",
- "generated_at": "2026-10-27T15:52:46Z",
+ "as_of": "2026-10-27",
+ "fetched_at": "2026-10-28T21:39:05Z",
+ "generated_at": "2026-10-28T21:39:05Z",
  "history": {
   "brent": [
    66.04,
@@ -1014,10 +1014,6 @@
    66.13,
    64.41,
    61.23,
-   60.71,
-   61.0,
-   62.28,
-   66.32,
    65.8,
    65.52,
    64.03,
@@ -1271,7 +1267,12 @@
    126.35,
    119.33,
    118.82,
-   115.22
+   115.22,
+   117.37,
+   125.39,
+   128.3,
+   128.12,
+   123.1
   ],
   "crack_321": [
    15.326,
@@ -2284,10 +2285,6 @@
    22.7,
    22.92,
    24.454,
-   24.428,
-   24.528,
-   26.198,
-   25.76,
    25.888,
    26.98,
    26.81,
@@ -2541,9 +2538,14 @@
    45.412,
    46.322,
    44.032,
-   46.936
+   46.936,
+   49.434,
+   51.774,
+   45.484,
+   43.696,
+   41.18
   ],
-  "daily_from": "2025-10-20",
+  "daily_from": "2025-10-27",
   "dates": [
    "2006-06-15",
    "2006-06-23",
@@ -3555,10 +3557,6 @@
    "2025-10-03",
    "2025-10-10",
    "2025-10-17",
-   "2025-10-20",
-   "2025-10-21",
-   "2025-10-22",
-   "2025-10-23",
    "2025-10-24",
    "2025-10-27",
    "2025-10-28",
@@ -3812,7 +3810,12 @@
    "2026-10-15",
    "2026-10-16",
    "2026-10-19",
-   "2026-10-20"
+   "2026-10-20",
+   "2026-10-21",
+   "2026-10-22",
+   "2026-10-23",
+   "2026-10-26",
+   "2026-10-27"
   ],
   "diesel_crack": [
    22.37,
@@ -4825,10 +4828,6 @@
    30.008,
    30.132,
    32.388,
-   33.286,
-   34.004,
-   35.622,
-   36.076,
    36.974,
    39.186,
    37.526,
@@ -5082,7 +5081,12 @@
    81.256,
    94.954,
    98.446,
-   105.91
+   105.91,
+   97.754,
+   96.454,
+   88.504,
+   74.866,
+   73.754
   ],
   "gasoline_crack": [
    17.414,
@@ -6095,10 +6099,6 @@
    12.326,
    12.324,
    16.092,
-   16.444,
-   16.28,
-   17.016,
-   14.782,
    15.05,
    15.792,
    16.862,
@@ -6352,7 +6352,12 @@
    -4.97,
    5.326,
    3.61,
-   6.454
+   6.454,
+   5.144,
+   -2.246,
+   -3.896,
+   -6.194,
+   -4.702
   ],
   "jet_crack": [
    21.53,
@@ -7365,10 +7370,6 @@
    19.424,
    24.042,
    26.298,
-   27.196,
-   27.074,
-   28.566,
-   28.81,
    29.834,
    32.004,
    30.47,
@@ -7622,9 +7623,14 @@
    59.542,
    70.342,
    72.994,
-   79.324
+   79.324,
+   73.646,
+   71.17,
+   68.512,
+   64.45,
+   63.548
   ],
-  "resolution_note": "weekly before 2025-10-20, daily after",
+  "resolution_note": "weekly before 2025-10-27, daily after",
   "wti": [
    69.78,
    70.5,
@@ -8636,10 +8642,6 @@
    61.65,
    59.75,
    58.3,
-   58.34,
-   58.66,
-   59.3,
-   62.44,
    62.27,
    62.13,
    60.97,
@@ -8893,124 +8895,129 @@
    104.71,
    108.21,
    110.01,
-   107.89
+   107.89,
+   103.95,
+   104.27,
+   109.72,
+   105.25,
+   103.37
   ]
  },
  "latest": {
   "brent": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DCOILBRENTEU",
    "source": "FRED DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 115.22
+   "value": 123.1
   },
   "brent_wti_spread": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "formula": "DCOILBRENTEU - DCOILWTICO",
    "inputs": {
-    "DCOILBRENTEU": 115.22,
-    "DCOILWTICO": 107.89
+    "DCOILBRENTEU": 123.1,
+    "DCOILWTICO": 103.37
    },
    "source": "FRED (EIA data), DCOILBRENTEU & DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 7.33
+   "value": 19.73
   },
   "crack_321": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "formula": "(2*DGASNYH*42 + 1*DDFUELNYH*42)/3 - DCOILWTICO",
    "inputs": {
-    "DCOILWTICO": 107.89,
-    "DDFUELNYH": 5.265,
-    "DGASNYH": 2.897
+    "DCOILWTICO": 103.37,
+    "DDFUELNYH": 4.687,
+    "DGASNYH": 2.819
    },
    "source": "FRED (EIA data), DGASNYH & DDFUELNYH & DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 46.936
+   "value": 41.18
   },
   "diesel_crack": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "formula": "DDFUELNYH*42 - DCOILBRENTEU",
    "inputs": {
-    "DCOILBRENTEU": 115.22,
-    "DDFUELNYH": 5.265
+    "DCOILBRENTEU": 123.1,
+    "DDFUELNYH": 4.687
    },
    "source": "FRED (EIA data), DDFUELNYH & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 105.91
+   "value": 73.754
   },
   "gasoline_crack": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "formula": "DGASNYH*42 - DCOILBRENTEU",
    "inputs": {
-    "DCOILBRENTEU": 115.22,
-    "DGASNYH": 2.897
+    "DCOILBRENTEU": 123.1,
+    "DGASNYH": 2.819
    },
    "source": "FRED (EIA data), DGASNYH & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 6.454
+   "value": -4.702
   },
   "gasoline_nyh": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DGASNYH",
    "source": "FRED DGASNYH",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/gal",
-   "value": 2.897
+   "value": 2.819
   },
   "heating_oil_nyh": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DHOILNYH",
    "source": "FRED DHOILNYH",
    "source_url": "https://fred.stlouisfed.org/series/DHOILNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/gal",
-   "value": 4.832
+   "value": 4.667
   },
   "jet_crack": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "formula": "DJFUELUSGULF*42 - DCOILBRENTEU",
    "inputs": {
-    "DCOILBRENTEU": 115.22,
-    "DJFUELUSGULF": 4.632
+    "DCOILBRENTEU": 123.1,
+    "DJFUELUSGULF": 4.444
    },
    "source": "FRED (EIA data), DJFUELUSGULF & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 79.324
+   "value": 63.548
   },
   "jet_gulf": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DJFUELUSGULF",
    "source": "FRED DJFUELUSGULF",
    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
-   "stale": true,
+   "stale": false,
    "unit": "USD/gal",
-   "value": 4.632
+   "value": 4.444
   },
   "retail_diesel_us": {
    "as_of": "2026-10-26",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "note": "Weekly average, dated by the Monday of the survey week.",
    "series_id": "GASDESW",
    "source": "FRED GASDESW",
@@ -9022,7 +9029,7 @@
   },
   "retail_gasoline_us": {
    "as_of": "2026-10-26",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "note": "Weekly average, dated by the Monday of the survey week.",
    "series_id": "GASREGW",
    "source": "FRED GASREGW",
@@ -9033,24 +9040,24 @@
    "value": 4.269
   },
   "ulsd_nyh": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DDFUELNYH",
    "source": "FRED DDFUELNYH",
    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
-   "stale": true,
+   "stale": false,
    "unit": "USD/gal",
-   "value": 5.265
+   "value": 4.687
   },
   "wti": {
-   "as_of": "2026-10-20",
-   "fetched_at": "2026-10-27T15:52:46Z",
+   "as_of": "2026-10-27",
+   "fetched_at": "2026-10-28T21:39:05Z",
    "series_id": "DCOILWTICO",
    "source": "FRED DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "stale": true,
+   "stale": false,
    "unit": "USD/bbl",
-   "value": 107.89
+   "value": 103.37
   }
  },
  "schema_version": 1,
@@ -9059,15 +9066,15 @@
  "stale": false,
  "stats": {
   "brent_wti_spread": {
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "mean_2015_2019": 4.183,
    "mean_prev_year": 3.582,
-   "n": 4989,
+   "n": 4994,
    "prev_year": 2025,
-   "value": 7.33
+   "value": 19.73
   },
   "crack_321": {
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "history_start": "2006-06-14",
    "level": 3,
    "level_label": "Gaping",
@@ -9075,29 +9082,29 @@
    "max_date": "2026-09-25",
    "mean_2015_2019": 18.018,
    "mean_prev_year": 23.464,
-   "n": 4999,
+   "n": 5004,
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
-   "percentile_now": 95.6,
+   "percentile_now": 93.4,
    "prev_year": 2025,
-   "value": 46.936
+   "value": 41.18
   },
   "diesel_crack": {
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "history_start": "2006-06-14",
-   "level": 4,
-   "level_label": "Grand Canyon",
+   "level": 3,
+   "level_label": "Gaping",
    "max": 116.538,
    "max_date": "2022-05-11",
    "mean_2015_2019": 15.991,
    "mean_prev_year": 28.87,
-   "n": 5056,
+   "n": 5061,
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
-   "percentile_now": 99.8,
+   "percentile_now": 97.7,
    "prev_year": 2025,
-   "value": 105.91
+   "value": 73.754
   },
   "gasoline_crack": {
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "history_start": "2006-06-14",
    "level": 0,
    "level_label": "Hairline",
@@ -9105,14 +9112,14 @@
    "max_date": "2022-06-03",
    "mean_2015_2019": 12.762,
    "mean_prev_year": 15.402,
-   "n": 5017,
+   "n": 5022,
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
-   "percentile_now": 16.7,
+   "percentile_now": 0.1,
    "prev_year": 2025,
-   "value": 6.454
+   "value": -4.702
   },
   "jet_crack": {
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "history_start": "2006-06-14",
    "level": 4,
    "level_label": "Grand Canyon",
@@ -9120,11 +9127,11 @@
    "max_date": "2008-09-12",
    "mean_2015_2019": 12.002,
    "mean_prev_year": 19.857,
-   "n": 5012,
+   "n": 5017,
    "note": "Daily values since 2006-06-14; percentile_now = share of days with a value <= the current one.",
-   "percentile_now": 99.8,
+   "percentile_now": 98.1,
    "prev_year": 2025,
-   "value": 79.324
+   "value": 63.548
   }
  }
 }
