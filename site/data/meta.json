@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 14.016,
+ "duration_s": 23.545,
  "fixtures": false,
- "generated_at": "2026-10-28T21:39:05Z",
- "last_run": "2026-10-28T21:39:05Z",
+ "generated_at": "2026-10-29T09:54:46Z",
+ "last_run": "2026-10-29T09:54:46Z",
  "python": "3.12.15",
- "run_id": "20261028-213905-8cff0d",
+ "run_id": "20261029-095446-299c19",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": false,
+   "changed": true,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,8 +35,8 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-10-28T21:39:05Z",
-   "mentions": 7,
+   "last_success": "2026-10-29T09:54:46Z",
+   "mentions": 4,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -53,29 +53,29 @@
    "via": "xlsx"
   },
   "fred": {
-   "changed": true,
+   "changed": false,
    "error": null,
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "ok": true,
    "partial": [],
    "stale": false,
    "via": "fred"
   },
   "news": {
-   "candidates": 548,
+   "candidates": 513,
    "changed": true,
    "dropped": {
-    "capped": 421,
-    "duplicates": 67,
-    "filtered": 110,
-    "too_old": 24,
+    "capped": 407,
+    "duplicates": 46,
+    "filtered": 99,
+    "too_old": 23,
     "unusable": 12
    },
    "error": null,
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "ok": true,
    "stale": false
   },
@@ -83,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -92,20 +92,17 @@
   },
   "shipping": {
    "changed": false,
-   "error": null,
+   "error": "FetchError: PortWatch: {\"code\": 400, \"message\": \"Cannot perform query. Invalid query parameters.\", \"details\": [\"Unable to perform query. Please check your parameters.\"]}",
    "last_success": "2026-10-28T21:39:05Z",
-   "latest": "2026-10-25",
-   "ok": true,
-   "rows": 3315,
-   "stale": false,
-   "via": "portwatch"
+   "ok": false,
+   "stale": true
   },
   "summary": {
    "attempts": 0,
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-10-28T21:39:05Z",
+   "last_success": "2026-10-29T09:54:46Z",
    "model": "",
    "ok": true,
    "provider": "none",

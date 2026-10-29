@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-28T21:37:51Z",
+ "as_of": "2026-10-29T09:46:00Z",
  "crack_o_meter": {
   "as_of": "2026-10-27",
   "label": "Gaping",
@@ -12,74 +12,74 @@
  "deltas": {
   "brent": {
    "as_of": "2026-10-27",
-   "delta": 7.88,
+   "delta": 0.0,
    "now": 123.1,
-   "prev": 115.22,
-   "prev_as_of": "2026-10-20",
+   "prev": 123.1,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
    "as_of": "2026-10-27",
-   "delta": 12.4,
+   "delta": 0.0,
    "now": 19.73,
-   "prev": 7.33,
-   "prev_as_of": "2026-10-20",
+   "prev": 19.73,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "crack_321": {
    "as_of": "2026-10-27",
-   "delta": -5.756,
+   "delta": 0.0,
    "now": 41.18,
-   "prev": 46.936,
-   "prev_as_of": "2026-10-20",
+   "prev": 41.18,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
    "as_of": "2026-10-27",
-   "delta": -32.156,
+   "delta": 0.0,
    "now": 73.754,
-   "prev": 105.91,
-   "prev_as_of": "2026-10-20",
+   "prev": 73.754,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
    "as_of": "2026-10-27",
-   "delta": -11.156,
+   "delta": 0.0,
    "now": -4.702,
-   "prev": 6.454,
-   "prev_as_of": "2026-10-20",
+   "prev": -4.702,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
    "as_of": "2026-10-27",
-   "delta": -0.078,
+   "delta": 0.0,
    "now": 2.819,
-   "prev": 2.897,
-   "prev_as_of": "2026-10-20",
+   "prev": 2.819,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
    "as_of": "2026-10-27",
-   "delta": -0.165,
+   "delta": 0.0,
    "now": 4.667,
-   "prev": 4.832,
-   "prev_as_of": "2026-10-20",
+   "prev": 4.667,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "jet_crack": {
    "as_of": "2026-10-27",
-   "delta": -15.776,
+   "delta": 0.0,
    "now": 63.548,
-   "prev": 79.324,
-   "prev_as_of": "2026-10-20",
+   "prev": 63.548,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
    "as_of": "2026-10-27",
-   "delta": -0.188,
+   "delta": 0.0,
    "now": 4.444,
-   "prev": 4.632,
-   "prev_as_of": "2026-10-20",
+   "prev": 4.444,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "retail_diesel_us": {
@@ -127,26 +127,26 @@
   },
   "ulsd_nyh": {
    "as_of": "2026-10-27",
-   "delta": -0.578,
+   "delta": 0.0,
    "now": 4.687,
-   "prev": 5.265,
-   "prev_as_of": "2026-10-20",
+   "prev": 4.687,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "wti": {
    "as_of": "2026-10-27",
-   "delta": -4.52,
+   "delta": 0.0,
    "now": 103.37,
-   "prev": 107.89,
-   "prev_as_of": "2026-10-20",
+   "prev": 103.37,
+   "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-28T21:39:05Z",
- "generated_at": "2026-10-28T21:39:05Z",
- "headline": "Diesel crack -32.16 $/bbl since last update, now $73.75/bbl (as of 2026-10-27)",
- "inputs_digest": "ea65d8048cf33331bac81b54453c92c203fa64a2",
+ "fetched_at": "2026-10-29T09:54:46Z",
+ "generated_at": "2026-10-29T09:54:46Z",
+ "headline": "Diesel crack unchanged since last update, $73.75/bbl (as of 2026-10-27)",
+ "inputs_digest": "fbdaacaa46ae05124b3b155f387f88d496327ebc",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa05mV0JVcjUyMXRRWk45RkFicXhhdWZ5UW1YLWFmaDBzbzdCdVVXM3VhOXdiOW81WVFfWmlQRzVLTzNNTDhRXzZua1BxdUlQSVFYbnVpN0Z6ek0xQV83RlZtTExtSWpoV3FBSzhvWldycnpVM0pXNXBIbkhYb2VwNXIyOE4zSER1eDFzVlJXLWFjdjZ1YVJ0d1JVMVZMNmc?oc=5"
+    "https://splash247.com/india-greenlights-1bn-drive-to-break-chinas-container-manufacturing-dominance/"
    ],
-   "text": "UBS raises Brent forecast to $110 as Middle East supply risks persist"
+   "text": "India greenlights $1bn drive to break China’s container manufacturing dominance"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5"
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOem02NmhLeWQxQUZ4N1FoUVhaeDYzanRDTU1UdmFSOXVSeWNBakhIZm9ibTB6c1Z6bC1tSkUwb3hIMjlkdnBMY19kNlVqTmVGb2FQMkFxOHgwbXZCTjJ3VjFwX2JkYWRhT2tnMDF2ckZ1b2IyQjN6NU9BMUp6U0NZVmJLV0VNVFlo?oc=5"
    ],
-   "text": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks"
+   "text": "Iran’s IRGC Navy Captures US MQM-170 Drone in Strait of Hormuz"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFJkWUkzWEdNT3hzczRJWUV6cTR1NDJHMjZmeGkxUjliMWNBZHVuSHNsX2tvZmJaS3hNQkd0eTFmdWI5T3M0Y2hvcTBLQnpGSlJmM1dTNUY3TXBYMDVPUEV0eVRZbXlXOG1MbFJXM1VoMVJNTDNCWC1qM1QyT2tnOVFRNTJkMzcwWE15UWxiUVVYdGdLU0hB?oc=5"
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUmtTZy1jOEZ2R3huSE9rOW5aYlBGVlN2ckhvdWJndXF0b0xMN0FaSk9OblhPNy0tbmZLMkJwYVBJMHM3aUI4SW5DWWNTdGt0VTA4NmxqNy1hcE9FN3U0YVRZNmlPVldOZC1TekJvTmVseWpXbmNZSy12cDZrRC1nQlRqUVk1TjdtZjI2eTdXNm5US2tMemZhVjYwS0NGbVhWYm10NGNQTmh3cjVxaVFXRjF0NW1TdUpkX2hiZmItMEc?oc=5"
    ],
-   "text": "Oil Rises As Attacks On Saudi Energy Assets Raise Supply Concerns"
+   "text": "Today’s Headlines: Israel Bombs Gaza Ministry | MQ-1 Drone Downed near Hormuz | 'Keep Fighting'"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikwJBVV95cUxNSnBuVWJnSDhLNTdMSEc0aEJpWUdBWjJMSVY0VjFaZ1BtMlk2a2pXdUhGb1hMZU9UbFVDdklSRzM3SUExUGl1MHZUSGR2dmVmakNsWXpUbU42R2JnTGxQNWJlMVNvcldSdnpKUXpoWHR6UXBCSmFvTWxnOWFETDFjTVRRV2lxMmVtSVc1Vkg0cEtqeXREOVNrT2xJbU9kNDFwczhUM09YX1FmZWEyaHVILWlTZnJBcmhsOHpTUUxRUk1qWVAtaWdUbG9IdzhiMzhfcHg5bkdJUmhFekV0aGFxQ0R1SFpJZzdWVlBudHhBLWViUXRLQ0g5OThSS0E1M0ZhQ2dMS2hocmF5SWJXeVJFOEtYUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mcXFZZ3JVb2RKRkN0eGhMVERKdXpIWmNSY094VUc3b3hnWE9EVFJKTEdwQnIwYUVReFIxU2dIMzlhSmdJZk9BYXFwMVpuTldwczBMMnVGZEhzQ3pwZnlWaTNRdWduR1A1V3IzXw?oc=5"
    ],
-   "text": "Iran threatens retaliation after Trump says U.S. will guide ships in Strait of Hormuz"
+   "text": "🇮🇷🇺🇸 Iran says it just HIJACKED a U.S.-made drone over the Strait of Hormuz and landed it in one piece. The IRGC Navy claims it detected an MQM-170 decoy drone over the western part of the strait, seized control of its…"
   },
   {
    "sources": [
-    "https://oilprice.com/Alternative-Energy/Solar-Energy/Solar-Has-Overtaken-Nuclear-in-the-Global-Power-Mix.html"
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GOW9sMXJIcEZ2X3NocGdEdFFBVUNBYlBqdHpHamFhRFdoek1DNUtYTXBmUTh5Mm5MQkVhOWNIVW81TG1iQ1hCY2pNZHdaeTBKa09fOUpRWUpPeEdMaGRvUGN6S29abDBN?oc=5"
    ],
-   "text": "Solar Has Overtaken Nuclear in the Global Power Mix"
+   "text": "Iran Claims 14th US MQ-1 Drone Shot Down Near Strait of Hormuz"
   }
  ]
 }
