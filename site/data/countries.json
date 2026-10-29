@@ -66,12 +66,12 @@
   "world_total": 103110.2,
   "year": 2024
  },
- "fetched_at": "2026-10-29T09:54:46Z",
- "generated_at": "2026-10-29T09:54:46Z",
+ "fetched_at": "2026-10-29T21:48:11Z",
+ "generated_at": "2026-10-29T21:48:11Z",
  "monthly_crude": {
   "as_of": "2026-10-29",
   "country_count": 46,
-  "fetched_at": "2026-10-29T09:54:46Z",
+  "fetched_at": "2026-10-29T21:48:11Z",
   "latest_month": "2026-08",
   "note": "Crude oil only (JODI CRUDEOIL/INDPROD), monthly; countries that did not report this month are omitted, gaps are never counted as zero",
   "rows": [
@@ -138,13 +138,13 @@
   ],
   "source": "JODI Oil World Database",
   "source_url": "https://www.jodidata.org/oil/",
-  "stale": true,
+  "stale": false,
   "unit": "thousand barrels per day"
  },
  "producers": {
   "as_of": "2026-10-29",
   "country_count": 46,
-  "fetched_at": "2026-10-29T09:54:46Z",
+  "fetched_at": "2026-10-29T21:48:11Z",
   "note": "crude oil only, monthly, JODI (2026-08); EIA International API unavailable: skipped: EIA_API_KEY not set",
   "period": "2026-08",
   "rest_of_world": null,
@@ -212,7 +212,7 @@
   ],
   "source": "JODI Oil World Database",
   "source_url": "https://www.jodidata.org/oil/",
-  "stale": true,
+  "stale": false,
   "unit": "thousand barrels per day",
   "world_total": null,
   "year": 2026
@@ -220,7 +220,7 @@
  "schema_version": 1,
  "source": "JODI Oil World Database",
  "source_url": "https://www.jodidata.org/oil/",
- "stale": true,
+ "stale": false,
  "unit": "thousand barrels per day",
  "via": "jodi",
  "year": 2026
