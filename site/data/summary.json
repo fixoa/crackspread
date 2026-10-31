@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-30T21:19:00Z",
+ "as_of": "2026-10-31T09:34:34Z",
  "crack_o_meter": {
   "as_of": "2026-10-27",
   "label": "Gaping",
   "level": 3,
   "percentile": 97.7,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 73.754
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-10-30T21:29:24Z",
- "generated_at": "2026-10-30T21:29:24Z",
- "headline": "Diesel crack unchanged since last update, $73.75/bbl (as of 2026-10-27)",
- "inputs_digest": "9e91605f33e9a3ddd9dde79f660f2deb343bdbc8",
+ "fetched_at": "2026-10-31T09:35:33Z",
+ "generated_at": "2026-10-31T09:35:33Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $73.75/bbl (as of 2026-10-27)",
+ "inputs_digest": "03c9c63772c221ce8499493de82735f89cd56857",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZkZNem1feE80SG9aVG5OaU1CNTdXLVdhSlA5NjRDSDRoRjZRNjN6ZGdqV1B6SEFrUE52REtyV25lUE5XRE8xX1ZNUE9zY18yWVowVV9KQWRuNmVDdVc4TlJrUF9mV2FOR0p4OTV1bHFmQVhFOS1mcDc0RUw1UWhGMG1sVFRKRDV5S3VndUcxYW9BUVF5S0hCTU5R?oc=5"
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeGhFa1FvbXhtaERRcWJ5QWpDeExDSGN0cVdERmxnOXNfS2VuNm81cGMtbFcxSnl2ZEdBQy1UUWlRV3dSSXpFanA0N3duRTh2Rm14WXZpeVVCMU9lYUY2WEFVRHRlN1VJZDZLbXBJUmZTNXFfOHNETEh3cDBmaWJhOWJEWXNZLXNZTTViVlhVdjc4cVJmX0Z5dmZMR2I1LXMyX0tWUWd6eXVVdw?oc=5"
    ],
-   "text": "Ukrainian Drone Strike Sets Major Russian Oil Refinery Ablaze"
+   "text": "Iran Says Fourth Oil Tanker Hit Mine in Hormuz After Ignoring Warnings"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSUVicHpiVkliN1BRME9mZ1h2aFVQcWJWVHRZNl9oQUFaNGVZY1BLREtyTXhnc0xWcHNiS2UzclVYNzM2YjZsWWhxaEFCcFIwdGtnUlpIdU9leGd6bTU2Q0lBcE5iMjRIVjF0ekJyTjN2bWJwRmNWTW0zb0RaYVpRT3BGeGFmTW9WME5lb19EUk15SnczcEFScDhkWks4a2dKZXpCejV3WUtnRkt3STdOTnJaZkVPcE5JbHMwcDNuVTNqTUdfZG1uWGpvMTRJLUxwYkxiLXFQM1dtNWxIWEVjdjV0TGhZbE9hOEVTUW1Ddw?oc=5"
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcjMzRUlnQ2h1eDdMMWNEUjd6akZENll3UVRIaGwzTzNkQXJ1cjMyLUx0cWQyZ1ctbjlGeEFkTVl0Y1NMTFFHSGYzTWIyLXpWUU9aeW1ydnZaWEdCdFNPWWZEOUpIbzJoS0lfVzhiTG1CRWxHanRnTGpuUkFVa1VOd09YNnJwMXUyaWo5clZMb3lERXlncXJ5S1E2X2lXZC05YmV5VUVBaXdFNTFVNnJac3dON1F3Y1BkM2swVDgyYlpXZEQzVVl6MjFodms1WUxiMDlrWW82LVlBYVJi?oc=5"
    ],
-   "text": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news | World News | 2news.com"
+   "text": "Gold's Rate Problem: Why a Saudi Refinery Strike Ended Up Hurting Bullion"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOG91T0FfVFlyZkZmMXJBS09MTTI4Q1dTQlU0d0w1MlFVc3NUOEE2Smg4djFMbTVfY0FLMWpHclphUGFYQlI0VEQwZGFCOHU5a1ZSVDNGRzJBZnlUV3RMZzdiQzE3aTRHZDRpSFdVdWRCSnNtMlg4dk9sekpSNTZidEJjdGJNXzZfaGU0NExockQwdmJidVNLTWRodjd4VjV2ZlZVZzZ2d1FaOUlnMVZBaHpOYWhyUFYtcXhtYlI4Skd4NVNJbUQxVmdKSlhRVENDUDdSNFZFbF9sa0JDRW9fMmV4N1gwUWlQc3Y1THpMb3g?oc=5"
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMlFhc1hubko5aGY3RGJEN1Z4QnFMell4RUdDOENlak9tUnJYQ1BxSXVURjhHQWdyNi1lMGpjRUtwek9IbkVMTEcxb2lFUlNTeVpTOWl2WlVReVQ4R3pBRUZ1R2RqbFhUdy1EQzJMTHduOUl6MGx1bTJGRmZGYUtidnczV1lyS3hRNGx5MlRpSW4?oc=5"
    ],
-   "text": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz, and other Mideast news"
+   "text": "Oil company earnings skyrocket — again"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYUlLU1E0UzhhMW9tMTYxRGZ6cmp1anZBdmJpTXlTMlFYNEJlSDNZVTR0TTZpTVJ6WmNwSjBIYTAzeXFfSlR1SENSY2ViaXh6bXFuZjB6a0FhRG12Z0hBMHhwLWxWMzc3WlhJeldXeVNKRDBiUWxWMDlkalROejFYRHhET05jNDNWQjk0VmluNHhzNThRQ1VvUWd5OFd5ZE5CR3lN0gGjAUFVX3lxTE1WY0Z2ci0zZDBWa1h2YmpoYmFBZHp5NGhZazJiZG5QZnR5Nld2ZVQxUVJfUjBqME0yZURNS2EzSjVJVDd2YkRlUXBTTmZ6V3F2aWI4d2g1X2VVSWxOb2QtQkpZTnBINlZma2VEenpFNGZzeFE4QmxJazBEUzJyaC1sQkw3d1N5T01mZ2JRVWZVQzBJM1NfYm1DY0JrWkVvT3JqZ0k?oc=5"
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEJSS2N3SFhqWEk4UFZzU2pKNkR5ejdqNEZ5RF9LRS1Oc0NpekRwWUxaQTRnZDJSc3gtTGdHYmsxaXdRQ29yU1JTM2NFUTktSVBpNl84RFZoaEQwX1ZTQjJZb2RCVWE1aTh3Z09Qd202X2RPck1Bc0t3SENHR0N5Qi1ZQlJOZjFrd0Q0M3NtRmhJYjRORkpmTGk1bll1dURodFdzRVZteFJZX0VRdTVqYnVNdERDTkZ0ZmU40gG3AUFVX3lxTFBXbW5PNWFTdlVnSVd3RmF3ZmdZaUp2LXVGMjdKUm9EZWZrMzVjb09KTFk2c0stZ0xZMkVzOWNMVGhyZ3dWRlRIcUJpdDM0NnBqM3F2aDVBY29GaGkySzhMcVZPX2RRbWNaTjFyU0pkeDdfdmlOSVZKTFRwM1RIYVF5X3JBQzVFWF9MSjRwTFhVUEFDZHkzZnduZkFEODVkcHlrTlIwVWs3bXo1Mmlfbi1nM2RndkZlRQ?oc=5"
    ],
-   "text": "Iran reports three tanker mine strikes in Hormuz; U.S. disputes claims"
+   "text": "Drones attack Russia's Bashkortostan overnight; Ufa refinery likely struck"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmJkcXBmUG1NN0NSdWFOc00tWTV4X3BvU1g3eEdrUkNONVB5bERQRlpLWTJrbThUTXpvbHhwRHUwb3c0NmpiYWhUNEN4aFJ0TWJFc2pNWW54YUszWURvclp6MzF6WG9HUDRZQWE2RnNOQm9VR2VOclItZ3ZXWTkxRTFIR1JocEpLZ3ozRjVNVlFMdEZ3eE1GOTVKNmJXcHRLOTJVdG5qakgxTjVULU42ag?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcndvekUwczF1cmg5aG9aVFowdmxzTzRjbzdpUnRnWU1UX3ZkRTdtNEE4eFlTSWpfWUp2VmhPTnNDTml0dTlfdDY5OC0tTE01cEJuSUZYSk9UUi1GdjFxVXl2VTBBVzRlcFVQQTAxanlvcFNtTjFubUxzRy1tRHI0ekdvTmljWU0xQmVHZGltS0tDQjBVMUZZcTd1c3IyVC1vUWo3ZTJWdG1WMzBUQnc0ZGpLRQ?oc=5"
    ],
-   "text": "Another Russian refinery is aflame despite Trump’s warning to Kyiv"
+   "text": "UN warns of higher prices due to Hormuz Strait crisis — The National"
   }
  ]
 }

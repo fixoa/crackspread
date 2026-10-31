@@ -1,7 +1,7 @@
 {
  "as_of": "2026-10-27",
- "fetched_at": "2026-10-28T21:39:05Z",
- "generated_at": "2026-10-28T21:39:05Z",
+ "fetched_at": "2026-10-31T09:35:33Z",
+ "generated_at": "2026-10-31T09:35:33Z",
  "history": {
   "brent": [
    66.04,
@@ -8906,17 +8906,17 @@
  "latest": {
   "brent": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DCOILBRENTEU",
    "source": "FRED DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 123.1
   },
   "brent_wti_spread": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "formula": "DCOILBRENTEU - DCOILWTICO",
    "inputs": {
     "DCOILBRENTEU": 123.1,
@@ -8924,13 +8924,13 @@
    },
    "source": "FRED (EIA data), DCOILBRENTEU & DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 19.73
   },
   "crack_321": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "formula": "(2*DGASNYH*42 + 1*DDFUELNYH*42)/3 - DCOILWTICO",
    "inputs": {
     "DCOILWTICO": 103.37,
@@ -8939,13 +8939,13 @@
    },
    "source": "FRED (EIA data), DGASNYH & DDFUELNYH & DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 41.18
   },
   "diesel_crack": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "formula": "DDFUELNYH*42 - DCOILBRENTEU",
    "inputs": {
     "DCOILBRENTEU": 123.1,
@@ -8953,13 +8953,13 @@
    },
    "source": "FRED (EIA data), DDFUELNYH & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 73.754
   },
   "gasoline_crack": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "formula": "DGASNYH*42 - DCOILBRENTEU",
    "inputs": {
     "DCOILBRENTEU": 123.1,
@@ -8967,33 +8967,33 @@
    },
    "source": "FRED (EIA data), DGASNYH & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": -4.702
   },
   "gasoline_nyh": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DGASNYH",
    "source": "FRED DGASNYH",
    "source_url": "https://fred.stlouisfed.org/series/DGASNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/gal",
    "value": 2.819
   },
   "heating_oil_nyh": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DHOILNYH",
    "source": "FRED DHOILNYH",
    "source_url": "https://fred.stlouisfed.org/series/DHOILNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/gal",
    "value": 4.667
   },
   "jet_crack": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "formula": "DJFUELUSGULF*42 - DCOILBRENTEU",
    "inputs": {
     "DCOILBRENTEU": 123.1,
@@ -9001,23 +9001,23 @@
    },
    "source": "FRED (EIA data), DJFUELUSGULF & DCOILBRENTEU",
    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 63.548
   },
   "jet_gulf": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DJFUELUSGULF",
    "source": "FRED DJFUELUSGULF",
    "source_url": "https://fred.stlouisfed.org/series/DJFUELUSGULF",
-   "stale": false,
+   "stale": true,
    "unit": "USD/gal",
    "value": 4.444
   },
   "retail_diesel_us": {
    "as_of": "2026-10-26",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "note": "Weekly average, dated by the Monday of the survey week.",
    "series_id": "GASDESW",
    "source": "FRED GASDESW",
@@ -9029,7 +9029,7 @@
   },
   "retail_gasoline_us": {
    "as_of": "2026-10-26",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "note": "Weekly average, dated by the Monday of the survey week.",
    "series_id": "GASREGW",
    "source": "FRED GASREGW",
@@ -9041,21 +9041,21 @@
   },
   "ulsd_nyh": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DDFUELNYH",
    "source": "FRED DDFUELNYH",
    "source_url": "https://fred.stlouisfed.org/series/DDFUELNYH",
-   "stale": false,
+   "stale": true,
    "unit": "USD/gal",
    "value": 4.687
   },
   "wti": {
    "as_of": "2026-10-27",
-   "fetched_at": "2026-10-28T21:39:05Z",
+   "fetched_at": "2026-10-31T09:35:33Z",
    "series_id": "DCOILWTICO",
    "source": "FRED DCOILWTICO",
    "source_url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-   "stale": false,
+   "stale": true,
    "unit": "USD/bbl",
    "value": 103.37
   }
@@ -9063,7 +9063,7 @@
  "schema_version": 1,
  "source": "FRED, Federal Reserve Bank of St. Louis; data: U.S. EIA",
  "source_url": "https://fred.stlouisfed.org/",
- "stale": false,
+ "stale": true,
  "stats": {
   "brent_wti_spread": {
    "as_of": "2026-10-27",
