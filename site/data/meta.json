@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 50.554,
+ "duration_s": 24.893,
  "fixtures": false,
- "generated_at": "2026-11-01T10:24:41Z",
- "last_run": "2026-11-01T10:24:41Z",
+ "generated_at": "2026-11-01T21:10:34Z",
+ "last_run": "2026-11-01T21:10:34Z",
  "python": "3.12.15",
- "run_id": "20261101-102441-94adce",
+ "run_id": "20261101-211034-e80fa5",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": true,
+   "changed": false,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,16 +35,16 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-11-01T10:24:41Z",
-   "mentions": 9,
+   "last_success": "2026-11-01T21:10:34Z",
+   "mentions": 6,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
   },
   "eia_steo": {
-   "changed": true,
+   "changed": false,
    "error": null,
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -55,27 +55,27 @@
   "fred": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "ok": true,
    "partial": [],
    "stale": true,
    "via": "fred"
   },
   "news": {
-   "candidates": 400,
+   "candidates": 459,
    "changed": true,
    "dropped": {
-    "capped": 299,
-    "duplicates": 41,
-    "filtered": 111,
-    "too_old": 43,
+    "capped": 343,
+    "duplicates": 56,
+    "filtered": 113,
+    "too_old": 59,
     "unusable": 12
    },
    "error": null,
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "ok": true,
    "stale": false
   },
@@ -83,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -102,7 +102,7 @@
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-11-01T10:24:41Z",
+   "last_success": "2026-11-01T21:10:34Z",
    "model": "",
    "ok": true,
    "provider": "none",
