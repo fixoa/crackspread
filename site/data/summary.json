@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-03T10:45:22Z",
+ "as_of": "2026-11-03T22:06:24Z",
  "crack_o_meter": {
   "as_of": "2026-10-27",
   "label": "Gaping",
@@ -83,17 +83,17 @@
    "unit": "USD/gal"
   },
   "retail_diesel_us": {
-   "as_of": "2026-10-26",
-   "delta": 0.0,
-   "now": 6.352,
+   "as_of": "2026-11-02",
+   "delta": -0.06,
+   "now": 6.292,
    "prev": 6.352,
    "prev_as_of": "2026-10-26",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
-   "as_of": "2026-10-26",
-   "delta": 0.0,
-   "now": 4.269,
+   "as_of": "2026-11-02",
+   "delta": -0.116,
+   "now": 4.153,
    "prev": 4.269,
    "prev_as_of": "2026-10-26",
    "unit": "USD/gal"
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-03T10:48:11Z",
- "generated_at": "2026-11-03T10:48:11Z",
+ "fetched_at": "2026-11-03T22:17:29Z",
+ "generated_at": "2026-11-03T22:17:29Z",
  "headline": "Diesel crack: no fresh FRED data, last value $73.75/bbl (as of 2026-10-27)",
- "inputs_digest": "85e815c2066691ebf4b0d2e90d6fc373ac516e08",
+ "inputs_digest": "f22d19bceb90a799296b82d6ede155c1ffe11f02",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNXFZM2ZzNllWTEpZNURoWVo5YVpMcmtqRkJFYXZDSjFvVE9KVFJWRnAzeVMzbnQ2TmRsODhuVUZCX2FxUm5tTXdWbVd5OFNjUzk4eHVyLU9kRjc4QUF0OHYwM08zNUJ0aWZaZVltSi04QWU0U0x2aEUza2l0U1JpTkVYb1pRbDRiZ1VSam5kYw?oc=5"
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmOXMxN3Q2NTFQM0EzVzdESU0wOFlsSlo2eklJRWE2TVQ5T2FWd2tib2I4Y1JjV1Y5QVJjT0dmQXd1SjN2VlJkUXRfX1p4RDI4V2Rnb3JFYUhZcU1GWU1ZeGJmR3RVRklaUVREQ0F0RzQxV2JNSDloXzFoQUJ2dw?oc=5"
    ],
-   "text": "India Energy Security Faces a New Supply-Route Test"
+   "text": "JetBlue hikes baggage fees for the second time this year"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOHVsR3VSV0F6WnZYa0RPQkpvUERQb3ZWV0ZmWXRhS2JYNE9qT3ByLUtZLUNTcmxFTXl2UkxPRTVvQk9HWHdxaHk2RHZjY0VlZllDS18ta0NFVGlOSmZ0WVJUUHBvUDEyOHJxeWZPQWhkdUI3UTZWQkZkOGdfRUtQTlBZUG5faXRnaVZnNkFvZWp4MWZ4M0p0dDlMcTFqWGNOYTJhRjRweUpvRnBVQUtFRWVLbG5VcHp3ZWoydndHalZnUnphUFZGd203bw?oc=5"
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQXFEanM0S2pUdWU2U1ZIdXVxYXR4ZjhiUFcyZFVwT0lXM2RrU2pFeGFJTWE5Q1ZKSjR2djFoaERhNEQxcG5LcnZPbEE5SDM5VFNhbW9kSXZYRDZ0b1o0NFhuT01XeG5NUFRacENNWlF4S3dxaFZxb0xxbC02WWpKSllLOWdsZnItT3l0cjZkdEFmTXNIWEk0V2c3Qi0?oc=5"
    ],
-   "text": "Hormuz crisis drives shipping costs to more than 30% of barrel value, ADNOC chief executive says"
+   "text": "US Gas Prices Hit Election Day Record As National Average Reaches $4.12"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHlLOC1DMFFvTUx1VkpCWFdJWTBuVW1zcFEwOS1uYXQwM0RDbVpJV0lHM2tfT3QxaUdpbzFWSmdrVEZ1T3VUWWtkYVFZWk56cWJOWlotM3YzVWh2LU9JRnlMYkszQ1pGTWxfOE56N3pKQnJLbm1xckJIYng3MUgzQXlVMk9zS0RWY1lvUkk5cUo5ZmxxVVR6b284dVExVTVrNTVIcUZFZVRsT0tYblFJdi1xdw?oc=5"
+    "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-Still-in-Freefall.html"
    ],
-   "text": "St. Petersburg Diesel Supply Falls Below 40% Amid Russia’s US Fuel Export Deal"
+   "text": "US Crude Oil Inventories Still in Freefall"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX0VBTW5POHZyR3hlQWZQOXI5Y1JGS05Dd01UOWI2a3pGU0tfcHlldGtFUjQyZXR5Z2RiTkN4YktNZkNlNXpTN3lZLUFXZFFUQXkyZDZUNDJBbW55RmpKcV9JLVBIdHd1OE5PZkdRczR6MGlDZ2dsVFlMMG9lVFBxMFJZaE96MHc?oc=5"
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUQzcmVGdUVCQW92S0x3Ty1qUm5JbVpZcmwwd2dxNE82R1hxVzFWdFR4UHhQS1ROOElwbWw5VjlvWG5SVEtxcUdja1QzOGFYT2NrZHBoUjIxR1hwdXV5Sk1TR2tOczJfY1lWNkJHanJQZnFwNDJOR2h1clNBVEc4SA?oc=5"
    ],
-   "text": "US Strikes Iranian Island in the Strait of Hormuz"
+   "text": "Fuel Costs Surged 67 Percent: How Much Did Airlines Actually Recapture?"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcElVSmU5eEtYVVNTWFhSYUtQb1VRNGc1MGFnLXQxdzNMYWdXNkdZa0IzRnhnU09ZZ0F1MkpLLTYxcWFYYkp5d0p0SXJZU0lwNnhnSkpmM2VNT2NPVzhJOFFsVkNkZUszTGRSd1BzUVZQZ2xtU1JZNDVyaGx6UnZPSy03clI4VXpJc0ZGNGRhenh5Ykl1S1dhTTJXYmNPd2tZZWRZ0gGoAUFVX3lxTE1tanlMajZHb2VYZk5MWmc1ZzQ2YlE5ZERuX1N6ZXNoWHhueXpCQUw5SGNuX0ttVHpPTXM3SzVBRnlFc0Yta3NkLURGN2FsTTVQd05XOUZySkQ4N3VhVEg4TlNpbXdPRGZ2cnd4eVhRTzNUckRQT0FGWXEwUzluMkcwT25ieG5oa05nXzlPTGU1aUVwbVhPYWhyMTlWTlcwbTNDT0pmLUpudg?oc=5"
+    "https://oilprice.com/Energy/Energy-General/Africa-Launches-5-Billion-Energy-Bank-as-Western-Lenders-Retreat.html"
    ],
-   "text": "Fire breaks out at major Russian oil refinery after drone attack"
+   "text": "Africa Launches $5 Billion Energy Bank as Western Lenders Retreat"
   }
  ]
 }
