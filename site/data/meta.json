@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 30.642,
+ "duration_s": 11.312,
  "fixtures": false,
- "generated_at": "2026-11-02T23:52:37Z",
- "last_run": "2026-11-02T23:52:37Z",
+ "generated_at": "2026-11-03T10:48:11Z",
+ "last_run": "2026-11-03T10:48:11Z",
  "python": "3.12.15",
- "run_id": "20261102-235237-d0e294",
+ "run_id": "20261103-104811-3c0a37",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": false,
+   "changed": true,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,8 +35,8 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-11-02T23:52:37Z",
-   "mentions": 8,
+   "last_success": "2026-11-03T10:48:11Z",
+   "mentions": 7,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -55,27 +55,27 @@
   "fred": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "ok": true,
    "partial": [],
    "stale": true,
    "via": "fred"
   },
   "news": {
-   "candidates": 527,
+   "candidates": 449,
    "changed": true,
    "dropped": {
-    "capped": 401,
-    "duplicates": 66,
-    "filtered": 112,
-    "too_old": 34,
+    "capped": 319,
+    "duplicates": 70,
+    "filtered": 107,
+    "too_old": 31,
     "unusable": 12
    },
    "error": null,
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "ok": true,
    "stale": false
   },
@@ -83,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -91,21 +91,18 @@
    "stale": false
   },
   "shipping": {
-   "changed": true,
-   "error": null,
+   "changed": false,
+   "error": "FetchError: PortWatch: {\"code\": 400, \"message\": \"Invalid URL\", \"details\": [\"Invalid URL\"]}",
    "last_success": "2026-11-02T23:52:37Z",
-   "latest": "2026-10-25",
-   "ok": true,
-   "rows": 3315,
-   "stale": false,
-   "via": "portwatch"
+   "ok": false,
+   "stale": true
   },
   "summary": {
    "attempts": 0,
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-11-02T23:52:37Z",
+   "last_success": "2026-11-03T10:48:11Z",
    "model": "",
    "ok": true,
    "provider": "none",
