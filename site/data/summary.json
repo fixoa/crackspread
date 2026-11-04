@@ -1,83 +1,83 @@
 {
- "as_of": "2026-11-04T10:47:22Z",
+ "as_of": "2026-11-04T22:08:10Z",
  "crack_o_meter": {
-  "as_of": "2026-10-27",
-  "label": "Gaping",
-  "level": 3,
-  "percentile": 97.7,
-  "stale": true,
+  "as_of": "2026-11-03",
+  "label": "Grand Canyon",
+  "level": 4,
+  "percentile": 99.2,
+  "stale": false,
   "unit": "USD/bbl",
-  "value": 73.754
+  "value": 95.536
  },
  "deltas": {
   "brent": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 123.1,
+   "as_of": "2026-11-03",
+   "delta": -16.07,
+   "now": 107.03,
    "prev": 123.1,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 19.73,
+   "as_of": "2026-11-03",
+   "delta": -12.34,
+   "now": 7.39,
    "prev": 19.73,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "crack_321": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 41.18,
+   "as_of": "2026-11-03",
+   "delta": 3.086,
+   "now": 44.266,
    "prev": 41.18,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 73.754,
+   "as_of": "2026-11-03",
+   "delta": 21.782,
+   "now": 95.536,
    "prev": 73.754,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": -4.702,
+   "as_of": "2026-11-03",
+   "delta": 12.248,
+   "now": 7.546,
    "prev": -4.702,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 2.819,
+   "as_of": "2026-11-03",
+   "delta": -0.091,
+   "now": 2.728,
    "prev": 2.819,
    "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 4.667,
+   "as_of": "2026-11-03",
+   "delta": -0.197,
+   "now": 4.47,
    "prev": 4.667,
    "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "jet_crack": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 63.548,
+   "as_of": "2026-11-03",
+   "delta": 5.738,
+   "now": 69.286,
    "prev": 63.548,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 4.444,
+   "as_of": "2026-11-03",
+   "delta": -0.246,
+   "now": 4.198,
    "prev": 4.444,
    "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
@@ -126,27 +126,27 @@
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 4.687,
+   "as_of": "2026-11-03",
+   "delta": 0.136,
+   "now": 4.823,
    "prev": 4.687,
    "prev_as_of": "2026-10-27",
    "unit": "USD/gal"
   },
   "wti": {
-   "as_of": "2026-10-27",
-   "delta": 0.0,
-   "now": 103.37,
+   "as_of": "2026-11-03",
+   "delta": -3.73,
+   "now": 99.64,
    "prev": 103.37,
    "prev_as_of": "2026-10-27",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-04T10:51:42Z",
- "generated_at": "2026-11-04T10:51:42Z",
- "headline": "Diesel crack: no fresh FRED data, last value $73.75/bbl (as of 2026-10-27)",
- "inputs_digest": "10bc2d54bd0b7fee1e1b6e853ac0ac8533332354",
+ "fetched_at": "2026-11-04T22:37:40Z",
+ "generated_at": "2026-11-04T22:37:40Z",
+ "headline": "Diesel crack +21.78 $/bbl since last update, now $95.54/bbl (as of 2026-11-03)",
+ "inputs_digest": "cbf9ee68e1d50e9a5370abdff10f82d818c40379",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSjVIUjZYVmN4RzhtQmJmeGhGY1dSMUpWbmZzWjYtNUk0ZGlDRFN6eEhnWnJCSF9fYXlZTm9HVlFRT04tcEx2cUFHMVNKRklLeDVpUkxFcmQ0QnFrS1hCU21QNWtoMFZDNGpydERIYnpUREY4b19oZV90Um5NUGJDdjk0STdqS2pwRlpsQi1fUXpzbWlUclNVU1NuS2dnME91cDdQbHRKT3RGQkZZbzBuaUJtYjRFbjE4MlJlcjRrX2c2RFFJMWd6RUNkbXA?oc=5"
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX2NLT1ozNjhscFNwUy1sRDl2WE45UEVFaU51ckdzdERISmVJZUNyeDZhcWZoVDJFV2QzbkNXUDk1WWRJYTBlRHNuMkJGWXRtTWFTVENXR3o5N0hFOWNmZUVCbXB5OHdfelpIV3YyVDF2MDl6dlV3dldxcjdYU2ZDZ1lnbExQcVlvZXlvczB5QkRhQQ?oc=5"
    ],
-   "text": "Kazakhstan asks Russia to resume transit of its oil to Germany, energy minister says"
+   "text": "No relief in sight for diesel prices"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHYwNHNqLXhEMEluQzRtVENCaHhydGFRcVU0VkNtOVlDTmhIaXlINVZuU05FMVU2ZEJEUm12TFdEbmUxRXlTdXpRX3NSbDlzTWR5U2tOR1JYX3BlcUZkTlh0Q3BzVTl2S1hYN1RDdDE4M2dyelVIcS1ISUw1RERZUm5vNnRHd0tJWlE?oc=5"
+    "https://www.hellenicshippingnews.com/only-one-russian-diesel-tanker-still-appears-bound-for-the-u-s/"
    ],
-   "text": "Oil Prices Rebound as Strait of Hormuz Supply Risks Persist"
+   "text": "Only One Russian Diesel Tanker Still Appears Bound for the U.S."
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaU5iXzlQRWxEMFhDSUFQaEtfRUZ6Y3luZFdzTHNWdTVHXzkzaVM4VFBScmdxcGRvX0ZuN2o4Umh5aWIwakY1Rk91Q3B2emk3RGx3aDhwUDE5ZW94WlJUa0dHbjlwblRDTDNkVFY1OGdpOEZ5elA0dGxzRFZlcjBaV3E5UXFLazVhYzEwV0Q2OEVjTU5lb0Q4ZmphNEJQaHpNM1hoTjlGNmsyaDJnNmJPYmJzcmdjWVJGX1BxcHRzd1luOFVURFdwZThaM2lYQ0R0Z1FxVEoxSFJYd0lk0gHiAUFVX3lxTE1Db3RvcGV3MGV3ZVJxcFJPalRkNjd2QWlRMkhIRmJscXFWa1owY0ZLTlpEM0hwQnRlSV9FWjRabHZ5SVZ0ZzlQSGtyVVZjcnJUaThnaUZPaE5iMHRMWnhxS0Y2M09EdFRjclZ6UUR4ek5nRXZoeWJVR1U0RDc2VzZaYlJ2MHVkVkFZY296Ukh0bENTNFpMdnd2UGlrZlJMQlU0bkEzMU5BU2xmdzhiU3J5MGZsQ3M5N3d4cjRpN2tpVUZOTjBENDFfTUVOd05VZEFxWVhtWEt3V2kxdVBHYWJHWGc?oc=5"
+    "https://www.hellenicshippingnews.com/fearnleys-week-45-2026/"
    ],
-   "text": "Iran exempts Indian ships from Strait of Hormuz restrictions, allows free passage: Report"
+   "text": "Fearnleys Week 45 2026"
   },
   {
    "sources": [
-    "https://splash247.com/orkim-books-38m-product-tanker-pair-in-china/"
+    "https://oilprice.com/Energy/Energy-General/Can-Cheap-Batteries-Deliver-COP31s-35-Electrification-Goal.html"
    ],
-   "text": "Orkim books $38m product tanker pair in China"
+   "text": "Can Cheap Batteries Deliver COP31’s 35% Electrification Goal?"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ21xc0ZwVmFuc2Z0QTlUR2cxT0M1Rzc4U2xMWVJuM2tIeW1hUDI1QXVMU1FIaDVxZ1dlY2tsRWx5d2g4djdpR28wMUZmRlJqYVBwRkdwV3c3NUQ4OU8tdUJrcnN1ZTdKTU1BaTlEVGdMUWh5XzV4QXotOVduOGd2Z09iQzZiUm1TdHNJa2xsVWxfVWNJLVZRSHdGSjI?oc=5"
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMXBMZWhSXy01bFhnQmZodVFFQ1JMeU9kX2RSNEJnYXhSQzN2OFRPR195bmcwU3V0Um93bHN6dkUyMTE1Y3B3UnlPcTVSSjd6QU5HS1NTaGJ3RWw5MU9LcEYtWlphdWNCV1U5aEZxZDBQcWVHRzlmNWF4UkgyM0NjX1Q5SXRwWnVDWUg4VG0taVR4YWdWNm9qQkxWa29DS3UyQWw5Tm5FODZLeEg4a0VRX2VR?oc=5"
    ],
-   "text": "ADNOC Gas Signs Five-Year LNG Supply Agreement with TotalEnergies"
+   "text": "Video: A massive fire broke out at an oil extraction plant in Orel, Russia"
   }
  ]
 }
