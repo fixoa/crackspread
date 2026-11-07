@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-06T22:00:59Z",
+ "as_of": "2026-11-07T09:21:06Z",
  "crack_o_meter": {
   "as_of": "2026-11-03",
   "label": "Grand Canyon",
   "level": 4,
   "percentile": 99.2,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 95.536
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-06T22:06:17Z",
- "generated_at": "2026-11-06T22:06:17Z",
- "headline": "Diesel crack unchanged since last update, $95.54/bbl (as of 2026-11-03)",
- "inputs_digest": "a0837e88c93622c28d0121f65cd844c4b01fb2e9",
+ "fetched_at": "2026-11-07T10:02:10Z",
+ "generated_at": "2026-11-07T10:02:10Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $95.54/bbl (as of 2026-11-03)",
+ "inputs_digest": "5af22658c38868918deac8e7b013ee0b46f37a1e",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://www.hellenicshippingnews.com/tanker-fleet-growth-threatens-freight-boom-bullish-secondhand-markets-analysts/"
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMWhtaHc3SzFmNmlZWEtYU0xMQ19QQk9GZEF3eERYNXpLYjN5bmtQVWljMUVaQjIwTS1VVllGLXJoRllrZ1gweEJLU2dTalFqWEFRR2g4V3Z4UUJLZHlOeEhLTGtuRDNiMldzVFhkaHBITVh4TnBmeXE4ODhfZmVHUk4xVGpOWmZIOEpXMkdEaGtDWmYxYm5Ib3VPMVh2REp1aHNUYlBFcEVEUHJGRk5lYTU4QTZqMmhuRzVOdEFQMDRRNU8tSHJ0S0xUVVZYNEk?oc=5"
    ],
-   "text": "Tanker Fleet Growth Threatens Freight Boom, Bullish Secondhand Markets: Analysts"
+   "text": "Kyiv Faces Russian Missile Barrage, Hits Saratov Oil Refinery"
   },
   {
    "sources": [
-    "https://www.hellenicshippingnews.com/lpg-exports-declined-this-year-but-usas-kept-growing/"
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeU5fRjMzUjhONHZuYUF6ZDVVWWxtV0ZtdVFYbFJCbk5uMzBpUTgxQTZwUlBKbmxQZ250bkdXa3NLRjhKZ1NqakMtX0pBZWxCa3hEaERXOG1hdHhzSGhMbDdxNUxCR044Ml9vbkd4cWJXQ1dxLU1hQjhJcXBtNUtOTi01SXBmdWZoZHhKem52eTkyMUkxXzlVdzZ1TzEtSjF6WXRqelBZRnRGamJpLUNoMGtwbkwwbzlTYU5ORmZJcWdwUG9SZExQamdsX0UyUXptTFFEZlpuSDJhZWlINldZZWo4b3BfVW9Y?oc=5"
    ],
-   "text": "LPG Exports Declined This Year, but USA’s Kept Growing"
+   "text": "'No backing down' Strait of Hormuz will stay shut until US accepts its terms, says Iran"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLSGlCNzVBZ3dHWkVneWZUdVpFUi1kazYwWC1kdmZodlBSbEFkWVZXQlJtMGlJTjhIU1dNZUdKN29Uak9qNUNmekdxUi1NbmRKOUVfeTY0b2l3YWNVbDg0MnZDRU4yUHdfdXN1TA?oc=5"
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSVRBN1pURXFIQUhkc2dkNVdkZGlOWFFkYzFrbUFkU0V3VEkydG81a19vNjZIb05WRks3UnBKOWxmUmNLSUdZS1VvZmRibFpGR0ZvTW1YNzVhMkxmS0txOG04YWFwM2VycjVHYzlQaGk5eDloX1dpSjNpYi0zTXp3aHVSalBpNGpXZnFUbkswX1BVekNwOFRxWTQ1Q3FpU1lzekljemlWZmxoZWhPMkVUQ0pCOFZRandIbmV1NzZVLVdUMjI2U1HSAVpBVV95cUxOd1JuZUVlNmxlVGRZazU1T205QmNZX0tTejNCZ3BGVWNPSWVGUldUS05aSXotTWVmZncxbGhTa0hVZHZ2dVRxU2lmSXcwMGxGaVh6Tzlkc3lvNVE?oc=5"
    ],
-   "text": "Houthis Claim Seizure of Kahboub Range Near Bab al-Mandeb"
+   "text": "Mediation efforts between US, Iran continue to prevent escalation: Qatar"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTDZRSU5BNDBTUmk3SUFDX2trU1RHaHh0b1Jidk8xT281SnlfbGxkQTdkWi1QS19RR2tTTmtQWEZSYm5LMy1BUU1tckJVYjZiUTFOaThIMTQxcHdJcWJEWk83eElNUTZNLVY5TUZzZzRPTWRWR2NjUFFWUWtjOERlQy1TYXFlc2RrSUhwSVdqcDFyZ1FQV054RGZPWE9wc0RWWWVlXy1vOFUxUGZJRUtIcHp4Mjg0OG44QldNOEJTN2xuTmdUUVRIaERncTNfVUJKOHdUXzlqNmhHNWhBelpBSHlDejU1WFRIaEliNXNEQVVHSHRjWXhFTnkwcw?oc=5"
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOHlrN0NVRWhhYnBPd0JuQWJkRDJ6VVdNYzZqQVdjdWR6cHhrUVAza0swTXU1eG9mb1RUOF9fWHJoSmhLcjV6Q2RENENqZlBVV3FHcXg3amo5VVRyOEw2T3lTU3NTR0EzVUlNenkxVnpaa0pLMlJRdFVsSk9NV0pNMVhJbWstWDFTM0dwSmhVa2VGSkJWUTVqUlZaejFOMzczb2dZTnI4UjA3Z0NQM0E5VTVkdUg1NjdyUkx4SFQtb2hsbUU?oc=5"
    ],
-   "text": "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz"
+   "text": "Strait of Hormuz crisis: How global LNG shortage could hit India’s power bills and gas supply"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVRscFVZLUFqQUw2WVd4ekZOWTlXQ3F2Mm0wNVlyWWhyMWRINDAzMG0zNG1yVVFhcktvUUhBa3VtOTF1czZDQ2RGd1NUWTdWYzh0LVNXb1JpNWJEYnVRb2NqWWZKSG9JVjRKbmtWTzdLNEhlSU5nY2xkcmdTR3FNOXJ2R2lTSEFxeXVpVk5SUDdWbGUwNFp3d1lxUlVPeDhURGJ3?oc=5"
+    "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUThQVDNhS254OUNqdmpRa2ZUT01RX1htbl9nOUZWS2VWM1RYY0hHUUNhMzJSdUdqVVFPWkRYZHkwdURySGFOb0E2ZFVKVFdseE5RSFJVa3BWc2xiT05oYndfcUticGhtNnB2andEMjkxRm1ucHhOaHlzVUhuUzhWZzZuZ0w3UGxzNzhTVE1RdEhzMlgtUk4yODU1bTdfTnFBRGp3ODV1cFlyMEpTTkRfMlhDQmhQaUVZNmRnOHBDRXp0VFJPSmtUZHU2aXluMWY5dFdWQmRNaWt6N2Y2cjlKcUczT2NxQVpHS0toNXZMcnhfb1dBOXh1LTJZc0Vjck9nNUE?oc=5"
    ],
-   "text": "Iran reiterates no restrictions on Indian shipping through Strait of Hormuz"
+   "text": "E20 Petrol Supplied by PSU Oil Marketing Companies Meets Prescribed Quality Standards; 893 Samples Across 27 States and UTs Found Compliant"
   }
  ]
 }
