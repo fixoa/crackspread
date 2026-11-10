@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-10T11:01:25Z",
+ "as_of": "2026-11-10T22:11:06Z",
  "crack_o_meter": {
   "as_of": "2026-11-03",
   "label": "Grand Canyon",
@@ -83,43 +83,43 @@
    "unit": "USD/gal"
   },
   "retail_diesel_us": {
-   "as_of": "2026-11-02",
-   "delta": 0.0,
-   "now": 6.292,
+   "as_of": "2026-11-09",
+   "delta": -0.165,
+   "now": 6.127,
    "prev": 6.292,
    "prev_as_of": "2026-11-02",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
-   "as_of": "2026-11-02",
-   "delta": 0.0,
-   "now": 4.153,
+   "as_of": "2026-11-09",
+   "delta": -0.158,
+   "now": 3.995,
    "prev": 4.153,
    "prev_as_of": "2026-11-02",
    "unit": "USD/gal"
   },
   "steo_consumption": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 103.56,
+   "as_of": "2026-11-10",
+   "delta": -0.03,
+   "now": 103.53,
    "period": "2026-11",
    "prev": 103.56,
    "prev_as_of": "2026-10-06",
    "unit": "million barrels per day"
   },
   "steo_production": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 103.09,
+   "as_of": "2026-11-10",
+   "delta": 2.37,
+   "now": 105.46,
    "period": "2026-11",
    "prev": 103.09,
    "prev_as_of": "2026-10-06",
    "unit": "million barrels per day"
   },
   "steo_stock_draw": {
-   "as_of": "2026-10-06",
-   "delta": 0.0,
-   "now": 0.47,
+   "as_of": "2026-11-10",
+   "delta": -2.4,
+   "now": -1.93,
    "period": "2026-11",
    "prev": 0.47,
    "prev_as_of": "2026-10-06",
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-10T11:06:55Z",
- "generated_at": "2026-11-10T11:06:55Z",
+ "fetched_at": "2026-11-10T22:21:54Z",
+ "generated_at": "2026-11-10T22:21:54Z",
  "headline": "Diesel crack: no fresh FRED data, last value $95.54/bbl (as of 2026-11-03)",
- "inputs_digest": "1b22a87b5845fb919d8dae0229d1fea86184110e",
+ "inputs_digest": "c597cf94b48b128af6fc5e365bd54b62b0ad294d",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mTWh0QzBhTkxycUpZMzJIR1UtVHh5N051ZGEzdWhPQ2o0WDN3RWR2QXQ3MWNjTGFTSERiLTBpRE1RWXFkTE5pZGxGdjFfc0o3MVhPSEZzTFQ3UlFWMmJON0JfRlBCVGFTLWdEaTQweXY3cmpqWWZF?oc=5"
+    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPX0pfY1ZWSk9GV3lEeUJ6Q3FScnRtWDV5OTJ4VThNcENIS1VDbEpiWUFLcGJBcUNTVzVuRFREMDBqai1YUkI4Ym1aZzlSV3VwLWZ2eHRjWDZ0V1BYS3QycDFwRmR6WF81cy1VSVdXMmZQcnBWNXpwc3FGWm5FaGs3b2tuWTNoMzIzdDdfT2R3V1dGRmdEaUxFbjRISmRWOVRtMkg1S1c2OThLWGNvYmFVazBuZ1hMekFvbUp0YTlRVnRVX0d0VFRTSXZPVW9Od051YlNSVVhSVXJfT0xPamhLSVNiZW9LZzBQaHdpY2pHY2TSAfYBQVVfeXFMUDAwdmxOWEhmYmplSlVELUdzbmtUY1JRUHRCT0xQQVdoeXNXakhlWEtMY25HZGpjd1F2VklITU10X3VfV21NaHU1aTFLTFFXSDdORk5JWTBIaXVjdHVSbGZYM1M2TXpZbW00QTk3TGdYazFHbzRTWWFaNU5YaTNnOXk4UjFOS3Bfendhb21XQWtOQWpiSjEwdGJScXhiNDJaa1pQZHI3TUw4XzVlaF9FQmZ0SXhTYldGM2xzeTBCWE9qZWZTdUFIMUdFd2hZT3pVamZRNDc3dXRZWGhQQmlBWm1JdmJPOHVxamF4RENEZWR2VGFxWVNR?oc=5"
    ],
-   "text": "Crude oil prices fall over 1% as trump signals pause in Iran strikes"
+   "text": "'US military luring helpless oil tankers into walls of fire with lie that Strait of Hormuz is open':..."
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMUFiN1B5UTVJQV91RmQwTWpPVjFJWGFJejFzNHRvR04zM1NibXAyQi01TDZCbl9xMEJvRFM4b0hXd0pHU1N0c0Z1a3JLNEFDU2J1ZDZGbnRJSlEzQkM4RVhFOEpaa3FkalcyRWE0S0FZVVhqU2tkSk40NGdRbjJSM2VvMHF1UjNaeTFOeUg0WklvY2RfOGZWRQ?oc=5"
+    "https://www.hellenicshippingnews.com/russian-crude-exports-fall-on-g7-tankers-as-greek-operators-flee-for-better-earnings/"
    ],
-   "text": "2 violating tankers catch fire in Hormuz Strait: IRGC Navy"
+   "text": "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZGhxbE5FbXA5cW1FbDFEN2owMWNYXzktZDZsRFluUXNPbFMtR29Vcmhuc2FUWUcwSWdoREtQc2l2MG1EbGh3ZTJGcTctLThjbERVdEx4cGZqa2FNcGUyQjVwWmZyaWM0RWE2WUZ2SnVmcTlWcFU5YkFiZzk3VEtqUzRUemZLb3FoU2hPTWVnUQ?oc=5"
+    "https://www.hellenicshippingnews.com/shipping-in-new-crossroads-after-the-us-mid-term-election/"
    ],
-   "text": "Pune Fuel Shortage Risk as HPCL, BPCL Supplies Slow"
+   "text": "Shipping in New Crossroads After the US Mid-Term Election"
   },
   {
    "sources": [
-    "https://splash247.com/mscs-car-carrier-arm-adds-four-newbuilds-in-china/"
+    "https://oilprice.com/Metals/Commodities/A-Geologic-Freak-in-Arkansas-Is-Big-Oils-New-Lithium-Bet.html"
    ],
-   "text": "MSC’s car carrier arm adds four newbuilds in China"
+   "text": "A ‘Geologic Freak’ in Arkansas Is Big Oil’s New Lithium Bet"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTGxDUFF2RkF1Z3l1b2ZNLUZsdW1WV1ViOFBpY0JHcW9lTktFT1pXUVktNGtvQXctM1RtNjNmS0RhY0djQXM4NkRQdkhXNmZVdWlZMWZka0xWYXV0U0pzMmlwbzJ4aTJmalBESWs5SlZaXzgydEJGTzZOSGNBOEhUS3JseE4xaEVzdV9QSEc0Tkc?oc=5"
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlRKdXFfakhNakh6dEVMbzdmalI3Sk05QTR0OFI5bWhtSi1GZ3Y5dURtMWY0U3BUWkFrenk5dlFISC11YU5POXR4dkV5VHRIU1I3ZTlRZVR2Y1VNY19HekVSS1hwdnE0eHgzT2paN1BRQktVcl92SlJEZTVDaVNOalc4dXlya2VMc0hac1pidU1oeVV5X3VWODVLbl9HaHA5anliOWJKODhxdw?oc=5"
    ],
-   "text": "Oil Prices Drop On Improved Supply Outlook, Brent Falls To $91"
+   "text": "EIA hikes US fuel price forecasts in 2027 on global constraints"
   }
  ]
 }
