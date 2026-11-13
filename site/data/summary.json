@@ -1,83 +1,83 @@
 {
- "as_of": "2026-11-12T22:39:25Z",
+ "as_of": "2026-11-13T10:50:15Z",
  "crack_o_meter": {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-11",
   "label": "Grand Canyon",
   "level": 4,
-  "percentile": 99.2,
-  "stale": true,
+  "percentile": 98.1,
+  "stale": false,
   "unit": "USD/bbl",
-  "value": 95.536
+  "value": 84.428
  },
  "deltas": {
   "brent": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 107.03,
+   "as_of": "2026-11-11",
+   "delta": -14.89,
+   "now": 92.14,
    "prev": 107.03,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 7.39,
+   "as_of": "2026-11-11",
+   "delta": -4.87,
+   "now": 2.52,
    "prev": 7.39,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "crack_321": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 44.266,
+   "as_of": "2026-11-11",
+   "delta": -7.41,
+   "now": 36.856,
    "prev": 44.266,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 95.536,
+   "as_of": "2026-11-11",
+   "delta": -11.108,
+   "now": 84.428,
    "prev": 95.536,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 7.546,
+   "as_of": "2026-11-11",
+   "delta": 1.744,
+   "now": 9.29,
    "prev": 7.546,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 2.728,
+   "as_of": "2026-11-11",
+   "delta": -0.313,
+   "now": 2.415,
    "prev": 2.728,
    "prev_as_of": "2026-11-03",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 4.47,
+   "as_of": "2026-11-11",
+   "delta": -0.404,
+   "now": 4.066,
    "prev": 4.47,
    "prev_as_of": "2026-11-03",
    "unit": "USD/gal"
   },
   "jet_crack": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 69.286,
+   "as_of": "2026-11-11",
+   "delta": 8.044,
+   "now": 77.33,
    "prev": 69.286,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 4.198,
+   "as_of": "2026-11-11",
+   "delta": -0.163,
+   "now": 4.035,
    "prev": 4.198,
    "prev_as_of": "2026-11-03",
    "unit": "USD/gal"
@@ -126,27 +126,27 @@
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 4.823,
+   "as_of": "2026-11-11",
+   "delta": -0.619,
+   "now": 4.204,
    "prev": 4.823,
    "prev_as_of": "2026-11-03",
    "unit": "USD/gal"
   },
   "wti": {
-   "as_of": "2026-11-03",
-   "delta": 0.0,
-   "now": 99.64,
+   "as_of": "2026-11-11",
+   "delta": -10.02,
+   "now": 89.62,
    "prev": 99.64,
    "prev_as_of": "2026-11-03",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-12T22:43:34Z",
- "generated_at": "2026-11-12T22:43:34Z",
- "headline": "Diesel crack: no fresh FRED data, last value $95.54/bbl (as of 2026-11-03)",
- "inputs_digest": "00778540c4569234c81a853fb061da7fe9d19498",
+ "fetched_at": "2026-11-13T10:55:00Z",
+ "generated_at": "2026-11-13T10:55:00Z",
+ "headline": "Diesel crack -11.11 $/bbl since last update, now $84.43/bbl (as of 2026-11-11)",
+ "inputs_digest": "f8ce4e06be1e38eeef96020ede9df045df122e11",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaHBCMHBQMG1PckFkb0NTRWtnXzZDblFSNWs1YXVRMEctdGtLU21PRndqY21rZ09IUzJpM0NzZzdzaFVGVm0xSmdmYkxFTVRvWmtuWUIyVUlrNVhKcEpnNktnQ1owNFA0cXVQM1M5Z1RjOVU2dU0zY0o5cVNuN3o4b0ZqbmtsSDdsZVp0Z3FsTTRzRmx3ZHpSMlJ3OURrTnVWbEFpYVljaTg?oc=5"
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnRLQ0NRSXZUTFFXbTBJMi1PRFYxTVJJVHJwdktOU2w2Zld1VzdBcElBM1l0UVBwR3RHM1N2QndTa3VZZm5HUkRZRFJjR29WRHZPdDk0M25xd3ZpZ3VhLWl3dDhPMXQwZ1ZGX2NwcFA2aUdza0MyQVpUZk9NUkxNdzlxamRuU2xOVWwwMm1vQW5jM3ZvNXEzaDJaSDJ0ZWdSRmxUcHNuaU5yM1U?oc=5"
    ],
-   "text": "iran-parliament-speaker-baqer-qalibaf-peace-conditions-strait-of-hormuz-us-2026 Archives"
+   "text": "Institutionalising Maritime Governance in the Gulf: Limits and Opportunities"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcjlTaHBwQ1RWeW9GU1R5b3loTFN3LWFpZUhLeHZPdU9hazhoRlVlS3FhSUdrNXdEYU9EZjFXNl96VzFGb3I2azBuM21STzZuYmRZY1FYeUVuMHR2dmpSeFcwYW5HQzdsNnlEdEh0dDF1UERPVjQ2c2I4RTVoQUd5V1QwZTdKcUw5VkcxOGo1Zm9SNTJaWVFJb1ZnRml4NWdUMnpCLW14TTlGc0dXRlVVRkpoVWp3NlJDVzdsZ3BHcEV3bEdwNy1Ca0FpVzZzTDJXYUNjVA?oc=5"
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN2ZSMWJLTVB5QXp2Y19mZTEtQWpFUmFaX0NVVG10c1daVndmbzJNWUVySEpDSHlwQjB6TXVITzFPZ2VDQ2NSbkw3ajFXMWxrNzMta0syNk1JYl9pX3U3cXhPN2NQWHNIbUVHLTNveWczbnFvemdvM1R0Q3phOXBBQjFLS2NQLWdEMmxqb3IxbFo0VzhaQlpvYmpZSHVRcEdjUG1ZdE1hcFJMLVdtSGsxUmpSNA?oc=5"
    ],
-   "text": "Soaring fuel prices will lead to 'a reckoning' for airlines: United Airlines CEO Scott Kirby"
+   "text": "IEA says global oil supply to surpass demand in Q4"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMivAJBVV95cUxPWFdRbHMtUjhFVWxhR2pmZjhDVEdkRVc3dlA3NWNGMEU5R3N4RGhNQlQwRmlzUEc3b2xwc1FvX05lZmQybzV3RFZaUVozOVFIc1E5U0MtRFJ4dFJjOUcteHVUenEzNWg0YXlkaWY4SHJ5VGNiS2V1NUJDRXNnYVNmVWJ4ejdMNmlfbDlaeXk4dmRhUDBvdnZpNmVOSlduQ1BWdWdHcGNhSVRzdllXS2R6bEgzb2s3QUtGTVF1amRJRXAzMVh5TjVZVFVacXExXzVqZXlSRHJRVjdJdDU0MzJGNzBuYldsNkVkdDJza0RIdjZyNGFhNHBzQUpuTGtLUXpCck9WM2Fob0YzbHRIRXVRSEpmQVdhbzF2cEZnalBVampfWG9zeG5UVUtUN1JySnE0ODgtdW5ib3U5NElx?oc=5"
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWlI2RDVQWW1PcXdrY0gxSzBSeXN2bmc3NGRTdm0tMGtzMkltRHFrQnRJbHlIakpiS3FSNTcxTVdQcWI2eElkNDlpUlcyTWFJcVlqSkFlOHhYRGhFdjZ5dGswR1FXeV9SdVAwcE9CTTZtd1ZENV8zRUZzTTR5ODlxY3JzamVjZVJRUkE?oc=5"
    ],
-   "text": "Iran escalates attacks in Gulf striking one of the region’s major refineries in Kuwait"
+   "text": "Jet Fuel Price Risks Hit Asian Airlines at $148 Barrel"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMickFVX3lxTE1WOU1OalhEN1dSdnZVUEZqclZ0RUQybTNyRmRuM3dGRFlOZTVVV0ljSS10UzdlMThpUm02VWVyeFFjMjBnMmRJSkNfVzIzM0ZxcEsyQVBLekZGNVRJdEp0QXBKVk9BaXFPcXBZQ0pnNWFiUQ?oc=5"
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMRmx0OU10TWZobG01RVc5ZTJVWFllMWh6a042ZXRoWXVvck9WQ1VETWsxaFh0VEhrNldNak9lS1hPak9TQnVSc0pZeWxINDI3NDZnN1F5ZjZtWW1NY2xYcWdxcFJXRHJabE0zRnI3QmI4UzJScUE?oc=5"
    ],
-   "text": "Hormuz Bypass Plans Face Weight of History"
+   "text": "US fuel oil supply and imports drop"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMickFVX3lxTE55Nk52MWt4eWJhYzhIMU9FdGF6Z0FIVFBPb1hUNk5QNm1jdV9TWUlDYklGR2hsSnY0aUprMmpSWUVQTHlaa1YwYVhiNl9PNnA4bnZtczdydGR0VG9NWUF5bEpIRERnd0VwTUJmVFdlYUUxQQ?oc=5"
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2Z1Z3NkY05PZEZkTGdTbjVIVDlYRlE1M3BTeUZxRF9SR3NEMVktU3FGa0hEb2liYlVKRWpKTnVibUR3ZWdLaEJ1dUJzTW5Cc0N1cXFZOEQ2U0RTTHZvblRBby1zbUVkYUVOR0NEM3pKSE5tUEV1S3hPbGhqMm40UGJLaTNWSWVUa0pQbGFiSFZFeW5kd0JhTE5lNWtnbHVXYlR6UVFqZ2liTWU0M2Zka2RzcEtScEFMaHNkSEVB?oc=5"
    ],
-   "text": "Freight, Mideast Supply Drive Atlantic Basin Crude Glut"
+   "text": "China’s Middle East Gulf crude imports rise with more Hormuz tanker transits"
   }
  ]
 }
