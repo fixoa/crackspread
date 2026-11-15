@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-14T21:04:58Z",
+ "as_of": "2026-11-15T10:42:24Z",
  "crack_o_meter": {
   "as_of": "2026-11-11",
   "label": "Grand Canyon",
   "level": 4,
   "percentile": 98.1,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 84.428
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-14T21:27:29Z",
- "generated_at": "2026-11-14T21:27:29Z",
- "headline": "Diesel crack unchanged since last update, $84.43/bbl (as of 2026-11-11)",
- "inputs_digest": "56c983441600b8640da1e85a1588cea1fc1381e8",
+ "fetched_at": "2026-11-15T10:48:11Z",
+ "generated_at": "2026-11-15T10:48:11Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $84.43/bbl (as of 2026-11-11)",
+ "inputs_digest": "83df7951edda06479d1e9e871cdac997672d0e08",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV1lrSGNhOEF4ZWw5NG5jTEdTdEJGSVF0Z2JoN3ZUTDVPR2pFSDVWV2lQaEdkSTc3OXNBTEVia3Y0UVNDRFViQjNjUXVEMXZVWU01N2Jpa0JaWU9jbWNYLTk1eTZBUVBnS3dOaHNldWJLalVGbkV4dVRzanpFY2lJYWU2QnZKTmotQUlmQ2dpQmNpVFB5SG5F?oc=5"
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQWJXaWViNkJNd25fVGdmRjBfZFhiYl9jNnJYaVN3ZmppdzdsamtOSGZVeVNxWHBIM1daNVVfU0k3S09lNWZwTVZXNHdaZHVlSlVhbktzUUwzT0M0a0NGN2V2b3l6OHdyT2tKY0tpWm5obll5QlR3M0tTVGsyNHlaQ0dEdzJFb1ZGc2s1dU9PeHE2MlM1bnM4UU9mNjYxZjVXdEEwMHZGSQ?oc=5"
    ],
-   "text": "US producer prices rise moderately, but inflation broadens out"
+   "text": "Yemeni government forces withdraw from the Bab el-Mandeb area to defend the city of Aden"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFk1ZnhBM3NwWEhvR1ljUUJpUzAybHNzZlJMMzZjVS1iYm9fVXFxT0NBWHQ2eDc2RU1sNHEyVHdPVXF5YUdqNDBlZnBlSlk4dmUwVWR5NUJCNHJKTURXZ2p0OHhndFFkRWN2NjZjOGFhNTlYRkFveUVpTmQ0bkxQaTN5cWl4MTBzeTdYQ1NkSTNCQ3hJclczRkZBaTE5MDFBdFFfbldfN1ZRZVhEQ0JTeGxxMndpa1lOSzd5ZWQ0NVlHVEhiV204cjFGVmE?oc=5"
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0NxQUlQVFMwdHVWU1FVSkVCYzd2OGxHekdBcG95SmpsblZVbnI5VWIxdk1aMmVNVkQtcjM1NW44TWg1SmZIWDJ0WEp6OXJ3cHFIWWd3RVlHUVN5MDUwVGU4aEVlRy1kcDN2N281V0JaQjlzNDNOQ3NIbm12UUlSbUZISjJiN2hlMlpSaVZob2h4b2FoMVBvREQ2a3dHX3VSRjE0Ul84QlBfWXgwalh30gG0AUFVX3lxTFBrWmJZaS1aQ3RPQ0RQVGVDbXdpUVBkUTBMc0pmQWtqNVp5SkNTckltRWFuMUcxVHhYTnJTWjJtbG1LMmZRWmVaaThsbEFkT0psSUtteU9aaUZRbnltVVJhVWtvc3FOd3hwa21IUjdSbW96UjRfOUYtTlE3SU5KQzQ2U0RVUlYyaFF6SHA1a2NPNERYNWxza3pCWWEtTWxJRVRuVnhGTDk0eUhldEc0UEJhdFJaRw?oc=5"
    ],
-   "text": "Apricot Oil Market To 2035: Clean-Label Skincare Demand Supports Forward Growth - News and Statistics"
+   "text": "Crude Oil May Fall Further: Brent Targets $90-92 Amid Supply"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOenJPNTdZRGstUFVlRS1COU5OUHVpX2hMQnJnSmRvblV0S3pjU1RZRTNTd1BPc1VFNVZhNmtIYVdqbHEzdW1ZNzl0Szd0V1pBQWJ4ZWpZdUdGNjdzWWRHUFFzU21aT1dZVmN0OTl4NE84TFJRV0tnNS1vZFdYLUMzQ1oyVkxETzRT?oc=5"
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaUl4X1NuNEZmZ0FMdko5TUJxekRHRXNuX19mbEpNSU9obi1nM2w1bGY3RHlxYkJ4OGJadHVXWlVxQ0tIa2RtcmZnSkEzbDc4cWt2b01Kck1YeTQ3ZEJ5aEVkLV95bXBMRW1vV2doaHhIRkpmWGYtV0owTnlObzk3bXVRTWM1QUxUTzlWYXVrSFg0ZkFFZ3Voam8wZDR2aTNNM3kyWnhXWWNpZkRTaFJ5b2kyNTNtdlU1TDB3NmpfZWQ2Y2ltMktiX19nREVDcnNzRnlZUUtBU0EyWWs?oc=5"
    ],
-   "text": "Japan to help ASEAN jointly stockpile oil products"
+   "text": "un-warns-escalating-attacks-on-commercial-shipping-in-strait-of-hormuz-and-bab-el-mandeb-threaten-global-economy-2026 Archives"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1M2RXNsd1M0TUppTW1ZYjlUbkJ6bDhHYktvLUw0UFYyUEgzalhORkJqeEJkdUszWlpNY050UV9HSGlPeXNZWFJIUjdkdTVPdmVGMmZqdThOdXVObHprRFg4NDloT1ZPVWZEVnVmQmpCcTlWdG5YNEtMTGh0aXNLS1c1YV9KeTFZM0dmRXFiQ0RKckc0cU4zMENNbEdwMGhBM3c?oc=5"
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVJZZTIxTzlhTVhLdmVGNGZ3MzR3SE1zMWRYZm84eGtSbjEwUlJseDU5S1dJalA2MTdDNDNRSkczcWFkaEloZVNvNV9oZFBnbzRUVURCRkpqR0I5MXhYSWwxdWxMdEk1QWhOZmhEcDNJX0dsb2hvdlpNbmlCSXJQUFdvNnJQZktEQVVMbURnZkVaSWFwS0JsSFpmR1FIZ09ZVDB6Mk5NREF1dGhOZmNyNw?oc=5"
    ],
-   "text": "Oil Supplies Are Recovering but Prices Are Not Falling Back to Pre-War Levels"
+   "text": "Europe needs a warm winter to avoid major gas shortages – Chemicals and the Economy"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVkE3dnM3QjdXNXhscU8wbThWOGVfYk5yYkNhU2c1U0tULUVlOTFZbUU5djZ5VUZhSmozZGRTR3JnODRNWWE4YlVmLXE4OVpCYTUwcTZhMnhuNV9hTF9MU0EwWmdKbjU4YmFkZC1nS1Z1VUlKbWNiMHBhdmlsN1pWWGZPU0FPZ0RoODFjaDMzSFRpdnV0LXJESUtmaklSUU0?oc=5"
+    "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1VTZGbzlrQWN3d1pYSVM2ZlRpNEZOdUpkY3lmSmRGOElSVXlXTG5tNnd1Q1hENzdCLXBxWmlxNUJxSkVONjI1UFJDMm1BajkwaW1uODBySFhKeWh5TW1ibDNhNkxLU2fSAVxBVV95cUxNX2ZwNGZkT2ZVaTk2R0Mwa2ZvVnNtX1JZOGJYU3JNRkliaTRLZlVmYVFiRkZnbkVGbmlJdktkdjNxSFZDdk5aeHRYVVl2Tm5oTnFUNWVQTWZzWUx1VA?oc=5"
    ],
-   "text": "Iran says three oil tankers hit mines and caught fire in the Strait of Hormuz"
+   "text": "US-Iran tensions escalate: Tankers on fire in Strait of Hormuz"
   }
  ]
 }
