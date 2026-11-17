@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-17T11:41:11Z",
+ "as_of": "2026-11-17T23:39:05Z",
  "feeds": [
   {
    "error": null,
@@ -18,57 +18,57 @@
   {
    "error": null,
    "id": "google:\"crack spread\"",
-   "items": 9,
-   "kept": 9,
+   "items": 6,
+   "kept": 6,
    "ok": true
   },
   {
    "error": null,
    "id": "google:diesel shortage",
-   "items": 30,
-   "kept": 30,
+   "items": 24,
+   "kept": 24,
    "ok": true
   },
   {
    "error": null,
    "id": "google:Bab al-Mandab",
-   "items": 27,
-   "kept": 27,
+   "items": 16,
+   "kept": 16,
    "ok": true
   },
   {
    "error": null,
    "id": "google:refinery attack",
-   "items": 33,
-   "kept": 33,
+   "items": 24,
+   "kept": 24,
    "ok": true
   },
   {
    "error": null,
    "id": "google:tanker rates VLCC",
-   "items": 5,
-   "kept": 5,
+   "items": 6,
+   "kept": 6,
    "ok": true
   },
   {
    "error": null,
    "id": "google:OPEC output",
-   "items": 29,
-   "kept": 29,
+   "items": 28,
+   "kept": 28,
    "ok": true
   },
   {
    "error": null,
    "id": "google:jet fuel prices",
-   "items": 20,
-   "kept": 20,
+   "items": 24,
+   "kept": 24,
    "ok": true
   },
   {
    "error": null,
    "id": "google:strategic petroleum reserve",
-   "items": 37,
-   "kept": 37,
+   "items": 36,
+   "kept": 36,
    "ok": true
   },
   {
@@ -82,29 +82,29 @@
    "error": null,
    "id": "rigzone",
    "items": 20,
-   "kept": 15,
+   "kept": 20,
    "ok": true
   },
   {
    "error": null,
    "id": "gcaptain",
    "items": 12,
-   "kept": 8,
+   "kept": 7,
    "ok": true
   },
   {
-   "error": null,
+   "error": "ValueError: not a parsable feed: <unknown>:94:2: mismatched tag",
    "id": "splash247",
-   "items": 10,
-   "kept": 5,
-   "ok": true
-  },
-  {
-   "error": "FetchError: HTTP 403 for https://www.hellenicshippingnews.com/feed/",
-   "id": "hellenic",
    "items": 0,
    "kept": 0,
    "ok": false
+  },
+  {
+   "error": null,
+   "id": "hellenic",
+   "items": 20,
+   "kept": 10,
+   "ok": true
   },
   {
    "error": null,
@@ -116,7 +116,7 @@
   {
    "error": null,
    "id": "eia_tie",
-   "items": 27,
+   "items": 28,
    "kept": 0,
    "ok": true
   },
@@ -131,7 +131,7 @@
    "error": null,
    "id": "eia_gasdiesel",
    "items": 1,
-   "kept": 0,
+   "kept": 1,
    "ok": true
   },
   {
@@ -142,145 +142,29 @@
    "ok": true
   }
  ],
- "fetched_at": "2026-11-17T11:46:51Z",
- "generated_at": "2026-11-17T11:46:51Z",
+ "fetched_at": "2026-11-17T23:50:46Z",
+ "generated_at": "2026-11-17T23:50:46Z",
  "items": [
   {
    "feed": "google:Strait of Hormuz",
-   "id": "e10a94507d6c0a79ebc64c2f06aa2f0a6e65860b",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tZVNiUEl6OXVYcFgybDlGZTllLWJ2SXFjd3cyRE0wMDlfNTdrNlQ3YWdYNHJ4dHNnUjVCZkNEMHdQZXZ3YU9HZ2gwNS1ldG45bmdNaFgyRzZkemRybXRkNXQwakw4YlNZREY4NWk3aEQ?oc=5",
-   "published": "2026-11-17T11:41:11Z",
-   "snippet": "",
-   "source": "Oil & Gas Middle East",
-   "title": "Tara Gas LPG tanker hit by missile in Strait of Hormuz, all 25 crew safe, India says",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "c5b44af2ba9cb17ec93df027aa9ed3c47c130cc7",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbkZONWlzQjVoTGk5bVFXVC1mRlFwdjY5U1JZamstZG44TWJnS1daZ2M0M3l0TE1kbnBaY2JlR0R0ZzJ6WERUMmJCZElSQXdsQkpiREEtaE1lVlRRZkN1VWxhRWpLZnNtNDVkUGFPcm8yOVgzZWlYVGtvcUpnaWp3MVFZS29wcWVfdHFFYU9ONWxWclFTUlhhVUFLM1A1UW5WdHc?oc=5",
-   "published": "2026-11-17T11:39:17Z",
-   "snippet": "",
-   "source": "Palestine Chronicle",
-   "title": "Iran Targets US Radar in Bahrain as Tanker is Disabled in Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:diesel shortage",
-   "id": "2d6761d5ca07f6606a126d3c056a9bcef91dec22",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObnh4RWhQYk9GaFZTeUV3RENJZW1nXzdxLW15ZENlVS16bmpUNzZFMnpmQ0RuRVZTYmtGZkFvSXdoM3FjeGRoeDREMmt4dTNWTUd1SEN5bTQxU1lidkg5NW1jeEVpUXZ2R1pBYTNlWmtsMUJPSHdqODBIM1NVMWlZYzVHMzU5X290RjVVZTlIUzVNYktwNW1TMF9wS1U0ejl5VkNqNkxwaVNydy1OazR2Zy1FelJZSzk0WU1V?oc=5",
-   "published": "2026-11-17T11:33:58Z",
-   "snippet": "",
-   "source": "Anadolu Ajansı",
-   "title": "Israeli blockade, fuel shortages push Gaza families back to kerosene stoves",
-   "topics": [
-    "jet"
-   ]
-  },
-  {
-   "feed": "google:strategic petroleum reserve",
-   "id": "58de2ff1fa20358ed65b8cb05bc0a00f108e7a45",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONXpEVVI3bk5QbTEtVGZmakR3amMyTHo3eEhRWVc1WWNtcURPSUVGcjFJN1d6NHAyaW5SamlsZVQzQVR4Z1pHLVN4ZU1kY3hyTG5VR2l0TjZEQ0hwVFhXNUZUV0ttbklkYVotay1ZQklrcU5VeklfWXVrUDlRM2VDdC1nMGpmWExsUC0tdHR6Q0g?oc=5",
-   "published": "2026-11-17T11:32:48Z",
-   "snippet": "",
-   "source": "https://streamlinefeed.co.ke/",
-   "title": "Japan proposes Asian oil reserve task force in Manila",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "aae378f8147bae971da7d9a934a545d4d756fe89",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHF6MEt6NlBHaGVNVEtHeXBTNUtJUUN1ZUlmcXNwQ2Z4MG1wZGJwMks4RzVJdEJtS3Z2SjBxY0hwdVJXZGkza3VVUEVTQ1Y1aDZtQUNveFlzWm5zVkxrVXIzTXBqeFhkLTVLcFlhNG4zRmh3VUtGQTRaaUxKTWZMZFhQUXRlVjh5am1MUzJUblV2S3I0bDVGVU9hZEdQc2piOEpnU3ZFQi1jR2ZuVzZ5dEJTMHY5Z9IBuwFBVV95cUxOZjA4VVFDWlBDN3BWZmVzRi1RblJhdUdnOE9EUWZBT2lNYzVrc2NxTTBCRXBpWjhuTUE2V2RIOFZkUElvVmxTZldZN01tWlJVNG45Rm1EVFNORWM1NmZvN3JWWGxIS3paZU5yTUt5LWNGbmRIMG9xRDFBcl84ODhkTFMtbnpOX2oyc0J1U0lhUTlBbWdtaURKd0U2bE9FRF9NWDhzVHAxRHVBdVcyRHpGYTZwT2FfWnpkU3lB?oc=5",
-   "published": "2026-11-17T11:25:45Z",
+   "id": "bde2db634255775581a8859298b85cdceda0e4ba",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPU3NxaFU3RUpkTklaRUU5NkxhTjZ6aHhYOWl4WG9PQUh1dWp6ck9qdkJhc3FHMjN5cUhWSzF6OWFmZnE5MXQ3U0RKd2RmeXdvZUZ3Qjk4VzFEM0tka3dOai1IVWZFY0VaVlVHS3d2NkdyeDU3UHZEY2tMbV85ZEVldUhRSG1SS2VwZ1c1ck4wNE1HbU81WXluYU5KRUN0NmRFdVJRNWI5MFpreDR4eGNaQkgtMVg3SjjSAbwBQVVfeXFMUDFvNkpucUdWODBUZW5kV01tbDNjaGVlYWp6a2NtdktFQVJpVW9mTjJFWEhWWm1LQlIwcW5tVVozb0FpUWl5TEd1VkstTFh2S2VXRi1YLWdxcl9TaF9XcjFhLUNHb291ZkxHY210TENUclk4WjNlZml0Y1hDbnBBRURzTm1ORjl4a0hWUFVGWUVJbFNwUksyUDJ0ZmtBZWRiZV9pNTJ4QndvRGVMNzVtVW5VQ3J6azQ3c3lJcVc?oc=5",
+   "published": "2026-11-17T23:39:05Z",
    "snippet": "",
    "source": "Al Jazeera",
-   "title": "Vessels on fire after naval mine hit in Hormuz Strait, Iran says",
+   "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
    "topics": [
     "hormuz"
    ]
   },
   {
-   "feed": "google:OPEC output",
-   "id": "9b70a902b315a94d499fea4ceb57e80ab96574c3",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZktndkpmNjI1OUdaYVhBbHl1YzhKTUFBcVM2V3ltYXpfMmF0Qmo1TkFnWGNxLTNkSjJuT1VFS2FHdkNxTF9lQjlPV00xeldjZHg5VWRCTW9VYTF4bWxxckxtWHQ4cmw1anpNclFDdHJzTVdtR1c0VE5pME8zN0tPeS1BakNKUkNrWE01Xzl2bGJNWF9rbzVoRVVNSm9MbDhJS2c?oc=5",
-   "published": "2026-11-17T11:23:36Z",
-   "snippet": "",
-   "source": "Quantum Commodity Intelligence",
-   "title": "OPEC completes review of output levels for 2027 baselines",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
    "feed": "google:Strait of Hormuz",
-   "id": "22bb87b0b4710f5ecafa752c692496347c163f79",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc01OQld3VWN5a1J3WkFGUTNCX0ZITTAzdVVZcXdhVWU1SURxRXd6ZzVXWVctV3QyUnROX0g2RGg1SldYbVJKRlNsNktBMVRQUUktNDdqOENwekNoc2ZkRDlmUU5WWTNUd3d5d0xCRzF4WHFWcFBsaDNPU2VWUGREU3hqa2pTQ1MtdTFZRk9vNGs3ekk?oc=5",
-   "published": "2026-11-17T11:18:29Z",
+   "id": "8e974e8a9f9e4679f1ae83a507436d7a4ae02af4",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBLNEpXSV91UTEtOHg3di1SU19YSlo0WUFkVTRMZ3FNQkZKcFk5YmxRdjNWYzlpbHlfZ2FmTTg1TEVXcUZqR29IS01fcw?oc=5",
+   "published": "2026-11-17T23:37:30Z",
    "snippet": "",
-   "source": "Yahoo",
-   "title": "Iran: Mines caused explosions on two tankers in Strait of Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:jet fuel prices",
-   "id": "fc9ca1bc6d03390f1bdc9d30acaae431b59a5bfa",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZ2R3pnT0x5YTFIZTFGdWhxSDVQdXZ2T1RWU0NNZUstY1pxVS1Jd3p4Q0xHSFhuQmJWcXVLVUR3LWdfRVd1Y2Q0QmlFZXdOWjFUbmV0cHpsazh5a1RWTFZnY2lxdkgwTDAxTlJwQ1ktMjQ3azdGWFV2aTRhYi1jT2MzNDJVelVDYmRaRnRQRV9HUHF4aVFCc3B2Zm5TVUhFUE9USGk5ajZyOEt5Y01PMnhpb1BPc0UxZVlqMWxqalhJb0nSAcgBQVVfeXFMUFk4QWp5MzJLUUlHTjZMVkZwM1dfeEJaSTJmUzgyWENjcEt4MExwMXRZUFEyNFNObldtdDd3bGdWeHVrN1BJTVZLQ1lrUzJPbkw2cUlsb04wYXk4QmxRZlpPN1I5SlB0THE4dkxjdWVBa251bVhleU1yNTZvY1ltYU1VOXZqWUlndDI1cnRvSXBqd2J5bHJiOEo0YTdpSTNGRTB4MFNEV3Q1eWpvWXlubTdNSGFQcmt4YVVKWjQ1SGdJcUtiTGNodmU?oc=5",
-   "published": "2026-11-17T11:15:00Z",
-   "snippet": "",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "title": "India Gives Green Light to Commercial Sustainable Jet Fuel Production",
-   "topics": [
-    "supply",
-    "refining",
-    "jet"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "65f2730fc84d164d592144b6c1fbdd2226aef2da",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PZmRQSUJGY2J6WUYyT3FjSEpKYVNiTm5SNTh4aGRqZEpJYjA3TDd2dGktSjRwZm5zNmxBc1p2aWlheHNYYlpRX0dwWjBSYlJja042cTZlb2xGMjhCc3lqMko3NWdYM2oyVXBF?oc=5",
-   "published": "2026-11-17T11:08:08Z",
-   "snippet": "",
-   "source": "Mezha.net",
-   "title": "Oil Prices Barely Move as Supply Hopes Meet Tanker Risks",
-   "topics": [
-    "supply",
-    "shipping",
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "703b8ba92e3797bc8ffb05b6ba64e1eab130c939",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLTRkRHVyRC1HWXloTGRZdXg5QW1BRFFsMVI2V3NiV0FWYlkwTW56NmFiQlJZUVZUd2lDYnREa0tQZC1sVHFfN09faE9jYzdTQkpLNVBleGE3OUZIWGk1dUNISUluaVItaXpZcEgtcFZ3bG1KbDA3RnpseGI4T2VQakJuQVZjdFQ3VFpKLUNsTE8zemZDREMtaDdOaUhNZw?oc=5",
-   "published": "2026-11-17T11:03:45Z",
-   "snippet": "",
-   "source": "Arab News",
-   "title": "Iran’s Navy says another tanker hit by mine in Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "d3f3322f122aa139f8a35b782a033f239ed29cfe",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZzdBM2Q3MThoREFrVHd0SGw3UWg5RmUybFNLNzIzV1phaGNSNlBXZUV5eDRWYmxibFdmWUpUX2hJTHd2UEtzRFFJZkE1NldGZm15UFl4SW5mZUFOUU9SQV9yQm5KaFNWSldYUV9zQWtyZlA4RTV2UkVvSEZvc1NDb25DRVk5aFhwNTBPR1VpcmNSN3lIOTFlUUN3ZEF0d1U?oc=5",
-   "published": "2026-11-17T10:56:00Z",
-   "snippet": "",
-   "source": "Middle East Eye",
-   "title": "Iran's IRGC says two tankers ablaze in Hormuz",
+   "source": "The New Region",
+   "title": "Tanker crew member missing after Strait of Hormuz attack",
    "topics": [
     "hormuz",
     "shipping"
@@ -288,59 +172,104 @@
   },
   {
    "feed": "google:oil supply",
-   "id": "89b4781d66f719ed98d8c2856eaa0994536b099a",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS3dVWEpHOEkwN2YxUWIzc3FJMU90NHpVT0FPQjdHTUNNRGJaYllkUFFJenVYbFc1a29FdlI2ajQwNkNFWmtKZ1FkWDhLS2FYUEd4cHNlemNET0JvSTR0Uk0za18yTXdsb09nbUFMeEtyWU5EVEZDUF9LUV81bG5ZZWswV25Ra1VBN0J2cnVfQnJuMFpITDJqTW91X1FBMVg2?oc=5",
-   "published": "2026-11-17T10:49:40Z",
-   "snippet": "",
-   "source": "FXStreet",
-   "title": "US Oil breaks below bear flag as $80 comes into focus",
-   "topics": [
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "aa6c96ce96a309831ae7a1cc574f740a9c724d2a",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaFRvR1BiVF9mTDRwa1dMbzNZYmhyY0k1N3N4WS0wZEt2X0JOOVRqSkpneXZrNVVmTnJpYVBqWGFXQ0hqcHhNZG1RejFxMzYxTndXcjJaSHBaNVhrWHQyaDVTWmRqQzBHSGRXdC1RRkJCUkF6V2FhU3E5QTZ4QkdwbXQ1UC1IeGtEMFctckNXTDFYcGowV1pPQmcwZDhvbC1tdWNhdlZQV19NRU1T?oc=5",
-   "published": "2026-11-17T10:48:11Z",
-   "snippet": "",
-   "source": "Marine Insight",
-   "title": "LPG Tanker Suffers Engine Room Fire After Attack In Hormuz, All 25 Aboard Safe",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "0923d4ee5292579c9204e75d4b4b23804e0701d3",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzd3Vl83NWc5NWdSLWNoblhLLXVZZzRxSXdRMnVUUUd5RG9lTWpRVHFuWi1hbXJfS0ZPNVNCRURIWkRxU2JCM2syM3JaV2djRUIyVHAxVzBQUGVLeWlXc29JUnJjQVlvYnFfVGU4QV9VS0ZGNDdUaWgzQmNrRGtPNG51cXFIbjVYYnFwMFR6cUJuajZmT1dySEhtNjI?oc=5",
-   "published": "2026-11-17T10:45:23Z",
-   "snippet": "",
-   "source": "Ship & Bunker",
-   "title": "Tanker Reports Fire After Attack in Strait of Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "08725227b9c02101cdb1fc38e89ac2ddca21f1d4",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVUJJSG5uNWZhWXhMUkxoa0dJeWd5UUlVdUJVNGJqaGs0bER0V3phQlJDYUJudVZubURnUXExOW9hbWlwdG0wcWFLWHRVaDNLWEVqQXhVelVLSWFtZDFBemE5UHhZX0FEd012R0hnTjRfSkFyUTFwTkpPTThTb196Y3IxRWlyUzNsdElDdTNrOU81UC1mMnp4UFdBeUplT05JQWdNOHhaMXVHc1dtX1Y4VmZCX1l3dmdBOFJyM2xGX1hqeHRMS3BNM2hMbE1kMVNmZzRBQlBKSQ?oc=5",
-   "published": "2026-11-17T10:45:02Z",
+   "id": "38c1abb2b3dab63260de9db241d118ac0dca235d",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWFFlR2F2MlAxd3BlNWVhZ0tBY3dRM0hGdzNXMUlFOWVYSWc1ZnBxRU45LXd3YzhBME1qQXdTQ3ZidDM0eEJ6ZVZQVnNETUVVZWV0U3hKc3duT2FCMjFfM2lFQ2Jtd1dpNDNPeWU3NFdIbl95U3ZVQ3ZqN2owZFBHckRkMzVrZzhZakRkbHNla1hpN0dCSmFiSDdCc284Qjl1bW13T0xISXBWLS1HMG51MHozc3I1LW1iQ1BkSk9jVlYxR3pNZHZVckFrb2MzTXV5RW1INm9hZU1ETmgxTmc?oc=5",
+   "published": "2026-11-17T23:33:57Z",
    "snippet": "",
    "source": "Facebook",
-   "title": "The Memorandum of Cooperation, signed by the DOE and Japan's Ministry of Economy, Trade and Industry (METI), covers cooperation in building, managing, and releasing strategic petroleum reserves. I via ANC 24/7 Link to the full story in the comments secti",
+   "title": "Japan proposed on Tuesday the creation of the Asia oil security task force that would coordinate cooperation on oil stockpiling and release of supplies during emergencies as countries seek to mitigate the impacts of oil supply disruptions stemming from the Mi",
    "topics": [
     "supply"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "707daaa8d4a42e791a965ecba9d33ce2094e5bd3",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGJRUWJmZ2ViekQ1dGVaRXZvaTVRYWxMZHBWSmxzUmE0Q2dHaDU1dU9VYW5GVU9BSHRKTkZ6cXJ3RDZqYl9iWTU0c0VPbDBoM05aZ0FaSFQwc0ZIWVdEQ2Q1dlpnOXFKWWR5ZF9tMEJBQWVBUkpIWW9GMTNyRHZ0RFR2a0FHYlFuTDJFOGJvbWFNMFNNTG9iRl9R?oc=5",
+   "published": "2026-11-17T23:29:50Z",
+   "snippet": "",
+   "source": "Crypto Briefing",
+   "title": "Oil prices steady amid Middle East tensions, rising US crude stocks",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:tanker rates VLCC",
+   "id": "bb22668ff3b10bb597887cd48d8ff58baf90fc3e",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYVpVZ0Z2VmgxZkd4VFUtZnR1T1NoQm1OaHltT3RLa1BBS3Izd1RnMFYxMXJ0MW0ySGt1TGFhSlp2OGROX0ZENUswZmg4OFgzcTh6dlN5eU92UThlNGpMUE81NjRSOXVPMmxJYWpITnVRTmt4T3hFZl9iaTdaZ28xMkI5OGlENHBRVmRGdGpyR290OG9ZMndCblZPcU1kczlac210Ni1nZDd0MU83c0FvMmh5dXFfS1hU?oc=5",
+   "published": "2026-11-17T23:17:23Z",
+   "snippet": "",
+   "source": "TradeWinds News",
+   "title": "Intertanko backs tanker seizures in tougher shadow fleet crackdown",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "1569569911eeae95ecae501e5704614b73921168",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRndPTGZ5eThSb1ozdVJkbVpnbGdlVnpBUkZoSTJjLXpfQXJtTkdGbElwTzRENW1QbE1hV0JWNjZicXBUYjMtQ3FFam82UllzQWoxTDVYcXJZdlhBY2ZjcEJBdm4xeS1makFSbFNnUU9WekZsU09xZGlJZ2lSSHhZM1Zsb0NFSmRuWHVGMTI1QlVfWEhkbjBtZ2R3ek5nVVhiZ09UWkUzUdIBrAFBVV95cUxObEpadmZsR0oyNUN1Qm51eEdfQzU5eEJvcWZLdUxna1RqZTR6cFh6TDBaa2hmTG83T1FiSDV2Q2VNQ0tFTDVpMW9vU0Y0MUVPLW90NkZBVm9wX3VTVmZDYmxBLXJ1U0tZMjdocjQtNnptSkVaR3RYX2VGYlk2MkdOTV9fbnVkR3Z1RnBlNTZQblBTSDJsX3lZLVpvcVo5NmRJOHpsSHc2R3hySjBP?oc=5",
+   "published": "2026-11-17T23:00:00Z",
+   "snippet": "",
+   "source": "Inquirer.net",
+   "title": "US strikes Iranian island in Hormuz after Guards target Bahrain",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "0a946410a0269a2622ac53bfe5598ef5c7c32b8e",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeFo3blc2YU1SNVZsN1psUzRCZ0xfMENtUWlOM0JweUdqLUtRRXdsaER0N1V4ZURMNmIwSjBBbGgydy1hei1mTGo2WlJCV0dTUHpDUmRrdFNKbDhGZVNSa2dmTFRXaE1ESnpQeS16MTZkWTZGdXBhNGdOZjR2bHBIalpMc0k1c1RGN2FXTWhXcVNSa0pGeFZQZkNEblQ1QklvZXVvaG5KbGdacWF2SFhmddIBtgFBVV95cUxObXZ5OFhUZGNmQmxYUUJ4ZFBOcVhVUjFWRjFVWmtOQzF3ZnBKUkxjR01fZGFiS0ljZnVuZ3plTjJmSXNNYVFySGJucGhEVjJtSlNIMm9GeUxyOFFBMlhkRnZuYi1lbHYwdkx1d0NxX0ZuU09WUFg0X3NTVmtmR3RFOEt5OUNvQl9EdlFCQnljUTF2Nkc3VGNhdjlfVHdhTW5KdlZ5QklhZDRULThRQndNNlFBQVB0dw?oc=5",
+   "published": "2026-11-17T23:00:00Z",
+   "snippet": "",
+   "source": "Crude Oil Prices Today | OilPrice.com",
+   "title": "Cuba's Energy Crisis Turns Into a Goldmine for U.S. Fuel Exporters",
+   "topics": [
+    "supply"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "2c6a30573f36d678b0dd7e3c1805d334ae7135a6",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMUl0SF9ZdGR1MHlIemJpTDM3bWM3MnVsdFlKc2xNNmVmVi04VEdDajE2QmYxdUdGZjRYLU5pWkJ6eU9iMi1wcEdoV2pQa0dVYjdpR21hWEduSzkwazRxbXpPSmVadzRwR19wRmNlSl9YZEl2NmZ6R0lBQTVnbjd0Tlo2WTE?oc=5",
+   "published": "2026-11-17T22:56:59Z",
+   "snippet": "",
+   "source": "Vietnam.vn",
+   "title": "Today's fuel prices (November 18): World oil prices rise slightly.",
+   "topics": [
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "51681a1a8efe87f4f627197e075fbae39a586bdd",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQkdxaUYzNkQwRTlJM09abEVxZWJRRFlSVEdwelBmUEJka0QxTVE0VjlQSENMTnpQZXBuakV2aEUybFVpQ3ZpeHZ0S2xuY3JleXM1aWNISHdHNjlqNG9WUEN2RF84TkxSb19DRTQyNXdZbFNYaGVySkxhVV9CSjZQNVFaalQ4Z1lmTmNqVko0eVRMUWJ0SzBKR01nUmpLcWJJV0VVODZGbGxNREQyZHc?oc=5",
+   "published": "2026-11-17T22:46:57Z",
+   "snippet": "",
+   "source": "Al-Monitor",
+   "title": "Iraq and Turkey resume oil flows via pipeline damaged by ISIS: What to know",
+   "topics": []
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "1d325e5dd205959f3731d92cbf926ec7fcd2f263",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYi1yRlBGNDllWFBjWkVCRjBNUVJNNzFvMExBQWZlQ3k0ZUtTVDhmSU5PTXVRZTZ6U1g1M0VoemJNVlc3VDFLaEpzWUN1TjZjLWxnWlVKeWQ0VnVSdjV6dkkwTzFxVDQ5ZDNrOHNLcmJDT0VlcUlHZFZUeGd4bnVhOFZ2a3NfRGkwQ2VDbFpfcVFwZGhjMUpnVXJ2ckdmY242VlZISzNZdmEtb3BGVUHSAbMBQVVfeXFMT0ZYRi1ybG0tYkc0WEN3cFh2Y0VHU3NvTUxrSC1QLTFwNFZFWXhQRkFYZGR2NDhieVFrWU1URlB4eW44ekd2WmFDMFJabkNXUW1FclhMRUhsMXozVVVVaW5ua29sSEVjdE9pV2wzdWsxd3JHdE1YajJEOUl3bVRTZDBybkZYT3B3dWd1MmNDcVBXb1o1WG9YUHQxY055SDlMcXZhanVYVGh5RUlHT19LWkI1STQ?oc=5",
+   "published": "2026-11-17T22:44:57Z",
+   "snippet": "",
+   "source": "TheWire.in",
+   "title": "Indian Missing After Repeated Attacks on Oil Tanker in Strait of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
    ]
   },
   {
    "feed": "google:Strait of Hormuz",
    "id": "86e70aad66213075e8a9729fadccf40ac4cd99bc",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNkdJWTU0VkQwQ1ZGMTlhS2ZoY0ExeXo4X25UX1k2NnFwdXgybTFtNEtoNlVMSHRlUFExVVZIX1FFelBMMk9jZkEzWmprZEktcTByZUJVcWsxVVE1WG92QjZ3dkhjX25DNFlqS3ZTRXFLSUVjRWpGNHhtdmtlMVdJWEFFZXJoM1RYU2JLS2F5emRFX0w2cVlmRWFZOGlzUQ?oc=5",
-   "published": "2026-11-17T10:44:05Z",
+   "published": "2026-11-17T22:44:07Z",
    "snippet": "",
    "source": "NBC News",
    "title": "Tracking ship traffic through the Strait of Hormuz. Updated regularly.",
@@ -349,543 +278,600 @@
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "01bb642db1d62e0a8a9ca829df2dcff1639a3263",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMnh6VlpxbWR4eEpqWjFWaHE1SHVmN3ViZFBDdk5EeHNsNF9abjBOYVdvWU4tclNKeVJQbXdXYjB5ZlNINzRaNktYdWREQmxLa1NZQTJmd0RETEpjRVFfaEFiM1d3b3ZHaWszOUJkMVpaMldqY1F0OE9mWkM4QVJqOGd0LXJPVG94MUctTmR2Xzg5aVQtZXlBVmpXRGNKUFo3ZEdXaFQxa08zMDViMVdObS0xeVZZVmRJT0V1d3N2azQ4UQ?oc=5",
-   "published": "2026-11-17T10:41:15Z",
+   "feed": "google:Strait of Hormuz",
+   "id": "4e230346930a3b1a6ef70b78a318f36753585328",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80VGtwN25FQzlMS0NDb0EtOEYxNmdwemFta2VkNjltc1cyWjNjY01xWVh3T2lxdnh1MlZNNy16NTdMcFdyejRFaGFkMDJZeXI0WmlFTjk3R3ZZRnJIamVRRHNIa0tBNTEweVF2aw?oc=5",
+   "published": "2026-11-17T22:43:27Z",
    "snippet": "",
-   "source": "Investing.com",
-   "title": "Oil prices fluctuate amid improving Gulf exports, ongoing Mideast tensions",
+   "source": "X",
+   "title": "🚨🇮🇷 HORMUZ UPDATE: Sirens in Bahrain, tanker on FIRE, and Iran issues new threats Tensions are mounting around the Strait of Hormuz as attacks on shipping, military threats, and diplomatic talks unfold. 🇴🇲 OMAN: The IRGC claimed another tanker struc",
    "topics": [
     "hormuz",
-    "prices"
-   ]
-  },
-  {
-   "feed": "offshore_energy",
-   "id": "5209689b9da57fd712f2504de01f027511098211",
-   "link": "https://www.offshore-energy.biz/2026/11/17/fourth-floating-lng-terminal-put-into-operation-mode-to-fuel-germanys-energy-security",
-   "published": "2026-11-17T10:41:15Z",
-   "snippet": "Germany’s federally commissioned LNG terminal program is now complete, with four floating LNG terminals delivered in just four years.",
-   "source": "Offshore Energy",
-   "title": "Fourth floating LNG terminal put into operation mode to fuel Germany’s energy security",
-   "topics": []
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "5c31a59b91e734e29e4682e53cefe507c780a7fb",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc2g4MW9MVjh3aElTR3lVYlkzQV9oWXZXRUZQdmFLTVpYTGw4U0lXdWFkT2JzT0ROZFpka19WMHFNeHg3VWh4VVZtbVRBVE5XQ09KbEtfMzlLYW1TdXhFWG1IVmZ3azZYc3VMcUoyWkVDTUhmdkF4YW01RW96T2xwZ2Rsa01RZl9KX0FUNFFMdk15OGNxQjhkNV9uSndUVHRpQ0hfVHFLOXhnQWhh?oc=5",
-   "published": "2026-11-17T10:39:13Z",
-   "snippet": "",
-   "source": "Fuel Oil News",
-   "title": "Fuel Supply Solutions backs alternative approach to business energy costs",
-   "topics": [
-    "supply"
+    "shipping"
    ]
   },
   {
    "feed": "google:Strait of Hormuz",
-   "id": "28d3c600f3552297fbec7e8b6acd42ea60b62ff4",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZy05SXJQVF8zSHRxUmhLdTZ1dy0ta0xzUWRzeTh1RlFPa0ZRZmtvMlh3ZlhMOV80MDRZUUM2MFRzeWUxaUpsRnV3ajlFNy1USHAwNlNISDF0X1V5TFl3Rms0d2V1N3V2Y1dfb0RldkpvNTEwRTQ0ZGpxX182YjdMNUQ1UGF4M0JLZjh5UVBpOFVOWXVnenpXUndYWXVQejRxeDJic3ZTU2stTmJEWElQV0tKV1gwdlpGQktLYS1mNFJXRUlrSmtFajdXYXVjZw?oc=5",
-   "published": "2026-11-17T10:38:07Z",
+   "id": "9194006df3e95524648447e9a9d47f130ebcdd83",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91MTByenVjZHAxRHNzeTJVdS1LVkJYSUt2Z09TV09zRzdUZ21WOWdXd2hRc3FWWm9sYmRJbTJnbXNQN3Itb3NGc0JqNThzYTFmRmFYdTFjUE51bDBHdTV6VDRSbmZ5VHRqcFBpS3Vyb1E1VFBlNUE?oc=5",
+   "published": "2026-11-17T22:36:00Z",
    "snippet": "",
-   "source": "The National",
-   "title": "Iran and Oman discuss maritime security amid rising attacks in Strait of Hormuz",
+   "source": "BigGo Finance",
+   "title": "Brent Settles at $93.14 as Hormuz Tanker Attacks Offset Surplus Fears",
    "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Bab al-Mandab",
-   "id": "3e52bc69808612fe742a9574b408046aa32ed4e6",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZERUNzRiNFFVX2dnaENwQjd6YXYzZjE4UzVycDZQZmViRnNvalNERkdDWThWbEVLdGFrNUlZZUhjcm9fVlFuUVhlNTBhYkZXbVpIdGYyUGxIcGNDWWtpTkQ5ZXFnclktbjJrMkUxcFpORVVkQjFHUlVaZnFnUkZYeVZiSHpMY3hhcXc?oc=5",
-   "published": "2026-11-17T10:36:51Z",
-   "snippet": "",
-   "source": "Haberler.com",
-   "title": "Saudi forces withdrew, leaving behind the wreckage of armored vehicles.",
-   "topics": []
-  },
-  {
-   "feed": "rigzone",
-   "id": "c15450e944dbdcb2530671f34e9b9c5d41f7ee74",
-   "link": "https://www.rigzone.com/news/bp_bolsters_board-17-nov-2026-185099-article/?rss=true",
-   "published": "2026-11-17T10:33:59Z",
-   "snippet": "BP announced the appointments of Andrew Bonfield and Stuart Chambers as independent non-executive directors.",
-   "source": "Rigzone",
-   "title": "BP Bolsters Board",
-   "topics": []
-  },
-  {
-   "feed": "google:tanker rates VLCC",
-   "id": "3628c041ad95ee2db56a444f940af33f68571b6d",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX1JsQkJjQkVBX3BzUVY1Zm9NQk9CaU1BT0hlOVRhTjNjXzdXZTFOT2lqeXpvVFpfLXhUdGd6YXVLRFhKZlpSbHpoZ29RWHZTREh0OFljZ1VoZXltOXM5Q2hCYjF0S1lqYXowNnBuZm16eVJIRkJLMTVZUnBEZ0RmSlp5LXJtQXpfTTBnR2ljM0t0NHhabkc0YlZxZktIUjdjT01VRHk0ZV9Sam5zR1Faem5KVW9GSXI3aTJmZW1KbXpiQQ?oc=5",
-   "published": "2026-11-17T10:29:12Z",
-   "snippet": "",
-   "source": "TradeWinds News",
-   "title": "Latsis family's Euroholdings reveals MR spot deal $37,000 above market rate",
-   "topics": [
+    "hormuz",
+    "shipping",
     "prices"
    ]
   },
   {
    "feed": "google:Strait of Hormuz",
-   "id": "8440f78d2283002d48054a1d06a3a9791fa99de1",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkdpUkU1bllCN2owaVpLdG9fQVNYLWNYSGlPRkI4dV92R2I4RERxVXZxWGxOVFB4ek0tMEJ6OG13b1pXcy1LMWxvcTZmN0JsOFlESHlsZnBuWnpEMmlkbGRpTnVFcWVhbVdUZ3BNT0dISGx5em0yZGszWjNZUE5pU0ZUTFRGSmljcy1SN2pmNG82aU52Z0hR?oc=5",
-   "published": "2026-11-17T10:27:23Z",
+   "id": "4f56d02dae75c4b3abd9e77d6bec8f4215b8c7c3",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT3hYejY3ekVrV2F5eWNxeW4ySXNMSy1iRjVESm10NHQ1ajJ1dUxWdnBfVGFWYlpzTlRFMVdBX3BXSTYyQVBWZF9lRmtMYVl4R2daU2xlZFVGVHlkWks3T1ZmanhRNEMwWk9zN21ZZ05mWUp5cGR6XzRMelRRSXRJS183Mm5MWDZnOXhN0gGLAUFVX3lxTE9xcjZHMWpLSkJheF9MUDktMV9fMmdtbEV0dHgxZEZEOU12OHZmRDZOLU1TdHFiVGRTdVdwbWdzTWhXTU9maUxBMzJHVnFrYzhGMFlSbmRhYk5JeHBvanNaWG9obGF4a2dralIxekxDTV95MTM1UjAtaC0tRGFSSFV0dV9Ga3VnUG1zMXM?oc=5",
+   "published": "2026-11-17T22:34:06Z",
    "snippet": "",
-   "source": "Caspian Post",
-   "title": "IRGC Claims Oil SuperTanker and LNG Carrier Hit Mines in Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "b391284b306ac10fafcb3ca5bfcc42052bd2b8f5",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS3NHX3dmS2hGQTJQaC1RZVlYejIzM0tmT21CazRWSGFzTXhmWXhMMHJfWWtieWUtMWQzTFZmeUM5dkxPSUhGOGdkLUNZOEJwcnNmTUQ1MUE1WVh1RUxBaHoxdm9PTnZUTmFnbTNjbndNZVg3UDlYa19OYWRPdm1tcnNVMF9qMjhhLTAwZlY5SjdLUFJIM1puYThaNTEwYzA4R0lsTWRzcy1xdw?oc=5",
-   "published": "2026-11-17T10:25:08Z",
-   "snippet": "",
-   "source": "UA.NEWS",
-   "title": "Iran and Oman discuss shipping security in the Strait of Hormuz — OilPrice",
+   "source": "Qazinform",
+   "title": "Strait of Hormuz sees 4th tanker fire in 24 hours",
    "topics": [
     "hormuz",
     "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "d322d77c97ad69c023084c525619054d55085b4a",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2FMZ29sNUZISW81dXF5RE04WnJpWG5UYzhLTTFMSmNsMjZsME8weVUwZE9nRG9HMlV4bWwtc2FiRkZ4bzZwRmRFR0xtd3E1UGtrMDQ4MURoM0RWcGhCRjNwX2xaTGVsdHBEVVJTTXByd2F5c21DZWF0ejY5SFBBdWtwODB2cU5EOVdVUVUzRUxKMGlTckpRZWh3?oc=5",
-   "published": "2026-11-17T10:23:00Z",
-   "snippet": "",
-   "source": "Mehr News Agency",
-   "title": "VIDEO: Tanker with navigation sys. switched off catches fire",
-   "topics": [
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "83d836757447fbb0b2d9b14e63cad05c71e37924",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQnZFX0dmWTNieS1Dbk9IOE8wX2pPSVVLMFcwS00xd1VZTWJoWVlucWRrTld5Y1lXT2JBR1Y3VC1xdEp6LTJ2b09xVHJ4Z0Q0c3FMTXN4R0NmejVCbkV1QXRCcnkwUTBTUFFmcEdQZVVyNXZEZDZmNjNxeDhqMTd4NERUaEdDQUh0?oc=5",
-   "published": "2026-11-17T10:17:50Z",
-   "snippet": "",
-   "source": "شفق نيوز",
-   "title": "Shafaq News..Supertanker, gas carrier hit mines in Hormuz, IRGC says",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "b3824c703c0a627d3bd3f7b29f65c2fbcc8c0299",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0Rya09HWmRVX1g0MFNkUlVHRl9manhUUnYyNV81WlpITlFpd0s5aFp1SDZmejBOSVNTaEJlOGw0bnh3b3pfSC1iZ1JZUVBtVmExNGNva0NQZ1J1ZDRXQU94MnZ0UVZUbXRNcnpld2kwSzZmSm5lZmtlSnVVeHo2Tg?oc=5",
-   "published": "2026-11-17T10:14:48Z",
-   "snippet": "",
-   "source": "WANA News Agency",
-   "title": "Another Tanker Catches Fire in Eastern Strait of Hormuz",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "cecbda184507d9209c84149076fd1c43b32814bc",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdmhoWFZOQzZkczNTNmcydWd1UVRmMU1BcnVoMGdEMzI1R29iajltc01nTHRINWFQX3ZvYlBrMFEtRWZHMHVRV05yZEV6SzM5ZFJjUF9NYTltX2VVOUhPbGotdTl0dFJFUWNNNGxrR2trbFBjXzExeE94SWtuN2JfODJRUFdkekV1Rk16N1B5VWp5Nmp3QnhuR25BSnMycnRxVFRHQnN1bzhCSl9OY2pGdllTMGtGQQ?oc=5",
-   "published": "2026-11-17T10:07:34Z",
-   "snippet": "",
-   "source": "Bloomberg.com",
-   "title": "US Gas Pump Price Hits Lowest Since March as Oil Supply Recovers",
-   "topics": [
-    "supply",
-    "prices",
-    "retail"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "5345082507bc78163b512e975aa414207add58c0",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc21TaERLbl9UWmtPeUdmYlJhOHVZSUZGNjJ0eTJZcUd5el9FaEVidV9LUm9wSEYxZGRJSUNnMUE3Sld5SGt3SWRlWXpuVjVtOUVLbGZTeXdZQzk2dF94ZlQtS3dRbTlscl9OaGxZT1E5NnNJUXFyTXZRbFdBdC14dkZOU2ZtdEo3SXM0R3hwYTliREY3NTI1YUN3?oc=5",
-   "published": "2026-11-17T10:04:47Z",
-   "snippet": "",
-   "source": "WANA News Agency",
-   "title": "IRGC: Two Vessels Catch Fire After Striking Naval Mines in Strait of Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "62c51c080b7d3e8c542e5bbc84a75cd925ef70cb",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQampXUHFqLTA1OE94S2ZXcXl2ZFVJcEZOVno4VnJRcWhuc0NFc01IQjBMcFNIcFh6TU85LU8xU1JTNU9GbTZGNC02LTVvbWQtOHNUUkhTMk80VHdhNEpWcmo4ZEg3bGdvQXdmQldQZ3ZJTDNKN3NkVzA3aTJlSWY1U0dWcXpGWmhDLWttYTIwRkVCVVpzMi0tRnhWdWZsWmZuM2xmRE1uQ0JheXV2T2tBTWNjRXlFZTdVYnFQdWVR?oc=5",
-   "published": "2026-11-17T10:03:12Z",
-   "snippet": "",
-   "source": "Anadolu Ajansı",
-   "title": "Oil tanker struck twice in Strait of Hormuz, catches fire: UK maritime agency",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "e3437e431656f3dc9c64f135e065df1b7e3f7852",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFV6TjA5aGNvbEV4OUdDTW5TaFNCZENfNXVmV2pneDd6TjFJSjRDR2x0MWpwd1VpcEpXNzlMX1ljUFVmRi1ETjJNbHNUSm5BMHVvajZieng2ZjBnX3pfbzl4RXlDMEMxaG1rYjlwczlmSmNSb01rN0l0ODBIY0VXR2VJWms4dzY0eEpTQkRUNko1WEdkWUhpQlBNRm90c0FOWEEtVTZ1VGxOMVpEUXlkMUdiejZ1RDF0T19uWXFXdnJya3JzWWRST0RBSDRiZ9IB0wFBVV95cUxQLUZNTnd4aTRoWkt4OXNZcEJSWW1GRHhPaFNoaEJxblpSdXBLTHE0bHI1Wm9Ra2JXT1FHaWZqSmpya1dOOGt1M2xiZEZXM3Z1UTZqTldkdFdDYVRJeExIdklPQW9CaldFNFhSaDJBeE4zS2djTU1iS0NRMll0QlBjTHYyVDE5X0Z2UzItZ25XZUpfVXRTcUE2RVg0MF9ITHRmQV9vVVJ2RDJnVVN6bTIzQ0hpWFZOWE9yNjlYZUtybXFTZXFlem1OQVFHZ3hMcE9zNWdv?oc=5",
-   "published": "2026-11-17T10:00:00Z",
-   "snippet": "",
-   "source": "Crude Oil Prices Today | OilPrice.com",
-   "title": "Iran and Oman Hold Talks on Strait of Hormuz Security as Tanker Attacks Surge",
-   "topics": [
-    "hormuz",
-    "supply",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "891c5d299c61f6e69f7659dd5bfd3f6fd2588689",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS3JQWkdhZEZWbWxQZU9semZnZnVvdjNPNWhNT1ZFT0Q2dUxYWWF3eGtidnVnYnotTUtWMTlTM0dNVkJjSThYdFcxQkVZV0p5blN3ODI0N1RnZmR2OWFkYllnWF9JWGQ0a2pkbnhrVUFHb2lVT0R5MGllTURaTnJiRk9UeWJ2MWRUaHpfQ3Z5cjFXTzA1THM2anBRR2xZVEJ6Y2k3cmRBVjhaX3E0eHRBQXhRcU9jeE5ka19VYl96U1loRURtMVJxVGpZSnc5TGhtQkpnQ1RHdDhyYVhTekZ5U2N4YmFHZ9IB6wFBVV95cUxQNUdBVzd6RW42Z2hCTnlJVzhIUTdFRDh3MnBNN1FLX3NZWWhlSEpGZHBXQTBmRTdKWklYcDJLQzlkM21wUElEVmhhRjNJMVJBenlEWDVXNEt2SkUxMjFzSkxtY1NFTldfbmJ0dy0wU0NhNDI5Tk5pbnVWaDZuSV9jU0xmdXRFVVgzWWJFU2hUZXloYmtsT09YZWMxN3hxWnBXMkx5d2RId2pyT3JHWTl2Skw0b2JhZWtkdzFnUTlVdmdXZTBnVUVjdUVtYW45bEdYRVlwOXk3NzZSSlh1dW43RE94cHZEcWVycEFj?oc=5",
-   "published": "2026-11-17T09:57:00Z",
-   "snippet": "",
-   "source": "The Times of India",
-   "title": "Missile attack targets LPG tanker with 24 Indians in Strait of Hormuz; all crew safe",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:strategic petroleum reserve",
-   "id": "0974eccea4617e639a9e12b7a6207292d9936517",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMFJna1BPaGVkUTBuamVCMm1CeW1qRHl6X3p4OW5lNmNxWFZETVR6cmpPU2hFUTliZzdCMm5uUUF3VlVWdWdBc25oejM3N19GejFHNDNfRnN3WXk3ZUpjQldJRlRaRVJhdExzMVV3TGFyZkE0MFBFQ2VtUlMwbk5uZkdkVmw4M2hkX3VhQQ?oc=5",
-   "published": "2026-11-17T09:54:16Z",
-   "snippet": "",
-   "source": "MM News",
-   "title": "Oil Prices Fall Worldwide, US Reserves Hit Lowest Level Since 1982",
-   "topics": [
-    "supply",
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "db440e3ca869e9f3fd674696431b5c8a3790f243",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOei1HWTVBQUl3YjBwTUNxTVY3WEF0b2ViUU9ZelRHQUItQUtLdFVDa2hyWW5CdVV1VGNFbmJseURMemxueERZV1EzWHRJS05Hd2VnWmJTMldYRVMyQ0RrNUhNRnpLSm9tUF9FeEN2WFpUN3RqX2kxRXVINDlFZlppcWlzLWg1aFpjdjVPVFZBbw?oc=5",
-   "published": "2026-11-17T09:52:07Z",
-   "snippet": "",
-   "source": "Offshore Technology",
-   "title": "Oil prices fall as supply surplus forecasts outweigh Gulf tensions",
-   "topics": [
-    "hormuz",
-    "supply",
-    "prices"
-   ]
-  },
-  {
-   "feed": "rigzone",
-   "id": "600ae7a09b73f0dc7928d7ec6b597cc528a68bea",
-   "link": "https://www.rigzone.com/news/guyana_to_reach_11_mmbpd_of_oil_production_as_uaru_starts_up-17-nov-2026-185098-article/?rss=true",
-   "published": "2026-11-17T09:51:10Z",
-   "snippet": "ExxonMobil said the Uaru project in Guyana's offshore Stabroek block is now producing oil and is expected to reach its initial capacity of 250,000 barrels per day in the first quarter of 2027.",
-   "source": "Rigzone",
-   "title": "Guyana to Reach 1.1 MMbpd of Oil Production as Uaru Starts Up",
-   "topics": [
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:refinery attack",
-   "id": "9c68d97f92b47a3d256689d1f405d8f63ddc1fd2",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM1I0NFl3bXFyaEwxUkdBTjY2YlkxemRlaFJoS3BzcHc4bDJOSzUxbk5EOENaa3loZ1g4RENuc3ZrUGd3X3dlZlVoRHVOV0I3YmpyMU16QmJ1WkdIUTBUaS1md1NhSG9paVdNdldrYl9BTmQySGpPMFd0ZFRobzNnZTFWRTA5LVFJdzlfQVhfU0ZiTk9LTm83VDVKWlljVWo1ZWs2SExIX0hBdnFNb25nZGZabXhyYmJvTGJCTnByeGhDMndTci1pZUpaZFRpaU1PNnZR?oc=5",
-   "published": "2026-11-17T09:50:00Z",
-   "snippet": "",
-   "source": "The Moscow Times",
-   "title": "Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack",
-   "topics": [
-    "refining"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "f434ed422172476426204e24b4d0f613c8b985f0",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLSWRtc1FNYzczSnJNZXhjb2ZCU2NrWTl0bkh6dXR3SHc3dUp2c08yQW42OWNhT0IxRHB4U0w0eFlSVkl0SldkcUI3dlVlaUFlZ1Y0M2o4M1RVNW9aMmNSa01zTTdzT19yNjRR?oc=5",
-   "published": "2026-11-17T09:49:14Z",
-   "snippet": "",
-   "source": "https://houseofsaud.com/",
-   "title": "Iran Navy Says 4th Tanker Hit in Hormuz as UKMTO Confirms Khasab Attack",
-   "topics": [
-    "hormuz",
-    "shipping"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "e7819e3cd083cb64a6b4a63f2eeee4fe50c71d2c",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWc5QWowZ3VSTmFTaWxJZzZCNWdHbzByMTgxM2xDLVg3UHhUU2d3SG9TYTYtdUtYemxBckYtQzg0bFExM0d3Qk5OSHY5WENXX2tYS2hXTUd6NjZVNEtlV2Y2Rml4YzhRUmxfYW1MNTJHZHNCMDhvLTE1YmVmNkp1ZGNwREFpbEFZQV8yVVhBM2FHM2M?oc=5",
-   "published": "2026-11-17T09:45:19Z",
-   "snippet": "",
-   "source": "FXStreet",
-   "title": "Oil: Lower prices as supply surplus builds – MUFG",
-   "topics": [
-    "supply",
-    "prices"
-   ]
-  },
-  {
-   "feed": "google:Strait of Hormuz",
-   "id": "e6f6df944aa6e3a0a667cd775e35a5ca83da30ab",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxON3dPVWtzbzNXLW5GNVdNM3BRbGN2OFVrVDVpUHUtSDRYeGczZVVFWjdmUUZoNnByZmlVcnhKQzJWOG1saGpjdS1HckJaTGFRWnNEZkk0YVdEY1ZVUGcxWEtkOVF5Rl9QemgxZTg4bmhTclVoek5WRllGSDNEVWhfQWZZeTVBd3BPSTJqMGtVZmxrclk4OWY5ZUh2QmRyT3MwWEVCU3dqYS1BTXpMRjNXLTFJWWJjNTFIV3NJSkNKX1NWcHFrU0ppNTZWeVhicUE0NjZ1cmRXLWpBMEU?oc=5",
-   "published": "2026-11-17T09:42:43Z",
-   "snippet": "",
-   "source": "Freightweek",
-   "title": "IMO calls for stronger action to enforce safety and security in the Strait of Hormuz",
-   "topics": [
-    "hormuz"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "46a123532ba066595edc21bdc9c282252496dc1e",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWticDVnRnhZcGNMcDNaRTJYNlZMUmd3NHZkbE9jRVV5TDV6bG5EX09rMndHQ0RUZXY3RHh0X0lzcXQ3UWE1OHY2djdGNmVnUWhwcU1fLURMNk9xVmZndmQzVHdNd04xTFpMbTZldURsQmRaanRsLXhocHcwSEhySnNNeEx5VjhTbk5NUWlySHQtWUhuOVJmekM2aVhQdw?oc=5",
-   "published": "2026-11-17T09:40:44Z",
-   "snippet": "",
-   "source": "Bloomberg.com",
-   "title": "Oil Extends Fall on Signs of Revived Supplies and Vance Outlook",
-   "topics": []
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "f114c59a42036318a60444742e807e8d0877b632",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMUhxRVBJZGI4UlhiWTFneHdTMjdTbzhqSG9MMWhnYy01S2xfaE1nVHpveXZNZHhrdU9JRmwyYnozNXVkZl96bUc3anBwLXY5MGRyMlpqbjhodVJTT0FWSnd5LTZlNEp2WFc5djdmem03blJLdWJkdXpSYzRaMkhCbENnZVRZeElNUnU0NldyUFE4cTNESDRlMThSci1sWUFOb3cxR3BwSm55WE0xWjVVcWxXV09RcDZtN3Q1ZEFWOTNycFJ5MjVZWVJUeHNKT19a?oc=5",
-   "published": "2026-11-17T09:38:25Z",
-   "snippet": "",
-   "source": "FXEmpire",
-   "title": "Natural Gas and Oil Forecast: Supply Story Overtakes Hormuz Risk, Can Brent Hold $89.15?",
-   "topics": [
-    "hormuz",
-    "supply",
-    "prices"
    ]
   },
   {
    "feed": "google:diesel shortage",
-   "id": "7f2cb2394254287d9eaa49936d6884eb9f0f3260",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdWZRYkRRMDRKMjZ2S0dsenBwZHRjNUhJRkttTEhiZUFKR1NVYWlidldObU9JTFN6NnpjQUNBbUVkcFZFOWowT3NMVV9MckJhR01fX3ZYNGpOY0Q2b1g0OWtqRWdDODRhZ3Q1bGNESE1LNHlyLTJUMVJZcnNXWENmakVNT0lmMnN5RlQzX0ZoQVRzdTVVUnhNa0tZeEtNV25YeUMtQ0tTXzNEOFZfU3E4ajkzSkltWUlFLXB6OU1KVdIBwgFBVV95cUxONXlCam8xc0pNZmN0eHc4TkhrMnVjZ3R2bkVQLXM2OVg1eDV1TXdZLVc0OFNiUEIyazRyZ01fS2piLXlhdmJSS1g4cGcyRFMwV0dGTU9laUozSHBTWXBadERVMEVZM3lfLXNnQXZERWpSaGlHdHU5WE4xRXRrSzB0eG4yRjVZbEJRb25Oa0VXRV9OYUJmbEFub3ZCRlJQeDR6SnVKeGQ4SlNDMGNPTWxJc0FfVzNrZ29TZ19mcE9xLWNzUQ?oc=5",
-   "published": "2026-11-17T09:35:19Z",
+   "id": "dca9018af61708beb34976561fee1bfd036c0b64",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTE9Kc1dtbndnSFFfVHdRcmVHckN2UzlkN3BmQi03czJSNUpHZVoxdVJOeFI4VlRBNUFWOEtSZWdhczRoTE8zSkd0TVRIb2gxQ25pZTdLaEV6Y0xVYWlHYnBrelJUUk9HaDZsMjFBcml6OThTVlF5cm9jOV9uZ2JkMmF0bGRtUGZVN3k2RHB1MWczbGQ5dEpYSHFVZ3k1T3UwWGpOdVhEb0k?oc=5",
+   "published": "2026-11-17T22:16:51Z",
    "snippet": "",
-   "source": "Rediff",
-   "title": "Govt increases windfall gains tax on diesel, ATF exports, petrol remains zero",
+   "source": "UA.NEWS",
+   "title": "Pistorius rejects US criticism of Ukrainian strikes in Russia",
+   "topics": []
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "2d9a382072943494253acd2bd8fee47df3330c08",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFVms5cUdfRU1Qa3BkNEdYTnhPN29HTzE0VndoRkFnaHppNGJCc2M3VG4yZHZ1VWpNcUhuRGNkcC1IRm1KbFpPcjV6RzQ5UlhrclN4U05PVEN5cWVMSGt4c2haSjNVdllSdUZMS3J1Zk1LVE0tOGlrSFh4bFFxaUk?oc=5",
+   "published": "2026-11-17T22:11:52Z",
+   "snippet": "",
+   "source": "OneNews.PH",
+   "title": "Japan PM Wants Asia Oil Security Task Force Created",
+   "topics": []
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "df6c67f77791aa8ddf03731bfba32bb98526b99c",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNHNWS3NnZUZtUkNuZldOdkhkazVGc2FnUk9aY3d0RjBIbDU5TnYyUl96bkVSblRaZGVSZmg0NktEWWhhUWFnd3JVTDR6S3pNeWFtZGVMNG9GRHQxVFZoWWJ0dmVEbTZvQXF0b2hZeHZtQ29RUjY4MmZCbHJieWN3Z182eHBYNEw4R1Y3ZHh1ekU?oc=5",
+   "published": "2026-11-17T22:04:54Z",
+   "snippet": "",
+   "source": "FXStreet",
+   "title": "Goldman Sachs sees supply surplus as Fed faces inflation risks",
    "topics": [
-    "diesel"
+    "supply"
    ]
   },
   {
-   "feed": "google:Strait of Hormuz",
-   "id": "0a13d6d22fa7bdf92902a2039b358c5d0a0d6ad3",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPankzQVdERGUwblVqbU5qUFpTRWJBeXJzSkgzNFZEd3pYQlNsOEx1ZXVoWmtoYUpiQ1lZSVpDYlFJLXFraGx6UUdhXy0walVXVkZnVVNYcXcwMXJNLXVWRmJLcDVERzhQVjBBVmJUSm1zRXhWT3ZLY1FiN1B6Qmp6UURXUUo4cEZ5QURhTl84QmhwNmljSHhtRmZwam00RTlmcHBUS082a2NHdU9BS1B5aVkydGx6cHV1R0Y5OU85Q2NNVzNqR0ptTFdTN1o0SUotUEhBWnExQQ?oc=5",
-   "published": "2026-11-17T09:32:42Z",
-   "snippet": "",
-   "source": "marketscreener.com",
-   "title": "Oil tanker 'heavily damaged' after hitting mine in the Strait of Hormuz, Iranian army says",
+   "feed": "hellenic",
+   "id": "89be22d33816e81405b9418ed788044b289b4b3f",
+   "link": "https://www.hellenicshippingnews.com/gulf-earnings-give-way-as-vlcc-ballasters-build-east-of-suez/",
+   "published": "2026-11-17T22:00:58Z",
+   "snippet": "In Week 46, freight weakness spread to Gulf routes, following a Week 45 correction that had primarily impacted the Atlantic (where Gulf VLCC earnings dropped under 5%). East of Suez, average ballast VLCC counts rose from 415 to 434…",
+   "source": "Hellenic Shipping News",
+   "title": "Gulf Earnings Give Way as VLCC Ballasters Build East of Suez",
    "topics": [
     "hormuz",
     "shipping"
    ]
   },
   {
-   "feed": "google:jet fuel prices",
-   "id": "0e01850752ec949368829cfe08c831d0be790d2e",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTVA2WU9YTkZNU3EzMTA3bENaMlZ6NjJkR3VfYTRxVnJhUUNjay1WSlJYNUtjMmNPZmNVVWlrNUtFcUprMEFVVUVxaG1fclp0ZTJzMlBXSnhJX0syQzBaMlVqSVR3UUdiNHJOMERKMEtZSHNRNmtxRGhfampzZVFFZXFpcXdmWGFCUUIyU3FLalBSZVM1a0pueFVMLXJIV0g2T2c?oc=5",
-   "published": "2026-11-17T09:32:00Z",
-   "snippet": "",
-   "source": "kalkine.ca",
-   "title": "HOW Will Higher Jet Fuel Costs Shape Air Canada's (TSX:AC) Fourth Quarter?",
+   "feed": "hellenic",
+   "id": "820d6f6408d81381c00d0b10535309a858ff1e87",
+   "link": "https://www.hellenicshippingnews.com/clean-shipping-alliance-disappointed-on-greenlands-scrubber-ban/",
+   "published": "2026-11-17T22:00:57Z",
+   "snippet": "We are disappointed to see Greenland announce restrictions on exhaust gas cleaning systems (EGCS, or “scrubbers”), starting in 2027. Of course, protecting the Arctic’s sensitive marine environment is important, no question. What we…",
+   "source": "Hellenic Shipping News",
+   "title": "Clean Shipping Alliance Disappointed on Greenland’s scrubber ban",
    "topics": [
-    "jet"
+    "shipping"
    ]
   },
   {
-   "feed": "google:Strait of Hormuz",
-   "id": "cd9207bdf160a1f556ab96a5d49f1fd29ed0c618",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV193S0JvTkE0YUthaHNwUnlDZENkVlFXUnVFdGZvdHRKX3R4NUZlM09WbmNMUll1WjluTVlCaUcyanpzcWk2WUtvQ1NoTlp4a3NXZUFPaVZZa3lSb2JWTWlpR0haaDAxYWVoR2xkRlM1aFBVRUNadUtMWHc3V3A2V2xyLTFHQkF2d3ZhUjNTeWdOaGZZNXVF?oc=5",
-   "published": "2026-11-17T09:31:56Z",
-   "snippet": "",
-   "source": "Jerusalem Center for Security and Foreign Affairs",
-   "title": "Iran Claims Victory in Hormuz, but Its Own Press Exposes a Regime in Crisis",
+   "feed": "hellenic",
+   "id": "dc0547f45a0d2bc34eaa291b6463a66c816d5bed",
+   "link": "https://www.hellenicshippingnews.com/engine-east-of-suez-bunker-fuel-availability-outlook-210/",
+   "published": "2026-11-17T22:00:55Z",
+   "snippet": "Singapore and Malaysia Bunker fuel availability remains tight in Singapore, with terminal loading schedules and barge capacity heavily booked for most suppliers throughout November. Some suppliers have already received bookings for dates…",
+   "source": "Hellenic Shipping News",
+   "title": "ENGINE: East of Suez Bunker Fuel Availability Outlook",
    "topics": [
-    "hormuz"
+    "shipping"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "5f69dd81d718a4c487f9b7abeb839dd81f25a78b",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV3hsSURHdmpybmxheWdaNFdfRzNiRU9KcnNCZG41d1h1TU5zNWFOUnNTZ2JNUG5la3hFcUF4aE9wS3JFQjVVRkhYdlFBdkd6YmdNczFaMXVFeWExeXNMR002V1NiVzhBaXFNYkI1VndCSnpFQTQzR2t6UXdnM3kzTjJtMFRMNUFtRXJ3TmdlQXA3dzdsZGtpenZRdmQ1bV9iYmlsN1JxTUgtM0RkRmNQODFYdktVNzRBRFHSAb4BQVVfeXFMUHhSOGhCdjh1VlVXRl9TcmhEenlxRHJCbjBNeHVXNUNFYi1SdGlKRkt3UUJfeGFYRmhieGExUUVTVWM2Zm5YTGxTVXdKSm5nTWlfc2h5a1lDNzdNcWoxWXlpQk9uWmx2dTRpN0ZkNUZnNk5BSDRKMUY0cFhkbHNBVmY2TjlaLWRrU2VPY3NuNkd1b2pVTHlScXhzdFlhdjloQjFQay1wNFJRb1g1bGM0cXlId2w0MVhmUWUwU3BYZw?oc=5",
-   "published": "2026-11-17T09:25:20Z",
-   "snippet": "",
-   "source": "Kuwait Times",
-   "title": "Japan proposes Asian oil security task force to tackle supply disruptions",
+   "feed": "hellenic",
+   "id": "8be7ca69b360145850e79e7ac8e94fd229607de3",
+   "link": "https://www.hellenicshippingnews.com/banchero-costa-weekly-market-report-week-46-2026/",
+   "published": "2026-11-17T22:00:54Z",
+   "snippet": "In Jan-Dec 2025, global crude oil loadings went up by +1.8% y-o-y to 2,221.1 mln tonnes, excluding all cabotage trade, according to vessels Source: banchero costa & c s.p.a",
+   "source": "Hellenic Shipping News",
+   "title": "Banchero Costa Weekly Market Report, Week 46 2026",
    "topics": [
-    "supply"
+    "shipping"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "dc44125b0307136d53ecd2066180144fcf01ab8b",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTk9aMFd1bmMwSWRGVzE1ZUJ0d1luMEJEazcwMDdCaVRYT0FuZ0tTX2tkbGN3UFJ2LWtfVjlSSEJ4YlhCcUwxTTEyMzZZZVg5THFiQ3JiaklsWTJKT3A3bUZzNVl6WkFLYXd2VFY1MVJBSnV2TG9kVTVCS3lLRktvOWdqYXVGZW1nWUN4RHUtSkNCOGN0cXFJMU50cFgzR09WVlJwUklIbDg1akVLRmUxVGhWcDRLQ3Bv?oc=5",
-   "published": "2026-11-17T09:24:27Z",
-   "snippet": "",
-   "source": "Global Trade Magazine",
-   "title": "Global Oil Inventories Fall 537 mb From February 2026 Peak as Supply Disruptions Bite",
+   "feed": "hellenic",
+   "id": "5a4ee5c6d0ca496f4391217d0a0c3ae384ef7bdf",
+   "link": "https://www.hellenicshippingnews.com/fresh-tanker-attack-in-hormuz-highlights-ongoing-threats-facing-gulf-shipping/",
+   "published": "2026-11-17T22:00:53Z",
+   "snippet": "A new tanker attack in the Strait of Hormuz has been reported by the United Kingdom Maritime Trade Operations Centre, in the latest of a string of incidents targeting vessels attempting to traverse the vital waterway. In a statement dated…",
+   "source": "Hellenic Shipping News",
+   "title": "Fresh tanker attack in Hormuz highlights ongoing threats facing Gulf shipping",
    "topics": [
-    "supply"
+    "hormuz",
+    "shipping"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "db4d1c4e36efded18a5be99d08e51486e12f85be",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ2JEU1A0Z0EyUm1XQ1pudWU1dWl6TkVZS3RCeC1mR2tSSFZsaTZIbXBuMFdXbVZRMTVIWkExbDBGVEIzV3JUNmE0OFRJS0hoUFRTVVBTNVJzblczc3A5R295ZXdkaDBHZWRWbHZMZy1YR3JDUmc0QTRQd0QwbkJ4TjZkT3N1cjluS0N2cnFZQUxoR0lNVUpDc1gyLUgwR2xWR2YyVW9hWXBsd3pqOGtlRlp0NnJYaEnSAVpBVV95cUxNMTE1R1lPM3VhSkx4V3p0UDI5Y0IzYjBrcTZCUE9MWmF6cWhOaDNUeDdkMFdPdTFhOFhsRGVGZGpHdmN2akNXMXlDYnd4UHhiVW96SV9MbVdYYXc?oc=5",
-   "published": "2026-11-17T09:19:10Z",
-   "snippet": "",
-   "source": "Oman Observer",
-   "title": "Oman Crude drops to below $90 on signs of surplus supply",
+   "feed": "hellenic",
+   "id": "6b7b155ef582c4bc96a8e85356d5421897181fe3",
+   "link": "https://www.hellenicshippingnews.com/top-ships-inc-reports-net-income-of-10-8-million-ebitda-of-27-0-million-and-diluted-earnings-per-share-of-6-70-for-the-nine-months-ended-september-30-2026/",
+   "published": "2026-11-17T22:00:49Z",
+   "snippet": "TOP Ships Inc., an international owner and operator of modern, fuel-efficient eco tanker vessels focusing on the transportation of crude oil, petroleum products and chemicals, announced its financial results for the third quarter and nine…",
+   "source": "Hellenic Shipping News",
+   "title": "TOP Ships Inc. Reports Net Income of $10.8 Million, EBITDA of $27.0 Million and Diluted Earnings per Share of $6.70 for the Nine Months Ended September 30, 2026",
    "topics": [
-    "supply",
+    "shipping",
     "prices"
    ]
   },
   {
-   "feed": "google:Strait of Hormuz",
-   "id": "b4760477753e0943764c7496b8f7ab1ab0797a24",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSkpBbkZ1MnFVRzJib0FnWWRwbHJTT0ZIckFfRjFlUm1iei1WMV9EZU82UDY5Rk1rQWNuZ3BFcjRsN1ZGOHJfc0xIWloyRVZhc1VZSjQ1SnZxZHdMRTRXczgtWTdhSkpWWG5wNUV3WUJFZHlzQjJQSzBfSUhDejMyN0tCeTZkTXJ2NFBsUlJMdDgtS3g3MTN3OEdNYzNzQjVnWlhadQ?oc=5",
-   "published": "2026-11-17T09:16:40Z",
-   "snippet": "",
-   "source": "Seatrade Maritime News",
-   "title": "LPG tanker suffers engine room fire following Hormuz attack",
+   "feed": "hellenic",
+   "id": "0c702486d6d700a656c043d2da96d9a80eb8ac65",
+   "link": "https://www.hellenicshippingnews.com/fuel-switch-snapshot-lsmgo-undercuts-lng-and-lbm-for-diesel-ss-engines/",
+   "published": "2026-11-17T22:00:47Z",
+   "snippet": "A $102/mt drop in Rotterdam’s LSMGO over the past week has made the conventional fuel grade cheaper than both LNG and liquefied biomethane (LBM) in the port for vessels with diesel slow speed (diesel SS) engines. LNG prices have dipped…",
+   "source": "Hellenic Shipping News",
+   "title": "Fuel Switch Snapshot: LSMGO undercuts LNG and LBM for diesel SS engines",
    "topics": [
-    "hormuz",
+    "diesel",
+    "shipping",
+    "prices"
+   ]
+  },
+  {
+   "feed": "hellenic",
+   "id": "83c3c996d8e852c36aef58c44529380731b6ee34",
+   "link": "https://www.hellenicshippingnews.com/sustainable-shipping-initiative-and-partners-target-blue-shipping-corridors-to-harmonise-shipping-decarbonisation-with-better-ocean-health/",
+   "published": "2026-11-17T22:00:43Z",
+   "snippet": "The Sustainable Shipping Initiative (SSI) has called on governments to help establish ‘blue shipping corridors’, extending the role of green corridors, established to accelerate decarbonisation in key shipping lanes, to include ocean…",
+   "source": "Hellenic Shipping News",
+   "title": "Sustainable Shipping Initiative and partners target ‘blue shipping corridors’ to harmonise shipping decarbonisation with better ocean health",
+   "topics": [
     "shipping"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "43dd180a9f200de4c96a8aa5b3c452a901526548",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOU0stRFFkS0ZNTkFRWHVfUHBhbzhQcHJXYUhWVi1RVGI3dUE3YUJsUmY4Z0NKUlZQaTNFSFRDMHhyVHI3N3l2Q2tSalpOSUlrZnJiSjRSMWJGblFnUldTY1JELTd2SlFWbkR3N1d2cEZ4NzBGOWNzU3diR1MxUEpFajZqUHBXNHg4WXJtV0ZvSjBLQmUxaXl4Q1dzUzhyODc2U254SWFKcWFtMWp6Nl9xSURJMlVpMHBsUlcwQnNkcG45bm9YbWQtRWVpank0UQ?oc=5",
-   "published": "2026-11-17T09:05:57Z",
-   "snippet": "",
-   "source": "VOV.VN",
-   "title": "Vietnam proposes regional cooperation on oil and gas reserves and supply",
+   "feed": "hellenic",
+   "id": "ec068f42f683e5b3db9b58454210a188d1108afe",
+   "link": "https://www.hellenicshippingnews.com/everllence-secures-first-order-for-8s50me-gi-mk10-7-engine/",
+   "published": "2026-11-17T22:00:35Z",
+   "snippet": "Everllence has won the first order for its 8S50ME-GI Mk10.7 engine configuration. One such latest-generation, methane dual-fuel engine has been selected for each of 2 × 6,700-lane-metre RoRo vessels ordered by CLdN, one of Europe’s…",
+   "source": "Hellenic Shipping News",
+   "title": "Everllence Secures First Order for 8S50ME-GI Mk10.7 Engine",
    "topics": [
-    "supply"
+    "shipping"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "e8a3da0ff1c0c6430780f578c4aa679717cb604e",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTE50TjhDUG9BbVhyN1ZLdF94TmoyblNLYTBHSVFQNWJadWVrQm42enRvNmhNQzAxcWNuY0hhQ1FKaHJySDhuTnpQckZlWG1jRGtsWHY2US1wX1JDSkh3M1kxSTVEdkM4UU9DSTdSd2FiVFppQjJrZG1mQ2FIRGYyNm1LTkw?oc=5",
-   "published": "2026-11-17T08:52:40Z",
-   "snippet": "",
-   "source": "InsiderPH",
-   "title": "PH, Japan forge oil reserve pact to boost energy security",
+   "feed": "hellenic",
+   "id": "224d7c31ad40fd151f930947ef57c123b09c58ad",
+   "link": "https://www.hellenicshippingnews.com/singapore-petrochemical-exports-resume-growth-in-oct-after-19-month-slump/",
+   "published": "2026-11-17T22:00:33Z",
+   "snippet": "Singapore’s petrochemical exports in October rose by 18.9% year on year to Singapore dollar (S$) 1.1 billion ($877 million), official data showed on Tuesday. This is the first month since February 2025 that Singapore recorded a…",
+   "source": "Hellenic Shipping News",
+   "title": "Singapore petrochemical exports resume growth in Oct after 19-month slump",
    "topics": [
-    "supply"
+    "shipping",
+    "prices"
    ]
   },
   {
-   "feed": "google:oil supply",
-   "id": "b7d984a141d6619dd530e69242a58c8a7072f605",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY0pRc1I4U2F0T1lWU2NtVTRCZk9YZ0U5SHdRc0xyNWpVUVJuWTlSRXdXQ2lYdkpfeTUya082eHQtRTMwRWVnc1JfMnBibFExTEh0SU4yamZvYklWa3ktSDRfbTZkbnY3ZWtuNzVUUXRWNmttbDZ6UllPRlZzS2RvbGJNbXdHS0ZyZlVBbFl5RFItZVJtQW5iRQ?oc=5",
-   "published": "2026-11-17T08:49:10Z",
-   "snippet": "",
-   "source": "Bloomberg.com",
-   "title": "Watch Vance Says US Won’t Stay in Iran War for Years as Oil Drops on Supply Recovery",
-   "topics": [
-    "hormuz",
-    "supply"
-   ]
-  },
-  {
-   "feed": "google:oil supply",
-   "id": "03f30bea87de09c7e52cb825956beb958fecd6b2",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXVnbXhqTFJXbzU0ZWtCeU95S19uSXktcW1iRm1MUTRJalM1TTdESGxCdWd1SVFNOWJaR0VfY2pFa19ZQ21GRDFrQldhLWRCRm5BOGQzZWVLN2pVbmtJY0JRSTRQX3QxYVBPSk1aV1BHeHMyMjRzLWxiU182NFE4ck12VjlMSndKaXJLZnNPUExDcUsyR2lCbFY4WjJ2LVFKcUs4bnkzTlgtS1FPMlVYWHR3NlFzQQ?oc=5",
-   "published": "2026-11-17T08:46:46Z",
-   "snippet": "",
-   "source": "The Daily Star",
-   "title": "Global oil supply to surpass demand in fourth quarter: IEA",
+   "feed": "oilprice",
+   "id": "250eb2f56f040953192994b61b35231ba8deb8c9",
+   "link": "https://oilprice.com/Energy/Energy-General/UK-Carbon-Capture-Keeps-Advancing-Despite-Critics.html",
+   "published": "2026-11-17T22:00:00Z",
+   "snippet": "The United Kingdom just took a major step forward toward building one of the world’s biggest carbon capture and storage projects under the North Sea. Last week the Northern Endurance Partnership (NEP) finished installing the first of its…",
+   "source": "OilPrice.com",
+   "title": "UK Carbon Capture Keeps Advancing Despite Critics",
    "topics": [
     "supply"
    ]
   },
   {
    "feed": "oilprice",
-   "id": "6f9fcaec0486c35c8069a24c980ba84050fc632e",
-   "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html",
-   "published": "2026-11-17T08:45:00Z",
-   "snippet": "Japan has proposed a joint Asian task force to handle crude oil stockpiling and a “Power Gulf Initiative” to deepen cooperation between Asian energy importers and their biggest regional suppliers in the Middle East. “We intend to promote…",
+   "id": "8391f6e1edcc1e54a9d7ee2a9aa04909edeb7c7e",
+   "link": "https://oilprice.com/Latest-Energy-News/World-News/API-Shows-Substantial-Crude-Oil-Gasoline-Inventory-Builds.html",
+   "published": "2026-11-17T21:58:00Z",
+   "snippet": "The American Petroleum Institute (API) estimated that crude oil inventories in the United States rose by 5.3 million barrels in the week ending November 13. In the week prior, US crude oil inventories rose by 9 million barrels. Commercial…",
    "source": "OilPrice.com",
-   "title": "Japan Proposes an 'Asian IEA' to Protect Oil Supplies",
+   "title": "API Shows Substantial Crude Oil, Gasoline Inventory Builds",
    "topics": [
-    "hormuz",
     "supply"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "1f1f4d5b27feb4e6f2a2b2fba13038f1cfa5d97a",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWlVZdFMxRnlfcWR1eGtYMFNoVzdvREVfbDJYdE5zMU4xbURkcEwzZXptenZ4WnJIQWs4aG9yc1BIaElhTDR4Ukpkd1o2d2ZMc3NsYjNnVDlWdHNOQkI0ZmRfQ0xKd0FtOHljaVJLS0tjbXF5MmU2MVZNN2FrTHZtWURUbHIwOUxPTmdJTtIBkgFBVV95cUxNS1cwSWt2cC1qNUpZSk4wTUVsWHYyUDJvTHVldmtUWWtyTE1yMEkwZ3AzQkhrNUM4b1pBeGpoODk3OXJnaXBDcTRWaXlSbWxfZm5Md3JvNkNNMHVmZDR4ZVJiaWFYQVVaa1JiLU12N3d2SmhOWkl3TWJQYzNVZG9FRmdFS1V3LXJEZ2ZDQlVLNmtDZw?oc=5",
+   "published": "2026-11-17T21:40:00Z",
+   "snippet": "",
+   "source": "Inquirer.net",
+   "title": "AI and oil: 2 concerns mark Japan-Asean meet",
+   "topics": []
+  },
+  {
+   "feed": "google:diesel shortage",
+   "id": "826a1f49a6c5f6f9342d9ea81dc3b39a24e62598",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd2o2Yjd2SEdLbWpDUWwwOUduSjdlZF9PdVhrRkRTVDdKSkx3X1ZjMmlmaFl4YkhUWEFWbDA4ZVV4OFFKTWdLbFRCc1d5X2ZSWEF4N2lNcUNYX0VBNV9nc0I5bXBuMExWR25pV0J3b2RJcDJOeGVadmwwQ09PVDVLZzR4ZFh0UXkzU3NRVTl4VC1GMlZuNzI0WmJxQzl0WnRKNmJXMEQ5b0FkWUN4?oc=5",
+   "published": "2026-11-17T21:20:17Z",
+   "snippet": "",
+   "source": "EnergyNow.com",
+   "title": "Are Global Oil Stocks Big Enough to Weather Another Six Months of US-Iran War?",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "6b32029819cdd92b60626d8cefc5527634ad496b",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaVBNVGh6ekhUdHN3UTZqalhMTUtXU3g5MDZuQkxNejdYMlZXazBaeU9RWVdKcGhPR1VwNzZkbEdkNExSeGRBUjlJbUF4NWlTY2lfNEdSRzcwR2IxR0MwZkZNc1VEUUNsajhjQk13dEo1VWU2ZjN6SzhTNk9pLTZGQTJ6bk5tODByRU9OY2hESkE1VF9kclJxQ2tqb3pERWtzc1BiTERSc3c2TVlMUGwwZk1Odi0zVUlxMG4yRW1FZFJwQQ?oc=5",
+   "published": "2026-11-17T21:11:00Z",
+   "snippet": "",
+   "source": "The Straits Times",
+   "title": "US strikes Iran’s Qeshm island in Strait of Hormuz after Guards target Bahrain",
+   "topics": [
+    "hormuz"
    ]
   },
   {
    "feed": "google:strategic petroleum reserve",
-   "id": "9f070fa96b445b4940ee3c9e7cc743259f7b32ff",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1kazd3YlBOeVUxb2IzbENsQnpPcER2N3o5Q1RSMHNkUVhmbWFqWnZ0V0tUV25lVFc4cHJBWDhWaU9ueUVnaGZVbVc1NU9QcThkRVlidHdabGtzV1RKcElEOGt3VVZMYmcxbXFMaTBnWTdlRXZPbTFraTNrOTE?oc=5",
-   "published": "2026-11-17T08:39:05Z",
+   "id": "b5ec3f765ad4790400b54237839c68735c347ff5",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR2xhUUtRSzkyU3l3THl6c3NITzhmOXdySHc1dGRBLW9IY1dWY1h5cEdEOTBEWERTNVJxUk5hMHJBTE9VSHdQaXFmUjcxajhDTllzSVFLNGEwQjdDdF9qendCUmJmTkZBbGxaQ01LdHRsVWQzYmZfOXZQVkFUX3M4a18zRTVyMkt1dXFmX1lzT0xxakwwMnVhem00Q0VUSGdTR0dxblZQcEJvMEpaMWYtaFJzV05qbUVrbjBrSTE5QUE4WlJj?oc=5",
+   "published": "2026-11-17T21:06:44Z",
    "snippet": "",
-   "source": "astig.ph",
-   "title": "The Philippines holds 53 days of oil. Japan just signed a 3-year pact to help build a reserve",
+   "source": "EnergyNow.com",
+   "title": "Trump Says U.S. Will Soon Refill Strategic Oil Reserves at No Cost – Could Venezuela Be the Answer?",
    "topics": [
     "supply"
    ]
   },
   {
-   "feed": "google:OPEC output",
-   "id": "ea78c8ed3015a70bee469e9205f4daed548836ec",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2RGWDUyQi1KbHFxd1o4b1dPQnRDc19xR09Kald2d29ydDI3cl94a1B0VURzUnhaSG9XdGZ0X19ZTDdKZkp6MjFrdmROVkwwM0lyUUdJaXJpRkQ1d2lfZXdvQ3poMldqS3h6WTR4NWRIbnBhRWJkZ0xoQ01odkFuUERaU0JRWVhVSkJQZUdoUQ?oc=5",
-   "published": "2026-11-17T08:37:10Z",
+   "feed": "google:Strait of Hormuz",
+   "id": "e5945eaff5579dc75dc99efb3308c2e289deb710",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EU1FUaXVpRk5mOTVMalNzamktR0NSdWl0YzhJMDVNZWtrYzNSVjZudkdrYldpRUU0UEU0ZFJQRnAxUURNZTZhTWJ2QlZMN1V2bzRFaFhn?oc=5",
+   "published": "2026-11-17T21:06:19Z",
    "snippet": "",
-   "source": "Egypt Oil & Gas",
-   "title": "OPEC Wraps Up First Independent Oil Capacity Assessment",
+   "source": "Fox News",
+   "title": "Gas tanker ENGULFED in flames after reported strike near Strait of Hormuz",
    "topics": [
-    "supply"
+    "hormuz",
+    "shipping"
    ]
   },
   {
-   "feed": "google:Bab al-Mandab",
-   "id": "e390f7a3cf1cb9f9284f2d9931b12efe53252528",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZWdKMm1fTFZrYW13UW1sbjhiWW1sOGduT1pEeWl5X0ZaUURrZmJ4b3ZKcUIwS0ZNYkJPcWVTYWptZHY5NW01TXhKbVQzRTdtRV9hUUJvVDhVNVhjeTBsOXAxb3czYTRtYkJadVd2bXNtbV9rTWlySmV1RldKOFR3elBrRHg4ZUw1YS1PZ2U5OXVMMzFLU3BSM0FJbHpmNldjN2hUOXhxM1FlSFBIQmZBeDhFQVkxRFFfNWF0VWVJNE1sLWZRVzhSRlNJUFdwMFlUZ3lWSS01Y1pGazNJUDFpVw?oc=5",
-   "published": "2026-11-17T08:37:07Z",
+   "feed": "google:Strait of Hormuz",
+   "id": "31a0c25aed8c326d9ef4ede7997ebdb0d68c1bc6",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNy1OMWRUbm0xTll4TURfdUllU1JzTFp1WnFUMGRDNkN6RXR3U19DQWV3M3F6S1RtX0NTdjFkWWFOcXgzc09zTlIzZ3Y3NGU2bVJ0WWYxMnhfMmJtTVVaTTBEQ0U2R2VWOVdqZXVDNnIwcWRCVzN1Rm1EaWZpdWtOOTF1akdlbWRBZGJPbmpxRVFyeXBvdlVOODl3?oc=5",
+   "published": "2026-11-17T21:06:04Z",
    "snippet": "",
-   "source": "Facebook",
-   "title": "A day after Yemen's government announced its retreat from the Bab el-Mandeb strait, Saudi Arabia dismissed the commander of a military coalition it set up to back the Yemeni government against the Houthis. #dwnews",
+   "source": "EnergyNow",
+   "title": "Oil Set for Hefty Weekly Losses as Tankers Exit Strait of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "oilprice",
+   "id": "748b5e15d902226b6265d9867399a00cc75e44e2",
+   "link": "https://oilprice.com/Energy/Energy-General/China-Tests-250-Mile-Electric-Plane-in-Major-Aviation-Milestone.html",
+   "published": "2026-11-17T21:00:00Z",
+   "snippet": "China's state planemaker flew its all-electric commuter airliner with a crew on board for the first time on Saturday, putting two pilots and a flight-test engineer in a 19-seat, battery-powered CE-25A over Binzhou in Shandong Province…",
+   "source": "OilPrice.com",
+   "title": "China Tests 250-Mile Electric Plane in Major Aviation Milestone",
+   "topics": [
+    "supply",
+    "jet"
+   ]
+  },
+  {
+   "feed": "rigzone",
+   "id": "0b414ecb88a15d1bf8fcb5c78743f7c455f2fdab",
+   "link": "https://www.rigzone.com/news/wire/oil_prices_swing_as_gulf_attacks_continue-17-nov-2026-185107-article/?rss=true",
+   "published": "2026-11-17T20:53:14Z",
+   "snippet": "Crude markets remained volatile as Iran tensions offset forecasts of a growing oil surplus.",
+   "source": "Rigzone",
+   "title": "Oil Prices Swing as Gulf Attacks Continue",
+   "topics": [
+    "hormuz",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:strategic petroleum reserve",
+   "id": "0dd52589435901e472518a4780b121ec4bcfa425",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdTBVQXpiZTRpV0IxMENZcDM4SGl0QUNDbGlXOTFPN0xITmlxeldNc0REQ25RX3pyV3dvdVJwYzhLLWJFNGRoQVl2NC1lWnVDaGRrNEpDaHE5UDZraFgtUncyRkRVRW1jNG42TU1jQ2xZcExfVHRUTjBfLURYM3VPWUI3cVhiVDMwWUp6bTlnem1Sd1U0S2ZNano0bjRRV2MtUWVTQVg4YVJNRWFDbkE?oc=5",
+   "published": "2026-11-17T20:47:52Z",
+   "snippet": "",
+   "source": "Minute Mirror",
+   "title": "Oil edges higher on Middle East tensions, expected drop in US crude stocks",
+   "topics": []
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "da4cac16eb498099d99291c8590d481c69fe449e",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5",
+   "published": "2026-11-17T20:44:40Z",
+   "snippet": "",
+   "source": "The National",
+   "title": "Middle East latest: 21 Indians evacuated following strikes on tanker",
    "topics": [
     "shipping"
    ]
   },
   {
-   "feed": "rigzone",
-   "id": "7aeb5b239f14cb50abddd2e9b383c20d05f19ab1",
-   "link": "https://www.rigzone.com/news/wire/kenya_signs_nearly_700mm_deal_for_lng_power_plant-17-nov-2026-185097-article/?rss=true",
-   "published": "2026-11-17T08:34:06Z",
-   "snippet": "Kenya signed a deal with AMACO Energy for a liquefied natural gas electricity plant to power an upcoming industrial complex near the Mombasa port.",
-   "source": "Rigzone",
-   "title": "Kenya Signs Nearly $700MM Deal for LNG Power Plant",
+   "feed": "google:Strait of Hormuz",
+   "id": "f735972e67e67f3d2f66b8be3dd3b210367253e1",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWJrYkRuWHZ1a0dWNGFJWkl3d0VSYlpLRnhjTUVDY29yTU9Tcmp0SUhzX2t2UmZPbUJNTWhpM3F0N282LXplcmcwZkpERmpldmg4QmUxdUZNNjdFTzdRbnFlak5ibEdKQVM1RzFlMFFDXy12ZG9rZUpiZURJd2hySnBocEF6dThJQU5LY2dISzg?oc=5",
+   "published": "2026-11-17T20:44:15Z",
+   "snippet": "",
+   "source": "United Against Nuclear Iran | UANI",
+   "title": "Iran Shipping Update – November 17, 2026",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "276a609922cdf00cfa4d0a1a8f1292601c985e73",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcGtrNWkxVGpxdjJGWnVJbzFDQXlabGJVV2I5bFhMYmJFOXAtQjR4cERNMnZabG90ZUo3cm80Zm0xdUpYallfU1kyV2FaMVFwUG5UUWR3UWNFMXU0RDJPcndiS0RuejcxWkJDU1kxbnQ2NnJPWXNBNGtGelpVd0FsbVF0emUyTVdpaEVFYlFnNmZSVTlhRUo5bzhYTkRicFpoa0loRGw0OUJQM215T0lkZUpUNDhFSHM?oc=5",
+   "published": "2026-11-17T20:44:00Z",
+   "snippet": "",
+   "source": "WSJ",
+   "title": "Oil Futures Rise as Middle East Shipping Risks Persist",
+   "topics": [
+    "shipping",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "063d165b65d2a3879e075004c1b446513e66239d",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IcURhQ2pxSFpzZ0VZVlJKYVIxVEVhMDY2MVhweHdfZVYzamhSN2NXOWprY3FyUVExSExuME1pV3B5cGpkVldYcS1HRFMxWnA5ZVZoTHJURXU1N3Z0OGRGNUZzOTZfcGdxUHBtSk16TjRnSWd5Yk5oNnF3?oc=5",
+   "published": "2026-11-17T20:43:46Z",
+   "snippet": "",
+   "source": "Vortexa",
+   "title": "Iran’s Hormuz blacklist reshapes flows, but exports hold",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "5b9cd2b2ce5236dda762c04d0992899b1a318d59",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wYmRISEdzdWNPQlpqOFhka2d5QzRoQWpuaHZmSmhpVGd2QmxEVUs0WGZoR2NzcmhTUkQ1c0J5a0RjSlc5SDV6QUc4bjhpMzFBbHp3?oc=5",
+   "published": "2026-11-17T20:41:52Z",
+   "snippet": "",
+   "source": "وكالة سبأ",
+   "title": "Six ships catch fire in Strait of Hormuz",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "9c0f1e41e9d409cdd6c15437691e9a347403eda0",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX2ljSjdydDRUa1dLXzNqRzIzNVFsUk10UUVxdnRDTS02Q1lnLWZTbGI5aHg4VElZWmZ6ODZTZW85VElIWVZmclJ6TzdSY0ZFOUo3M3MwbjFTcUFHak9jVDBuWFFITXlIMXhUR01KWlYwNHFOOEpDVXBqTm9LNjAzdEk0ZEh0aTRYYzM2UmdGUkUxNkxEUXRNcUg2ZFFWSXhrUFY1RkE4bFIzRmtCaXk1LVpjLTJmelk?oc=5",
+   "published": "2026-11-17T20:34:00Z",
+   "snippet": "",
+   "source": "Middle East Eye",
+   "title": "Oman evacuates 24 crew from tanker after fire near Strait of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:tanker rates VLCC",
+   "id": "eac5693072a00269267a5a8bdbfd8575b28088d8",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdHBGTFZMOFdLZWhWbTBLaEZTNWJMM29nRF9leEtHVER3Q2UyUGtXWU1nTll5ZDRrU1ItNjN3SUFzNW9XSENTLXc2dFZ3dnN6VmxNX3FQSDVleHJCY0g1bldqTFl6LUxORE91V0VLWkdMNEFVOW1KUWU1d3c2SGJ3ZDVFVUxGajJNdXRJVzdOeEJRd1E1N1ZCUklkazdRcFk3bFM1dkpuZVdvelFsZVFkUlh1VDdjQ0VCMm1Mck9fY2d4YzNMcXRhV1Jsa2ZpcUYtSmZONVlfX3NuNXVQ?oc=5",
+   "published": "2026-11-17T20:31:46Z",
+   "snippet": "",
+   "source": "TradeWinds News",
+   "title": "How the US aims to keep proceeds of sanctioned tanker sales out of the hands of the ‘bad guys’",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "e3adc2f899e33bb97d06923b66f35082080fe350",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sa25DV3RMTzdickJwckVkNE0xbExYMGI2YUhoRjZWa05sLVZ1OU0wMFFTc0VVYTN4cFdzdXhtemRBalY4akp0eU9iZnU0N05NcWtFUHVYa1JaUW1NVkVlR0RGR0lDTWVyd21nLUtB?oc=5",
+   "published": "2026-11-17T20:29:55Z",
+   "snippet": "",
+   "source": "WANA News Agency",
+   "title": "Third Tanker Explodes in Strait of Hormuz",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "46a123532ba066595edc21bdc9c282252496dc1e",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWticDVnRnhZcGNMcDNaRTJYNlZMUmd3NHZkbE9jRVV5TDV6bG5EX09rMndHQ0RUZXY3RHh0X0lzcXQ3UWE1OHY2djdGNmVnUWhwcU1fLURMNk9xVmZndmQzVHdNd04xTFpMbTZldURsQmRaanRsLXhocHcwSEhySnNNeEx5VjhTbk5NUWlySHQtWUhuOVJmekM2aVhQdw?oc=5",
+   "published": "2026-11-17T20:23:44Z",
+   "snippet": "",
+   "source": "Bloomberg.com",
+   "title": "Oil Extends Fall on Signs of Revived Supplies and Vance Outlook",
+   "topics": []
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "3179b6b861b02dce9a84580349bd56fe02871d85",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmhEY2ZjWHdXeVRXZlpZMUFTZVJDRWs0RzQ1SzVEbU1wbERZOUg4eVJqUmlQODg5aDYyUHREejN5ekZxUFJBTEgySEplUVVfQmJiRFloZHFoMTlPdVZ3Zkp5M0dzU3gySERmTnNWR0VMSjEtOElyNkJ5QUhXMTFZZkhIcGlkNGpiTnBzdUZNcml0QmtOWkFWbm9B?oc=5",
+   "published": "2026-11-17T20:21:27Z",
+   "snippet": "",
+   "source": "جريدة القدس",
+   "title": "4 Oil Tankers Catch Fire in the Strait of Hormuz in One Day",
+   "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "b7929b51d8c462e6e15011c71591e6ee50ee6cbd",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZjZqRWx0ZXNyRlo0UGdianMtN1JPR205ZW54aDltMTh1ZmdNVUwyWU5KVUlJZDNOS2VrX3VNc1YyOG5GdkR2eF9GQWlLY2dNSS0ySmtQVnhOYzlIdHA1QlV0Q3ZNZHVuZVNmRWRQM01zYkt6WXpwd2RWYVpDN2pTM1JMZFJDWkdmM0FtV3A0Nm93QXhIbWhIbGxHXzhhcW1qOWN4UXhyd3pKaXhqQ0E0eA?oc=5",
+   "published": "2026-11-17T20:20:00Z",
+   "snippet": "",
+   "source": "WISH-TV",
+   "title": "Iran strikes U.S. radar site in Bahrain; U.S. retaliates in Strait of Hormuz",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Bab al-Mandab",
+   "id": "e973d98e90efef18e5bffba0151e691fade0d31b",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeEk3MHRfWld5amhUTzRGR2VZSXNReEZDbDZ0bHJPOWRwZGpMeHo1Z2JRTkRldlZlWlN0d21sdDJBbVJnLWVLVjJSWEh2Tmg3TTNSMjBNOFI2Ql9uSS04bGt2VkR6LXJiM0RnN3dSUV9SNlpqUnVPS1BVbnE0el83NmRpVFBYNGtFZDlQUzktU0hJLVlnMHowSThmUllKelV4WTlPN2psTFhrSmZhV29tel9XS0dnbmItSHdHZlhYelhHZk5KZ0E?oc=5",
+   "published": "2026-11-17T20:17:28Z",
+   "snippet": "",
+   "source": "رأي اليوم",
+   "title": "What does the Houthis' victory over Bab al-Mandab and the removal of the Saudi-backed general suggest?",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "2e20570431b6536997150ba1f56e631cf963d84f",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVXoxN1BDMkNERmEyZ3oxeTBrTW9iVndFejM3dnRsc3FiYlcxT2h3OFVtN3BWMkpYQjV4cnFUYVB1R3cwVm5aWF9MdXZ1N2xEdW93cW04S3FDTmp5YWhFVGpuVkFzWVNDajlsR2pEaHh6YVhyQVE1bWY3anVWUlJIWWkwdXBWOUI5dlhub2VOVjRHUQ?oc=5",
+   "published": "2026-11-17T20:16:21Z",
+   "snippet": "",
+   "source": "Barchart.com",
+   "title": "Threats to Global Crude Supplies Lift Prices",
    "topics": [
     "prices"
    ]
   },
   {
-   "feed": "splash247",
-   "id": "c1ac4bc047518edadc3116324fc963b53b892772",
-   "link": "https://splash247.com/african-nations-join-forces-to-impose-carbon-charges-on-shipping/",
-   "published": "2026-11-17T08:32:05Z",
-   "snippet": "A growing group of African nations is pushing ahead with plans to introduce carbon charges on international shipping, raising the prospect of another regional emissions regime for shipowners already grappling with European environmental…",
-   "source": "Splash247",
-   "title": "African nations join forces to impose carbon charges on shipping",
+   "feed": "google:Strait of Hormuz",
+   "id": "106f8f4203fe22d050fc1b857ab7e8e58cb94ead",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMXNBODNiLUlBTzNEN0lUdlk1Z2N4dExRRFVEY3BsejBYUHdDd3NYYlptZXk3OWNXZEJLbFZVYWM0U1FrdTEwNm9PMTBlWXFWSnJyYS1pTkx5Tm9ZcWxZb1R2dXg2LUNlOWxxR3NxMk5JOEhldzV2S1NXbXh2bmY1MVpjWGJXeE9wdWdhYmdR?oc=5",
+   "published": "2026-11-17T20:14:20Z",
+   "snippet": "",
+   "source": "gCaptain",
+   "title": "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
    "topics": [
+    "hormuz",
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "2a5c0efb7ef0303fbbe5269817f2f671400130c1",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYkozOWRtdG1OUTFoTEdBQWRzRG0wNVVVa1BSOXpFV2s0bHVweTNfcWlZaUhRYVh3U18wOVhaUmFXd1NHLVVBT2RjdlBwNGFTb2x6WVVYQzhSTThneklEd0l4MFpyNXljS0JvdHFrY3V4bGFNdlRtS3NJdEgwNTFHWjVIc1VvZVE?oc=5",
+   "published": "2026-11-17T20:08:26Z",
+   "snippet": "",
+   "source": "Traders Union",
+   "title": "Brent crude moves up in market surplus context: Can XBR overcome supply risk constraints?",
+   "topics": [
+    "supply",
+    "prices"
+   ]
+  },
+  {
+   "feed": "google:oil supply",
+   "id": "6822a9e0b35abff66140cc8974e545fdb2fab19a",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcU9iRjBIMTh4cDBVLWdFcFZsaUJrdVgwQ203NzhjaV9oY1ZsV3RieWk3VHY0YUlUZk5leEZoUFhQYjFTQW9lUXNsbGJtblpfM3VDbE1QVUxNTFpJc0RDT3l2Qzc3cUJyTFpxdkNQdG9KWmUzVEpHamx2LUFQdHRLNlBVR0x6ZzZiTU8tUUJrUVZlSjkybXdXTE9pVUlaRG1xTzEycTRDSEh5cndKTkgxSGRYaFk4cE5Ici15U1A2djlNSVNTeGlkZjZR?oc=5",
+   "published": "2026-11-17T20:05:42Z",
+   "snippet": "",
+   "source": "Oil & Gas Journal",
+   "title": "Rystad: Market could begin next year with ‘pretty large surplus’",
+   "topics": []
+  },
+  {
+   "feed": "rigzone",
+   "id": "c7aa4019b816123549f180e503333dbc083adf4e",
+   "link": "https://www.rigzone.com/news/wire/ukrainian_drones_target_2_oil_refineries_deep_inside_russia-17-nov-2026-185104-article/?rss=true",
+   "published": "2026-11-17T20:00:00Z",
+   "snippet": "Ukraine reported drone strikes against two refineries deep inside Russia.",
+   "source": "Rigzone",
+   "title": "Ukrainian Drones Target 2 Oil Refineries Deep Inside Russia",
+   "topics": [
+    "refining"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "c719a0cc4f5d6b6d7dabb3cc540430849ad36b77",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42YXZ4Mzd6U2NaWTA2bmVSOVliNG5iYVJUclRjTll0WjRxdW5ySWVPZGtzc2FpazRJanRKSDJnYk9NTmJTQjRZUUg4LTY0UUg2b0hJa25EaWtEUQ?oc=5",
+   "published": "2026-11-17T19:50:23Z",
+   "snippet": "",
+   "source": "https://houseofsaud.com/",
+   "title": "Iran Says US Struck Qeshm Island in Hormuz After IRGC Drones Targeted Bahrain",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "470e4a469f867bfe22c94bb5025a9a233023a204",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRks1STE5YkotODNjbkNrYzc2cW53YmJEa0hZcDRQUWRXVjBVQlVNbGc4WmZXX2NuLUxXYmgtTTVfRUUwMUZhTVZpVE9hYWg4YWRUQjlpZ3VCM0FmQ184dmg2LVA3Y3AyLTRpZFVGQVFka09xTkhvdG5GTlAtRHdSSFhwZGl6dlFrc3JsMDhuOGUtSlFRVmFZcTdBWHpuWFFHWlRIQWZ3?oc=5",
+   "published": "2026-11-17T19:48:00Z",
+   "snippet": "",
+   "source": "Action Network",
+   "title": "Hormuz Traffic Odds: Markets Say No Return in 2026",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "417203a6bf196c964f2ac8f96a6dc9f654764327",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSUpUeUdHNHA2Z1ktZENlZ3VfV1R1SkZPNTB4N0puQlFOS0J3cENkS0t5bGJPb2ZNR21PdUdBT19HVllWQjRTWG5zMzdrRzFSV2tOV2hzQWlIVE1Ra19Hc0gxRFZldU1fNHZYYWdseTZVLXpaTlRsV0VMMHlpOXA4Rkp3bE5nUTd1WVFLSlY0RDJaYjhKYUlkemttWW9raU1PWEVhWXZZWGxzdFFBTG5kMU42aUNTWDhodkZEcVJ3ZjZ1cDNSOVVhaGVrcmJhTjREWkZPaG8yMA?oc=5",
+   "published": "2026-11-17T19:37:34Z",
+   "snippet": "",
+   "source": "The National",
+   "title": "Ship captains told to refresh navigation skills as Iran steps up jamming of satellites",
+   "topics": [
+    "hormuz"
+   ]
+  },
+  {
+   "feed": "google:strategic petroleum reserve",
+   "id": "23a1fc58749532b723afdd0b20821faa2e68f257",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0o5cmhRS3pXNkxBamRYMWNmMlFoRldFdWl6TW04MExLYV9ONnJLbHNpTlRJQzBtejk4SExzQkVubE1oa1dJN1NaZ1lOSHNpN3JYOWxpZVFFb3ZVUVBIa1J4QkpJZGE0eE5HQmNhNHhDcHhKazVpa3oySzRyUG5oSGwyMEUzS2M?oc=5",
+   "published": "2026-11-17T19:35:30Z",
+   "snippet": "",
+   "source": "GV Wire",
+   "title": "Oil up 1% on Tanker Attacks, Expected US Crude Drop",
+   "topics": [
+    "shipping"
+   ]
+  },
+  {
+   "feed": "google:Strait of Hormuz",
+   "id": "842e0c838368b49218a8bce646fdd5ad3e9c3115",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15VGxmX2N4dXJGYnFicDB5b2tESzV3UDZfRUJJSldKMlV4ZFR0MERPckJMTTFSWi1VWWtlcEhLUjYzdE9LeVhMaVRwV1RjeDBYN2JHcUJ3bmpyQjQzMzFSatIBXEFVX3lxTE1aU1N1NHNsYkhTUnNkTTFIQ1BieDEzSG5fX2swZC1hZ3NrSlJwaDRadGFLdldhVmZIa1RKem5yb3ZKWGJUY0ZuenZpT3B6WTNCSkVOdU40Z0hRb1A0?oc=5",
+   "published": "2026-11-17T19:10:00Z",
+   "snippet": "",
+   "source": "Modern Ghana",
+   "title": "Gas tanker on fire off Strait of Hormuz",
+   "topics": [
+    "hormuz",
     "shipping"
    ]
   }
