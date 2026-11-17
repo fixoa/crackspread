@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 54.045,
+ "duration_s": 11.595,
  "fixtures": false,
- "generated_at": "2026-11-16T11:11:07Z",
- "last_run": "2026-11-16T11:11:07Z",
+ "generated_at": "2026-11-17T00:47:32Z",
+ "last_run": "2026-11-17T00:47:32Z",
  "python": "3.12.16",
- "run_id": "20261116-111107-89a228",
+ "run_id": "20261117-004732-0243b4",
  "schedule": {
   "hours": [
    3,
@@ -22,7 +22,7 @@
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
    "jodi_month": "2026-08",
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,7 +35,7 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "mentions": 10,
    "ok": true,
    "stale": false,
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -55,29 +55,30 @@
   "fred": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "ok": true,
    "partial": [],
    "stale": true,
    "via": "fred"
   },
   "news": {
-   "candidates": 385,
+   "candidates": 382,
    "changed": true,
    "dropped": {
-    "capped": 283,
-    "duplicates": 42,
-    "filtered": 111,
-    "too_old": 55,
+    "capped": 288,
+    "duplicates": 34,
+    "filtered": 122,
+    "too_old": 38,
     "unusable": 13
    },
    "error": null,
    "feeds_failed": [
-    "hellenic"
+    "google:diesel shortage",
+    "google:tanker rates VLCC"
    ],
-   "feeds_ok": 19,
+   "feeds_ok": 18,
    "items": 60,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "ok": true,
    "stale": false
   },
@@ -85,7 +86,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -94,20 +95,17 @@
   },
   "shipping": {
    "changed": false,
-   "error": null,
+   "error": "FetchError: PortWatch: {\"code\": 429, \"message\": \"Unable to perform query. Too many requests.\", \"details\": [\"API calls quota exceeded (7728 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.",
    "last_success": "2026-11-16T11:11:07Z",
-   "latest": "2026-11-08",
-   "ok": true,
-   "rows": 3385,
-   "stale": false,
-   "via": "portwatch"
+   "ok": false,
+   "stale": true
   },
   "summary": {
    "attempts": 0,
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-11-16T11:11:07Z",
+   "last_success": "2026-11-17T00:47:32Z",
    "model": "",
    "ok": true,
    "provider": "none",
