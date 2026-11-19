@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18",
+ "as_of": "2026-11-19",
  "consumers": {
   "as_of": "2026-10-09",
   "carry_reason": "skipped: EIA_API_KEY not set",
@@ -66,74 +66,74 @@
   "world_total": 103110.2,
   "year": 2024
  },
- "fetched_at": "2026-11-18T11:36:33Z",
- "generated_at": "2026-11-18T11:36:33Z",
+ "fetched_at": "2026-11-19T11:34:40Z",
+ "generated_at": "2026-11-19T11:34:40Z",
  "monthly_crude": {
-  "as_of": "2026-11-18",
-  "country_count": 46,
-  "fetched_at": "2026-11-18T11:36:33Z",
-  "latest_month": "2026-08",
+  "as_of": "2026-11-19",
+  "country_count": 40,
+  "fetched_at": "2026-11-19T11:34:40Z",
+  "latest_month": "2026-09",
   "note": "Crude oil only (JODI CRUDEOIL/INDPROD), monthly; countries that did not report this month are omitted, gaps are never counted as zero",
   "rows": [
    {
     "iso2": "US",
     "iso3": "USA",
     "name": "United States",
-    "value": 13850.4
+    "value": 13952.7
    },
    {
     "iso2": "SA",
     "iso3": "SAU",
     "name": "Saudi Arabia",
-    "value": 6237.9
+    "value": 8372.1
    },
    {
     "iso2": "CA",
     "iso3": "CAN",
     "name": "Canada",
-    "value": 4461.1
-   },
-   {
-    "iso2": "CN",
-    "iso3": "CHN",
-    "name": "China",
-    "value": 4352.6
-   },
-   {
-    "iso2": "KW",
-    "iso3": "KWT",
-    "name": "Kuwait",
-    "value": 1988.0
+    "value": 4417.6
    },
    {
     "iso2": "NO",
     "iso3": "NOR",
     "name": "Norway",
-    "value": 1895.2
+    "value": 1967.6
    },
    {
-    "iso2": "NG",
-    "iso3": "NGA",
-    "name": "Nigeria",
-    "value": 1500.0
-   },
-   {
-    "iso2": "LY",
-    "iso3": "LBY",
-    "name": "Libya",
-    "value": 1397.0
+    "iso2": "KW",
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "value": 1774.0
    },
    {
     "iso2": "VE",
     "iso3": "VEN",
     "name": "Venezuela",
-    "value": 1201.0
+    "value": 1206.0
    },
    {
     "iso2": "DZ",
     "iso3": "DZA",
     "name": "Algeria",
-    "value": 1000.0
+    "value": 1007.0
+   },
+   {
+    "iso2": "ID",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "value": 544.1
+   },
+   {
+    "iso2": "GB",
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "value": 491.1
+   },
+   {
+    "iso2": "MY",
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "value": 424.8
    }
   ],
   "source": "JODI Oil World Database",
@@ -142,72 +142,72 @@
   "unit": "thousand barrels per day"
  },
  "producers": {
-  "as_of": "2026-11-18",
-  "country_count": 46,
-  "fetched_at": "2026-11-18T11:36:33Z",
-  "note": "crude oil only, monthly, JODI (2026-08); EIA International API unavailable: skipped: EIA_API_KEY not set",
-  "period": "2026-08",
+  "as_of": "2026-11-19",
+  "country_count": 40,
+  "fetched_at": "2026-11-19T11:34:40Z",
+  "note": "crude oil only, monthly, JODI (2026-09); EIA International API unavailable: skipped: EIA_API_KEY not set",
+  "period": "2026-09",
   "rest_of_world": null,
   "rows": [
    {
     "iso2": "US",
     "iso3": "USA",
     "name": "United States",
-    "value": 13850.4
+    "value": 13952.7
    },
    {
     "iso2": "SA",
     "iso3": "SAU",
     "name": "Saudi Arabia",
-    "value": 6237.9
+    "value": 8372.1
    },
    {
     "iso2": "CA",
     "iso3": "CAN",
     "name": "Canada",
-    "value": 4461.1
-   },
-   {
-    "iso2": "CN",
-    "iso3": "CHN",
-    "name": "China",
-    "value": 4352.6
-   },
-   {
-    "iso2": "KW",
-    "iso3": "KWT",
-    "name": "Kuwait",
-    "value": 1988.0
+    "value": 4417.6
    },
    {
     "iso2": "NO",
     "iso3": "NOR",
     "name": "Norway",
-    "value": 1895.2
+    "value": 1967.6
    },
    {
-    "iso2": "NG",
-    "iso3": "NGA",
-    "name": "Nigeria",
-    "value": 1500.0
-   },
-   {
-    "iso2": "LY",
-    "iso3": "LBY",
-    "name": "Libya",
-    "value": 1397.0
+    "iso2": "KW",
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "value": 1774.0
    },
    {
     "iso2": "VE",
     "iso3": "VEN",
     "name": "Venezuela",
-    "value": 1201.0
+    "value": 1206.0
    },
    {
     "iso2": "DZ",
     "iso3": "DZA",
     "name": "Algeria",
-    "value": 1000.0
+    "value": 1007.0
+   },
+   {
+    "iso2": "ID",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "value": 544.1
+   },
+   {
+    "iso2": "GB",
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "value": 491.1
+   },
+   {
+    "iso2": "MY",
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "value": 424.8
    }
   ],
   "source": "JODI Oil World Database",

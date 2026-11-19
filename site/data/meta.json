@@ -1,11 +1,11 @@
 {
  "dry_run": false,
- "duration_s": 10.851,
+ "duration_s": 31.513,
  "fixtures": false,
- "generated_at": "2026-11-18T23:22:51Z",
- "last_run": "2026-11-18T23:22:51Z",
+ "generated_at": "2026-11-19T11:34:40Z",
+ "last_run": "2026-11-19T11:34:40Z",
  "python": "3.12.16",
- "run_id": "20261118-232251-b1d6f1",
+ "run_id": "20261119-113440-703b31",
  "schedule": {
   "hours": [
    3,
@@ -17,12 +17,12 @@
  "schema_version": 1,
  "sources": {
   "countries": {
-   "changed": false,
+   "changed": true,
    "consumers_year": 2024,
    "eia_error": "skipped: EIA_API_KEY not set",
    "error": null,
-   "jodi_month": "2026-08",
-   "last_success": "2026-11-18T23:22:51Z",
+   "jodi_month": "2026-09",
+   "last_success": "2026-11-19T11:34:40Z",
    "ok": true,
    "partial": [
     "consumers"
@@ -35,8 +35,8 @@
    "changed": true,
    "claims": 10,
    "error": null,
-   "last_success": "2026-11-18T23:22:51Z",
-   "mentions": 4,
+   "last_success": "2026-11-19T11:34:40Z",
+   "mentions": 7,
    "ok": true,
    "stale": false,
    "with_portwatch": 3
@@ -44,7 +44,7 @@
   "eia_steo": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "months": 48,
    "ok": true,
    "quote_found": true,
@@ -53,21 +53,21 @@
    "via": "xlsx"
   },
   "fred": {
-   "changed": true,
+   "changed": false,
    "error": null,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "ok": true,
    "partial": [],
    "stale": false,
    "via": "fred"
   },
   "news": {
-   "candidates": 411,
+   "candidates": 410,
    "changed": true,
    "dropped": {
-    "capped": 315,
-    "duplicates": 36,
-    "filtered": 111,
+    "capped": 312,
+    "duplicates": 38,
+    "filtered": 116,
     "too_old": 27,
     "unusable": 13
    },
@@ -75,7 +75,7 @@
    "feeds_failed": [],
    "feeds_ok": 20,
    "items": 60,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "ok": true,
    "stale": false
   },
@@ -83,7 +83,7 @@
    "changed": false,
    "count": 0,
    "error": null,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "model": "",
    "ok": true,
    "provider": "none",
@@ -93,7 +93,7 @@
   "shipping": {
    "changed": false,
    "error": null,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "latest": "2026-11-15",
    "ok": true,
    "rows": 3420,
@@ -105,7 +105,7 @@
    "changed": true,
    "error": null,
    "fallback": true,
-   "last_success": "2026-11-18T23:22:51Z",
+   "last_success": "2026-11-19T11:34:40Z",
    "model": "",
    "ok": true,
    "provider": "none",
