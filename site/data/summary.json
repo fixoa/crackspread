@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T20:34:35Z",
+ "as_of": "2026-11-25T12:42:56Z",
  "crack_o_meter": {
   "as_of": "2026-11-17",
   "label": "Gaping",
@@ -84,18 +84,18 @@
   },
   "retail_diesel_us": {
    "as_of": "2026-11-23",
-   "delta": -0.242,
+   "delta": 0.0,
    "now": 5.695,
-   "prev": 5.937,
-   "prev_as_of": "2026-11-16",
+   "prev": 5.695,
+   "prev_as_of": "2026-11-23",
    "unit": "USD/gal"
   },
   "retail_gasoline_us": {
    "as_of": "2026-11-23",
-   "delta": -0.163,
+   "delta": 0.0,
    "now": 3.642,
-   "prev": 3.805,
-   "prev_as_of": "2026-11-16",
+   "prev": 3.642,
+   "prev_as_of": "2026-11-23",
    "unit": "USD/gal"
   },
   "steo_consumption": {
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-24T20:38:42Z",
- "generated_at": "2026-11-24T20:38:42Z",
+ "fetched_at": "2026-11-25T12:48:17Z",
+ "generated_at": "2026-11-25T12:48:17Z",
  "headline": "Diesel crack: no fresh FRED data, last value $78.97/bbl (as of 2026-11-17)",
- "inputs_digest": "1ea0f32897d10590374affad1c0b562496250bfc",
+ "inputs_digest": "ca3f0bedc77c96cd2c24b219156f94a7799d077f",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTGE1Q29YN0tmdUlOck96S1RMRTVpdmtRT20zeEh0b2cwZlcyemRPMGctak1yOTJiX0hpbEF2WldaSmFILUwtS19IemZ3S1E3Z0hoVXhiWllxZXZfUTU0R1pFUTRaYUxMbTdlZDdUcXJzTk4td0tkbFRUcnFJN1dxVG5IVWpTSndwM2EyMmdscUVvUUlaVUNwaFgtb01sM1dKUmt4VnI0TjkxMG9yWTJQVFlIVEp0Vnd4cTF3?oc=5"
+    "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1Azc283OWV3YTZYU21XV2xlempBWlM4R3c2anBqT01SN0ItT2hNU2lRcmJKdWZwY2RmQVNhS1NHOGV2MnM0c2JveEVlRk1WRFNVdlRfcWQyZnlncUJZUXJR?oc=5"
    ],
-   "text": "Trump Team Debates Strikes on Iran’s Leaders as Tehran Threatens War beyond Region"
+   "text": "Current price of oil as of Nov. 25, 2026"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS2cwYnlTdV9PcnNGbEtLOVBKUWFTanhBZVAwNkNuSllOZ1VxZW1Ib3RUS0t2N0J1VnVKNzRPY3hGNXdzVW1acnRNRVRWYXU5X0Y1SzRCODd2UmdLYzV4Q0RObU1uRXZaLXBMZmFuTTRFLUs5TUJ3SDZZVzQ5dExJdXJsTndVMzVxeVVEMDRNd2I?oc=5"
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xTnpEM0dhVmpicUY1YjRnSTNNQTBRSjRwYTRYVkJCdUt5elhtTFBIUUs2YXloYUdPVXZSTE1oWVhZejkwTm1nNG8wUVo4M1RlSVJWQ1cxNnNxbUZWVko2MndrR3I?oc=5"
    ],
-   "text": "Oil’s Iran war recovery masks stubborn diesel shortage | The Hindu - Internatio­nal"
+   "text": "Ukraine Tells Putin to End War Over Refinery Attacks"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhnd0U5NHV1U0V6RmlPTGhnMlM3WFFQWWdJQjlTRFBkVUJreHQ3VVZKZnFtNmNpTGZucTZrbHRzZHVmd0JlN3ljLWlIWU8wWUJuZ0V1ZHBVT2FuYVVpUTJnQ1MzSkg3V3VQcFd3VkItQUNLTDJtM0ZORHBKbWJZUllENjdhZzZuSzR2T3ItTlBvRnhSQ09HTQ?oc=5"
+    "https://splash247.com/shenzhen-energy-makes-44m-dry-bulk-newbuild-move/"
    ],
-   "text": "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower"
+   "text": "Shenzhen Energy makes $44m dry bulk newbuild move"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR1Z6c0JkcmR5XzFwNU0xS0hpRVBGQWpESFUxQmoyMnlQSG5SbEU4UFMzNEpVOFdwc2N6emtMME1DU3c2d0gzSHdQOHFoQXljN2FHcWFVNDNQdGg0UnowZTVlY2RLTFl2bGRDYzg3MFZfQzFZeUhwSHVVLWN5OEcyZmFaVVp3bVBFSG04ZS1CRXJ0RzBjczBGUkdjWEw2VHlzbGNVSUVnRQ?oc=5"
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2o4dUQzNDQwMDZaOGItd2Y0Q2J3NGlkQm9POGRhV3dEYTVOWG8xeWpiYVoyeWtKUzV5Y003YmtqWWdMa0JJejFTdXNXRVU2cVZSX2FEdlBBaWNJLXRZU3hhQlBpYm9ZRDJ2MEpPV19qWTktcU4wUUtMTklfcklXRWtmYXVrVmNDeTg4SWlTdlpMc1poUDRaM2RzalpOTUJwc3FfNjhOVGkxZW5FSDFRVl9MbFlvaW5pNGNGUUNhLUNNaEZUdm5DQ0RwbE_SAdIBQVVfeXFMT3VUUldBc1BKd1JrUThaZ21OMTJ4VzRJTnc4bDlwb3NxZVJLSnJ4NU9CQXJjVnBNaDRqWVlpUVpRQ2VEd1VRVDBZZmlSNWprb2JhN2Mya3IzdGRyMkJyd3RuVWNZQ1VBbFVpMlFhMzJJcFdRVzhwZXFYNy1LVURJRHJOT2tSSmRZRFlyVFJFSERVaEYyV29tWjVUeUJMend1cWxJUzlVU2tJamN1V3V0TUhSVjY1ZG5LeUNXbFBBeWIzT1hlNUliempLZDZfcmg4QVVR?oc=5"
    ],
-   "text": "Houthis Claim Attack on Major Saudi Oil Refinery"
+   "text": "Three MiG-31Ks and two Su-34s hit at Savasleyka airfield in Nizhny Novgorod Oblast last night - Ministry of Defense"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1RUc0ZMZDNJR3RScVlhSlJfN3M4MU5FN0NFVjBHWGkxYVZHQTNXT1Q1TkNNQV8wbzY1TE41Uy1XU1JMSHNjUTlMd2hlbG5uUlY1cUtfMnJoR0p4SmlQOUJFMWVFd2ZpMjdZUzNJSElCSlMzU3h2Y1lkWTdsNGpkYkhkWEZGdXl4T0VuSWUxYlpKUzVUSXlzTldKdE8xenM2UEFWUGlDcTdlWlk?oc=5"
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1NGX0txTkFmOFdIaEJqVVA3V295ZVNGWmVYbjVhQm4wNThjd1pJbHRiOUVfYU5iVkppQ3ZlNzhUZjExTENMQUNqSE9ucVI2M3doLVl1bTNlRVVIZkpJNy1ENkpPZW4wc3BQV25XbTVpWWZNWXc4eG5WYW5PWDBWSzdySFVmNkdMaHlmMmszSklZYjJHRnZYallPeHJIWVdCOTdnSTBJTUVtZE02ZXRkRWxMd29PeldDUXRCUzJ1SzlPNGFzTEE?oc=5"
    ],
-   "text": "Crude Prices Sharply Higher on Concerns Over Supply Disruptions"
+   "text": "Iraq rejects OPEC’s assessment of its oil production capacity below 5 million barrels per day"
   }
  ]
 }
