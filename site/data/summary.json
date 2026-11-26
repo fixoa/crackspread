@@ -1,83 +1,83 @@
 {
- "as_of": "2026-11-25T12:42:56Z",
+ "as_of": "2026-11-26T00:50:51Z",
  "crack_o_meter": {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-24",
   "label": "Gaping",
   "level": 3,
-  "percentile": 97.7,
-  "stale": true,
+  "percentile": 96.9,
+  "stale": false,
   "unit": "USD/bbl",
-  "value": 78.966
+  "value": 67.506
  },
  "deltas": {
   "brent": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 92.94,
+   "as_of": "2026-11-24",
+   "delta": -1.14,
+   "now": 91.8,
    "prev": 92.94,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "brent_wti_spread": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 3.41,
+   "as_of": "2026-11-24",
+   "delta": 6.15,
+   "now": 9.56,
    "prev": 3.41,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "crack_321": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 32.956,
+   "as_of": "2026-11-24",
+   "delta": 0.542,
+   "now": 33.498,
    "prev": 32.956,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "diesel_crack": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 78.966,
+   "as_of": "2026-11-24",
+   "delta": -11.46,
+   "now": 67.506,
    "prev": 78.966,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "gasoline_crack": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 4.836,
+   "as_of": "2026-11-24",
+   "delta": -2.682,
+   "now": 2.154,
    "prev": 4.836,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "gasoline_nyh": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 2.328,
+   "as_of": "2026-11-24",
+   "delta": -0.091,
+   "now": 2.237,
    "prev": 2.328,
    "prev_as_of": "2026-11-17",
    "unit": "USD/gal"
   },
   "heating_oil_nyh": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 3.96,
+   "as_of": "2026-11-24",
+   "delta": -0.357,
+   "now": 3.603,
    "prev": 3.96,
    "prev_as_of": "2026-11-17",
    "unit": "USD/gal"
   },
   "jet_crack": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 65.106,
+   "as_of": "2026-11-24",
+   "delta": -14.232,
+   "now": 50.874,
    "prev": 65.106,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   },
   "jet_gulf": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 3.763,
+   "as_of": "2026-11-24",
+   "delta": -0.366,
+   "now": 3.397,
    "prev": 3.763,
    "prev_as_of": "2026-11-17",
    "unit": "USD/gal"
@@ -126,27 +126,27 @@
    "unit": "million barrels per day"
   },
   "ulsd_nyh": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 4.093,
+   "as_of": "2026-11-24",
+   "delta": -0.3,
+   "now": 3.793,
    "prev": 4.093,
    "prev_as_of": "2026-11-17",
    "unit": "USD/gal"
   },
   "wti": {
-   "as_of": "2026-11-17",
-   "delta": 0.0,
-   "now": 89.53,
+   "as_of": "2026-11-24",
+   "delta": -7.29,
+   "now": 82.24,
    "prev": 89.53,
    "prev_as_of": "2026-11-17",
    "unit": "USD/bbl"
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-25T12:48:17Z",
- "generated_at": "2026-11-25T12:48:17Z",
- "headline": "Diesel crack: no fresh FRED data, last value $78.97/bbl (as of 2026-11-17)",
- "inputs_digest": "ca3f0bedc77c96cd2c24b219156f94a7799d077f",
+ "fetched_at": "2026-11-26T00:59:09Z",
+ "generated_at": "2026-11-26T00:59:09Z",
+ "headline": "Diesel crack -11.46 $/bbl since last update, now $67.51/bbl (as of 2026-11-24)",
+ "inputs_digest": "96310800f08842de0a17fead930e1ab749e3dbdd",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc1Azc283OWV3YTZYU21XV2xlempBWlM4R3c2anBqT01SN0ItT2hNU2lRcmJKdWZwY2RmQVNhS1NHOGV2MnM0c2JveEVlRk1WRFNVdlRfcWQyZnlncUJZUXJR?oc=5"
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPanF5Wk5UM2hYSTJpVUxSSzU5SDgwZndqWkdWVGltVnJMb3RwLUdmYXZ3aXNJRzdFSVJITDhFZGVDSnF1TnlOMDQ3NUxOckRrLWNBZk11T0o5RW9GN2J6dEtadWdYNE1QYXBiOEwtOXM1bWt0NXdEN29MLVpZNFNrTlNMbTlkLW5CWVhDQlNR?oc=5"
    ],
-   "text": "Current price of oil as of Nov. 25, 2026"
+   "text": "South Korea, Saudi Arabia Expand Joint Crude Stockpiling"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xTnpEM0dhVmpicUY1YjRnSTNNQTBRSjRwYTRYVkJCdUt5elhtTFBIUUs2YXloYUdPVXZSTE1oWVhZejkwTm1nNG8wUVo4M1RlSVJWQ1cxNnNxbUZWVko2MndrR3I?oc=5"
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DY0M3S3NlWGw4TG5oR1M1d0pjc0w1cFZLLWhWN0Z3UFJfSG9qdkFGWVUzdUkzTVF5QVp6c0ptbDVfaGpLMU9YNGxmQ3ozWnNNYzYyNXh6NlhjYUc4aUhn?oc=5"
    ],
-   "text": "Ukraine Tells Putin to End War Over Refinery Attacks"
+   "text": "Brent up 3.5% on 25 Nov as Houthis claim Saudi refinery attack"
   },
   {
    "sources": [
-    "https://splash247.com/shenzhen-energy-makes-44m-dry-bulk-newbuild-move/"
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcDdvamZERzVMSjUxQU9wZmZOem1lSW51V0pQRzY2RV8xRlozaWl4bHhCeDVfMEdkRzlXUFRXcFV1bWZzNzlMcDg5V2pHVEpEM0tNd1NaSUJ3dHV3R3dVZTRqLXJ4RFYwZllhYTQ3Q1c1R1AyQTM4blhNbjBybWV1QjBJbjlZdW55djYtM21QTXZTa1dVWm5IVjlR?oc=5"
    ],
-   "text": "Shenzhen Energy makes $44m dry bulk newbuild move"
+   "text": "WTI rises above $83.50 on Middle East refinery attack"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS2o4dUQzNDQwMDZaOGItd2Y0Q2J3NGlkQm9POGRhV3dEYTVOWG8xeWpiYVoyeWtKUzV5Y003YmtqWWdMa0JJejFTdXNXRVU2cVZSX2FEdlBBaWNJLXRZU3hhQlBpYm9ZRDJ2MEpPV19qWTktcU4wUUtMTklfcklXRWtmYXVrVmNDeTg4SWlTdlpMc1poUDRaM2RzalpOTUJwc3FfNjhOVGkxZW5FSDFRVl9MbFlvaW5pNGNGUUNhLUNNaEZUdm5DQ0RwbE_SAdIBQVVfeXFMT3VUUldBc1BKd1JrUThaZ21OMTJ4VzRJTnc4bDlwb3NxZVJLSnJ4NU9CQXJjVnBNaDRqWVlpUVpRQ2VEd1VRVDBZZmlSNWprb2JhN2Mya3IzdGRyMkJyd3RuVWNZQ1VBbFVpMlFhMzJJcFdRVzhwZXFYNy1LVURJRHJOT2tSSmRZRFlyVFJFSERVaEYyV29tWjVUeUJMend1cWxJUzlVU2tJamN1V3V0TUhSVjY1ZG5LeUNXbFBBeWIzT1hlNUliempLZDZfcmg4QVVR?oc=5"
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NblptWVZJNkVJdlQwNERjcEtTak15Y1VzaGlrelg4a2daaGZKZElwV3Q4bnJxNHBtMlhFbnBSeE1jd1R3bFVmQkRUVl8tR2Z1NkxmUml30gFWQVVfeXFMT01uWm1ZVkk2RUl2VDA0RGNwS1NqTXljVXNoaWt6WDhrZ1poZkpkSXBXdDhucnE0cG0yWEVucFJ4TWN3VHdsVWZCRFRWXy1HZnU2TGZSaXc?oc=5"
    ],
-   "text": "Three MiG-31Ks and two Su-34s hit at Savasleyka airfield in Nizhny Novgorod Oblast last night - Ministry of Defense"
+   "text": "Petrol price cut by Rs4, HSD’s by Rs5"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa1NGX0txTkFmOFdIaEJqVVA3V295ZVNGWmVYbjVhQm4wNThjd1pJbHRiOUVfYU5iVkppQ3ZlNzhUZjExTENMQUNqSE9ucVI2M3doLVl1bTNlRVVIZkpJNy1ENkpPZW4wc3BQV25XbTVpWWZNWXc4eG5WYW5PWDBWSzdySFVmNkdMaHlmMmszSklZYjJHRnZYallPeHJIWVdCOTdnSTBJTUVtZE02ZXRkRWxMd29PeldDUXRCUzJ1SzlPNGFzTEE?oc=5"
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5"
    ],
-   "text": "Iraq rejects OPEC’s assessment of its oil production capacity below 5 million barrels per day"
+   "text": "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port"
   }
  ]
 }
