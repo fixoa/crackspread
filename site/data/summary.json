@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-27T12:03:42Z",
+ "as_of": "2026-11-28T00:21:50Z",
  "crack_o_meter": {
   "as_of": "2026-11-24",
   "label": "Gaping",
   "level": 3,
   "percentile": 96.9,
-  "stale": false,
+  "stale": true,
   "unit": "USD/bbl",
   "value": 67.506
  },
@@ -143,10 +143,10 @@
   }
  },
  "fallback": true,
- "fetched_at": "2026-11-27T12:11:17Z",
- "generated_at": "2026-11-27T12:11:17Z",
- "headline": "Diesel crack unchanged since last update, $67.51/bbl (as of 2026-11-24)",
- "inputs_digest": "b6174db3c9727642521fb7a0a223fd780821673b",
+ "fetched_at": "2026-11-28T00:32:32Z",
+ "generated_at": "2026-11-28T00:32:32Z",
+ "headline": "Diesel crack: no fresh FRED data, last value $67.51/bbl (as of 2026-11-24)",
+ "inputs_digest": "05516eaa31a2c88b7476494a17bf63629e96e432",
  "model": "",
  "provider": "none",
  "quips": [],
@@ -157,33 +157,33 @@
  "what_changed": [
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZ24zanFxY183QzFTVjl3ekJtQVRRMjBsOV92NHROajYzM1BlUFNySjR5eHFTelU5N1JFZEQxVEliN0VvdThLMU1scDlsV1c1TW5fSzZqMzNuNmZkZzU5UmFYbmgtbDhDeEdxRVZyR0VHVTM0ZkV5U2NUNzVHdDEtRHV3Wl93Ul9zY292UHRKTGdWUktKc1NWXzZ0LTQ3dk4tN09LZEF3Q21xV2hMNFZUNVdUU1BtYkhvZkpDWFlFWmhWUUxjMjVoWDBHWmtKeDB3bkxWaWk1U3ktRWZEVWwwVUVLYlhWaUtVYnFDaHpvRGtCMjZrSTNaODFQaWJMUGhpQ3NzNDRaU1c?oc=5"
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8zUi1BNFhlOVprd01VbDlHb1IxYWtYMmdfSUpHeVl1c0o3THM2ZURpWXREOS1qdU1rZFFkdkxpR0NGYUJmZmMxVW5uZDNlMEJGRFR3SDl5aWo?oc=5"
    ],
-   "text": "Iran claims US F-16 retreated after IRGC's warning fire near Strait of Hormuz; warns Washington against airspace violations"
+   "text": "Testing Europe’s resolve - World - Al-Ahram Weekly"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZnczclpMVzg2QWUwUXlMM0RrcmdZb2pYT1JCdUlxelg0ZS10cGNvRXZsSVM4TFp5STBUTm03NVBGMWFKMWhaY0U1OHVKQWt1TmE5NTJzbldBNlVRanFBY1Rmdk9pdEt0aU1tMlJraEZnTEg5c3BuV1prbTlUOHlxVXJSU2tDcnRjUlEtWHhaSlA5ck5weDB2V2l0UVlNNGFqbXhzcC1wdlZ0T3E3UnJBMWtmWTFmWDVfWUcteGkwWWVwQQ?oc=5"
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaDlsVUNNR3FCcVRmTFAtUEFjWWZXQld5UkdrRnVadnF0bzdFWGFNTDhRUU1UMjZ2QmI0bFpSNkZIT2VqZjF0bnBSdE44Rndnb0ZlUzdQQzlfWjVqR3pJV3JrRWtEOHpwdFpNU2Rncl9vNlVaRVF0WE5XNm5sLWFaVkdjU2N1MjVzZnpRX0J3cmJ3bmlNRThv?oc=5"
    ],
-   "text": "Qatar Strongly Condemns Houthi Attack on Oil Refinery in Saudi Arabia's Jazan"
+   "text": "Two tankers hit by mines near Hormuz, IRGC says"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQXlfWnM0N2FSS1ZCX3BvalBGQXFhQlVoVEFyTGhxUktPRXlnSnptVEFSZFRoR0RlRlB1NXhCdGVRUnZKMWM3U241cHg1ZlFWNUphbkstRktjRUJCb2pEcmhPdVdObFNHemY2VldzZ2U0eUtjMlRkRHVpdWlJd2phejYwMEVKS25CRzNvRDRPSEg4aXdqbm4yUzNvY2dTZWZxQm9ONzNFaUp2OHdla2dNSEZjc1lNRlU?oc=5"
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaXhQUmNlVVduZmtMZXRLVWZOUHpBMnMtS1ZYWDJPLU9XcnhXN3kyNHFoZ3U2N3RTb0hUYUhuQ0tPTmswemIya0dUN2VmRDQ2Q2pBSEZHb3ZTbDh5Y0dlemJkTW1KNFFuTlpOSjI3c19Hcms0RUpFXy10OFM3TVQzek8zNURRQVZPeDlYY29WaUVzRXY0RVFKbW15TFJJaXl1bE43bUtwX0lxUWRBaXB3R2pOWkRBSjU1ZUtXdg?oc=5"
    ],
-   "text": "Gas Prices Were Already Down 32.5 Cents Before the Midterms. Diesel Is Still Near $6."
+   "text": "VLCC Hormuz transit premium holds firm despite wider rate normalisation"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNzNrQmNWcWpUMXpxZFdwcTBjUmFXQkVHWFdpYVhxT1ZSZkFFb0ctanlJQ0tEdWYwemtsbEZoZ2w1VHg4WS15V0NRTkl4dVI1VWQyVmVOdEl6RE4xZ29iZTMxUG42RmNHOWROUWNlakN5WEI2WTN6SXZjdS1WT21aZjdIeUhZQm82eWtyMGMyenR0QTdFYlJz?oc=5"
+    "https://oilprice.com/Alternative-Energy/Renewable-Energy/Wasted-Wind-and-Solar-Power-Could-Run-Factories-and-Data-Centers.html"
    ],
-   "text": "Iran Guards Say Tanker Hits Mine Near Strait of Hormuz"
+   "text": "Wasted Wind and Solar Power Could Run Factories and Data Centers"
   },
   {
    "sources": [
-    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTk9QX2I4OUd3UXFPWFBJMkltYjZELWhDMVRGenRhM3NKdXB6WWEyMm93WGJOMks1RVVpOTh4bjd2SVlzdDkxaWhVenBlMmVGUEdYQTI3Zy1Jbl9LTWk2OTFVVUlDSU93ZlV3Q1ZGSFVWdW1iUm5nVzY3ZFNWMDBPS0xDT2pFMUZRY1daMVU4NmFyZ0U?oc=5"
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JS0Z1MjBtX3NoRlRSbk94NlRPN0lNbXlndWZQOHloVGZPNXhtQm4xTy1lVng3X2RoemxCWU1ia2ZtUVVQdXQwT1YycFVaWjVTZElV?oc=5"
    ],
-   "text": "Oil Tanker Explodes After Striking Naval Mine North of Ghannam Island"
+   "text": "Strait of Hormuz: Iran Says Two Tankers Hit Mines Near Oman as Shipping Attacks Peak"
   }
  ]
 }
